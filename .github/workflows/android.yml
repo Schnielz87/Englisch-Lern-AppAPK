@@ -53,14 +53,19 @@ jobs:
           echo "VERSION=$VERSION" >> "$GITHUB_ENV"
           cp app/build/outputs/apk/release/app-release.apk FundbruederEnglish.apk
 
+      # Optional: Artefakte (bei vollem Speicherkontingent nicht fatal)
       - uses: actions/upload-artifact@v7
+        continue-on-error: true
         with:
+          retention-days: 7
           name: FundbruederEnglish-${{ env.VERSION }}
           path: FundbruederEnglish.apk
 
       - uses: actions/upload-artifact@v7
         if: always()
+        continue-on-error: true
         with:
+          retention-days: 7
           name: test-screenshots
           path: app/build/screenshots/
           if-no-files-found: ignore
