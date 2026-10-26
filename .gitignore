@@ -33,3 +33,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Oeffentlicher Fallback-Signaturschluessel (siehe README) darf ins Repo
+!signing/fallback-release.jks

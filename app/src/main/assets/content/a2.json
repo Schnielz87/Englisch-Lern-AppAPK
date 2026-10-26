@@ -1,0 +1,1759 @@
+{
+ "id": "a2",
+ "code": "A2",
+ "title": "Grundkenntnisse",
+ "subtitle": "Einkaufen, Reisen, Vergangenheit und Zukunft",
+ "description": "Jetzt wird es praktisch: Du meisterst Alltagssituationen wie Einkaufen, Restaurant und Reisen, erzählst von der Vergangenheit und schmiedest Zukunftspläne.",
+ "lessons": [
+  {
+   "id": "a2_01",
+   "title": "Einkaufen & Bezahlen",
+   "goal": "Du kannst im Geschäft nach Produkten, Größen und Preisen fragen und bezahlen.",
+   "theory": [
+    {
+     "heading": "Höflich fragen mit „Can I ...?“ und „I'd like ...“",
+     "text": "• I'd like ... (= I would like) – Ich hätte gern ...\n• Can I try it on? – Kann ich es anprobieren?\n• Do you have this in a smaller size? – Haben Sie das eine Nummer kleiner?\n• Can I pay by card? – Kann ich mit Karte zahlen?\n„I want“ klingt im Englischen oft fordernd – im Geschäft lieber „I'd like“.",
+     "examples": [
+      {
+       "en": "I'd like a bottle of water, please.",
+       "de": "Ich hätte gern eine Flasche Wasser."
+      },
+      {
+       "en": "Can I pay by card?",
+       "de": "Kann ich mit Karte bezahlen?"
+      }
+     ]
+    },
+    {
+     "heading": "this / that / these / those",
+     "text": "• this (dies hier, Einzahl, nah) – these (diese hier, Mehrzahl)\n• that (das dort, Einzahl, fern) – those (die dort, Mehrzahl)\n• How much are these shoes? – Wie viel kosten diese Schuhe?",
+     "examples": [
+      {
+       "en": "I like this jacket.",
+       "de": "Mir gefällt diese Jacke."
+      },
+      {
+       "en": "Are those bags expensive?",
+       "de": "Sind die Taschen dort teuer?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "shop",
+     "de": "Geschäft, Laden",
+     "alt": [
+      "store"
+     ],
+     "example": "The shop is closed on Sundays.",
+     "exampleDe": "Das Geschäft ist sonntags geschlossen."
+    },
+    {
+     "en": "cheap",
+     "de": "billig, günstig",
+     "example": "These shoes are cheap.",
+     "exampleDe": "Diese Schuhe sind günstig."
+    },
+    {
+     "en": "expensive",
+     "de": "teuer",
+     "example": "London is expensive.",
+     "exampleDe": "London ist teuer."
+    },
+    {
+     "en": "size",
+     "de": "Größe",
+     "example": "What size are you?",
+     "exampleDe": "Welche Größe hast du?"
+    },
+    {
+     "en": "to try on",
+     "de": "anprobieren",
+     "alt": [
+      "try on"
+     ],
+     "example": "Can I try on this dress?",
+     "exampleDe": "Kann ich dieses Kleid anprobieren?"
+    },
+    {
+     "en": "receipt",
+     "de": "Kassenbon, Quittung",
+     "example": "Can I have the receipt, please?",
+     "exampleDe": "Kann ich den Kassenbon haben?"
+    },
+    {
+     "en": "cash",
+     "de": "Bargeld",
+     "example": "Do you pay in cash?",
+     "exampleDe": "Zahlen Sie bar?"
+    },
+    {
+     "en": "change",
+     "de": "Wechselgeld",
+     "example": "Here is your change.",
+     "exampleDe": "Hier ist Ihr Wechselgeld."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I'd like this jacket, please.",
+     "de": "Ich hätte gern diese Jacke, bitte.",
+     "alt": [
+      "I would like this jacket, please."
+     ]
+    },
+    {
+     "en": "Can I try it on?",
+     "de": "Kann ich es anprobieren?"
+    },
+    {
+     "en": "Do you have it in a bigger size?",
+     "de": "Haben Sie es in einer größeren Größe?",
+     "alt": [
+      "Do you have this in a bigger size?"
+     ]
+    },
+    {
+     "en": "How much are these shoes?",
+     "de": "Wie viel kosten diese Schuhe?"
+    },
+    {
+     "en": "Can I pay by card?",
+     "de": "Kann ich mit Karte bezahlen?",
+     "alt": [
+      "Can I pay with card?"
+     ]
+    },
+    {
+     "en": "That is too expensive for me.",
+     "de": "Das ist mir zu teuer.",
+     "alt": [
+      "That's too expensive for me."
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Höflichste Bitte:",
+     "options": [
+      "I'd like a coffee, please.",
+      "I want coffee.",
+      "Give me coffee.",
+      "Coffee now."
+     ],
+     "answer": 0,
+     "explain": "„I'd like“ ist höflich."
+    },
+    {
+     "q": "___ shoes over there are nice.",
+     "options": [
+      "Those",
+      "This",
+      "These",
+      "That"
+     ],
+     "answer": 0,
+     "explain": "Mehrzahl + fern → those"
+    },
+    {
+     "q": "„Wechselgeld“ heißt:",
+     "options": [
+      "change",
+      "money back",
+      "rest",
+      "cash"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Can I ___ it on?",
+     "answer": "try",
+     "hint": "anprobieren",
+     "de": "Kann ich es anprobieren?"
+    },
+    {
+     "text": "I'd ___ two tickets, please.",
+     "answer": "like",
+     "hint": "hätte gern",
+     "de": "Ich hätte gern zwei Tickets.",
+     "alt": [
+      "need"
+     ]
+    },
+    {
+     "text": "Can I pay ___ card?",
+     "answer": "by",
+     "hint": "Präposition",
+     "de": "Kann ich mit Karte zahlen?",
+     "alt": [
+      "with"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Im Modegeschäft",
+    "setting": "Du suchst eine neue Jacke.",
+    "lines": [
+     {
+      "speaker": "Assistant",
+      "en": "Hi there! Are you looking for anything special?",
+      "de": "Hallo! Suchen Sie etwas Bestimmtes?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, I'd like a warm jacket.",
+      "de": "Ja, ich hätte gern eine warme Jacke."
+     },
+     {
+      "speaker": "Assistant",
+      "en": "What about this one? It's on sale.",
+      "de": "Wie wäre es mit dieser? Sie ist reduziert."
+     },
+     {
+      "speaker": "You",
+      "en": "It's nice. Can I try it on?",
+      "de": "Sie ist schön. Kann ich sie anprobieren?"
+     },
+     {
+      "speaker": "Assistant",
+      "en": "Of course. The changing rooms are over there.",
+      "de": "Natürlich. Die Umkleiden sind dort drüben."
+     },
+     {
+      "speaker": "You",
+      "en": "It fits well. Can I pay by card?",
+      "de": "Sie passt gut. Kann ich mit Karte zahlen?"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a2_02",
+   "title": "Im Restaurant",
+   "goal": "Du kannst einen Tisch reservieren, bestellen, nachfragen und die Rechnung verlangen.",
+   "theory": [
+    {
+     "heading": "Bestellen",
+     "text": "• A table for two, please. – Einen Tisch für zwei, bitte.\n• Could I see the menu, please? – Könnte ich die Karte sehen?\n• I'll have the chicken. – Ich nehme das Hähnchen.\n• Could we have the bill, please? – Die Rechnung, bitte. (US: the check)\n„Could“ ist noch höflicher als „Can“.",
+     "examples": [
+      {
+       "en": "I'll have the soup, please.",
+       "de": "Ich nehme die Suppe, bitte."
+      },
+      {
+       "en": "Could we have the bill, please?",
+       "de": "Könnten wir bitte die Rechnung haben?"
+      }
+     ]
+    },
+    {
+     "heading": "some und any",
+     "text": "• some – etwas/einige (in positiven Sätzen und höflichen Angeboten): I'd like some water. Would you like some cake?\n• any – (irgend)welche (in Fragen und Verneinungen): Do you have any vegetarian dishes? We don't have any fish.",
+     "examples": [
+      {
+       "en": "Would you like some dessert?",
+       "de": "Möchten Sie etwas Nachtisch?"
+      },
+      {
+       "en": "Do you have any vegan food?",
+       "de": "Haben Sie veganes Essen?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "menu",
+     "de": "Speisekarte",
+     "example": "Can I see the menu?",
+     "exampleDe": "Kann ich die Speisekarte sehen?"
+    },
+    {
+     "en": "bill",
+     "de": "Rechnung",
+     "alt": [
+      "check"
+     ],
+     "example": "The bill, please.",
+     "exampleDe": "Die Rechnung, bitte."
+    },
+    {
+     "en": "waiter",
+     "de": "Kellner",
+     "alt": [
+      "server"
+     ],
+     "example": "The waiter is very friendly.",
+     "exampleDe": "Der Kellner ist sehr freundlich."
+    },
+    {
+     "en": "to order",
+     "de": "bestellen",
+     "alt": [
+      "order"
+     ],
+     "example": "Are you ready to order?",
+     "exampleDe": "Möchten Sie bestellen?"
+    },
+    {
+     "en": "starter",
+     "de": "Vorspeise",
+     "alt": [
+      "appetizer"
+     ],
+     "example": "I'll have soup as a starter.",
+     "exampleDe": "Als Vorspeise nehme ich die Suppe."
+    },
+    {
+     "en": "main course",
+     "de": "Hauptgericht",
+     "example": "The main course was delicious.",
+     "exampleDe": "Das Hauptgericht war köstlich."
+    },
+    {
+     "en": "delicious",
+     "de": "köstlich, lecker",
+     "alt": [
+      "tasty"
+     ],
+     "example": "This cake is delicious!",
+     "exampleDe": "Dieser Kuchen ist lecker!"
+    },
+    {
+     "en": "tip",
+     "de": "Trinkgeld",
+     "example": "We left a good tip.",
+     "exampleDe": "Wir haben gutes Trinkgeld gegeben."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "A table for two, please.",
+     "de": "Einen Tisch für zwei, bitte."
+    },
+    {
+     "en": "I'll have the fish, please.",
+     "de": "Ich nehme den Fisch, bitte.",
+     "alt": [
+      "I will have the fish, please."
+     ]
+    },
+    {
+     "en": "Could we have the bill, please?",
+     "de": "Könnten wir bitte die Rechnung haben?",
+     "alt": [
+      "Can we have the bill, please?"
+     ]
+    },
+    {
+     "en": "Do you have any vegetarian dishes?",
+     "de": "Haben Sie vegetarische Gerichte?"
+    },
+    {
+     "en": "The food was delicious.",
+     "de": "Das Essen war köstlich."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Du willst zahlen. Du sagst:",
+     "options": [
+      "Could we have the bill, please?",
+      "Could we have the menu, please?",
+      "Can I order?",
+      "A table, please."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Do you have ___ soup today?",
+     "options": [
+      "any",
+      "some",
+      "a",
+      "many"
+     ],
+     "answer": 0,
+     "explain": "In Fragen meist „any“."
+    },
+    {
+     "q": "Angebot: Would you like ___ coffee?",
+     "options": [
+      "some",
+      "any",
+      "a few",
+      "many"
+     ],
+     "answer": 0,
+     "explain": "In Angeboten benutzt man „some“."
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Are you ready to ___?",
+     "answer": "order",
+     "hint": "bestellen",
+     "de": "Möchten Sie bestellen?"
+    },
+    {
+     "text": "I'll ___ the steak, please.",
+     "answer": "have",
+     "hint": "nehmen",
+     "de": "Ich nehme das Steak, bitte.",
+     "alt": [
+      "take"
+     ]
+    },
+    {
+     "text": "We don't have ___ milk left.",
+     "answer": "any",
+     "hint": "Verneinung",
+     "de": "Wir haben keine Milch mehr."
+    }
+   ],
+   "dialogue": {
+    "title": "Abendessen",
+    "setting": "Du bestellst in einem Restaurant.",
+    "lines": [
+     {
+      "speaker": "Waiter",
+      "en": "Good evening. Are you ready to order?",
+      "de": "Guten Abend. Möchten Sie bestellen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes. I'll have the tomato soup to start.",
+      "de": "Ja. Als Vorspeise nehme ich die Tomatensuppe."
+     },
+     {
+      "speaker": "Waiter",
+      "en": "And for your main course?",
+      "de": "Und als Hauptgericht?"
+     },
+     {
+      "speaker": "You",
+      "en": "The grilled chicken with salad, please.",
+      "de": "Das gegrillte Hähnchen mit Salat, bitte."
+     },
+     {
+      "speaker": "Waiter",
+      "en": "Anything to drink?",
+      "de": "Etwas zu trinken?"
+     },
+     {
+      "speaker": "You",
+      "en": "Just some sparkling water, please.",
+      "de": "Nur etwas Sprudelwasser, bitte."
+     }
+    ]
+   }
+  },
+  {
+   "id": "a2_03",
+   "title": "Reisen & Urlaub",
+   "goal": "Du kannst ein Hotelzimmer buchen, am Flughafen zurechtkommen und über Urlaub sprechen.",
+   "theory": [
+    {
+     "heading": "Unterwegs",
+     "text": "• I've booked a room. – Ich habe ein Zimmer gebucht.\n• a single / double room – Einzel- / Doppelzimmer\n• check in / check out – einchecken / auschecken\n• one-way ticket / return ticket – einfache Fahrt / Hin- und Rückfahrt (US: round-trip)",
+     "examples": [
+      {
+       "en": "I'd like a return ticket to London.",
+       "de": "Ich hätte gern eine Rückfahrkarte nach London."
+      },
+      {
+       "en": "What time is check-out?",
+       "de": "Wann ist der Check-out?"
+      }
+     ]
+    },
+    {
+     "heading": "Präpositionen beim Reisen",
+     "text": "• by car / by train / by plane – mit dem Auto / Zug / Flugzeug, aber: on foot – zu Fuß\n• at the airport, at the station – am Flughafen, am Bahnhof\n• in London, in Spain – in Städten und Ländern",
+     "examples": [
+      {
+       "en": "We travel by train.",
+       "de": "Wir reisen mit dem Zug."
+      },
+      {
+       "en": "I'm at the airport.",
+       "de": "Ich bin am Flughafen."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "holiday",
+     "de": "Urlaub",
+     "alt": [
+      "vacation"
+     ],
+     "example": "We are on holiday in Spain.",
+     "exampleDe": "Wir sind im Urlaub in Spanien."
+    },
+    {
+     "en": "to book",
+     "de": "buchen",
+     "alt": [
+      "book"
+     ],
+     "example": "I booked a hotel online.",
+     "exampleDe": "Ich habe online ein Hotel gebucht."
+    },
+    {
+     "en": "luggage",
+     "de": "Gepäck",
+     "alt": [
+      "baggage"
+     ],
+     "example": "My luggage is heavy.",
+     "exampleDe": "Mein Gepäck ist schwer."
+    },
+    {
+     "en": "passport",
+     "de": "Reisepass",
+     "example": "Don't forget your passport!",
+     "exampleDe": "Vergiss deinen Reisepass nicht!"
+    },
+    {
+     "en": "flight",
+     "de": "Flug",
+     "example": "Our flight is delayed.",
+     "exampleDe": "Unser Flug hat Verspätung."
+    },
+    {
+     "en": "delayed",
+     "de": "verspätet",
+     "example": "The train is delayed.",
+     "exampleDe": "Der Zug hat Verspätung."
+    },
+    {
+     "en": "beach",
+     "de": "Strand",
+     "example": "We spent the day at the beach.",
+     "exampleDe": "Wir haben den Tag am Strand verbracht."
+    },
+    {
+     "en": "sightseeing",
+     "de": "Besichtigungen",
+     "example": "We went sightseeing in Rome.",
+     "exampleDe": "Wir haben Rom besichtigt."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I have booked a double room.",
+     "de": "Ich habe ein Doppelzimmer gebucht.",
+     "alt": [
+      "I've booked a double room."
+     ]
+    },
+    {
+     "en": "Where can I check in?",
+     "de": "Wo kann ich einchecken?"
+    },
+    {
+     "en": "Our flight is delayed.",
+     "de": "Unser Flug hat Verspätung."
+    },
+    {
+     "en": "We travel by train.",
+     "de": "Wir reisen mit dem Zug."
+    },
+    {
+     "en": "Is breakfast included?",
+     "de": "Ist das Frühstück inklusive?"
+    },
+    {
+     "en": "I need a return ticket to Manchester.",
+     "de": "Ich brauche eine Rückfahrkarte nach Manchester."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„zu Fuß“ heißt:",
+     "options": [
+      "on foot",
+      "by foot",
+      "with foot",
+      "at foot"
+     ],
+     "answer": 0,
+     "explain": "Ausnahme: on foot"
+    },
+    {
+     "q": "„Hin- und Rückfahrkarte“ (britisch):",
+     "options": [
+      "return ticket",
+      "back ticket",
+      "single ticket",
+      "double ticket"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Gepäck“ ist im Englischen:",
+     "options": [
+      "unzählbar: some luggage",
+      "zählbar: two luggages",
+      "nur Plural: luggages",
+      "ein Verb"
+     ],
+     "answer": 0,
+     "explain": "luggage hat keinen Plural – „two pieces of luggage“."
+    }
+   ],
+   "gaps": [
+    {
+     "text": "We went to Italy ___ plane.",
+     "answer": "by",
+     "hint": "Verkehrsmittel",
+     "de": "Wir sind mit dem Flugzeug nach Italien gereist."
+    },
+    {
+     "text": "Is breakfast ___?",
+     "answer": "included",
+     "hint": "inbegriffen",
+     "de": "Ist das Frühstück inklusive?"
+    },
+    {
+     "text": "Please show me your ___.",
+     "answer": "passport",
+     "hint": "Reisepass",
+     "de": "Bitte zeigen Sie mir Ihren Reisepass."
+    }
+   ],
+   "dialogue": {
+    "title": "Im Hotel",
+    "setting": "Du kommst abends in deinem Hotel an.",
+    "lines": [
+     {
+      "speaker": "Receptionist",
+      "en": "Good evening. Do you have a reservation?",
+      "de": "Guten Abend. Haben Sie eine Reservierung?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, I booked a single room for three nights.",
+      "de": "Ja, ich habe ein Einzelzimmer für drei Nächte gebucht."
+     },
+     {
+      "speaker": "Receptionist",
+      "en": "Can I see your passport, please?",
+      "de": "Kann ich bitte Ihren Reisepass sehen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Here you are. Is breakfast included?",
+      "de": "Bitte schön. Ist das Frühstück inklusive?"
+     },
+     {
+      "speaker": "Receptionist",
+      "en": "Yes, from seven to ten in the restaurant.",
+      "de": "Ja, von sieben bis zehn im Restaurant."
+     },
+     {
+      "speaker": "You",
+      "en": "Great. And what time is check-out?",
+      "de": "Prima. Und wann ist Check-out?"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a2_04",
+   "title": "Wegbeschreibungen",
+   "goal": "Du kannst nach dem Weg fragen und einfache Wegbeschreibungen verstehen und geben.",
+   "theory": [
+    {
+     "heading": "Nach dem Weg fragen",
+     "text": "• Excuse me, how do I get to the station? – Entschuldigung, wie komme ich zum Bahnhof?\n• Is it far from here? – Ist es weit von hier?\n• Is there a bank near here? – Gibt es hier in der Nähe eine Bank?",
+     "examples": [
+      {
+       "en": "Excuse me, where is the museum?",
+       "de": "Entschuldigung, wo ist das Museum?"
+      },
+      {
+       "en": "Is it far?",
+       "de": "Ist es weit?"
+      }
+     ]
+    },
+    {
+     "heading": "Den Weg beschreiben",
+     "text": "• Go straight on. – Geh geradeaus.\n• Turn left / right. – Bieg links / rechts ab.\n• Take the second street on the left. – Nimm die zweite Straße links.\n• It's next to / opposite / between ... – Es ist neben / gegenüber / zwischen ...\n• at the traffic lights – an der Ampel; at the corner – an der Ecke",
+     "examples": [
+      {
+       "en": "Turn right at the traffic lights.",
+       "de": "Bieg an der Ampel rechts ab."
+      },
+      {
+       "en": "The bank is opposite the church.",
+       "de": "Die Bank ist gegenüber der Kirche."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "straight on",
+     "de": "geradeaus",
+     "alt": [
+      "straight ahead"
+     ],
+     "example": "Go straight on for 200 metres.",
+     "exampleDe": "Geh 200 Meter geradeaus."
+    },
+    {
+     "en": "to turn",
+     "de": "abbiegen",
+     "alt": [
+      "turn"
+     ],
+     "example": "Turn left here.",
+     "exampleDe": "Bieg hier links ab."
+    },
+    {
+     "en": "left",
+     "de": "links",
+     "example": "The shop is on the left.",
+     "exampleDe": "Der Laden ist links."
+    },
+    {
+     "en": "right",
+     "de": "rechts",
+     "example": "Turn right at the corner.",
+     "exampleDe": "Bieg an der Ecke rechts ab."
+    },
+    {
+     "en": "opposite",
+     "de": "gegenüber",
+     "example": "The café is opposite the park.",
+     "exampleDe": "Das Café ist gegenüber dem Park."
+    },
+    {
+     "en": "next to",
+     "de": "neben",
+     "example": "The bank is next to the post office.",
+     "exampleDe": "Die Bank ist neben der Post."
+    },
+    {
+     "en": "traffic lights",
+     "de": "Ampel",
+     "example": "Stop at the traffic lights.",
+     "exampleDe": "Halte an der Ampel."
+    },
+    {
+     "en": "far",
+     "de": "weit",
+     "example": "Is it far from here?",
+     "exampleDe": "Ist es weit von hier?"
+    }
+   ],
+   "sentences": [
+    {
+     "en": "How do I get to the station?",
+     "de": "Wie komme ich zum Bahnhof?"
+    },
+    {
+     "en": "Go straight on and turn left.",
+     "de": "Geh geradeaus und bieg links ab."
+    },
+    {
+     "en": "The museum is opposite the park.",
+     "de": "Das Museum ist gegenüber dem Park."
+    },
+    {
+     "en": "It is about five minutes on foot.",
+     "de": "Es sind etwa fünf Minuten zu Fuß.",
+     "alt": [
+      "It's about five minutes on foot.",
+      "It's about five minutes' walk."
+     ]
+    },
+    {
+     "en": "Take the second street on the right.",
+     "de": "Nimm die zweite Straße rechts."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„gegenüber“ heißt:",
+     "options": [
+      "opposite",
+      "next to",
+      "between",
+      "behind"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Bieg an der Ampel links ab.“",
+     "options": [
+      "Turn left at the traffic lights.",
+      "Turn left on the traffic lights.",
+      "Go left in the lights.",
+      "Turn the left at lights."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Wie fragst du höflich nach dem Weg?",
+     "options": [
+      "Excuse me, how do I get to the bank?",
+      "Where bank?",
+      "Tell me the bank.",
+      "Bank is where?"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Go ___ on until the church.",
+     "answer": "straight",
+     "hint": "geradeaus",
+     "de": "Geh geradeaus bis zur Kirche."
+    },
+    {
+     "text": "The pharmacy is ___ to the supermarket.",
+     "answer": "next",
+     "hint": "neben",
+     "de": "Die Apotheke ist neben dem Supermarkt."
+    },
+    {
+     "text": "Is it ___ from here?",
+     "answer": "far",
+     "hint": "weit",
+     "de": "Ist es weit von hier?"
+    }
+   ],
+   "dialogue": {
+    "title": "In der Stadt",
+    "setting": "Du bist neu in der Stadt und suchst das Museum.",
+    "lines": [
+     {
+      "speaker": "You",
+      "en": "Excuse me, how do I get to the City Museum?",
+      "de": "Entschuldigung, wie komme ich zum Stadtmuseum?"
+     },
+     {
+      "speaker": "Local",
+      "en": "Go straight on and turn right at the traffic lights.",
+      "de": "Geh geradeaus und bieg an der Ampel rechts ab."
+     },
+     {
+      "speaker": "You",
+      "en": "Is it far from here?",
+      "de": "Ist es weit von hier?"
+     },
+     {
+      "speaker": "Local",
+      "en": "No, it's about ten minutes on foot.",
+      "de": "Nein, etwa zehn Minuten zu Fuß."
+     },
+     {
+      "speaker": "You",
+      "en": "Thank you very much!",
+      "de": "Vielen Dank!"
+     },
+     {
+      "speaker": "Local",
+      "en": "No problem. It's opposite the big church.",
+      "de": "Kein Problem. Es ist gegenüber der großen Kirche."
+     }
+    ]
+   }
+  },
+  {
+   "id": "a2_05",
+   "title": "Über die Vergangenheit sprechen",
+   "goal": "Du kannst mit dem Past Simple über abgeschlossene Ereignisse sprechen.",
+   "theory": [
+    {
+     "heading": "Past Simple – regelmäßige Verben",
+     "text": "Für abgeschlossene Handlungen in der Vergangenheit (yesterday, last week, two years ago):\n• Grundform + -ed: work → worked, play → played, live → lived\n• Konsonant + y → -ied: study → studied\n• kurzer Vokal + Konsonant → Konsonant verdoppeln: stop → stopped\nDie Form ist für alle Personen gleich: I worked, she worked, they worked.",
+     "examples": [
+      {
+       "en": "I worked late yesterday.",
+       "de": "Ich habe gestern lange gearbeitet."
+      },
+      {
+       "en": "We visited Paris last year.",
+       "de": "Wir haben letztes Jahr Paris besucht."
+      }
+     ]
+    },
+    {
+     "heading": "Verneinung, Fragen und „was/were“",
+     "text": "• Verneinung: didn't + Grundform → I didn't work. (nicht: didn't worked)\n• Frage: Did you work? – Yes, I did. / No, I didn't.\n• to be: I / he / she / it was – you / we / they were\nWichtig: Das deutsche Perfekt („ich habe gearbeitet“) übersetzt man bei abgeschlossener Zeit meist mit dem Past Simple.",
+     "examples": [
+      {
+       "en": "Did you watch the match?",
+       "de": "Hast du das Spiel gesehen?"
+      },
+      {
+       "en": "It was cold yesterday.",
+       "de": "Gestern war es kalt."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "yesterday",
+     "de": "gestern",
+     "example": "I called her yesterday.",
+     "exampleDe": "Ich habe sie gestern angerufen."
+    },
+    {
+     "en": "last week",
+     "de": "letzte Woche",
+     "example": "We moved last week.",
+     "exampleDe": "Wir sind letzte Woche umgezogen."
+    },
+    {
+     "en": "ago",
+     "de": "vor (zeitlich)",
+     "example": "I started two years ago.",
+     "exampleDe": "Ich habe vor zwei Jahren angefangen."
+    },
+    {
+     "en": "to visit",
+     "de": "besuchen",
+     "alt": [
+      "visit"
+     ],
+     "example": "We visited our grandma.",
+     "exampleDe": "Wir haben unsere Oma besucht."
+    },
+    {
+     "en": "to stay",
+     "de": "bleiben, übernachten",
+     "alt": [
+      "stay"
+     ],
+     "example": "We stayed in a small hotel.",
+     "exampleDe": "Wir haben in einem kleinen Hotel übernachtet."
+    },
+    {
+     "en": "to travel",
+     "de": "reisen",
+     "alt": [
+      "travel"
+     ],
+     "example": "They travelled around Asia.",
+     "exampleDe": "Sie sind durch Asien gereist."
+    },
+    {
+     "en": "to enjoy",
+     "de": "genießen",
+     "alt": [
+      "enjoy"
+     ],
+     "example": "Did you enjoy the party?",
+     "exampleDe": "Hat dir die Party gefallen?"
+    },
+    {
+     "en": "weather",
+     "de": "Wetter",
+     "example": "The weather was great.",
+     "exampleDe": "Das Wetter war toll."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I worked late yesterday.",
+     "de": "Ich habe gestern lange gearbeitet."
+    },
+    {
+     "en": "We visited Paris two years ago.",
+     "de": "Wir haben vor zwei Jahren Paris besucht."
+    },
+    {
+     "en": "Did you enjoy the film?",
+     "de": "Hat dir der Film gefallen?"
+    },
+    {
+     "en": "She didn't call me.",
+     "de": "Sie hat mich nicht angerufen.",
+     "alt": [
+      "She did not call me."
+     ]
+    },
+    {
+     "en": "The weather was terrible.",
+     "de": "Das Wetter war schrecklich."
+    },
+    {
+     "en": "Where were you last night?",
+     "de": "Wo warst du gestern Abend?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Past Simple von „study“:",
+     "options": [
+      "studied",
+      "studyed",
+      "studed",
+      "studies"
+     ],
+     "answer": 0,
+     "explain": "Konsonant + y → -ied"
+    },
+    {
+     "q": "Richtig:",
+     "options": [
+      "I didn't watch TV.",
+      "I didn't watched TV.",
+      "I not watched TV.",
+      "I don't watched TV."
+     ],
+     "answer": 0,
+     "explain": "didn't + Grundform"
+    },
+    {
+     "q": "They ___ at home yesterday.",
+     "options": [
+      "were",
+      "was",
+      "are",
+      "did"
+     ],
+     "answer": 0,
+     "explain": "they → were"
+    }
+   ],
+   "gaps": [
+    {
+     "text": "We ___ (stay) in a nice hotel.",
+     "answer": "stayed",
+     "hint": "-ed",
+     "de": "Wir haben in einem schönen Hotel übernachtet."
+    },
+    {
+     "text": "___ you call your mother?",
+     "answer": "Did",
+     "hint": "Hilfsverb Vergangenheit",
+     "de": "Hast du deine Mutter angerufen?",
+     "alt": [
+      "did"
+     ]
+    },
+    {
+     "text": "It ___ very hot last summer.",
+     "answer": "was",
+     "hint": "to be, Vergangenheit",
+     "de": "Letzten Sommer war es sehr heiß."
+    }
+   ],
+   "dialogue": {
+    "title": "Nach dem Wochenende",
+    "setting": "Am Montag fragt dich eine Kollegin nach deinem Wochenende.",
+    "lines": [
+     {
+      "speaker": "Kate",
+      "en": "Hi! How was your weekend?",
+      "de": "Hi! Wie war dein Wochenende?"
+     },
+     {
+      "speaker": "You",
+      "en": "It was great, thanks. I visited my parents.",
+      "de": "Es war toll, danke. Ich habe meine Eltern besucht."
+     },
+     {
+      "speaker": "Kate",
+      "en": "Nice! Did you stay there?",
+      "de": "Schön! Hast du dort übernachtet?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, I stayed for two nights.",
+      "de": "Ja, ich bin zwei Nächte geblieben."
+     },
+     {
+      "speaker": "Kate",
+      "en": "And what did you do?",
+      "de": "Und was habt ihr gemacht?"
+     },
+     {
+      "speaker": "You",
+      "en": "We cooked together and watched a film.",
+      "de": "Wir haben zusammen gekocht und einen Film geschaut."
+     }
+    ]
+   }
+  },
+  {
+   "id": "a2_06",
+   "title": "Unregelmäßige Verben",
+   "goal": "Du beherrschst die häufigsten unregelmäßigen Verben im Past Simple.",
+   "theory": [
+    {
+     "heading": "Die wichtigsten unregelmäßigen Verben",
+     "text": "Viele häufige Verben bilden das Past Simple ohne -ed. Diese solltest du auswendig lernen:\n• go → went, come → came, see → saw, have → had\n• get → got, make → made, take → took, give → gave\n• buy → bought, think → thought, eat → ate, drink → drank\n• write → wrote, speak → spoke, meet → met, leave → left\nIn Fragen und Verneinungen steht wieder die Grundform: Did you go? – I didn't go.",
+     "examples": [
+      {
+       "en": "I went to the cinema.",
+       "de": "Ich bin ins Kino gegangen."
+      },
+      {
+       "en": "She bought a new car.",
+       "de": "Sie hat ein neues Auto gekauft."
+      },
+      {
+       "en": "We met at university.",
+       "de": "Wir haben uns an der Uni kennengelernt."
+      }
+     ]
+    },
+    {
+     "heading": "Lerntipp",
+     "text": "Lerne unregelmäßige Verben in Gruppen mit ähnlichem Klang:\n• buy – bought, bring – brought, think – thought\n• drink – drank, swim – swam, begin – began\n• put – put, cut – cut, hit – hit (bleiben gleich)",
+     "examples": [
+      {
+       "en": "I thought you knew.",
+       "de": "Ich dachte, du wüsstest es."
+      },
+      {
+       "en": "He brought some flowers.",
+       "de": "Er hat Blumen mitgebracht."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "went",
+     "de": "ging (go)",
+     "example": "We went home early.",
+     "exampleDe": "Wir sind früh nach Hause gegangen."
+    },
+    {
+     "en": "saw",
+     "de": "sah (see)",
+     "example": "I saw a great film.",
+     "exampleDe": "Ich habe einen tollen Film gesehen."
+    },
+    {
+     "en": "bought",
+     "de": "kaufte (buy)",
+     "example": "He bought a new phone.",
+     "exampleDe": "Er hat ein neues Handy gekauft."
+    },
+    {
+     "en": "ate",
+     "de": "aß (eat)",
+     "example": "We ate pizza.",
+     "exampleDe": "Wir haben Pizza gegessen."
+    },
+    {
+     "en": "took",
+     "de": "nahm (take)",
+     "example": "She took the bus.",
+     "exampleDe": "Sie hat den Bus genommen."
+    },
+    {
+     "en": "met",
+     "de": "traf (meet)",
+     "example": "I met an old friend.",
+     "exampleDe": "Ich habe einen alten Freund getroffen."
+    },
+    {
+     "en": "wrote",
+     "de": "schrieb (write)",
+     "example": "He wrote me an email.",
+     "exampleDe": "Er hat mir eine E-Mail geschrieben."
+    },
+    {
+     "en": "left",
+     "de": "verließ, fuhr ab (leave)",
+     "example": "The train left at six.",
+     "exampleDe": "Der Zug ist um sechs abgefahren."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I went to the cinema yesterday.",
+     "de": "Ich bin gestern ins Kino gegangen."
+    },
+    {
+     "en": "She bought a new car.",
+     "de": "Sie hat ein neues Auto gekauft."
+    },
+    {
+     "en": "We met at a party.",
+     "de": "Wir haben uns auf einer Party kennengelernt."
+    },
+    {
+     "en": "Did you see the news?",
+     "de": "Hast du die Nachrichten gesehen?"
+    },
+    {
+     "en": "He didn't eat anything.",
+     "de": "Er hat nichts gegessen.",
+     "alt": [
+      "He did not eat anything."
+     ]
+    },
+    {
+     "en": "They took a taxi to the airport.",
+     "de": "Sie haben ein Taxi zum Flughafen genommen."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Past Simple von „think“:",
+     "options": [
+      "thought",
+      "thinked",
+      "thank",
+      "thoughted"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Past Simple von „write“:",
+     "options": [
+      "wrote",
+      "writed",
+      "written",
+      "writ"
+     ],
+     "answer": 0,
+     "explain": "„written“ ist das Partizip (Present Perfect)."
+    },
+    {
+     "q": "Richtig:",
+     "options": [
+      "Did you go out?",
+      "Did you went out?",
+      "Do you went out?",
+      "Went you out?"
+     ],
+     "answer": 0,
+     "explain": "Nach „did“ steht die Grundform."
+    }
+   ],
+   "gaps": [
+    {
+     "text": "I ___ (see) Tom at the station.",
+     "answer": "saw",
+     "hint": "see → ?",
+     "de": "Ich habe Tom am Bahnhof gesehen."
+    },
+    {
+     "text": "We ___ (have) a great time.",
+     "answer": "had",
+     "hint": "have → ?",
+     "de": "Wir hatten eine tolle Zeit."
+    },
+    {
+     "text": "She ___ (give) me a present.",
+     "answer": "gave",
+     "hint": "give → ?",
+     "de": "Sie hat mir ein Geschenk gegeben."
+    }
+   ],
+   "dialogue": {
+    "title": "Urlaubserzählung",
+    "setting": "Ein Freund erzählt von seiner Reise – du fragst nach.",
+    "lines": [
+     {
+      "speaker": "Ben",
+      "en": "I just came back from Scotland!",
+      "de": "Ich bin gerade aus Schottland zurückgekommen!"
+     },
+     {
+      "speaker": "You",
+      "en": "Wow! What did you see there?",
+      "de": "Wow! Was hast du dort gesehen?"
+     },
+     {
+      "speaker": "Ben",
+      "en": "I saw Edinburgh Castle and went hiking.",
+      "de": "Ich habe Edinburgh Castle gesehen und bin wandern gegangen."
+     },
+     {
+      "speaker": "You",
+      "en": "Did you eat haggis?",
+      "de": "Hast du Haggis gegessen?"
+     },
+     {
+      "speaker": "Ben",
+      "en": "Yes, I did! It was better than I thought.",
+      "de": "Ja! Es war besser als gedacht."
+     },
+     {
+      "speaker": "You",
+      "en": "I want to go there too.",
+      "de": "Da möchte ich auch hin."
+     }
+    ]
+   }
+  },
+  {
+   "id": "a2_07",
+   "title": "Zukunftspläne",
+   "goal": "Du kannst mit „going to“, „will“ und dem Present Continuous über die Zukunft sprechen.",
+   "theory": [
+    {
+     "heading": "going to – Pläne und Absichten",
+     "text": "Was du schon beschlossen hast: am/is/are + going to + Grundform\n• I'm going to learn Spanish next year.\n• Are you going to move?\nAuch für Vorhersagen mit sichtbarem Anzeichen: Look at the clouds – it's going to rain.",
+     "examples": [
+      {
+       "en": "I'm going to visit my aunt.",
+       "de": "Ich werde meine Tante besuchen."
+      },
+      {
+       "en": "It's going to rain.",
+       "de": "Es wird gleich regnen."
+      }
+     ]
+    },
+    {
+     "heading": "will und Present Continuous",
+     "text": "• will – spontane Entscheidungen, Versprechen, Vermutungen: I'll help you! I think she will win.\n• Present Continuous – feste Termine: I'm meeting Tom on Friday. We're flying to Rome tomorrow.\nVerneinung von will: won't (= will not).",
+     "examples": [
+      {
+       "en": "I'll call you later.",
+       "de": "Ich rufe dich später an."
+      },
+      {
+       "en": "We're meeting at eight.",
+       "de": "Wir treffen uns um acht."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "next year",
+     "de": "nächstes Jahr",
+     "example": "I'm going to study next year.",
+     "exampleDe": "Ich werde nächstes Jahr studieren."
+    },
+    {
+     "en": "plan",
+     "de": "Plan",
+     "example": "What are your plans for the weekend?",
+     "exampleDe": "Was hast du am Wochenende vor?"
+    },
+    {
+     "en": "to move",
+     "de": "umziehen",
+     "alt": [
+      "move"
+     ],
+     "example": "We are going to move to Berlin.",
+     "exampleDe": "Wir werden nach Berlin ziehen."
+    },
+    {
+     "en": "soon",
+     "de": "bald",
+     "example": "See you soon!",
+     "exampleDe": "Bis bald!"
+    },
+    {
+     "en": "probably",
+     "de": "wahrscheinlich",
+     "example": "It will probably rain.",
+     "exampleDe": "Es wird wahrscheinlich regnen."
+    },
+    {
+     "en": "to promise",
+     "de": "versprechen",
+     "alt": [
+      "promise"
+     ],
+     "example": "I promise I'll be on time.",
+     "exampleDe": "Ich verspreche, ich bin pünktlich."
+    },
+    {
+     "en": "future",
+     "de": "Zukunft",
+     "example": "Nobody knows the future.",
+     "exampleDe": "Niemand kennt die Zukunft."
+    },
+    {
+     "en": "tonight",
+     "de": "heute Abend",
+     "example": "What are you doing tonight?",
+     "exampleDe": "Was machst du heute Abend?"
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I'm going to learn Spanish.",
+     "de": "Ich werde Spanisch lernen.",
+     "alt": [
+      "I am going to learn Spanish."
+     ]
+    },
+    {
+     "en": "I'll help you with your bags.",
+     "de": "Ich helfe dir mit deinen Taschen.",
+     "alt": [
+      "I will help you with your bags."
+     ]
+    },
+    {
+     "en": "We're meeting Tom on Friday.",
+     "de": "Wir treffen Tom am Freitag.",
+     "alt": [
+      "We are meeting Tom on Friday."
+     ]
+    },
+    {
+     "en": "It will probably rain tomorrow.",
+     "de": "Morgen wird es wahrscheinlich regnen."
+    },
+    {
+     "en": "What are you doing tonight?",
+     "de": "Was machst du heute Abend?"
+    },
+    {
+     "en": "I won't be late.",
+     "de": "Ich werde nicht zu spät kommen.",
+     "alt": [
+      "I will not be late."
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Spontan: Das Telefon klingelt. „___ answer it!“",
+     "options": [
+      "I'll",
+      "I'm going to",
+      "I'm",
+      "I"
+     ],
+     "answer": 0,
+     "explain": "Spontane Entscheidung → will"
+    },
+    {
+     "q": "Fester Plan: „Next summer we ___ travel to Canada.“",
+     "options": [
+      "are going to",
+      "will to",
+      "going to",
+      "are go"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„will not“ als Kurzform:",
+     "options": [
+      "won't",
+      "willn't",
+      "wont'",
+      "will'nt"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Look at those clouds! It's ___ to rain.",
+     "answer": "going",
+     "hint": "Anzeichen → going to",
+     "de": "Schau dir die Wolken an! Es wird gleich regnen."
+    },
+    {
+     "text": "Don't worry, I ___ tell anyone.",
+     "answer": "won't",
+     "hint": "verneintes will",
+     "de": "Keine Sorge, ich sage es niemandem.",
+     "alt": [
+      "will not"
+     ]
+    },
+    {
+     "text": "I ___ meeting my boss at ten.",
+     "answer": "am",
+     "hint": "fester Termin",
+     "de": "Ich treffe meinen Chef um zehn.",
+     "alt": [
+      "'m"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Pläne fürs Wochenende",
+    "setting": "Du sprichst mit einer Freundin über eure Pläne.",
+    "lines": [
+     {
+      "speaker": "Lucy",
+      "en": "What are you doing this weekend?",
+      "de": "Was machst du dieses Wochenende?"
+     },
+     {
+      "speaker": "You",
+      "en": "I'm going to visit my brother in Hamburg.",
+      "de": "Ich werde meinen Bruder in Hamburg besuchen."
+     },
+     {
+      "speaker": "Lucy",
+      "en": "Sounds great! How are you getting there?",
+      "de": "Klingt super! Wie kommst du hin?"
+     },
+     {
+      "speaker": "You",
+      "en": "I'm taking the train on Saturday morning.",
+      "de": "Ich nehme Samstagmorgen den Zug."
+     },
+     {
+      "speaker": "Lucy",
+      "en": "Lucky you! I'll probably just stay at home.",
+      "de": "Du Glückliche! Ich bleibe wahrscheinlich einfach zu Hause."
+     },
+     {
+      "speaker": "You",
+      "en": "I'll send you some photos!",
+      "de": "Ich schicke dir ein paar Fotos!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a2_08",
+   "title": "Telefonieren",
+   "goal": "Du kannst ein einfaches Telefongespräch führen, dich verbinden lassen und Nachrichten hinterlassen.",
+   "theory": [
+    {
+     "heading": "Typische Telefon-Sätze",
+     "text": "• Hello, this is Anna Weber. – Hallo, hier ist Anna Weber. (nicht: „I am Anna“)\n• Could I speak to Mr Brown, please? – Könnte ich bitte mit Herrn Brown sprechen?\n• Hold on, please. / One moment, please. – Einen Moment bitte.\n• He's not available at the moment. – Er ist gerade nicht erreichbar.\n• Can I leave a message? – Kann ich eine Nachricht hinterlassen?\n• Could you speak up, please? – Könnten Sie bitte lauter sprechen?",
+     "examples": [
+      {
+       "en": "Hello, this is Tom from ABC.",
+       "de": "Hallo, hier ist Tom von ABC."
+      },
+      {
+       "en": "Can I leave a message?",
+       "de": "Kann ich eine Nachricht hinterlassen?"
+      }
+     ]
+    },
+    {
+     "heading": "Höfliche Bitten mit „Could you ...?“",
+     "text": "• Could you repeat that, please? – Könnten Sie das wiederholen?\n• Could you call me back? – Könnten Sie mich zurückrufen?\n„Could“ ist am Telefon besonders wichtig, da man Mimik und Gestik nicht sieht.",
+     "examples": [
+      {
+       "en": "Could you call me back later?",
+       "de": "Könnten Sie mich später zurückrufen?"
+      },
+      {
+       "en": "Sorry, the line is bad.",
+       "de": "Entschuldigung, die Verbindung ist schlecht."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to call",
+     "de": "anrufen",
+     "alt": [
+      "call",
+      "phone"
+     ],
+     "example": "I'll call you tomorrow.",
+     "exampleDe": "Ich rufe dich morgen an."
+    },
+    {
+     "en": "to call back",
+     "de": "zurückrufen",
+     "alt": [
+      "call back",
+      "ring back"
+     ],
+     "example": "Can you call me back?",
+     "exampleDe": "Kannst du mich zurückrufen?"
+    },
+    {
+     "en": "message",
+     "de": "Nachricht",
+     "example": "Can I leave a message?",
+     "exampleDe": "Kann ich eine Nachricht hinterlassen?"
+    },
+    {
+     "en": "to hold on",
+     "de": "dranbleiben, warten",
+     "alt": [
+      "hold on"
+     ],
+     "example": "Hold on, please.",
+     "exampleDe": "Bleiben Sie bitte dran."
+    },
+    {
+     "en": "available",
+     "de": "erreichbar, verfügbar",
+     "example": "She isn't available right now.",
+     "exampleDe": "Sie ist gerade nicht erreichbar."
+    },
+    {
+     "en": "to repeat",
+     "de": "wiederholen",
+     "alt": [
+      "repeat"
+     ],
+     "example": "Could you repeat that?",
+     "exampleDe": "Könnten Sie das wiederholen?"
+    },
+    {
+     "en": "line",
+     "de": "Leitung, Verbindung",
+     "example": "The line is busy.",
+     "exampleDe": "Die Leitung ist besetzt."
+    },
+    {
+     "en": "wrong number",
+     "de": "falsche Nummer",
+     "example": "Sorry, wrong number.",
+     "exampleDe": "Entschuldigung, falsch verbunden."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "Hello, this is Anna speaking.",
+     "de": "Hallo, hier spricht Anna.",
+     "alt": [
+      "Hello, this is Anna."
+     ]
+    },
+    {
+     "en": "Could I speak to Mr Brown, please?",
+     "de": "Könnte ich bitte mit Herrn Brown sprechen?",
+     "alt": [
+      "Can I speak to Mr Brown, please?"
+     ]
+    },
+    {
+     "en": "Can I leave a message?",
+     "de": "Kann ich eine Nachricht hinterlassen?"
+    },
+    {
+     "en": "Could you call me back later?",
+     "de": "Könnten Sie mich später zurückrufen?"
+    },
+    {
+     "en": "Sorry, I think you have the wrong number.",
+     "de": "Entschuldigung, ich glaube, Sie sind falsch verbunden."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Am Telefon stellst du dich vor mit:",
+     "options": [
+      "This is Lisa.",
+      "I am Lisa here.",
+      "Here speaks Lisa.",
+      "It's me Lisa am."
+     ],
+     "answer": 0,
+     "explain": "Am Telefon: „This is ...“"
+    },
+    {
+     "q": "„Einen Moment, bitte“:",
+     "options": [
+      "Hold on, please.",
+      "Wait you.",
+      "Stop, please.",
+      "Hold up me."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Höflichste Bitte:",
+     "options": [
+      "Could you repeat that, please?",
+      "Repeat!",
+      "Say again.",
+      "What?"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Could I ___ to Ms Clark, please?",
+     "answer": "speak",
+     "hint": "sprechen",
+     "de": "Könnte ich bitte mit Frau Clark sprechen?",
+     "alt": [
+      "talk"
+     ]
+    },
+    {
+     "text": "She's not ___ at the moment.",
+     "answer": "available",
+     "hint": "erreichbar",
+     "de": "Sie ist im Moment nicht erreichbar.",
+     "alt": [
+      "here",
+      "in"
+     ]
+    },
+    {
+     "text": "Can I leave a ___?",
+     "answer": "message",
+     "hint": "Nachricht",
+     "de": "Kann ich eine Nachricht hinterlassen?"
+    }
+   ],
+   "dialogue": {
+    "title": "Anruf in der Arztpraxis",
+    "setting": "Du möchtest einen Termin verschieben.",
+    "lines": [
+     {
+      "speaker": "Receptionist",
+      "en": "Good morning, Dr Miller's practice.",
+      "de": "Guten Morgen, Praxis Dr. Miller."
+     },
+     {
+      "speaker": "You",
+      "en": "Hello, this is Paul Becker. I have an appointment tomorrow.",
+      "de": "Hallo, hier ist Paul Becker. Ich habe morgen einen Termin."
+     },
+     {
+      "speaker": "Receptionist",
+      "en": "Yes, at nine thirty. How can I help?",
+      "de": "Ja, um halb zehn. Wie kann ich helfen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Could I move it to Thursday, please?",
+      "de": "Könnte ich ihn bitte auf Donnerstag verschieben?"
+     },
+     {
+      "speaker": "Receptionist",
+      "en": "Hold on, please... Thursday at eleven is free.",
+      "de": "Einen Moment bitte ... Donnerstag um elf ist frei."
+     },
+     {
+      "speaker": "You",
+      "en": "Perfect. Thank you very much.",
+      "de": "Perfekt. Vielen Dank."
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,2182 @@
+{
+ "id": "a1",
+ "code": "A1",
+ "title": "Absoluter Anfänger",
+ "subtitle": "Erste Schritte: Alphabet, Begrüßung, Zahlen, Present Simple",
+ "description": "Hier beginnt deine Expedition. Du lernst das Alphabet, die wichtigsten Begrüßungen, Zahlen, Uhrzeiten und die ersten Sätze. Alle Erklärungen sind auf Deutsch.",
+ "lessons": [
+  {
+   "id": "a1_01",
+   "title": "Alphabet & Aussprache",
+   "goal": "Du kennst das englische Alphabet und kannst deinen Namen buchstabieren.",
+   "theory": [
+    {
+     "heading": "Das englische Alphabet",
+     "text": "Das englische Alphabet hat 26 Buchstaben – dieselben wie im Deutschen, aber viele klingen anders.\n• A spricht man wie „ej“, E wie „ii“, I wie „ai“.\n• J klingt wie „dschej“, Y wie „wai“, W wie „dabbel-ju“.\n• Z heißt im amerikanischen Englisch „zii“, im britischen „zed“.\nTipp: Hör dir die Beispiele an und sprich laut mit.",
+     "examples": [
+      {
+       "en": "A, B, C, D, E",
+       "de": "A, B, C, D, E"
+      },
+      {
+       "en": "How do you spell your name?",
+       "de": "Wie buchstabierst du deinen Namen?"
+      }
+     ]
+    },
+    {
+     "heading": "Typische Laute",
+     "text": "**Das „th“**\nLege die Zungenspitze leicht zwischen die Zähne: „think“ (stimmlos), „this“ (stimmhaft).\n**Das „w“**\nEnglisches w klingt wie ein kurzes „u“: „water“, „what“.\n**Das „v“**\nEnglisches v ist stimmhaft wie im deutschen Wort „Vase“: „very“.",
+     "examples": [
+      {
+       "en": "Thank you very much.",
+       "de": "Vielen Dank."
+      },
+      {
+       "en": "What is this?",
+       "de": "Was ist das?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "letter",
+     "de": "Buchstabe",
+     "example": "A is a letter.",
+     "exampleDe": "A ist ein Buchstabe."
+    },
+    {
+     "en": "to spell",
+     "de": "buchstabieren",
+     "alt": [
+      "spell"
+     ],
+     "example": "Can you spell it, please?",
+     "exampleDe": "Kannst du es bitte buchstabieren?"
+    },
+    {
+     "en": "name",
+     "de": "Name",
+     "example": "My name is Anna.",
+     "exampleDe": "Mein Name ist Anna."
+    },
+    {
+     "en": "word",
+     "de": "Wort",
+     "example": "This word is long.",
+     "exampleDe": "Dieses Wort ist lang."
+    },
+    {
+     "en": "please",
+     "de": "bitte",
+     "example": "Slowly, please.",
+     "exampleDe": "Langsam, bitte."
+    },
+    {
+     "en": "thank you",
+     "de": "danke",
+     "alt": [
+      "thanks"
+     ],
+     "example": "Thank you very much!",
+     "exampleDe": "Vielen Dank!"
+    },
+    {
+     "en": "again",
+     "de": "noch einmal",
+     "example": "Say it again, please.",
+     "exampleDe": "Sag es bitte noch einmal."
+    },
+    {
+     "en": "slowly",
+     "de": "langsam",
+     "example": "Please speak slowly.",
+     "exampleDe": "Bitte sprich langsam."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "My name is Anna.",
+     "de": "Mein Name ist Anna.",
+     "alt": [
+      "My name's Anna."
+     ]
+    },
+    {
+     "en": "How do you spell that?",
+     "de": "Wie buchstabiert man das?"
+    },
+    {
+     "en": "Can you say that again, please?",
+     "de": "Kannst du das bitte noch einmal sagen?",
+     "alt": [
+      "Could you say that again, please?"
+     ]
+    },
+    {
+     "en": "Please speak slowly.",
+     "de": "Bitte sprich langsam.",
+     "alt": [
+      "Speak slowly, please."
+     ]
+    },
+    {
+     "en": "Thank you very much.",
+     "de": "Vielen Dank."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Wie spricht man den Buchstaben „I“ im Englischen aus?",
+     "options": [
+      "wie „ai“",
+      "wie „ii“",
+      "wie „ej“",
+      "wie „ju“"
+     ],
+     "answer": 0,
+     "explain": "I klingt wie „ai“ – wie im Wort „I“ (ich)."
+    },
+    {
+     "q": "Welcher Buchstabe klingt wie „ii“?",
+     "options": [
+      "E",
+      "I",
+      "A",
+      "Y"
+     ],
+     "answer": 0,
+     "explain": "E spricht man „ii“ aus."
+    },
+    {
+     "q": "Wie fragt man nach der Schreibweise?",
+     "options": [
+      "How do you spell it?",
+      "How do you speak it?",
+      "What do you write?",
+      "How is it?"
+     ],
+     "answer": 0,
+     "explain": "„to spell“ = buchstabieren."
+    }
+   ],
+   "gaps": [
+    {
+     "text": "How do you ___ your name?",
+     "answer": "spell",
+     "hint": "buchstabieren",
+     "de": "Wie buchstabierst du deinen Namen?"
+    },
+    {
+     "text": "Can you say that ___, please?",
+     "answer": "again",
+     "hint": "noch einmal",
+     "de": "Kannst du das bitte noch einmal sagen?"
+    },
+    {
+     "text": "My ___ is Tom.",
+     "answer": "name",
+     "hint": "Name",
+     "de": "Mein Name ist Tom."
+    }
+   ],
+   "dialogue": {
+    "title": "Am Empfang",
+    "setting": "Du meldest dich an einer Hotelrezeption an.",
+    "lines": [
+     {
+      "speaker": "Receptionist",
+      "en": "Hello! What's your name, please?",
+      "de": "Hallo! Wie ist Ihr Name, bitte?"
+     },
+     {
+      "speaker": "You",
+      "en": "My name is Lena Fischer.",
+      "de": "Mein Name ist Lena Fischer."
+     },
+     {
+      "speaker": "Receptionist",
+      "en": "How do you spell your last name?",
+      "de": "Wie buchstabieren Sie Ihren Nachnamen?"
+     },
+     {
+      "speaker": "You",
+      "en": "F, I, S, C, H, E, R.",
+      "de": "F, I, S, C, H, E, R."
+     },
+     {
+      "speaker": "Receptionist",
+      "en": "Thank you very much.",
+      "de": "Vielen Dank."
+     },
+     {
+      "speaker": "You",
+      "en": "You're welcome.",
+      "de": "Gern geschehen."
+     }
+    ]
+   }
+  },
+  {
+   "id": "a1_02",
+   "title": "Begrüßungen & Verabschiedungen",
+   "goal": "Du kannst Menschen begrüßen, nach dem Befinden fragen und dich verabschieden.",
+   "theory": [
+    {
+     "heading": "Hallo und Tschüss",
+     "text": "**Begrüßen**\n• Hello / Hi – Hallo (Hi ist lockerer)\n• Good morning – Guten Morgen (bis ca. 12 Uhr)\n• Good afternoon – Guten Tag (nachmittags)\n• Good evening – Guten Abend\n**Verabschieden**\n• Goodbye / Bye – Auf Wiedersehen / Tschüss\n• See you later – Bis später\n• Good night – Gute Nacht (nur beim Schlafengehen!)",
+     "examples": [
+      {
+       "en": "Good morning, Mr Smith!",
+       "de": "Guten Morgen, Herr Smith!"
+      },
+      {
+       "en": "See you tomorrow!",
+       "de": "Bis morgen!"
+      }
+     ]
+    },
+    {
+     "heading": "Wie geht's?",
+     "text": "Auf „How are you?“ antwortet man meist kurz und fragt zurück:\n• I'm fine, thanks. And you? – Mir geht's gut, danke. Und dir?\n• Not bad. – Nicht schlecht.\nWichtig: „How do you do?“ ist sehr förmlich und keine echte Frage.",
+     "examples": [
+      {
+       "en": "How are you?",
+       "de": "Wie geht es dir?"
+      },
+      {
+       "en": "I'm fine, thanks. And you?",
+       "de": "Gut, danke. Und dir?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "hello",
+     "de": "hallo",
+     "alt": [
+      "hi"
+     ],
+     "example": "Hello, Tom!",
+     "exampleDe": "Hallo, Tom!"
+    },
+    {
+     "en": "goodbye",
+     "de": "auf Wiedersehen",
+     "alt": [
+      "bye"
+     ],
+     "example": "Goodbye and thank you!",
+     "exampleDe": "Auf Wiedersehen und danke!"
+    },
+    {
+     "en": "good morning",
+     "de": "guten Morgen",
+     "example": "Good morning, everybody!",
+     "exampleDe": "Guten Morgen, alle zusammen!"
+    },
+    {
+     "en": "good evening",
+     "de": "guten Abend",
+     "example": "Good evening, ladies and gentlemen.",
+     "exampleDe": "Guten Abend, meine Damen und Herren."
+    },
+    {
+     "en": "fine",
+     "de": "gut (Befinden)",
+     "example": "I'm fine, thank you.",
+     "exampleDe": "Mir geht's gut, danke."
+    },
+    {
+     "en": "tomorrow",
+     "de": "morgen",
+     "example": "See you tomorrow!",
+     "exampleDe": "Bis morgen!"
+    },
+    {
+     "en": "later",
+     "de": "später",
+     "example": "See you later.",
+     "exampleDe": "Bis später."
+    },
+    {
+     "en": "nice to meet you",
+     "de": "schön, dich kennenzulernen",
+     "example": "Hi, I'm Sam. Nice to meet you.",
+     "exampleDe": "Hallo, ich bin Sam. Schön, dich kennenzulernen."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "How are you?",
+     "de": "Wie geht es dir?"
+    },
+    {
+     "en": "I'm fine, thanks.",
+     "de": "Mir geht es gut, danke.",
+     "alt": [
+      "I am fine, thanks.",
+      "I'm fine, thank you."
+     ]
+    },
+    {
+     "en": "See you tomorrow.",
+     "de": "Bis morgen."
+    },
+    {
+     "en": "Nice to meet you.",
+     "de": "Schön, dich kennenzulernen.",
+     "alt": [
+      "Nice to meet you too."
+     ]
+    },
+    {
+     "en": "Good night and sleep well.",
+     "de": "Gute Nacht und schlaf gut."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Du triffst um 9 Uhr deine Chefin. Was sagst du?",
+     "options": [
+      "Good morning!",
+      "Good night!",
+      "Good evening!",
+      "Goodbye!"
+     ],
+     "answer": 0,
+     "explain": "Bis Mittag sagt man „Good morning“."
+    },
+    {
+     "q": "Wann sagt man „Good night“?",
+     "options": [
+      "Beim Schlafengehen oder Verabschieden spät abends",
+      "Zur Begrüßung am Abend",
+      "Am Morgen",
+      "Beim Mittagessen"
+     ],
+     "answer": 0,
+     "explain": "„Good night“ ist nur ein Abschiedsgruß."
+    },
+    {
+     "q": "Passende Antwort auf „How are you?“:",
+     "options": [
+      "I'm fine, thanks.",
+      "I'm Tom.",
+      "I'm 20.",
+      "Yes, please."
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "See you ___!",
+     "answer": "tomorrow",
+     "hint": "morgen",
+     "de": "Bis morgen!",
+     "alt": [
+      "later"
+     ]
+    },
+    {
+     "text": "Nice to ___ you.",
+     "answer": "meet",
+     "hint": "kennenlernen",
+     "de": "Schön, dich kennenzulernen."
+    },
+    {
+     "text": "How ___ you?",
+     "answer": "are",
+     "hint": "Form von „to be“",
+     "de": "Wie geht es dir?"
+    }
+   ],
+   "dialogue": {
+    "title": "Im Treppenhaus",
+    "setting": "Du triffst deine neue Nachbarin.",
+    "lines": [
+     {
+      "speaker": "Emma",
+      "en": "Hi! I'm Emma. I live next door.",
+      "de": "Hallo! Ich bin Emma. Ich wohne nebenan."
+     },
+     {
+      "speaker": "You",
+      "en": "Hello, Emma. I'm Max. Nice to meet you.",
+      "de": "Hallo Emma. Ich bin Max. Schön, dich kennenzulernen."
+     },
+     {
+      "speaker": "Emma",
+      "en": "Nice to meet you too. How are you?",
+      "de": "Freut mich auch. Wie geht's dir?"
+     },
+     {
+      "speaker": "You",
+      "en": "I'm fine, thanks. And you?",
+      "de": "Gut, danke. Und dir?"
+     },
+     {
+      "speaker": "Emma",
+      "en": "Very well. See you later!",
+      "de": "Sehr gut. Bis später!"
+     },
+     {
+      "speaker": "You",
+      "en": "Bye! See you!",
+      "de": "Tschüss! Bis dann!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a1_03",
+   "title": "Sich vorstellen & „to be“",
+   "goal": "Du kannst dich vorstellen und das Verb „to be“ (sein) richtig verwenden.",
+   "theory": [
+    {
+     "heading": "Personalpronomen",
+     "text": "• I – ich (immer großgeschrieben!)\n• you – du / Sie / ihr\n• he – er, she – sie, it – es\n• we – wir, they – sie (Plural)\nIm Englischen gibt es kein Siezen: „you“ passt für alle.",
+     "examples": [
+      {
+       "en": "I am from Germany.",
+       "de": "Ich komme aus Deutschland."
+      },
+      {
+       "en": "They are my friends.",
+       "de": "Sie sind meine Freunde."
+      }
+     ]
+    },
+    {
+     "heading": "Das Verb „to be“",
+     "text": "**Formen**\n• I am (I'm)\n• you are (you're)\n• he / she / it is (he's, she's, it's)\n• we / they are (we're, they're)\n**Verneinung:** I'm not, you aren't, he isn't\n**Frage:** Are you ...? Is he ...? – Die Verbform kommt nach vorne.",
+     "examples": [
+      {
+       "en": "She is a teacher.",
+       "de": "Sie ist Lehrerin."
+      },
+      {
+       "en": "Are you from Berlin?",
+       "de": "Kommst du aus Berlin?"
+      },
+      {
+       "en": "I'm not tired.",
+       "de": "Ich bin nicht müde."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to be",
+     "de": "sein",
+     "alt": [
+      "be"
+     ],
+     "example": "I want to be a pilot.",
+     "exampleDe": "Ich möchte Pilot sein."
+    },
+    {
+     "en": "from",
+     "de": "aus (Herkunft)",
+     "example": "I'm from Austria.",
+     "exampleDe": "Ich komme aus Österreich."
+    },
+    {
+     "en": "to live",
+     "de": "wohnen, leben",
+     "alt": [
+      "live"
+     ],
+     "example": "I live in Hamburg.",
+     "exampleDe": "Ich wohne in Hamburg."
+    },
+    {
+     "en": "job",
+     "de": "Beruf, Arbeit",
+     "example": "What's your job?",
+     "exampleDe": "Was ist dein Beruf?"
+    },
+    {
+     "en": "teacher",
+     "de": "Lehrer(in)",
+     "example": "My mother is a teacher.",
+     "exampleDe": "Meine Mutter ist Lehrerin."
+    },
+    {
+     "en": "student",
+     "de": "Student(in), Schüler(in)",
+     "example": "He is a student.",
+     "exampleDe": "Er ist Student."
+    },
+    {
+     "en": "age",
+     "de": "Alter",
+     "example": "What is your age?",
+     "exampleDe": "Wie alt bist du?"
+    },
+    {
+     "en": "country",
+     "de": "Land",
+     "example": "Germany is a big country.",
+     "exampleDe": "Deutschland ist ein großes Land."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I am from Germany.",
+     "de": "Ich komme aus Deutschland.",
+     "alt": [
+      "I'm from Germany."
+     ]
+    },
+    {
+     "en": "She is a teacher.",
+     "de": "Sie ist Lehrerin.",
+     "alt": [
+      "She's a teacher."
+     ]
+    },
+    {
+     "en": "We are not tired.",
+     "de": "Wir sind nicht müde.",
+     "alt": [
+      "We aren't tired.",
+      "We're not tired."
+     ]
+    },
+    {
+     "en": "Are you a student?",
+     "de": "Bist du Student?"
+    },
+    {
+     "en": "I live in Munich.",
+     "de": "Ich wohne in München."
+    },
+    {
+     "en": "He is thirty years old.",
+     "de": "Er ist dreißig Jahre alt.",
+     "alt": [
+      "He's thirty years old.",
+      "He is 30 years old."
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "She ___ a doctor.",
+     "options": [
+      "is",
+      "am",
+      "are",
+      "be"
+     ],
+     "answer": 0,
+     "explain": "he / she / it → is"
+    },
+    {
+     "q": "We ___ from Spain.",
+     "options": [
+      "are",
+      "is",
+      "am",
+      "be"
+     ],
+     "answer": 0,
+     "explain": "we / you / they → are"
+    },
+    {
+     "q": "Wie lautet die Frage zu „You are tired.“?",
+     "options": [
+      "Are you tired?",
+      "You are tired?",
+      "Do you tired?",
+      "Is you tired?"
+     ],
+     "answer": 0,
+     "explain": "Bei „to be“ tauscht das Verb mit dem Subjekt den Platz."
+    }
+   ],
+   "gaps": [
+    {
+     "text": "I ___ from Austria.",
+     "answer": "am",
+     "hint": "Form von „to be“ mit I",
+     "de": "Ich komme aus Österreich.",
+     "alt": [
+      "'m"
+     ]
+    },
+    {
+     "text": "They ___ my friends.",
+     "answer": "are",
+     "hint": "Plural",
+     "de": "Sie sind meine Freunde."
+    },
+    {
+     "text": "He ___ not hungry.",
+     "answer": "is",
+     "hint": "er → ?",
+     "de": "Er ist nicht hungrig."
+    }
+   ],
+   "dialogue": {
+    "title": "Erster Tag im Sprachkurs",
+    "setting": "Die Kursleiterin bittet dich, dich vorzustellen.",
+    "lines": [
+     {
+      "speaker": "Teacher",
+      "en": "Welcome! Please tell us about yourself.",
+      "de": "Willkommen! Bitte erzähl uns etwas über dich."
+     },
+     {
+      "speaker": "You",
+      "en": "Hello, my name is Jonas. I'm from Germany.",
+      "de": "Hallo, mein Name ist Jonas. Ich komme aus Deutschland."
+     },
+     {
+      "speaker": "Teacher",
+      "en": "Where do you live?",
+      "de": "Wo wohnst du?"
+     },
+     {
+      "speaker": "You",
+      "en": "I live in Cologne.",
+      "de": "Ich wohne in Köln."
+     },
+     {
+      "speaker": "Teacher",
+      "en": "And what's your job?",
+      "de": "Und was ist dein Beruf?"
+     },
+     {
+      "speaker": "You",
+      "en": "I am a nurse.",
+      "de": "Ich bin Krankenpfleger."
+     }
+    ]
+   }
+  },
+  {
+   "id": "a1_04",
+   "title": "Zahlen",
+   "goal": "Du kannst von 0 bis 100 zählen, Telefonnummern nennen und nach dem Preis fragen.",
+   "theory": [
+    {
+     "heading": "Zahlen 0–20",
+     "text": "0 zero, 1 one, 2 two, 3 three, 4 four, 5 five, 6 six, 7 seven, 8 eight, 9 nine, 10 ten,\n11 eleven, 12 twelve, 13 thirteen, 14 fourteen, 15 fifteen, 16 sixteen, 17 seventeen, 18 eighteen, 19 nineteen, 20 twenty.\nAchtung: 13 („thirTEEN“, Betonung hinten) und 30 („THIRty“, Betonung vorne) klingen ähnlich!",
+     "examples": [
+      {
+       "en": "one, two, three",
+       "de": "eins, zwei, drei"
+      },
+      {
+       "en": "thirteen, thirty",
+       "de": "dreizehn, dreißig"
+      }
+     ]
+    },
+    {
+     "heading": "Zahlen bis 100",
+     "text": "Zehner: 20 twenty, 30 thirty, 40 forty (ohne u!), 50 fifty, 60 sixty, 70 seventy, 80 eighty, 90 ninety, 100 one hundred.\nAnders als im Deutschen kommt der Zehner zuerst: 21 = twenty-one (nicht „one-and-twenty“).\nTelefonnummern spricht man Ziffer für Ziffer: 0 heißt dann oft „oh“.",
+     "examples": [
+      {
+       "en": "twenty-one",
+       "de": "einundzwanzig"
+      },
+      {
+       "en": "How much is it?",
+       "de": "Wie viel kostet es?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "number",
+     "de": "Zahl, Nummer",
+     "example": "What's your phone number?",
+     "exampleDe": "Wie ist deine Telefonnummer?"
+    },
+    {
+     "en": "twelve",
+     "de": "zwölf",
+     "alt": [
+      "12"
+     ],
+     "example": "I have twelve eggs.",
+     "exampleDe": "Ich habe zwölf Eier."
+    },
+    {
+     "en": "fifteen",
+     "de": "fünfzehn",
+     "alt": [
+      "15"
+     ],
+     "example": "She is fifteen.",
+     "exampleDe": "Sie ist fünfzehn."
+    },
+    {
+     "en": "twenty",
+     "de": "zwanzig",
+     "alt": [
+      "20"
+     ],
+     "example": "Twenty euros, please.",
+     "exampleDe": "Zwanzig Euro, bitte."
+    },
+    {
+     "en": "forty",
+     "de": "vierzig",
+     "alt": [
+      "40"
+     ],
+     "example": "My father is forty.",
+     "exampleDe": "Mein Vater ist vierzig."
+    },
+    {
+     "en": "hundred",
+     "de": "hundert",
+     "alt": [
+      "one hundred",
+      "100"
+     ],
+     "example": "one hundred people",
+     "exampleDe": "hundert Menschen"
+    },
+    {
+     "en": "how much",
+     "de": "wie viel",
+     "example": "How much is this?",
+     "exampleDe": "Wie viel kostet das?"
+    },
+    {
+     "en": "how many",
+     "de": "wie viele",
+     "example": "How many children do you have?",
+     "exampleDe": "Wie viele Kinder hast du?"
+    }
+   ],
+   "sentences": [
+    {
+     "en": "How much is it?",
+     "de": "Wie viel kostet es?",
+     "alt": [
+      "How much does it cost?"
+     ]
+    },
+    {
+     "en": "It is five euros.",
+     "de": "Es kostet fünf Euro.",
+     "alt": [
+      "It's five euros.",
+      "It is 5 euros."
+     ]
+    },
+    {
+     "en": "My phone number is three four two.",
+     "de": "Meine Telefonnummer ist drei vier zwei."
+    },
+    {
+     "en": "I have two brothers.",
+     "de": "Ich habe zwei Brüder."
+    },
+    {
+     "en": "She is twenty-one years old.",
+     "de": "Sie ist einundzwanzig Jahre alt.",
+     "alt": [
+      "She's twenty-one years old.",
+      "She is 21 years old."
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Wie schreibt man 40?",
+     "options": [
+      "forty",
+      "fourty",
+      "fourteen",
+      "fortyn"
+     ],
+     "answer": 0,
+     "explain": "Bei 40 fällt das „u“ weg: forty."
+    },
+    {
+     "q": "Was ist „twenty-five“?",
+     "options": [
+      "25",
+      "52",
+      "205",
+      "15"
+     ],
+     "answer": 0,
+     "explain": "Der Zehner kommt im Englischen zuerst."
+    },
+    {
+     "q": "Wie fragst du nach dem Preis?",
+     "options": [
+      "How much is it?",
+      "How many is it?",
+      "What is it?",
+      "How old is it?"
+     ],
+     "answer": 0,
+     "explain": "„How much“ für Preise und nicht zählbare Mengen."
+    }
+   ],
+   "gaps": [
+    {
+     "text": "How ___ is the ticket?",
+     "answer": "much",
+     "hint": "Frage nach Preis",
+     "de": "Wie viel kostet das Ticket?"
+    },
+    {
+     "text": "How ___ apples do you want?",
+     "answer": "many",
+     "hint": "zählbar",
+     "de": "Wie viele Äpfel möchtest du?"
+    },
+    {
+     "text": "Ten, eleven, ___.",
+     "answer": "twelve",
+     "hint": "12",
+     "de": "Zehn, elf, zwölf.",
+     "alt": [
+      "12"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Auf dem Markt",
+    "setting": "Du kaufst Obst an einem Marktstand.",
+    "lines": [
+     {
+      "speaker": "Seller",
+      "en": "Good morning! Can I help you?",
+      "de": "Guten Morgen! Kann ich Ihnen helfen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, please. How much are the apples?",
+      "de": "Ja, bitte. Wie viel kosten die Äpfel?"
+     },
+     {
+      "speaker": "Seller",
+      "en": "They are two euros a kilo.",
+      "de": "Sie kosten zwei Euro das Kilo."
+     },
+     {
+      "speaker": "You",
+      "en": "Two kilos, please.",
+      "de": "Zwei Kilo, bitte."
+     },
+     {
+      "speaker": "Seller",
+      "en": "That's four euros.",
+      "de": "Das macht vier Euro."
+     },
+     {
+      "speaker": "You",
+      "en": "Here you are. Thank you!",
+      "de": "Bitte schön. Danke!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a1_05",
+   "title": "Uhrzeit, Tage & Datum",
+   "goal": "Du kannst die Uhrzeit sagen, Wochentage und Monate nennen und ein Datum angeben.",
+   "theory": [
+    {
+     "heading": "Die Uhrzeit",
+     "text": "• What time is it? – Wie spät ist es?\n• It's three o'clock. – Es ist drei Uhr.\n• half past three – halb vier (!) – wörtlich „halb nach drei“\n• quarter past / quarter to – Viertel nach / Viertel vor\n• am = vormittags, pm = nachmittags/abends (12-Stunden-System)",
+     "examples": [
+      {
+       "en": "It's half past seven.",
+       "de": "Es ist halb acht."
+      },
+      {
+       "en": "The train leaves at 6 pm.",
+       "de": "Der Zug fährt um 18 Uhr."
+      }
+     ]
+    },
+    {
+     "heading": "Tage, Monate und Datum",
+     "text": "Wochentage und Monate schreibt man im Englischen immer groß: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.\nMonate: January, February, March, April, May, June, July, August, September, October, November, December.\nPräpositionen: on Monday (an Tagen), in May (in Monaten), at 8 o'clock (bei Uhrzeiten).\nDatum mit Ordnungszahl: the first of May / May 1st.",
+     "examples": [
+      {
+       "en": "See you on Friday.",
+       "de": "Bis Freitag."
+      },
+      {
+       "en": "My birthday is in June.",
+       "de": "Mein Geburtstag ist im Juni."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "time",
+     "de": "Zeit, Uhrzeit",
+     "example": "What time is it?",
+     "exampleDe": "Wie spät ist es?"
+    },
+    {
+     "en": "o'clock",
+     "de": "Uhr (volle Stunde)",
+     "example": "It's five o'clock.",
+     "exampleDe": "Es ist fünf Uhr."
+    },
+    {
+     "en": "half past",
+     "de": "halb (nach)",
+     "example": "It's half past two.",
+     "exampleDe": "Es ist halb drei."
+    },
+    {
+     "en": "Monday",
+     "de": "Montag",
+     "example": "I work on Monday.",
+     "exampleDe": "Ich arbeite am Montag."
+    },
+    {
+     "en": "Wednesday",
+     "de": "Mittwoch",
+     "example": "The meeting is on Wednesday.",
+     "exampleDe": "Das Treffen ist am Mittwoch."
+    },
+    {
+     "en": "weekend",
+     "de": "Wochenende",
+     "example": "Have a nice weekend!",
+     "exampleDe": "Schönes Wochenende!"
+    },
+    {
+     "en": "birthday",
+     "de": "Geburtstag",
+     "example": "Happy birthday!",
+     "exampleDe": "Alles Gute zum Geburtstag!"
+    },
+    {
+     "en": "month",
+     "de": "Monat",
+     "example": "January is the first month.",
+     "exampleDe": "Januar ist der erste Monat."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "What time is it?",
+     "de": "Wie spät ist es?",
+     "alt": [
+      "What's the time?"
+     ]
+    },
+    {
+     "en": "It is half past eight.",
+     "de": "Es ist halb neun.",
+     "alt": [
+      "It's half past eight."
+     ]
+    },
+    {
+     "en": "The shop opens at nine o'clock.",
+     "de": "Der Laden öffnet um neun Uhr.",
+     "alt": [
+      "The shop opens at nine."
+     ]
+    },
+    {
+     "en": "My birthday is in May.",
+     "de": "Mein Geburtstag ist im Mai."
+    },
+    {
+     "en": "See you on Saturday.",
+     "de": "Bis Samstag."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„halb vier“ heißt auf Englisch:",
+     "options": [
+      "half past three",
+      "half past four",
+      "half three past",
+      "half to four"
+     ],
+     "answer": 0,
+     "explain": "Englisch zählt die halbe Stunde nach der vollen: half past three."
+    },
+    {
+     "q": "Welche Präposition: ___ Monday",
+     "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+     ],
+     "answer": 0,
+     "explain": "on + Wochentag"
+    },
+    {
+     "q": "Welche Präposition: ___ 7 o'clock",
+     "options": [
+      "at",
+      "on",
+      "in",
+      "to"
+     ],
+     "answer": 0,
+     "explain": "at + Uhrzeit"
+    }
+   ],
+   "gaps": [
+    {
+     "text": "The film starts ___ eight o'clock.",
+     "answer": "at",
+     "hint": "Präposition für Uhrzeit",
+     "de": "Der Film beginnt um acht Uhr."
+    },
+    {
+     "text": "We go swimming ___ Sunday.",
+     "answer": "on",
+     "hint": "Präposition für Tage",
+     "de": "Wir gehen am Sonntag schwimmen."
+    },
+    {
+     "text": "My holiday is ___ August.",
+     "answer": "in",
+     "hint": "Präposition für Monate",
+     "de": "Mein Urlaub ist im August."
+    }
+   ],
+   "dialogue": {
+    "title": "Termin vereinbaren",
+    "setting": "Du rufst bei einer Friseurin an.",
+    "lines": [
+     {
+      "speaker": "Hairdresser",
+      "en": "Hello, Hair Studio. How can I help?",
+      "de": "Hallo, Hair Studio. Wie kann ich helfen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Hello. Can I make an appointment for Friday?",
+      "de": "Hallo. Kann ich einen Termin für Freitag machen?"
+     },
+     {
+      "speaker": "Hairdresser",
+      "en": "Sure. Is ten o'clock okay?",
+      "de": "Klar. Passt zehn Uhr?"
+     },
+     {
+      "speaker": "You",
+      "en": "Sorry, I work in the morning. What about four pm?",
+      "de": "Tut mir leid, ich arbeite vormittags. Wie wäre es mit 16 Uhr?"
+     },
+     {
+      "speaker": "Hairdresser",
+      "en": "Four pm is fine. See you on Friday!",
+      "de": "16 Uhr passt. Bis Freitag!"
+     },
+     {
+      "speaker": "You",
+      "en": "Great, thank you. Bye!",
+      "de": "Super, danke. Tschüss!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a1_06",
+   "title": "Farben, Dinge & Artikel",
+   "goal": "Du kannst Gegenstände und Farben benennen und a/an/the richtig verwenden.",
+   "theory": [
+    {
+     "heading": "Die Artikel a, an, the",
+     "text": "**Unbestimmter Artikel (ein/eine):**\n• a vor Konsonanten-Laut: a book, a car, a university (gesprochen „ju“)\n• an vor Vokal-Laut: an apple, an egg, an hour (h ist stumm)\n**Bestimmter Artikel (der/die/das):** the – für alle Geschlechter und den Plural!\nthe book, the books, the woman, the men",
+     "examples": [
+      {
+       "en": "I have a red car.",
+       "de": "Ich habe ein rotes Auto."
+      },
+      {
+       "en": "She eats an apple.",
+       "de": "Sie isst einen Apfel."
+      },
+      {
+       "en": "The keys are on the table.",
+       "de": "Die Schlüssel liegen auf dem Tisch."
+      }
+     ]
+    },
+    {
+     "heading": "Farben und Plural",
+     "text": "Farben stehen wie im Deutschen vor dem Nomen und werden nie verändert: a blue bag, two blue bags.\nPlural meist mit -s: one book → two books. Ausnahmen: man → men, woman → women, child → children.",
+     "examples": [
+      {
+       "en": "The sky is blue.",
+       "de": "Der Himmel ist blau."
+      },
+      {
+       "en": "Two black cats",
+       "de": "Zwei schwarze Katzen"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "red",
+     "de": "rot",
+     "example": "I like red roses.",
+     "exampleDe": "Ich mag rote Rosen."
+    },
+    {
+     "en": "blue",
+     "de": "blau",
+     "example": "My bag is blue.",
+     "exampleDe": "Meine Tasche ist blau."
+    },
+    {
+     "en": "green",
+     "de": "grün",
+     "example": "The grass is green.",
+     "exampleDe": "Das Gras ist grün."
+    },
+    {
+     "en": "black",
+     "de": "schwarz",
+     "example": "a black coffee",
+     "exampleDe": "ein schwarzer Kaffee"
+    },
+    {
+     "en": "white",
+     "de": "weiß",
+     "example": "The snow is white.",
+     "exampleDe": "Der Schnee ist weiß."
+    },
+    {
+     "en": "table",
+     "de": "Tisch",
+     "example": "The book is on the table.",
+     "exampleDe": "Das Buch liegt auf dem Tisch."
+    },
+    {
+     "en": "key",
+     "de": "Schlüssel",
+     "example": "Where is my key?",
+     "exampleDe": "Wo ist mein Schlüssel?"
+    },
+    {
+     "en": "umbrella",
+     "de": "Regenschirm",
+     "example": "Take an umbrella!",
+     "exampleDe": "Nimm einen Regenschirm mit!"
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I have a red car.",
+     "de": "Ich habe ein rotes Auto."
+    },
+    {
+     "en": "She has an umbrella.",
+     "de": "Sie hat einen Regenschirm."
+    },
+    {
+     "en": "The keys are on the table.",
+     "de": "Die Schlüssel liegen auf dem Tisch."
+    },
+    {
+     "en": "My favourite colour is green.",
+     "de": "Meine Lieblingsfarbe ist Grün.",
+     "alt": [
+      "My favorite color is green.",
+      "My favourite color is green."
+     ]
+    },
+    {
+     "en": "The children have three white cats.",
+     "de": "Die Kinder haben drei weiße Katzen."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ apple",
+     "options": [
+      "an",
+      "a",
+      "the a",
+      "one an"
+     ],
+     "answer": 0,
+     "explain": "Vor einem Vokal-Laut steht „an“."
+    },
+    {
+     "q": "___ university",
+     "options": [
+      "a",
+      "an",
+      "–",
+      "the an"
+     ],
+     "answer": 0,
+     "explain": "„university“ beginnt mit dem Laut „ju“ → a."
+    },
+    {
+     "q": "Plural von „child“:",
+     "options": [
+      "children",
+      "childs",
+      "childes",
+      "child"
+     ],
+     "answer": 0,
+     "explain": "Unregelmäßig: child → children."
+    }
+   ],
+   "gaps": [
+    {
+     "text": "I need ___ umbrella.",
+     "answer": "an",
+     "hint": "Vokal-Laut",
+     "de": "Ich brauche einen Regenschirm."
+    },
+    {
+     "text": "She has ___ blue bag.",
+     "answer": "a",
+     "hint": "Konsonanten-Laut",
+     "de": "Sie hat eine blaue Tasche."
+    },
+    {
+     "text": "Two ___ are in the room.",
+     "answer": "women",
+     "hint": "Plural von woman",
+     "de": "Zwei Frauen sind im Raum."
+    }
+   ],
+   "dialogue": {
+    "title": "Fundbüro",
+    "setting": "Du hast deine Tasche verloren und fragst im Fundbüro nach.",
+    "lines": [
+     {
+      "speaker": "Clerk",
+      "en": "Hello. Can I help you?",
+      "de": "Hallo. Kann ich Ihnen helfen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, I lost my bag.",
+      "de": "Ja, ich habe meine Tasche verloren."
+     },
+     {
+      "speaker": "Clerk",
+      "en": "What colour is it?",
+      "de": "Welche Farbe hat sie?"
+     },
+     {
+      "speaker": "You",
+      "en": "It's a black bag with a red key in it.",
+      "de": "Es ist eine schwarze Tasche mit einem roten Schlüssel darin."
+     },
+     {
+      "speaker": "Clerk",
+      "en": "Is this your bag?",
+      "de": "Ist das Ihre Tasche?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, that's it! Thank you so much!",
+      "de": "Ja, das ist sie! Vielen Dank!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a1_07",
+   "title": "Familie & Freunde",
+   "goal": "Du kannst über deine Familie sprechen und Besitz mit my, your, his, her ausdrücken.",
+   "theory": [
+    {
+     "heading": "Besitzanzeigende Wörter",
+     "text": "• my – mein, your – dein/Ihr, his – sein, her – ihr, its – sein (Sache)\n• our – unser, their – ihr (Plural)\nDiese Wörter verändern sich nie: my brother, my sister, my parents.\nBesitz mit Namen: Tom's car – Toms Auto (Apostroph + s).",
+     "examples": [
+      {
+       "en": "This is my sister.",
+       "de": "Das ist meine Schwester."
+      },
+      {
+       "en": "Anna's husband is nice.",
+       "de": "Annas Mann ist nett."
+      }
+     ]
+    },
+    {
+     "heading": "have got / have",
+     "text": "Für Familie und Besitz sagt man „I have“ oder britisch „I have got“:\n• I have two children. / I've got two children.\n• She has a brother. / She's got a brother.\nBei he/she/it wird have zu has.",
+     "examples": [
+      {
+       "en": "I have a big family.",
+       "de": "Ich habe eine große Familie."
+      },
+      {
+       "en": "He has got two sisters.",
+       "de": "Er hat zwei Schwestern."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "mother",
+     "de": "Mutter",
+     "alt": [
+      "mum",
+      "mom"
+     ],
+     "example": "My mother is a doctor.",
+     "exampleDe": "Meine Mutter ist Ärztin."
+    },
+    {
+     "en": "father",
+     "de": "Vater",
+     "alt": [
+      "dad"
+     ],
+     "example": "His father works in a bank.",
+     "exampleDe": "Sein Vater arbeitet in einer Bank."
+    },
+    {
+     "en": "brother",
+     "de": "Bruder",
+     "example": "I have a younger brother.",
+     "exampleDe": "Ich habe einen jüngeren Bruder."
+    },
+    {
+     "en": "sister",
+     "de": "Schwester",
+     "example": "Her sister lives in London.",
+     "exampleDe": "Ihre Schwester lebt in London."
+    },
+    {
+     "en": "parents",
+     "de": "Eltern",
+     "example": "My parents are retired.",
+     "exampleDe": "Meine Eltern sind in Rente."
+    },
+    {
+     "en": "children",
+     "de": "Kinder",
+     "alt": [
+      "kids"
+     ],
+     "example": "They have three children.",
+     "exampleDe": "Sie haben drei Kinder."
+    },
+    {
+     "en": "friend",
+     "de": "Freund(in)",
+     "example": "She is my best friend.",
+     "exampleDe": "Sie ist meine beste Freundin."
+    },
+    {
+     "en": "husband",
+     "de": "Ehemann",
+     "example": "This is my husband, Paul.",
+     "exampleDe": "Das ist mein Mann, Paul."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "This is my sister.",
+     "de": "Das ist meine Schwester."
+    },
+    {
+     "en": "I have two brothers.",
+     "de": "Ich habe zwei Brüder.",
+     "alt": [
+      "I've got two brothers.",
+      "I have got two brothers."
+     ]
+    },
+    {
+     "en": "Her parents live in Italy.",
+     "de": "Ihre Eltern leben in Italien."
+    },
+    {
+     "en": "Tom's wife is very nice.",
+     "de": "Toms Frau ist sehr nett."
+    },
+    {
+     "en": "Do you have any children?",
+     "de": "Hast du Kinder?",
+     "alt": [
+      "Have you got any children?"
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Das ist ___ Bruder (von Lisa).",
+     "options": [
+      "her",
+      "his",
+      "she",
+      "its"
+     ],
+     "answer": 0,
+     "explain": "Besitzer ist weiblich → her."
+    },
+    {
+     "q": "He ___ two sisters.",
+     "options": [
+      "has",
+      "have",
+      "is",
+      "haves"
+     ],
+     "answer": 0,
+     "explain": "he / she / it → has"
+    },
+    {
+     "q": "„Peters Auto“ auf Englisch:",
+     "options": [
+      "Peter's car",
+      "Peters car",
+      "the car Peter",
+      "Peter car's"
+     ],
+     "answer": 0,
+     "explain": "Besitz mit Apostroph + s."
+    }
+   ],
+   "gaps": [
+    {
+     "text": "This is ___ husband, Mark. (mein)",
+     "answer": "my",
+     "hint": "mein",
+     "de": "Das ist mein Mann, Mark."
+    },
+    {
+     "text": "They love ___ children. (ihr – Plural)",
+     "answer": "their",
+     "hint": "ihr (Plural)",
+     "de": "Sie lieben ihre Kinder."
+    },
+    {
+     "text": "She ___ a big family.",
+     "answer": "has",
+     "hint": "have → he/she/it",
+     "de": "Sie hat eine große Familie.",
+     "alt": [
+      "has got"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Familienfotos",
+    "setting": "Eine Kollegin zeigt dir Fotos auf ihrem Handy.",
+    "lines": [
+     {
+      "speaker": "Sarah",
+      "en": "Look, this is my family.",
+      "de": "Schau, das ist meine Familie."
+     },
+     {
+      "speaker": "You",
+      "en": "Oh, nice! Who is this?",
+      "de": "Oh, schön! Wer ist das?"
+     },
+     {
+      "speaker": "Sarah",
+      "en": "That's my brother Ben. He lives in Canada.",
+      "de": "Das ist mein Bruder Ben. Er lebt in Kanada."
+     },
+     {
+      "speaker": "You",
+      "en": "Do you have any other brothers or sisters?",
+      "de": "Hast du noch andere Geschwister?"
+     },
+     {
+      "speaker": "Sarah",
+      "en": "No, just Ben. And you?",
+      "de": "Nein, nur Ben. Und du?"
+     },
+     {
+      "speaker": "You",
+      "en": "I have one sister. Her name is Mia.",
+      "de": "Ich habe eine Schwester. Ihr Name ist Mia."
+     }
+    ]
+   }
+  },
+  {
+   "id": "a1_08",
+   "title": "Fragen stellen & antworten",
+   "goal": "Du kannst einfache W-Fragen und Ja/Nein-Fragen stellen und beantworten.",
+   "theory": [
+    {
+     "heading": "Fragewörter",
+     "text": "• What? – Was? • Who? – Wer? • Where? – Wo? / Wohin?\n• When? – Wann? • Why? – Warum? • How? – Wie?\n• Which? – Welche(r/s)? • How old? – Wie alt? • How much / many? – Wie viel / viele?\nAchtung: „Who“ heißt wer, nicht wo! „Where“ heißt wo.",
+     "examples": [
+      {
+       "en": "Where do you live?",
+       "de": "Wo wohnst du?"
+      },
+      {
+       "en": "Who is that man?",
+       "de": "Wer ist dieser Mann?"
+      }
+     ]
+    },
+    {
+     "heading": "Kurzantworten",
+     "text": "Auf Ja/Nein-Fragen antwortet man im Englischen gern mit einer Kurzantwort:\n• Are you hungry? – Yes, I am. / No, I'm not.\n• Is she at home? – Yes, she is. / No, she isn't.\n• Do you like tea? – Yes, I do. / No, I don't.\nNur „Yes.“ oder „No.“ wirkt oft unhöflich knapp.",
+     "examples": [
+      {
+       "en": "Are you ready? – Yes, I am.",
+       "de": "Bist du fertig? – Ja."
+      },
+      {
+       "en": "Do you speak English? – A little.",
+       "de": "Sprichst du Englisch? – Ein bisschen."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "what",
+     "de": "was",
+     "example": "What is your name?",
+     "exampleDe": "Wie ist dein Name?"
+    },
+    {
+     "en": "who",
+     "de": "wer",
+     "example": "Who is your teacher?",
+     "exampleDe": "Wer ist dein Lehrer?"
+    },
+    {
+     "en": "where",
+     "de": "wo, wohin",
+     "example": "Where is the station?",
+     "exampleDe": "Wo ist der Bahnhof?"
+    },
+    {
+     "en": "when",
+     "de": "wann",
+     "example": "When is the party?",
+     "exampleDe": "Wann ist die Party?"
+    },
+    {
+     "en": "why",
+     "de": "warum",
+     "example": "Why are you sad?",
+     "exampleDe": "Warum bist du traurig?"
+    },
+    {
+     "en": "how",
+     "de": "wie",
+     "example": "How do you get to work?",
+     "exampleDe": "Wie kommst du zur Arbeit?"
+    },
+    {
+     "en": "which",
+     "de": "welche(r/s)",
+     "example": "Which bus goes to the centre?",
+     "exampleDe": "Welcher Bus fährt ins Zentrum?"
+    },
+    {
+     "en": "a little",
+     "de": "ein bisschen",
+     "example": "I speak a little English.",
+     "exampleDe": "Ich spreche ein bisschen Englisch."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "Where is the station?",
+     "de": "Wo ist der Bahnhof?"
+    },
+    {
+     "en": "Who is that woman?",
+     "de": "Wer ist diese Frau?"
+    },
+    {
+     "en": "When does the film start?",
+     "de": "Wann beginnt der Film?"
+    },
+    {
+     "en": "Yes, I am.",
+     "de": "Ja, bin ich."
+    },
+    {
+     "en": "Do you speak English?",
+     "de": "Sprichst du Englisch?"
+    },
+    {
+     "en": "Why are you late?",
+     "de": "Warum bist du spät dran?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Wo ist mein Handy?“",
+     "options": [
+      "Where is my phone?",
+      "Who is my phone?",
+      "When is my phone?",
+      "What is my phone?"
+     ],
+     "answer": 0,
+     "explain": "where = wo"
+    },
+    {
+     "q": "Kurzantwort auf „Is he your brother?“ (ja):",
+     "options": [
+      "Yes, he is.",
+      "Yes, he does.",
+      "Yes, is he.",
+      "Yes, he has."
+     ],
+     "answer": 0,
+     "explain": "Frage mit „is“ → Antwort mit „is“."
+    },
+    {
+     "q": "„Wer“ heißt auf Englisch:",
+     "options": [
+      "who",
+      "where",
+      "what",
+      "how"
+     ],
+     "answer": 0,
+     "explain": "who = wer; where = wo"
+    }
+   ],
+   "gaps": [
+    {
+     "text": "___ old are you?",
+     "answer": "How",
+     "hint": "Wie",
+     "de": "Wie alt bist du?",
+     "alt": [
+      "how"
+     ]
+    },
+    {
+     "text": "___ is your birthday? – In March.",
+     "answer": "When",
+     "hint": "Wann",
+     "de": "Wann ist dein Geburtstag? – Im März.",
+     "alt": [
+      "when"
+     ]
+    },
+    {
+     "text": "Are you tired? – No, I'm ___.",
+     "answer": "not",
+     "hint": "Verneinung",
+     "de": "Bist du müde? – Nein."
+    }
+   ],
+   "dialogue": {
+    "title": "Am Bahnhof",
+    "setting": "Du suchst den richtigen Zug.",
+    "lines": [
+     {
+      "speaker": "You",
+      "en": "Excuse me, where is platform five?",
+      "de": "Entschuldigung, wo ist Gleis fünf?"
+     },
+     {
+      "speaker": "Officer",
+      "en": "It's over there, on the left.",
+      "de": "Es ist dort drüben, links."
+     },
+     {
+      "speaker": "You",
+      "en": "When does the train to Oxford leave?",
+      "de": "Wann fährt der Zug nach Oxford?"
+     },
+     {
+      "speaker": "Officer",
+      "en": "At ten fifteen.",
+      "de": "Um zehn Uhr fünfzehn."
+     },
+     {
+      "speaker": "You",
+      "en": "Is it a direct train?",
+      "de": "Ist das ein direkter Zug?"
+     },
+     {
+      "speaker": "Officer",
+      "en": "Yes, it is. Have a good trip!",
+      "de": "Ja. Gute Reise!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "a1_09",
+   "title": "Alltag im Present Simple",
+   "goal": "Du kannst über Gewohnheiten und deinen Tagesablauf im Present Simple sprechen.",
+   "theory": [
+    {
+     "heading": "Present Simple – die Grundform",
+     "text": "Für Gewohnheiten, Routinen und Fakten:\n• I work, you work, we work, they work\n• he / she / it works – hier kommt ein -s dazu! („He, she, it – das s muss mit“)\nBesonderheiten: go → goes, watch → watches, study → studies, have → has.\nSignalwörter: always, usually, often, sometimes, never, every day.",
+     "examples": [
+      {
+       "en": "I get up at seven.",
+       "de": "Ich stehe um sieben auf."
+      },
+      {
+       "en": "She works in an office.",
+       "de": "Sie arbeitet in einem Büro."
+      },
+      {
+       "en": "He never drinks coffee.",
+       "de": "Er trinkt nie Kaffee."
+      }
+     ]
+    },
+    {
+     "heading": "Verneinung und Fragen",
+     "text": "Mit dem Hilfsverb do / does:\n• I don't like fish. – He doesn't like fish. (ohne -s am Verb!)\n• Do you work here? – Does she work here?\nBei „does“ bekommt das Hauptverb kein -s mehr: Does he play? (nicht: Does he plays?)",
+     "examples": [
+      {
+       "en": "Do you like music?",
+       "de": "Magst du Musik?"
+      },
+      {
+       "en": "She doesn't eat meat.",
+       "de": "Sie isst kein Fleisch."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to get up",
+     "de": "aufstehen",
+     "alt": [
+      "get up"
+     ],
+     "example": "I get up early.",
+     "exampleDe": "Ich stehe früh auf."
+    },
+    {
+     "en": "to work",
+     "de": "arbeiten",
+     "alt": [
+      "work"
+     ],
+     "example": "We work from home.",
+     "exampleDe": "Wir arbeiten von zu Hause."
+    },
+    {
+     "en": "breakfast",
+     "de": "Frühstück",
+     "example": "I have breakfast at eight.",
+     "exampleDe": "Ich frühstücke um acht."
+    },
+    {
+     "en": "always",
+     "de": "immer",
+     "example": "She always smiles.",
+     "exampleDe": "Sie lächelt immer."
+    },
+    {
+     "en": "usually",
+     "de": "normalerweise",
+     "example": "I usually take the bus.",
+     "exampleDe": "Normalerweise nehme ich den Bus."
+    },
+    {
+     "en": "sometimes",
+     "de": "manchmal",
+     "example": "We sometimes cook together.",
+     "exampleDe": "Wir kochen manchmal zusammen."
+    },
+    {
+     "en": "never",
+     "de": "nie",
+     "example": "He never watches TV.",
+     "exampleDe": "Er sieht nie fern."
+    },
+    {
+     "en": "every day",
+     "de": "jeden Tag",
+     "example": "I read every day.",
+     "exampleDe": "Ich lese jeden Tag."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I get up at seven o'clock.",
+     "de": "Ich stehe um sieben Uhr auf.",
+     "alt": [
+      "I get up at seven."
+     ]
+    },
+    {
+     "en": "She works in a hospital.",
+     "de": "Sie arbeitet in einem Krankenhaus."
+    },
+    {
+     "en": "He doesn't like coffee.",
+     "de": "Er mag keinen Kaffee.",
+     "alt": [
+      "He does not like coffee."
+     ]
+    },
+    {
+     "en": "Do you play football?",
+     "de": "Spielst du Fußball?"
+    },
+    {
+     "en": "We usually have dinner at six.",
+     "de": "Wir essen normalerweise um sechs zu Abend."
+    },
+    {
+     "en": "My brother never gets up early.",
+     "de": "Mein Bruder steht nie früh auf."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "She ___ to work by bike.",
+     "options": [
+      "goes",
+      "go",
+      "gos",
+      "going"
+     ],
+     "answer": 0,
+     "explain": "he/she/it: go → goes"
+    },
+    {
+     "q": "___ he speak French?",
+     "options": [
+      "Does",
+      "Do",
+      "Is",
+      "Has"
+     ],
+     "answer": 0,
+     "explain": "Fragen mit he/she/it → does"
+    },
+    {
+     "q": "Richtig verneint:",
+     "options": [
+      "He doesn't work on Sundays.",
+      "He don't work on Sundays.",
+      "He doesn't works on Sundays.",
+      "He not works on Sundays."
+     ],
+     "answer": 0,
+     "explain": "doesn't + Grundform ohne -s"
+    }
+   ],
+   "gaps": [
+    {
+     "text": "My father ___ (watch) the news every evening.",
+     "answer": "watches",
+     "hint": "-es nach ch",
+     "de": "Mein Vater sieht jeden Abend die Nachrichten."
+    },
+    {
+     "text": "I ___ like cold weather.",
+     "answer": "don't",
+     "hint": "Verneinung mit I",
+     "de": "Ich mag kaltes Wetter nicht.",
+     "alt": [
+      "do not"
+     ]
+    },
+    {
+     "text": "___ you live here?",
+     "answer": "Do",
+     "hint": "Hilfsverb für Fragen",
+     "de": "Wohnst du hier?",
+     "alt": [
+      "do"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Ein typischer Tag",
+    "setting": "Ein neuer Kollege fragt dich nach deinem Alltag.",
+    "lines": [
+     {
+      "speaker": "Leo",
+      "en": "What time do you usually get up?",
+      "de": "Wann stehst du normalerweise auf?"
+     },
+     {
+      "speaker": "You",
+      "en": "I usually get up at six thirty.",
+      "de": "Normalerweise stehe ich um halb sieben auf."
+     },
+     {
+      "speaker": "Leo",
+      "en": "Wow, early! Do you have breakfast?",
+      "de": "Wow, früh! Frühstückst du?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, I always have coffee and toast.",
+      "de": "Ja, ich trinke immer Kaffee und esse Toast."
+     },
+     {
+      "speaker": "Leo",
+      "en": "And how do you get to work?",
+      "de": "Und wie kommst du zur Arbeit?"
+     },
+     {
+      "speaker": "You",
+      "en": "I take the train. It's fast.",
+      "de": "Ich nehme den Zug. Das geht schnell."
+     }
+    ]
+   }
+  },
+  {
+   "id": "a1_10",
+   "title": "Essen, Wohnen & erste Sätze",
+   "goal": "Du kannst einfache Sätze bilden (Subjekt–Verb–Objekt) und über Essen und dein Zuhause sprechen.",
+   "theory": [
+    {
+     "heading": "Die Satzstellung S-V-O",
+     "text": "Im englischen Aussagesatz gilt fast immer: Subjekt – Verb – Objekt.\n• I (S) like (V) pizza (O).\n• My sister (S) has (V) a flat (O).\nAnders als im Deutschen bleibt das Verb auch nach Zeitangaben an zweiter Stelle hinter dem Subjekt:\n• Today I work at home. (nicht: Today work I at home.)",
+     "examples": [
+      {
+       "en": "I like pizza.",
+       "de": "Ich mag Pizza."
+      },
+      {
+       "en": "On Sundays we visit our grandparents.",
+       "de": "Sonntags besuchen wir unsere Großeltern."
+      }
+     ]
+    },
+    {
+     "heading": "There is / There are",
+     "text": "„Es gibt“ heißt im Englischen there is (Einzahl) und there are (Mehrzahl):\n• There is a kitchen. – Es gibt eine Küche.\n• There are two bedrooms. – Es gibt zwei Schlafzimmer.\n• Is there a balcony? – Gibt es einen Balkon?",
+     "examples": [
+      {
+       "en": "There is a park near my house.",
+       "de": "In der Nähe meines Hauses gibt es einen Park."
+      },
+      {
+       "en": "Are there any eggs?",
+       "de": "Gibt es Eier?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "bread",
+     "de": "Brot",
+     "example": "We need bread and milk.",
+     "exampleDe": "Wir brauchen Brot und Milch."
+    },
+    {
+     "en": "water",
+     "de": "Wasser",
+     "example": "A glass of water, please.",
+     "exampleDe": "Ein Glas Wasser, bitte."
+    },
+    {
+     "en": "vegetables",
+     "de": "Gemüse",
+     "example": "I eat a lot of vegetables.",
+     "exampleDe": "Ich esse viel Gemüse."
+    },
+    {
+     "en": "kitchen",
+     "de": "Küche",
+     "example": "The kitchen is small.",
+     "exampleDe": "Die Küche ist klein."
+    },
+    {
+     "en": "bedroom",
+     "de": "Schlafzimmer",
+     "example": "My flat has two bedrooms.",
+     "exampleDe": "Meine Wohnung hat zwei Schlafzimmer."
+    },
+    {
+     "en": "flat",
+     "de": "Wohnung",
+     "alt": [
+      "apartment"
+     ],
+     "example": "I live in a flat in the city.",
+     "exampleDe": "Ich wohne in einer Wohnung in der Stadt."
+    },
+    {
+     "en": "hungry",
+     "de": "hungrig",
+     "example": "I'm hungry!",
+     "exampleDe": "Ich habe Hunger!"
+    },
+    {
+     "en": "to like",
+     "de": "mögen",
+     "alt": [
+      "like"
+     ],
+     "example": "Do you like cheese?",
+     "exampleDe": "Magst du Käse?"
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I like vegetables.",
+     "de": "Ich mag Gemüse."
+    },
+    {
+     "en": "There is a big kitchen.",
+     "de": "Es gibt eine große Küche.",
+     "alt": [
+      "There's a big kitchen."
+     ]
+    },
+    {
+     "en": "There are two bedrooms in my flat.",
+     "de": "In meiner Wohnung gibt es zwei Schlafzimmer.",
+     "alt": [
+      "My flat has two bedrooms."
+     ]
+    },
+    {
+     "en": "I am hungry.",
+     "de": "Ich habe Hunger.",
+     "alt": [
+      "I'm hungry."
+     ]
+    },
+    {
+     "en": "Today I work at home.",
+     "de": "Heute arbeite ich zu Hause.",
+     "alt": [
+      "I work at home today."
+     ]
+    },
+    {
+     "en": "Is there a bathroom?",
+     "de": "Gibt es ein Badezimmer?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Es gibt drei Stühle.“",
+     "options": [
+      "There are three chairs.",
+      "There is three chairs.",
+      "It gives three chairs.",
+      "Are there three chairs."
+     ],
+     "answer": 0,
+     "explain": "Mehrzahl → there are"
+    },
+    {
+     "q": "Richtige Satzstellung:",
+     "options": [
+      "Tomorrow I visit my mother.",
+      "Tomorrow visit I my mother.",
+      "I tomorrow visit my mother.",
+      "Visit I tomorrow my mother."
+     ],
+     "answer": 0,
+     "explain": "Subjekt vor Verb – auch nach einer Zeitangabe."
+    },
+    {
+     "q": "„Ich habe Hunger“ heißt:",
+     "options": [
+      "I'm hungry.",
+      "I have hunger.",
+      "I have hungry.",
+      "I'm hunger."
+     ],
+     "answer": 0,
+     "explain": "Englisch: „Ich bin hungrig.“"
+    }
+   ],
+   "gaps": [
+    {
+     "text": "There ___ a cat in the garden.",
+     "answer": "is",
+     "hint": "Einzahl",
+     "de": "Es gibt eine Katze im Garten.",
+     "alt": [
+      "'s"
+     ]
+    },
+    {
+     "text": "There ___ many shops in the city.",
+     "answer": "are",
+     "hint": "Mehrzahl",
+     "de": "Es gibt viele Geschäfte in der Stadt."
+    },
+    {
+     "text": "___ there a supermarket near here?",
+     "answer": "Is",
+     "hint": "Frage, Einzahl",
+     "de": "Gibt es hier in der Nähe einen Supermarkt?",
+     "alt": [
+      "is"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Wohnungsbesichtigung",
+    "setting": "Du schaust dir eine Wohnung an.",
+    "lines": [
+     {
+      "speaker": "Landlord",
+      "en": "Welcome! Come in, please.",
+      "de": "Willkommen! Kommen Sie bitte herein."
+     },
+     {
+      "speaker": "You",
+      "en": "Thank you. How many bedrooms are there?",
+      "de": "Danke. Wie viele Schlafzimmer gibt es?"
+     },
+     {
+      "speaker": "Landlord",
+      "en": "There are two bedrooms and a small kitchen.",
+      "de": "Es gibt zwei Schlafzimmer und eine kleine Küche."
+     },
+     {
+      "speaker": "You",
+      "en": "Is there a balcony?",
+      "de": "Gibt es einen Balkon?"
+     },
+     {
+      "speaker": "Landlord",
+      "en": "Yes, there is. It's next to the living room.",
+      "de": "Ja. Er ist neben dem Wohnzimmer."
+     },
+     {
+      "speaker": "You",
+      "en": "I like it very much.",
+      "de": "Sie gefällt mir sehr gut."
+     }
+    ]
+   }
+  }
+ ]
+}

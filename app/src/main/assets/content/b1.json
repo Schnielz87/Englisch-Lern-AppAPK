@@ -1,0 +1,1808 @@
+{
+ "id": "b1",
+ "code": "B1",
+ "title": "Mittelstufe",
+ "subtitle": "Erfahrungen, Meinungen, Beruf und E-Mails",
+ "description": "Ab hier führst du selbstständig Gespräche: Du sprichst über Erfahrungen, äußerst Meinungen, meisterst den Berufsalltag und schreibst E-Mails.",
+ "lessons": [
+  {
+   "id": "b1_01",
+   "title": "Gespräche am Laufen halten",
+   "goal": "Du kannst Small Talk führen, nachfragen und ein Gespräch aktiv weiterführen.",
+   "theory": [
+    {
+     "heading": "Small Talk",
+     "text": "Beliebte, sichere Themen: Wetter, Wochenende, Reisen, Arbeit, Hobbys. Tabu sind oft Gehalt, Politik und Religion.\n**Interesse zeigen**\n• Really? / Oh, that's interesting! / No way!\n• Tell me more! / What happened next?\n**Rückfragen (Question Tags)**\n• It's a lovely day, isn't it? – Schöner Tag, oder?\n• You live in Leeds, don't you? – Du wohnst in Leeds, oder?\nRegel: positiver Satz → negativer Tag und umgekehrt.",
+     "examples": [
+      {
+       "en": "It's really cold today, isn't it?",
+       "de": "Heute ist es echt kalt, oder?"
+      },
+      {
+       "en": "So, what do you do in your free time?",
+       "de": "Und, was machst du in deiner Freizeit?"
+      }
+     ]
+    },
+    {
+     "heading": "Zeit gewinnen und reagieren",
+     "text": "• Well, ... / Let me think ... / That's a good question.\n• Sorry, what do you mean by ...?\n• By the way, ... – Übrigens ...\n• Anyway, ... – Wie auch immer ... (Themenwechsel)",
+     "examples": [
+      {
+       "en": "That's a good question. Let me think.",
+       "de": "Gute Frage. Lass mich überlegen."
+      },
+      {
+       "en": "By the way, how is your sister?",
+       "de": "Übrigens, wie geht es deiner Schwester?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "small talk",
+     "de": "Small Talk, Plauderei",
+     "example": "I'm not good at small talk.",
+     "exampleDe": "Ich bin nicht gut im Small Talk."
+    },
+    {
+     "en": "interesting",
+     "de": "interessant",
+     "example": "That sounds interesting!",
+     "exampleDe": "Das klingt interessant!"
+    },
+    {
+     "en": "by the way",
+     "de": "übrigens",
+     "example": "By the way, I loved your cake.",
+     "exampleDe": "Übrigens, dein Kuchen war super."
+    },
+    {
+     "en": "anyway",
+     "de": "wie auch immer, jedenfalls",
+     "example": "Anyway, I have to go now.",
+     "exampleDe": "Jedenfalls muss ich jetzt los."
+    },
+    {
+     "en": "to mean",
+     "de": "meinen, bedeuten",
+     "alt": [
+      "mean"
+     ],
+     "example": "What do you mean?",
+     "exampleDe": "Was meinst du?"
+    },
+    {
+     "en": "hobby",
+     "de": "Hobby",
+     "example": "My hobby is photography.",
+     "exampleDe": "Mein Hobby ist Fotografie."
+    },
+    {
+     "en": "free time",
+     "de": "Freizeit",
+     "alt": [
+      "spare time"
+     ],
+     "example": "What do you do in your free time?",
+     "exampleDe": "Was machst du in deiner Freizeit?"
+    },
+    {
+     "en": "to chat",
+     "de": "plaudern",
+     "alt": [
+      "chat"
+     ],
+     "example": "We chatted for hours.",
+     "exampleDe": "Wir haben stundenlang geplaudert."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "It's a lovely day, isn't it?",
+     "de": "Schöner Tag, oder?"
+    },
+    {
+     "en": "What do you do in your free time?",
+     "de": "Was machst du in deiner Freizeit?"
+    },
+    {
+     "en": "That sounds really interesting.",
+     "de": "Das klingt wirklich interessant."
+    },
+    {
+     "en": "Sorry, what do you mean by that?",
+     "de": "Entschuldigung, was meinst du damit?"
+    },
+    {
+     "en": "By the way, how was your holiday?",
+     "de": "Übrigens, wie war dein Urlaub?"
+    },
+    {
+     "en": "Anyway, it was nice talking to you.",
+     "de": "Jedenfalls war es schön, mit dir zu reden."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "You're from Spain, ___?",
+     "options": [
+      "aren't you",
+      "are you",
+      "don't you",
+      "isn't it"
+     ],
+     "answer": 0,
+     "explain": "Positiver Satz mit „are“ → aren't you?"
+    },
+    {
+     "q": "She doesn't like coffee, ___?",
+     "options": [
+      "does she",
+      "doesn't she",
+      "is she",
+      "do she"
+     ],
+     "answer": 0,
+     "explain": "Negativer Satz → positiver Tag."
+    },
+    {
+     "q": "Gutes Small-Talk-Thema:",
+     "options": [
+      "das Wochenende",
+      "das Gehalt",
+      "Religion",
+      "Gewicht"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "It's hot today, ___ it?",
+     "answer": "isn't",
+     "hint": "Question Tag",
+     "de": "Heute ist es heiß, oder?",
+     "alt": [
+      "is not"
+     ]
+    },
+    {
+     "text": "___ the way, did you get my email?",
+     "answer": "By",
+     "hint": "übrigens",
+     "de": "Übrigens, hast du meine E-Mail bekommen?",
+     "alt": [
+      "by"
+     ]
+    },
+    {
+     "text": "What do you ___ by \"soon\"?",
+     "answer": "mean",
+     "hint": "meinen",
+     "de": "Was meinst du mit „bald“?"
+    }
+   ],
+   "dialogue": {
+    "title": "Auf einer Party",
+    "setting": "Du lernst jemanden auf einer Geburtstagsfeier kennen.",
+    "lines": [
+     {
+      "speaker": "Chris",
+      "en": "Great party, isn't it?",
+      "de": "Tolle Party, oder?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, it is! How do you know Mia?",
+      "de": "Ja! Woher kennst du Mia?"
+     },
+     {
+      "speaker": "Chris",
+      "en": "We work together. And you?",
+      "de": "Wir arbeiten zusammen. Und du?"
+     },
+     {
+      "speaker": "You",
+      "en": "We went to school together. So, what do you do in your free time?",
+      "de": "Wir waren zusammen in der Schule. Und, was machst du in deiner Freizeit?"
+     },
+     {
+      "speaker": "Chris",
+      "en": "I play in a band, actually.",
+      "de": "Ich spiele tatsächlich in einer Band."
+     },
+     {
+      "speaker": "You",
+      "en": "No way! That sounds interesting. Tell me more!",
+      "de": "Echt jetzt? Das klingt interessant. Erzähl mehr!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1_02",
+   "title": "Im Berufsalltag",
+   "goal": "Du kannst über deine Arbeit sprechen, an Besprechungen teilnehmen und um Hilfe bitten.",
+   "theory": [
+    {
+     "heading": "Über die Arbeit sprechen",
+     "text": "• What do you do (for a living)? – Was machen Sie beruflich?\n• I work as a project manager. – Ich arbeite als Projektleiter.\n• I'm responsible for ... – Ich bin verantwortlich für ...\n• I work for a software company. – Ich arbeite für eine Softwarefirma.\nAchtung: „Chef“ heißt boss oder manager – „chef“ ist auf Englisch ein Koch!",
+     "examples": [
+      {
+       "en": "I work as an engineer.",
+       "de": "Ich arbeite als Ingenieur."
+      },
+      {
+       "en": "I'm responsible for customer support.",
+       "de": "Ich bin für den Kundensupport verantwortlich."
+      }
+     ]
+    },
+    {
+     "heading": "In Meetings",
+     "text": "• Could we schedule a meeting? – Könnten wir ein Meeting ansetzen?\n• I agree. / I'm not sure about that.\n• Let's move on to the next point. – Kommen wir zum nächsten Punkt.\n• Could you send me the details? – Könnten Sie mir die Details schicken?\n• deadline – Abgabetermin; to meet a deadline – eine Frist einhalten",
+     "examples": [
+      {
+       "en": "Let's move on to the next point.",
+       "de": "Kommen wir zum nächsten Punkt."
+      },
+      {
+       "en": "We need to meet the deadline.",
+       "de": "Wir müssen die Frist einhalten."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "colleague",
+     "de": "Kollege, Kollegin",
+     "alt": [
+      "coworker"
+     ],
+     "example": "My colleagues are very helpful.",
+     "exampleDe": "Meine Kollegen sind sehr hilfsbereit."
+    },
+    {
+     "en": "boss",
+     "de": "Chef(in)",
+     "alt": [
+      "manager"
+     ],
+     "example": "My boss is on holiday.",
+     "exampleDe": "Mein Chef ist im Urlaub."
+    },
+    {
+     "en": "meeting",
+     "de": "Besprechung",
+     "example": "The meeting starts at ten.",
+     "exampleDe": "Die Besprechung beginnt um zehn."
+    },
+    {
+     "en": "deadline",
+     "de": "Abgabetermin, Frist",
+     "example": "The deadline is Friday.",
+     "exampleDe": "Die Frist ist Freitag."
+    },
+    {
+     "en": "responsible for",
+     "de": "verantwortlich für",
+     "example": "She is responsible for sales.",
+     "exampleDe": "Sie ist für den Vertrieb verantwortlich."
+    },
+    {
+     "en": "to apply for",
+     "de": "sich bewerben um",
+     "alt": [
+      "apply for"
+     ],
+     "example": "I applied for a new job.",
+     "exampleDe": "Ich habe mich auf eine neue Stelle beworben."
+    },
+    {
+     "en": "salary",
+     "de": "Gehalt",
+     "example": "The salary is good.",
+     "exampleDe": "Das Gehalt ist gut."
+    },
+    {
+     "en": "experience",
+     "de": "Erfahrung",
+     "example": "Do you have any experience?",
+     "exampleDe": "Haben Sie Erfahrung?"
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I work as a project manager.",
+     "de": "Ich arbeite als Projektleiter."
+    },
+    {
+     "en": "I'm responsible for the budget.",
+     "de": "Ich bin für das Budget verantwortlich.",
+     "alt": [
+      "I am responsible for the budget."
+     ]
+    },
+    {
+     "en": "Could you send me the details?",
+     "de": "Könnten Sie mir die Details schicken?"
+    },
+    {
+     "en": "We have to meet the deadline.",
+     "de": "Wir müssen die Frist einhalten.",
+     "alt": [
+      "We need to meet the deadline."
+     ]
+    },
+    {
+     "en": "Let's move on to the next point.",
+     "de": "Kommen wir zum nächsten Punkt.",
+     "alt": [
+      "Let us move on to the next point."
+     ]
+    },
+    {
+     "en": "I applied for a job in London.",
+     "de": "Ich habe mich auf eine Stelle in London beworben."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Mein Chef“ heißt:",
+     "options": [
+      "my boss",
+      "my chef",
+      "my chief",
+      "my master"
+     ],
+     "answer": 0,
+     "explain": "„chef“ = Koch"
+    },
+    {
+     "q": "„Ich arbeite als Lehrerin.“",
+     "options": [
+      "I work as a teacher.",
+      "I work like a teacher.",
+      "I work as teacher.",
+      "I am working how a teacher."
+     ],
+     "answer": 0,
+     "explain": "as + a/an + Beruf"
+    },
+    {
+     "q": "„Abgabetermin“:",
+     "options": [
+      "deadline",
+      "dateline",
+      "endtime",
+      "lastday"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "She's responsible ___ marketing.",
+     "answer": "for",
+     "hint": "Präposition",
+     "de": "Sie ist für das Marketing verantwortlich."
+    },
+    {
+     "text": "I'd like to apply ___ the position.",
+     "answer": "for",
+     "hint": "sich bewerben um",
+     "de": "Ich möchte mich auf die Stelle bewerben."
+    },
+    {
+     "text": "He works ___ a nurse.",
+     "answer": "as",
+     "hint": "als",
+     "de": "Er arbeitet als Krankenpfleger."
+    }
+   ],
+   "dialogue": {
+    "title": "Kurzes Teammeeting",
+    "setting": "Du sprichst mit deiner Teamleiterin über ein Projekt.",
+    "lines": [
+     {
+      "speaker": "Manager",
+      "en": "How is the new project going?",
+      "de": "Wie läuft das neue Projekt?"
+     },
+     {
+      "speaker": "You",
+      "en": "Quite well, but we need more time for testing.",
+      "de": "Ganz gut, aber wir brauchen mehr Zeit zum Testen."
+     },
+     {
+      "speaker": "Manager",
+      "en": "The deadline is next Friday. Is that a problem?",
+      "de": "Die Frist ist nächsten Freitag. Ist das ein Problem?"
+     },
+     {
+      "speaker": "You",
+      "en": "It's tight. Could we get help from another team?",
+      "de": "Es ist knapp. Könnten wir Hilfe von einem anderen Team bekommen?"
+     },
+     {
+      "speaker": "Manager",
+      "en": "I'll ask Daniel. Can you send me an update tomorrow?",
+      "de": "Ich frage Daniel. Kannst du mir morgen ein Update schicken?"
+     },
+     {
+      "speaker": "You",
+      "en": "Sure, I'll send it in the morning.",
+      "de": "Klar, ich schicke es morgen früh."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1_03",
+   "title": "Erfahrungen: Present Perfect",
+   "goal": "Du kannst mit dem Present Perfect über Erfahrungen und Ergebnisse sprechen.",
+   "theory": [
+    {
+     "heading": "Bildung und Verwendung",
+     "text": "have / has + 3. Form (Partizip): I have seen, she has visited, they have gone.\nWann benutzt man es?\n• Lebenserfahrungen ohne genauen Zeitpunkt: Have you ever been to Japan?\n• Ergebnis ist jetzt wichtig: I've lost my keys. (Ich finde sie jetzt nicht.)\n• mit just, already, yet, ever, never.",
+     "examples": [
+      {
+       "en": "Have you ever been to New York?",
+       "de": "Warst du schon einmal in New York?"
+      },
+      {
+       "en": "I've never eaten sushi.",
+       "de": "Ich habe noch nie Sushi gegessen."
+      },
+      {
+       "en": "She has just left.",
+       "de": "Sie ist gerade gegangen."
+      }
+     ]
+    },
+    {
+     "heading": "Signalwörter",
+     "text": "• ever – jemals (Fragen), never – nie\n• just – gerade eben, already – schon\n• yet – schon (Frage) / noch nicht (Verneinung, am Satzende): Have you finished yet? – I haven't finished yet.\nWichtige 3. Formen: be – been, go – gone, see – seen, do – done, eat – eaten, write – written, take – taken.",
+     "examples": [
+      {
+       "en": "I've already done my homework.",
+       "de": "Ich habe meine Hausaufgaben schon gemacht."
+      },
+      {
+       "en": "Has the film started yet?",
+       "de": "Hat der Film schon angefangen?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "ever",
+     "de": "jemals",
+     "example": "Have you ever tried it?",
+     "exampleDe": "Hast du es jemals probiert?"
+    },
+    {
+     "en": "never",
+     "de": "nie, noch nie",
+     "example": "I've never been to Asia.",
+     "exampleDe": "Ich war noch nie in Asien."
+    },
+    {
+     "en": "already",
+     "de": "schon, bereits",
+     "example": "I've already eaten.",
+     "exampleDe": "Ich habe schon gegessen."
+    },
+    {
+     "en": "yet",
+     "de": "schon / noch nicht",
+     "example": "I haven't decided yet.",
+     "exampleDe": "Ich habe mich noch nicht entschieden."
+    },
+    {
+     "en": "just",
+     "de": "gerade eben",
+     "example": "He has just arrived.",
+     "exampleDe": "Er ist gerade angekommen."
+    },
+    {
+     "en": "experience",
+     "de": "Erlebnis",
+     "example": "It was an amazing experience.",
+     "exampleDe": "Es war ein tolles Erlebnis."
+    },
+    {
+     "en": "abroad",
+     "de": "im Ausland",
+     "example": "Have you ever lived abroad?",
+     "exampleDe": "Hast du schon mal im Ausland gelebt?"
+    },
+    {
+     "en": "to try",
+     "de": "probieren, versuchen",
+     "alt": [
+      "try"
+     ],
+     "example": "Have you tried this café?",
+     "exampleDe": "Hast du dieses Café schon ausprobiert?"
+    }
+   ],
+   "sentences": [
+    {
+     "en": "Have you ever been to Japan?",
+     "de": "Warst du schon einmal in Japan?"
+    },
+    {
+     "en": "I've never seen that film.",
+     "de": "Ich habe diesen Film noch nie gesehen.",
+     "alt": [
+      "I have never seen that film."
+     ]
+    },
+    {
+     "en": "She has just left the office.",
+     "de": "Sie hat gerade das Büro verlassen.",
+     "alt": [
+      "She's just left the office."
+     ]
+    },
+    {
+     "en": "We haven't finished yet.",
+     "de": "Wir sind noch nicht fertig.",
+     "alt": [
+      "We have not finished yet."
+     ]
+    },
+    {
+     "en": "I have lost my keys.",
+     "de": "Ich habe meine Schlüssel verloren.",
+     "alt": [
+      "I've lost my keys."
+     ]
+    },
+    {
+     "en": "Have you already booked the tickets?",
+     "de": "Hast du die Tickets schon gebucht?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "3. Form von „go“:",
+     "options": [
+      "gone",
+      "went",
+      "goed",
+      "going"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "She ___ visited London three times.",
+     "options": [
+      "has",
+      "have",
+      "is",
+      "did"
+     ],
+     "answer": 0,
+     "explain": "she → has"
+    },
+    {
+     "q": "„noch nicht“ am Satzende:",
+     "options": [
+      "yet",
+      "already",
+      "just",
+      "ever"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Have you ___ been to Italy?",
+     "answer": "ever",
+     "hint": "jemals",
+     "de": "Warst du jemals in Italien?"
+    },
+    {
+     "text": "I have ___ (see) this film twice.",
+     "answer": "seen",
+     "hint": "3. Form von see",
+     "de": "Ich habe diesen Film zweimal gesehen."
+    },
+    {
+     "text": "They haven't arrived ___.",
+     "answer": "yet",
+     "hint": "noch nicht",
+     "de": "Sie sind noch nicht angekommen."
+    }
+   ],
+   "dialogue": {
+    "title": "Reiseerfahrungen",
+    "setting": "Ihr sprecht in der Mittagspause über Reisen.",
+    "lines": [
+     {
+      "speaker": "Nina",
+      "en": "Have you ever been to the USA?",
+      "de": "Warst du schon mal in den USA?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, I have. I've been to New York twice.",
+      "de": "Ja. Ich war zweimal in New York."
+     },
+     {
+      "speaker": "Nina",
+      "en": "Lucky you! I've never been there.",
+      "de": "Du Glückspilz! Ich war noch nie dort."
+     },
+     {
+      "speaker": "You",
+      "en": "Have you travelled a lot?",
+      "de": "Bist du viel gereist?"
+     },
+     {
+      "speaker": "Nina",
+      "en": "I've visited most countries in Europe.",
+      "de": "Ich habe die meisten Länder Europas besucht."
+     },
+     {
+      "speaker": "You",
+      "en": "I've always wanted to see Norway.",
+      "de": "Ich wollte schon immer Norwegen sehen."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1_04",
+   "title": "Present Perfect oder Past Simple?",
+   "goal": "Du kannst entscheiden, wann du Present Perfect und wann Past Simple verwendest, und „for“ und „since“ benutzen.",
+   "theory": [
+    {
+     "heading": "Der Unterschied",
+     "text": "• Past Simple: abgeschlossener Zeitpunkt wird genannt oder ist klar – I saw him yesterday. / I lived in Rome in 2015.\n• Present Perfect: kein Zeitpunkt, Bezug zur Gegenwart – I've seen him. / I've lived here for five years. (wohne immer noch hier)\nTypischer Fehler deutscher Lerner: „I have seen him yesterday.“ ✘ → „I saw him yesterday.“ ✔",
+     "examples": [
+      {
+       "en": "I've worked here since 2020.",
+       "de": "Ich arbeite seit 2020 hier."
+      },
+      {
+       "en": "I worked in Paris in 2018.",
+       "de": "2018 habe ich in Paris gearbeitet."
+      }
+     ]
+    },
+    {
+     "heading": "for und since (seit)",
+     "text": "• for + Zeitraum: for three years, for a long time\n• since + Zeitpunkt: since Monday, since 2010, since I was a child\nDas deutsche „seit“ + Präsens wird im Englischen zum Present Perfect: Ich wohne seit 3 Jahren hier → I've lived here for three years.",
+     "examples": [
+      {
+       "en": "We've known each other for ten years.",
+       "de": "Wir kennen uns seit zehn Jahren."
+      },
+      {
+       "en": "She has been ill since Monday.",
+       "de": "Sie ist seit Montag krank."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "since",
+     "de": "seit (Zeitpunkt)",
+     "example": "I've been here since nine.",
+     "exampleDe": "Ich bin seit neun hier."
+    },
+    {
+     "en": "for",
+     "de": "seit, für (Zeitraum)",
+     "example": "I've waited for an hour.",
+     "exampleDe": "Ich warte seit einer Stunde."
+    },
+    {
+     "en": "recently",
+     "de": "kürzlich, in letzter Zeit",
+     "alt": [
+      "lately"
+     ],
+     "example": "Have you seen him recently?",
+     "exampleDe": "Hast du ihn in letzter Zeit gesehen?"
+    },
+    {
+     "en": "so far",
+     "de": "bisher",
+     "example": "So far, so good.",
+     "exampleDe": "Bisher läuft alles gut."
+    },
+    {
+     "en": "to know",
+     "de": "kennen, wissen",
+     "alt": [
+      "know"
+     ],
+     "example": "I've known her for years.",
+     "exampleDe": "Ich kenne sie seit Jahren."
+    },
+    {
+     "en": "in the meantime",
+     "de": "inzwischen",
+     "alt": [
+      "meanwhile"
+     ],
+     "example": "In the meantime, I'll wait here.",
+     "exampleDe": "Inzwischen warte ich hier."
+    },
+    {
+     "en": "to change",
+     "de": "(sich) verändern",
+     "alt": [
+      "change"
+     ],
+     "example": "The city has changed a lot.",
+     "exampleDe": "Die Stadt hat sich sehr verändert."
+    },
+    {
+     "en": "to grow up",
+     "de": "aufwachsen",
+     "alt": [
+      "grow up"
+     ],
+     "example": "I grew up in a small village.",
+     "exampleDe": "Ich bin in einem kleinen Dorf aufgewachsen."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I have lived here for five years.",
+     "de": "Ich wohne seit fünf Jahren hier.",
+     "alt": [
+      "I've lived here for five years."
+     ]
+    },
+    {
+     "en": "She has worked here since 2019.",
+     "de": "Sie arbeitet seit 2019 hier.",
+     "alt": [
+      "She's worked here since 2019."
+     ]
+    },
+    {
+     "en": "I saw him yesterday.",
+     "de": "Ich habe ihn gestern gesehen."
+    },
+    {
+     "en": "We've known each other for ages.",
+     "de": "Wir kennen uns schon ewig.",
+     "alt": [
+      "We have known each other for ages."
+     ]
+    },
+    {
+     "en": "I grew up in a small town.",
+     "de": "Ich bin in einer kleinen Stadt aufgewachsen."
+    },
+    {
+     "en": "The city has changed a lot recently.",
+     "de": "Die Stadt hat sich in letzter Zeit sehr verändert."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Ich habe ihn letzte Woche getroffen.“",
+     "options": [
+      "I met him last week.",
+      "I have met him last week.",
+      "I have meet him last week.",
+      "I meet him last week."
+     ],
+     "answer": 0,
+     "explain": "Zeitpunkt genannt → Past Simple"
+    },
+    {
+     "q": "I've lived here ___ 2015.",
+     "options": [
+      "since",
+      "for",
+      "from",
+      "ago"
+     ],
+     "answer": 0,
+     "explain": "Zeitpunkt → since"
+    },
+    {
+     "q": "„Ich lerne seit zwei Jahren Englisch.“",
+     "options": [
+      "I've learned English for two years.",
+      "I learn English since two years.",
+      "I learn English for two years.",
+      "I learned English since two years."
+     ],
+     "answer": 0,
+     "explain": "seit + Präsens → Present Perfect"
+    }
+   ],
+   "gaps": [
+    {
+     "text": "I've known Sarah ___ ten years.",
+     "answer": "for",
+     "hint": "Zeitraum",
+     "de": "Ich kenne Sarah seit zehn Jahren."
+    },
+    {
+     "text": "He has been ill ___ Monday.",
+     "answer": "since",
+     "hint": "Zeitpunkt",
+     "de": "Er ist seit Montag krank."
+    },
+    {
+     "text": "We ___ (go) to Spain last summer.",
+     "answer": "went",
+     "hint": "abgeschlossener Zeitpunkt",
+     "de": "Wir sind letzten Sommer nach Spanien gefahren."
+    }
+   ],
+   "dialogue": {
+    "title": "Alte Bekannte",
+    "setting": "Du triffst zufällig einen alten Schulfreund.",
+    "lines": [
+     {
+      "speaker": "Tim",
+      "en": "Hey! I haven't seen you for years!",
+      "de": "Hey! Ich habe dich seit Jahren nicht gesehen!"
+     },
+     {
+      "speaker": "You",
+      "en": "Tim! Wow, it's been ages. How are you?",
+      "de": "Tim! Wow, ewig her. Wie geht's dir?"
+     },
+     {
+      "speaker": "Tim",
+      "en": "Great! I moved back here last year.",
+      "de": "Super! Ich bin letztes Jahr hierher zurückgezogen."
+     },
+     {
+      "speaker": "You",
+      "en": "Really? I've lived here since 2018.",
+      "de": "Echt? Ich wohne seit 2018 hier."
+     },
+     {
+      "speaker": "Tim",
+      "en": "The town has changed a lot, hasn't it?",
+      "de": "Die Stadt hat sich sehr verändert, oder?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, there are so many new cafés now.",
+      "de": "Ja, es gibt jetzt so viele neue Cafés."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1_05",
+   "title": "Meinungen ausdrücken",
+   "goal": "Du kannst deine Meinung sagen, begründen, zustimmen und höflich widersprechen.",
+   "theory": [
+    {
+     "heading": "Meinung äußern und begründen",
+     "text": "• I think / I believe / In my opinion, ... – Ich denke / glaube / Meiner Meinung nach ...\n• As far as I'm concerned, ... – Was mich betrifft ...\n• because / since / that's why – weil / da / deshalb\nTipp: Eine Meinung wirkt überzeugender mit Beispiel: For example, ... / For instance, ...",
+     "examples": [
+      {
+       "en": "In my opinion, public transport should be free.",
+       "de": "Meiner Meinung nach sollten öffentliche Verkehrsmittel kostenlos sein."
+      },
+      {
+       "en": "I think so, because it's cheaper.",
+       "de": "Ich glaube schon, weil es billiger ist."
+      }
+     ]
+    },
+    {
+     "heading": "Zustimmen und widersprechen",
+     "text": "• I agree (with you). – Ich stimme (dir) zu. (nicht: „I am agree“!)\n• That's true. / Exactly!\n• I'm not sure about that. / I see your point, but ...\n• I'm afraid I disagree. – Ich fürchte, da bin ich anderer Meinung.\nEngländer widersprechen oft sehr höflich und indirekt.",
+     "examples": [
+      {
+       "en": "I see your point, but I don't agree.",
+       "de": "Ich verstehe deinen Standpunkt, aber ich stimme nicht zu."
+      },
+      {
+       "en": "I totally agree with you.",
+       "de": "Ich stimme dir völlig zu."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "opinion",
+     "de": "Meinung",
+     "example": "What's your opinion?",
+     "exampleDe": "Was ist deine Meinung?"
+    },
+    {
+     "en": "to agree",
+     "de": "zustimmen",
+     "alt": [
+      "agree"
+     ],
+     "example": "I agree with you.",
+     "exampleDe": "Ich stimme dir zu."
+    },
+    {
+     "en": "to disagree",
+     "de": "nicht zustimmen",
+     "alt": [
+      "disagree"
+     ],
+     "example": "I'm afraid I disagree.",
+     "exampleDe": "Ich fürchte, ich sehe das anders."
+    },
+    {
+     "en": "to believe",
+     "de": "glauben",
+     "alt": [
+      "believe"
+     ],
+     "example": "I believe it's true.",
+     "exampleDe": "Ich glaube, es stimmt."
+    },
+    {
+     "en": "advantage",
+     "de": "Vorteil",
+     "example": "One advantage is the price.",
+     "exampleDe": "Ein Vorteil ist der Preis."
+    },
+    {
+     "en": "disadvantage",
+     "de": "Nachteil",
+     "alt": [
+      "drawback"
+     ],
+     "example": "The main disadvantage is the noise.",
+     "exampleDe": "Der Hauptnachteil ist der Lärm."
+    },
+    {
+     "en": "for example",
+     "de": "zum Beispiel",
+     "alt": [
+      "for instance"
+     ],
+     "example": "For example, you can cycle to work.",
+     "exampleDe": "Zum Beispiel kannst du mit dem Rad zur Arbeit fahren."
+    },
+    {
+     "en": "point",
+     "de": "Punkt, Argument",
+     "example": "That's a good point.",
+     "exampleDe": "Das ist ein gutes Argument."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "In my opinion, it's a good idea.",
+     "de": "Meiner Meinung nach ist es eine gute Idee.",
+     "alt": [
+      "In my opinion, it is a good idea."
+     ]
+    },
+    {
+     "en": "I agree with you.",
+     "de": "Ich stimme dir zu."
+    },
+    {
+     "en": "I see your point, but I disagree.",
+     "de": "Ich verstehe deinen Punkt, aber ich sehe es anders."
+    },
+    {
+     "en": "One advantage is that it's cheap.",
+     "de": "Ein Vorteil ist, dass es billig ist.",
+     "alt": [
+      "One advantage is that it is cheap."
+     ]
+    },
+    {
+     "en": "That's a good point.",
+     "de": "Das ist ein gutes Argument.",
+     "alt": [
+      "That is a good point."
+     ]
+    },
+    {
+     "en": "What do you think about it?",
+     "de": "Was denkst du darüber?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Ich stimme zu.“",
+     "options": [
+      "I agree.",
+      "I am agree.",
+      "I'm agreeing.",
+      "I agreed me."
+     ],
+     "answer": 0,
+     "explain": "agree ist ein Verb: I agree."
+    },
+    {
+     "q": "Höflicher Widerspruch:",
+     "options": [
+      "I'm afraid I disagree.",
+      "You're wrong!",
+      "No!",
+      "That's stupid."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Nachteil“:",
+     "options": [
+      "disadvantage",
+      "unadvantage",
+      "misadvantage",
+      "nonadvantage"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "In my ___, we should start earlier.",
+     "answer": "opinion",
+     "hint": "Meinung",
+     "de": "Meiner Meinung nach sollten wir früher anfangen.",
+     "alt": [
+      "view"
+     ]
+    },
+    {
+     "text": "I totally agree ___ you.",
+     "answer": "with",
+     "hint": "Präposition",
+     "de": "Ich stimme dir völlig zu."
+    },
+    {
+     "text": "That's a good ___.",
+     "answer": "point",
+     "hint": "Argument",
+     "de": "Das ist ein gutes Argument.",
+     "alt": [
+      "idea"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Diskussion: Homeoffice",
+    "setting": "Ein Kollege fragt nach deiner Meinung zum Homeoffice.",
+    "lines": [
+     {
+      "speaker": "Mark",
+      "en": "What do you think about working from home?",
+      "de": "Was hältst du vom Homeoffice?"
+     },
+     {
+      "speaker": "You",
+      "en": "In my opinion, it has a lot of advantages.",
+      "de": "Meiner Meinung nach hat es viele Vorteile."
+     },
+     {
+      "speaker": "Mark",
+      "en": "Such as?",
+      "de": "Zum Beispiel?"
+     },
+     {
+      "speaker": "You",
+      "en": "For example, I don't waste time travelling.",
+      "de": "Zum Beispiel verschwende ich keine Zeit mit dem Pendeln."
+     },
+     {
+      "speaker": "Mark",
+      "en": "True, but I miss my colleagues.",
+      "de": "Stimmt, aber mir fehlen meine Kollegen."
+     },
+     {
+      "speaker": "You",
+      "en": "I see your point. Maybe two days in the office is a good mix.",
+      "de": "Ich verstehe dich. Vielleicht sind zwei Bürotage eine gute Mischung."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1_06",
+   "title": "Bedingungssätze (Conditionals)",
+   "goal": "Du kannst reale und hypothetische Bedingungen mit „if“ ausdrücken.",
+   "theory": [
+    {
+     "heading": "Zero und First Conditional",
+     "text": "**Zero Conditional – allgemeine Wahrheiten:** If + Present, Present\n• If you heat ice, it melts.\n**First Conditional – reale Möglichkeit in der Zukunft:** If + Present, will + Grundform\n• If it rains, I'll stay at home.\nAchtung: Nach „if“ steht kein will! (nicht: If it will rain ...)",
+     "examples": [
+      {
+       "en": "If you heat water, it boils.",
+       "de": "Wenn man Wasser erhitzt, kocht es."
+      },
+      {
+       "en": "If I have time, I'll call you.",
+       "de": "Wenn ich Zeit habe, rufe ich dich an."
+      }
+     ]
+    },
+    {
+     "heading": "Second Conditional – Gedankenspiele",
+     "text": "Unwahrscheinlich oder unwirklich: If + Past Simple, would + Grundform\n• If I won the lottery, I would travel the world.\n• If I were you, I would take the job. (Ratschlag; „were“ für alle Personen)\nDie Reihenfolge der Satzteile kann wechseln: I'd travel the world if I won the lottery.",
+     "examples": [
+      {
+       "en": "If I had more time, I would learn the piano.",
+       "de": "Wenn ich mehr Zeit hätte, würde ich Klavier lernen."
+      },
+      {
+       "en": "If I were you, I'd say sorry.",
+       "de": "An deiner Stelle würde ich mich entschuldigen."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "if",
+     "de": "wenn, falls",
+     "example": "If you want, we can go.",
+     "exampleDe": "Wenn du willst, können wir gehen."
+    },
+    {
+     "en": "unless",
+     "de": "es sei denn, wenn nicht",
+     "example": "I'll come unless it rains.",
+     "exampleDe": "Ich komme, es sei denn, es regnet."
+    },
+    {
+     "en": "would",
+     "de": "würde",
+     "example": "I would love to come.",
+     "exampleDe": "Ich würde sehr gern kommen."
+    },
+    {
+     "en": "to win",
+     "de": "gewinnen",
+     "alt": [
+      "win"
+     ],
+     "example": "If we win, we'll celebrate.",
+     "exampleDe": "Wenn wir gewinnen, feiern wir."
+    },
+    {
+     "en": "lottery",
+     "de": "Lotterie, Lotto",
+     "example": "He won the lottery.",
+     "exampleDe": "Er hat im Lotto gewonnen."
+    },
+    {
+     "en": "advice",
+     "de": "Rat, Ratschlag",
+     "example": "Can I give you some advice?",
+     "exampleDe": "Darf ich dir einen Rat geben?"
+    },
+    {
+     "en": "in case",
+     "de": "falls, für den Fall",
+     "example": "Take an umbrella in case it rains.",
+     "exampleDe": "Nimm einen Schirm mit, falls es regnet."
+    },
+    {
+     "en": "to decide",
+     "de": "entscheiden",
+     "alt": [
+      "decide"
+     ],
+     "example": "I can't decide.",
+     "exampleDe": "Ich kann mich nicht entscheiden."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "If it rains, I'll stay at home.",
+     "de": "Wenn es regnet, bleibe ich zu Hause.",
+     "alt": [
+      "If it rains, I will stay at home."
+     ]
+    },
+    {
+     "en": "If I were you, I would take the job.",
+     "de": "An deiner Stelle würde ich den Job annehmen.",
+     "alt": [
+      "If I were you, I'd take the job."
+     ]
+    },
+    {
+     "en": "If I won the lottery, I'd buy a house.",
+     "de": "Wenn ich im Lotto gewinnen würde, würde ich ein Haus kaufen.",
+     "alt": [
+      "If I won the lottery, I would buy a house."
+     ]
+    },
+    {
+     "en": "If you heat ice, it melts.",
+     "de": "Wenn man Eis erhitzt, schmilzt es."
+    },
+    {
+     "en": "I won't go unless you come too.",
+     "de": "Ich gehe nicht, es sei denn, du kommst auch mit.",
+     "alt": [
+      "I will not go unless you come too."
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "If it ___ tomorrow, we'll have a picnic.",
+     "options": [
+      "is sunny",
+      "will be sunny",
+      "would be sunny",
+      "was sunny"
+     ],
+     "answer": 0,
+     "explain": "Nach „if“ kein will."
+    },
+    {
+     "q": "If I ___ rich, I would travel more.",
+     "options": [
+      "were",
+      "am",
+      "will be",
+      "would be"
+     ],
+     "answer": 0,
+     "explain": "Second Conditional: if + Past (were)"
+    },
+    {
+     "q": "„An deiner Stelle ...“",
+     "options": [
+      "If I were you, ...",
+      "If I am you, ...",
+      "When I was you, ...",
+      "If I would be you, ..."
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "If you study, you ___ pass the exam.",
+     "answer": "will",
+     "hint": "First Conditional",
+     "de": "Wenn du lernst, bestehst du die Prüfung.",
+     "alt": [
+      "'ll"
+     ]
+    },
+    {
+     "text": "If I had a car, I ___ drive to work.",
+     "answer": "would",
+     "hint": "Second Conditional",
+     "de": "Wenn ich ein Auto hätte, würde ich zur Arbeit fahren.",
+     "alt": [
+      "'d",
+      "could"
+     ]
+    },
+    {
+     "text": "Take a jacket in ___ it gets cold.",
+     "answer": "case",
+     "hint": "falls",
+     "de": "Nimm eine Jacke mit, falls es kalt wird."
+    }
+   ],
+   "dialogue": {
+    "title": "Gedankenspiel",
+    "setting": "Ihr überlegt, was ihr mit einer Million Euro machen würdet.",
+    "lines": [
+     {
+      "speaker": "Sophie",
+      "en": "What would you do if you had a million euros?",
+      "de": "Was würdest du tun, wenn du eine Million Euro hättest?"
+     },
+     {
+      "speaker": "You",
+      "en": "If I had a million euros, I would travel around the world.",
+      "de": "Wenn ich eine Million hätte, würde ich um die Welt reisen."
+     },
+     {
+      "speaker": "Sophie",
+      "en": "Would you stop working?",
+      "de": "Würdest du aufhören zu arbeiten?"
+     },
+     {
+      "speaker": "You",
+      "en": "Probably not. I'd get bored.",
+      "de": "Wahrscheinlich nicht. Mir wäre langweilig."
+     },
+     {
+      "speaker": "Sophie",
+      "en": "I'd open a little café by the sea.",
+      "de": "Ich würde ein kleines Café am Meer eröffnen."
+     },
+     {
+      "speaker": "You",
+      "en": "If you did that, I would visit you every summer!",
+      "de": "Wenn du das machen würdest, würde ich dich jeden Sommer besuchen!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1_07",
+   "title": "Komplexere Sätze bilden",
+   "goal": "Du kannst Sätze mit Relativpronomen und Bindewörtern verknüpfen.",
+   "theory": [
+    {
+     "heading": "Relativsätze: who, which, that, where",
+     "text": "• who – für Personen: The woman who lives next door is a doctor.\n• which – für Dinge: The car which I bought is red.\n• that – für Personen und Dinge (umgangssprachlich): The book that you gave me is great.\n• where – für Orte: This is the café where we met.\nIst das Relativpronomen Objekt, kann es entfallen: The book (that) I'm reading is long.",
+     "examples": [
+      {
+       "en": "The man who called you is my boss.",
+       "de": "Der Mann, der dich angerufen hat, ist mein Chef."
+      },
+      {
+       "en": "This is the house where I grew up.",
+       "de": "Das ist das Haus, in dem ich aufgewachsen bin."
+      }
+     ]
+    },
+    {
+     "heading": "Bindewörter (Linking Words)",
+     "text": "• although / even though – obwohl: Although it was late, we kept working.\n• however – jedoch (oft am Satzanfang mit Komma)\n• so / therefore – also / deshalb\n• while / whereas – während (Gegensatz)\n• in addition / moreover – außerdem",
+     "examples": [
+      {
+       "en": "Although it was raining, we went out.",
+       "de": "Obwohl es regnete, gingen wir raus."
+      },
+      {
+       "en": "It was expensive. However, it was worth it.",
+       "de": "Es war teuer. Es hat sich jedoch gelohnt."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "although",
+     "de": "obwohl",
+     "alt": [
+      "even though",
+      "though"
+     ],
+     "example": "Although he's rich, he's not happy.",
+     "exampleDe": "Obwohl er reich ist, ist er nicht glücklich."
+    },
+    {
+     "en": "however",
+     "de": "jedoch",
+     "example": "However, there is a problem.",
+     "exampleDe": "Es gibt jedoch ein Problem."
+    },
+    {
+     "en": "therefore",
+     "de": "deshalb, daher",
+     "example": "It's late; therefore, we should go.",
+     "exampleDe": "Es ist spät, deshalb sollten wir gehen."
+    },
+    {
+     "en": "whereas",
+     "de": "während, wohingegen",
+     "example": "I like tea, whereas she likes coffee.",
+     "exampleDe": "Ich mag Tee, während sie Kaffee mag."
+    },
+    {
+     "en": "in addition",
+     "de": "außerdem, zusätzlich",
+     "alt": [
+      "moreover",
+      "furthermore"
+     ],
+     "example": "In addition, it's very cheap.",
+     "exampleDe": "Außerdem ist es sehr günstig."
+    },
+    {
+     "en": "despite",
+     "de": "trotz",
+     "alt": [
+      "in spite of"
+     ],
+     "example": "Despite the rain, we had fun.",
+     "exampleDe": "Trotz des Regens hatten wir Spaß."
+    },
+    {
+     "en": "as a result",
+     "de": "infolgedessen",
+     "example": "As a result, the train was late.",
+     "exampleDe": "Infolgedessen war der Zug zu spät."
+    },
+    {
+     "en": "neighbour",
+     "de": "Nachbar(in)",
+     "alt": [
+      "neighbor"
+     ],
+     "example": "My neighbour is very friendly.",
+     "exampleDe": "Mein Nachbar ist sehr freundlich."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "The woman who lives next door is a doctor.",
+     "de": "Die Frau, die nebenan wohnt, ist Ärztin.",
+     "alt": [
+      "The woman that lives next door is a doctor."
+     ]
+    },
+    {
+     "en": "This is the restaurant where we met.",
+     "de": "Das ist das Restaurant, in dem wir uns kennengelernt haben."
+    },
+    {
+     "en": "Although it was cold, we went swimming.",
+     "de": "Obwohl es kalt war, sind wir schwimmen gegangen.",
+     "alt": [
+      "Even though it was cold, we went swimming."
+     ]
+    },
+    {
+     "en": "The book that you lent me is great.",
+     "de": "Das Buch, das du mir geliehen hast, ist toll.",
+     "alt": [
+      "The book which you lent me is great.",
+      "The book you lent me is great."
+     ]
+    },
+    {
+     "en": "Despite the rain, we had a great day.",
+     "de": "Trotz des Regens hatten wir einen tollen Tag.",
+     "alt": [
+      "In spite of the rain, we had a great day."
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "The man ___ helped me was very kind.",
+     "options": [
+      "who",
+      "which",
+      "where",
+      "whose"
+     ],
+     "answer": 0,
+     "explain": "Person → who"
+    },
+    {
+     "q": "„Trotz des Wetters“:",
+     "options": [
+      "despite the weather",
+      "although the weather",
+      "despite of the weather",
+      "however the weather"
+     ],
+     "answer": 0,
+     "explain": "despite + Nomen (ohne of)"
+    },
+    {
+     "q": "Welcher Satz ist richtig?",
+     "options": [
+      "Although she was tired, she finished the work.",
+      "Although she was tired, but she finished the work.",
+      "Despite she was tired, she finished.",
+      "However she was tired, she finished."
+     ],
+     "answer": 0,
+     "explain": "Nach „although“ kein zusätzliches „but“."
+    }
+   ],
+   "gaps": [
+    {
+     "text": "That's the hotel ___ we stayed last year.",
+     "answer": "where",
+     "hint": "Ort",
+     "de": "Das ist das Hotel, in dem wir letztes Jahr übernachtet haben.",
+     "alt": [
+      "in which"
+     ]
+    },
+    {
+     "text": "I bought a phone ___ has a great camera.",
+     "answer": "which",
+     "hint": "Ding",
+     "de": "Ich habe ein Handy gekauft, das eine tolle Kamera hat.",
+     "alt": [
+      "that"
+     ]
+    },
+    {
+     "text": "___ it was expensive, I bought it.",
+     "answer": "Although",
+     "hint": "obwohl",
+     "de": "Obwohl es teuer war, habe ich es gekauft.",
+     "alt": [
+      "Even though",
+      "Though"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Eine Empfehlung",
+    "setting": "Du empfiehlst einer Bekannten ein Restaurant.",
+    "lines": [
+     {
+      "speaker": "Julia",
+      "en": "Do you know a good place for dinner?",
+      "de": "Kennst du einen guten Ort zum Abendessen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes! There's a little restaurant where they make amazing pasta.",
+      "de": "Ja! Es gibt ein kleines Restaurant, wo sie fantastische Pasta machen."
+     },
+     {
+      "speaker": "Julia",
+      "en": "Is it expensive?",
+      "de": "Ist es teuer?"
+     },
+     {
+      "speaker": "You",
+      "en": "Although it's not cheap, it's definitely worth it.",
+      "de": "Obwohl es nicht billig ist, lohnt es sich auf jeden Fall."
+     },
+     {
+      "speaker": "Julia",
+      "en": "Who told you about it?",
+      "de": "Wer hat dir davon erzählt?"
+     },
+     {
+      "speaker": "You",
+      "en": "A colleague who lived in Italy for years.",
+      "de": "Ein Kollege, der jahrelang in Italien gelebt hat."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b1_08",
+   "title": "E-Mails schreiben",
+   "goal": "Du kannst formelle und informelle E-Mails richtig aufbauen und formulieren.",
+   "theory": [
+    {
+     "heading": "Formelle E-Mails",
+     "text": "**Anrede**\n• Dear Mr Smith, / Dear Ms Jones, (Name bekannt)\n• Dear Sir or Madam, (Name unbekannt)\n**Einstieg**\n• I am writing to ask about ... / I am writing with regard to ...\n**Schluss**\n• I look forward to hearing from you. – Ich freue mich auf Ihre Antwort.\n• Kind regards, / Best regards, (Standard)  • Yours sincerely, (sehr förmlich, Name bekannt)\nIn formellen Mails vermeidet man Kurzformen: I am statt I'm.",
+     "examples": [
+      {
+       "en": "I am writing to apply for the position.",
+       "de": "Hiermit bewerbe ich mich auf die Stelle."
+      },
+      {
+       "en": "I look forward to hearing from you.",
+       "de": "Ich freue mich darauf, von Ihnen zu hören."
+      }
+     ]
+    },
+    {
+     "heading": "Informelle E-Mails",
+     "text": "• Hi Sam, / Hey Lisa,\n• Thanks for your email! / It was great to hear from you.\n• Guess what? – Stell dir vor!\n• Write soon! / Take care! / Best wishes,\nBitte um etwas, formell vs. informell: Could you please send me ...? / Can you send me ...?",
+     "examples": [
+      {
+       "en": "Thanks for your message!",
+       "de": "Danke für deine Nachricht!"
+      },
+      {
+       "en": "Take care and write soon!",
+       "de": "Pass auf dich auf und schreib bald!"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "dear",
+     "de": "liebe(r), sehr geehrte(r)",
+     "example": "Dear Mrs Brown,",
+     "exampleDe": "Sehr geehrte Frau Brown,"
+    },
+    {
+     "en": "regarding",
+     "de": "bezüglich",
+     "alt": [
+      "with regard to",
+      "concerning"
+     ],
+     "example": "I'm writing regarding your offer.",
+     "exampleDe": "Ich schreibe bezüglich Ihres Angebots."
+    },
+    {
+     "en": "attachment",
+     "de": "Anhang",
+     "example": "Please see the attachment.",
+     "exampleDe": "Bitte beachten Sie den Anhang."
+    },
+    {
+     "en": "to attach",
+     "de": "anhängen",
+     "alt": [
+      "attach"
+     ],
+     "example": "I have attached my CV.",
+     "exampleDe": "Ich habe meinen Lebenslauf angehängt."
+    },
+    {
+     "en": "to look forward to",
+     "de": "sich freuen auf",
+     "alt": [
+      "look forward to"
+     ],
+     "example": "I look forward to meeting you.",
+     "exampleDe": "Ich freue mich darauf, Sie kennenzulernen."
+    },
+    {
+     "en": "kind regards",
+     "de": "freundliche Grüße",
+     "alt": [
+      "best regards"
+     ],
+     "example": "Kind regards, Anna",
+     "exampleDe": "Freundliche Grüße, Anna"
+    },
+    {
+     "en": "to reply",
+     "de": "antworten",
+     "alt": [
+      "reply",
+      "respond"
+     ],
+     "example": "Please reply by Friday.",
+     "exampleDe": "Bitte antworten Sie bis Freitag."
+    },
+    {
+     "en": "inquiry",
+     "de": "Anfrage",
+     "alt": [
+      "enquiry"
+     ],
+     "example": "Thank you for your inquiry.",
+     "exampleDe": "Vielen Dank für Ihre Anfrage."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I am writing to ask about your prices.",
+     "de": "Ich schreibe, um mich nach Ihren Preisen zu erkundigen."
+    },
+    {
+     "en": "Please find attached my CV.",
+     "de": "Anbei finden Sie meinen Lebenslauf.",
+     "alt": [
+      "Please find my CV attached."
+     ]
+    },
+    {
+     "en": "I look forward to hearing from you.",
+     "de": "Ich freue mich darauf, von Ihnen zu hören."
+    },
+    {
+     "en": "Thank you for your quick reply.",
+     "de": "Vielen Dank für Ihre schnelle Antwort."
+    },
+    {
+     "en": "Could you please send me more information?",
+     "de": "Könnten Sie mir bitte weitere Informationen schicken?"
+    },
+    {
+     "en": "It was great to hear from you.",
+     "de": "Es war schön, von dir zu hören."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Formelle Anrede ohne Namen:",
+     "options": [
+      "Dear Sir or Madam,",
+      "Hi there,",
+      "Dear friend,",
+      "Hello you,"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "I look forward to ___ from you.",
+     "options": [
+      "hearing",
+      "hear",
+      "heard",
+      "be hearing"
+     ],
+     "answer": 0,
+     "explain": "look forward to + -ing"
+    },
+    {
+     "q": "Passender Schluss in einer Geschäftsmail:",
+     "options": [
+      "Kind regards,",
+      "Love,",
+      "Cheers mate,",
+      "XOXO"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "I look forward ___ hearing from you.",
+     "answer": "to",
+     "hint": "Präposition",
+     "de": "Ich freue mich darauf, von Ihnen zu hören."
+    },
+    {
+     "text": "Please find ___ the documents.",
+     "answer": "attached",
+     "hint": "angehängt",
+     "de": "Anbei finden Sie die Dokumente."
+    },
+    {
+     "text": "I am writing ___ apply for the job.",
+     "answer": "to",
+     "hint": "um ... zu",
+     "de": "Hiermit bewerbe ich mich auf die Stelle."
+    }
+   ],
+   "dialogue": {
+    "title": "E-Mail diktieren",
+    "setting": "Du besprichst mit einer Kollegin, wie ihr eine Kundenanfrage beantwortet.",
+    "lines": [
+     {
+      "speaker": "Olivia",
+      "en": "How should we start the email to Mr Harris?",
+      "de": "Wie sollen wir die E-Mail an Herrn Harris anfangen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Let's write: Dear Mr Harris, thank you for your inquiry.",
+      "de": "Schreiben wir: Sehr geehrter Herr Harris, vielen Dank für Ihre Anfrage."
+     },
+     {
+      "speaker": "Olivia",
+      "en": "Good. Should we send the price list?",
+      "de": "Gut. Sollen wir die Preisliste schicken?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes. Please find attached our current price list.",
+      "de": "Ja. Anbei finden Sie unsere aktuelle Preisliste."
+     },
+     {
+      "speaker": "Olivia",
+      "en": "And how do we end it?",
+      "de": "Und wie beenden wir sie?"
+     },
+     {
+      "speaker": "You",
+      "en": "We look forward to hearing from you. Kind regards.",
+      "de": "Wir freuen uns auf Ihre Rückmeldung. Freundliche Grüße."
+     }
+    ]
+   }
+  }
+ ]
+}
