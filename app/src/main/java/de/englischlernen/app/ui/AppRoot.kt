@@ -69,7 +69,7 @@ private val tabs = listOf(
     Tab(HomeRoute, HomeRoute::class, "Start", Icons.Filled.Home),
     Tab(CourseRoute, CourseRoute::class, "Expedition", Icons.Filled.Explore),
     Tab(TrainingRoute, TrainingRoute::class, "Training", Icons.Filled.FitnessCenter),
-    Tab(AiRoute, AiRoute::class, "Finn (KI)", Icons.Filled.AutoAwesome),
+    Tab(AiRoute, AiRoute::class, "Finn", Icons.Filled.AutoAwesome),
     Tab(ProgressRoute, ProgressRoute::class, "Fortschritt", Icons.Filled.Insights),
 )
 

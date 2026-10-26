@@ -1,0 +1,2056 @@
+{
+ "id": "b2",
+ "code": "B2",
+ "title": "Gute Englischkenntnisse",
+ "subtitle": "Diskutieren, präsentieren, Idioms, Passiv & indirekte Rede",
+ "description": "Du sprichst flüssiger, argumentierst überzeugend und verstehst authentisches Englisch. Anspruchsvolle Grammatik macht deine Sprache präziser.",
+ "lessons": [
+  {
+   "id": "b2_01",
+   "title": "Flüssiger sprechen",
+   "goal": "Du nutzt Gesprächsfüller und Diskursmarker, um natürlich und flüssig zu sprechen.",
+   "theory": [
+    {
+     "heading": "Diskursmarker",
+     "text": "Muttersprachler verbinden Gedanken mit kleinen Wörtern – sie wirken natürlich und verschaffen Zeit:\n• Actually, ... – Eigentlich / Tatsächlich (nicht „aktuell“!)\n• To be honest, ... – Ehrlich gesagt ...\n• As I was saying, ... – Wie ich schon sagte ...\n• The thing is, ... – Die Sache ist die ...\n• Having said that, ... – Andererseits / Trotzdem ...\n• I mean, ... – Ich meine ... (zum Präzisieren)",
+     "examples": [
+      {
+       "en": "To be honest, I'm not a big fan of it.",
+       "de": "Ehrlich gesagt bin ich kein großer Fan davon."
+      },
+      {
+       "en": "The thing is, we don't have enough time.",
+       "de": "Die Sache ist die: Wir haben nicht genug Zeit."
+      }
+     ]
+    },
+    {
+     "heading": "Zeit gewinnen und umformulieren",
+     "text": "• Let me put it another way. – Lass es mich anders ausdrücken.\n• What I'm trying to say is ... – Was ich sagen will, ist ...\n• It's on the tip of my tongue. – Es liegt mir auf der Zunge.\n• How shall I put it? – Wie soll ich sagen?\nWenn dir ein Wort fehlt, beschreibe es: „It's a thing you use to ...“ – das ist eine wichtige Strategie!",
+     "examples": [
+      {
+       "en": "What I'm trying to say is that we need a plan.",
+       "de": "Was ich sagen will: Wir brauchen einen Plan."
+      },
+      {
+       "en": "It's a kind of tool you use for cutting.",
+       "de": "Es ist eine Art Werkzeug zum Schneiden."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "actually",
+     "de": "eigentlich, tatsächlich",
+     "example": "Actually, I've changed my mind.",
+     "exampleDe": "Eigentlich habe ich meine Meinung geändert."
+    },
+    {
+     "en": "to be honest",
+     "de": "ehrlich gesagt",
+     "alt": [
+      "honestly"
+     ],
+     "example": "To be honest, I forgot.",
+     "exampleDe": "Ehrlich gesagt habe ich es vergessen."
+    },
+    {
+     "en": "having said that",
+     "de": "andererseits, trotzdem",
+     "alt": [
+      "that said"
+     ],
+     "example": "It's expensive. Having said that, it's worth it.",
+     "exampleDe": "Es ist teuer. Trotzdem lohnt es sich."
+    },
+    {
+     "en": "on the tip of my tongue",
+     "de": "liegt mir auf der Zunge",
+     "example": "His name is on the tip of my tongue.",
+     "exampleDe": "Sein Name liegt mir auf der Zunge."
+    },
+    {
+     "en": "to put it another way",
+     "de": "anders ausgedrückt",
+     "alt": [
+      "in other words"
+     ],
+     "example": "To put it another way, we're broke.",
+     "exampleDe": "Anders gesagt: Wir sind pleite."
+    },
+    {
+     "en": "basically",
+     "de": "im Grunde",
+     "example": "Basically, it's a good idea.",
+     "exampleDe": "Im Grunde ist es eine gute Idee."
+    },
+    {
+     "en": "anyway",
+     "de": "wie dem auch sei",
+     "example": "Anyway, where was I?",
+     "exampleDe": "Wie dem auch sei, wo war ich?"
+    },
+    {
+     "en": "fluent",
+     "de": "fließend",
+     "example": "She speaks fluent English.",
+     "exampleDe": "Sie spricht fließend Englisch."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "To be honest, I'm not sure.",
+     "de": "Ehrlich gesagt bin ich mir nicht sicher."
+    },
+    {
+     "en": "Actually, I live in Bremen now.",
+     "de": "Eigentlich wohne ich jetzt in Bremen."
+    },
+    {
+     "en": "The thing is, we don't have the budget.",
+     "de": "Die Sache ist die: Wir haben das Budget nicht."
+    },
+    {
+     "en": "What I'm trying to say is that it takes time.",
+     "de": "Was ich sagen will, ist, dass es Zeit braucht."
+    },
+    {
+     "en": "It's on the tip of my tongue.",
+     "de": "Es liegt mir auf der Zunge.",
+     "alt": [
+      "It is on the tip of my tongue."
+     ]
+    },
+    {
+     "en": "Having said that, I still like the idea.",
+     "de": "Trotzdem gefällt mir die Idee."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Actually“ bedeutet:",
+     "options": [
+      "eigentlich / tatsächlich",
+      "aktuell",
+      "genau",
+      "zurzeit"
+     ],
+     "answer": 0,
+     "explain": "Falscher Freund! „aktuell“ = current(ly)."
+    },
+    {
+     "q": "Dir fehlt ein Wort. Beste Strategie:",
+     "options": [
+      "Es umschreiben: „It's a thing you use to ...“",
+      "Schweigen",
+      "Das deutsche Wort sagen",
+      "Das Thema wechseln"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Wie soll ich sagen?“",
+     "options": [
+      "How shall I put it?",
+      "How should I tell?",
+      "What shall I speak?",
+      "How can I say it to?"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "To be ___, I didn't like the film.",
+     "answer": "honest",
+     "hint": "ehrlich",
+     "de": "Ehrlich gesagt hat mir der Film nicht gefallen."
+    },
+    {
+     "text": "The ___ is, I can't afford it.",
+     "answer": "thing",
+     "hint": "Die Sache ist ...",
+     "de": "Die Sache ist die: Ich kann es mir nicht leisten.",
+     "alt": [
+      "problem"
+     ]
+    },
+    {
+     "text": "Let me put it ___ way.",
+     "answer": "another",
+     "hint": "anders",
+     "de": "Lass es mich anders ausdrücken."
+    }
+   ],
+   "dialogue": {
+    "title": "Ein spontanes Gespräch",
+    "setting": "Ein Bekannter fragt dich nach deinem neuen Job.",
+    "lines": [
+     {
+      "speaker": "Ryan",
+      "en": "So, how's the new job going?",
+      "de": "Und, wie läuft der neue Job?"
+     },
+     {
+      "speaker": "You",
+      "en": "Well, to be honest, it's a bit stressful at the moment.",
+      "de": "Naja, ehrlich gesagt ist es im Moment etwas stressig."
+     },
+     {
+      "speaker": "Ryan",
+      "en": "Oh really? Why's that?",
+      "de": "Oh, echt? Warum?"
+     },
+     {
+      "speaker": "You",
+      "en": "The thing is, I'm still learning the ropes. Having said that, my team is great.",
+      "de": "Die Sache ist die: Ich arbeite mich noch ein. Trotzdem ist mein Team super."
+     },
+     {
+      "speaker": "Ryan",
+      "en": "That's the main thing, isn't it?",
+      "de": "Das ist doch die Hauptsache, oder?"
+     },
+     {
+      "speaker": "You",
+      "en": "Absolutely. I mean, a good team makes all the difference.",
+      "de": "Absolut. Ich meine, ein gutes Team macht den Unterschied."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b2_02",
+   "title": "Argumentieren & Diskutieren",
+   "goal": "Du kannst Argumente strukturiert vortragen, abwägen und auf Gegenargumente reagieren.",
+   "theory": [
+    {
+     "heading": "Argumente strukturieren",
+     "text": "• First of all, ... / To begin with, ... – Zunächst ...\n• Furthermore, ... / What's more, ... – Darüber hinaus ...\n• On the one hand, ... on the other hand, ... – Einerseits ... andererseits ...\n• All things considered, ... – Alles in allem ...\n• The main argument for/against ... is ... – Das Hauptargument für/gegen ... ist ...",
+     "examples": [
+      {
+       "en": "On the one hand, it saves time; on the other hand, it costs more.",
+       "de": "Einerseits spart es Zeit, andererseits kostet es mehr."
+      },
+      {
+       "en": "All things considered, I'm in favour.",
+       "de": "Alles in allem bin ich dafür."
+      }
+     ]
+    },
+    {
+     "heading": "Auf Gegenargumente reagieren",
+     "text": "• That's a fair point, but ... – Das ist ein berechtigter Einwand, aber ...\n• I take your point, however ... – Ich verstehe, was du meinst, jedoch ...\n• That may be true, but have you considered ...? – Das mag stimmen, aber hast du bedacht ...?\n• I'm not entirely convinced. – Ich bin nicht ganz überzeugt.\n• to be in favour of / to be against – dafür / dagegen sein",
+     "examples": [
+      {
+       "en": "That's a fair point, but it's not the whole story.",
+       "de": "Ein berechtigter Punkt, aber das ist nicht alles."
+      },
+      {
+       "en": "I'm not entirely convinced.",
+       "de": "Ich bin nicht ganz überzeugt."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "argument",
+     "de": "Argument; Streit",
+     "example": "That's a strong argument.",
+     "exampleDe": "Das ist ein starkes Argument."
+    },
+    {
+     "en": "in favour of",
+     "de": "dafür, zugunsten von",
+     "alt": [
+      "in favor of"
+     ],
+     "example": "Most people are in favour of the plan.",
+     "exampleDe": "Die meisten sind für den Plan."
+    },
+    {
+     "en": "furthermore",
+     "de": "darüber hinaus",
+     "alt": [
+      "moreover",
+      "what's more"
+     ],
+     "example": "Furthermore, it's good for the environment.",
+     "exampleDe": "Darüber hinaus ist es gut für die Umwelt."
+    },
+    {
+     "en": "to convince",
+     "de": "überzeugen",
+     "alt": [
+      "convince",
+      "persuade"
+     ],
+     "example": "You've convinced me.",
+     "exampleDe": "Du hast mich überzeugt."
+    },
+    {
+     "en": "fair point",
+     "de": "berechtigter Einwand",
+     "alt": [
+      "good point"
+     ],
+     "example": "That's a fair point.",
+     "exampleDe": "Das ist ein berechtigter Einwand."
+    },
+    {
+     "en": "consequence",
+     "de": "Folge, Konsequenz",
+     "example": "Think about the consequences.",
+     "exampleDe": "Denk an die Folgen."
+    },
+    {
+     "en": "evidence",
+     "de": "Beweis(e), Belege",
+     "example": "There is no evidence for that.",
+     "exampleDe": "Dafür gibt es keine Belege."
+    },
+    {
+     "en": "to weigh up",
+     "de": "abwägen",
+     "alt": [
+      "weigh up"
+     ],
+     "example": "We need to weigh up the pros and cons.",
+     "exampleDe": "Wir müssen die Vor- und Nachteile abwägen."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "On the one hand, it's cheap.",
+     "de": "Einerseits ist es günstig."
+    },
+    {
+     "en": "That's a fair point, but I disagree.",
+     "de": "Das ist ein berechtigter Einwand, aber ich sehe es anders."
+    },
+    {
+     "en": "I'm not entirely convinced.",
+     "de": "Ich bin nicht ganz überzeugt.",
+     "alt": [
+      "I am not entirely convinced."
+     ]
+    },
+    {
+     "en": "There is no evidence for that claim.",
+     "de": "Für diese Behauptung gibt es keine Belege."
+    },
+    {
+     "en": "We need to weigh up the pros and cons.",
+     "de": "Wir müssen die Vor- und Nachteile abwägen."
+    },
+    {
+     "en": "All things considered, it was a good decision.",
+     "de": "Alles in allem war es eine gute Entscheidung."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Alles in allem“:",
+     "options": [
+      "All things considered",
+      "All in everything",
+      "In all things",
+      "Everything in all"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„evidence“ ist im Englischen:",
+     "options": [
+      "unzählbar (some evidence)",
+      "zählbar (an evidence)",
+      "ein Verb",
+      "nur Plural (evidences)"
+     ],
+     "answer": 0,
+     "explain": "Man sagt „a piece of evidence“."
+    },
+    {
+     "q": "Höfliche Reaktion auf ein Gegenargument:",
+     "options": [
+      "I take your point, however ...",
+      "Rubbish!",
+      "You don't understand.",
+      "Wrong."
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "On the one ___, it's fast; on the other, it's loud.",
+     "answer": "hand",
+     "hint": "einerseits",
+     "de": "Einerseits ist es schnell, andererseits laut."
+    },
+    {
+     "text": "Are you in ___ of the new law?",
+     "answer": "favour",
+     "hint": "dafür",
+     "de": "Bist du für das neue Gesetz?",
+     "alt": [
+      "favor"
+     ]
+    },
+    {
+     "text": "Have you ___ the consequences?",
+     "answer": "considered",
+     "hint": "bedacht",
+     "de": "Hast du die Folgen bedacht?",
+     "alt": [
+      "thought about"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Diskussion: Autofreie Innenstadt",
+    "setting": "In einem Bürgerforum wird über eine autofreie Innenstadt diskutiert.",
+    "lines": [
+     {
+      "speaker": "Moderator",
+      "en": "Should our city centre be car-free? What's your view?",
+      "de": "Soll unsere Innenstadt autofrei werden? Was meinen Sie?"
+     },
+     {
+      "speaker": "You",
+      "en": "I'm in favour. First of all, the air quality would improve.",
+      "de": "Ich bin dafür. Zunächst würde sich die Luftqualität verbessern."
+     },
+     {
+      "speaker": "Shop owner",
+      "en": "But many customers come by car. We'd lose business.",
+      "de": "Aber viele Kunden kommen mit dem Auto. Wir würden Umsatz verlieren."
+     },
+     {
+      "speaker": "You",
+      "en": "That's a fair point, but studies show pedestrians actually spend more.",
+      "de": "Ein berechtigter Einwand, aber Studien zeigen, dass Fußgänger sogar mehr ausgeben."
+     },
+     {
+      "speaker": "Shop owner",
+      "en": "I'm not entirely convinced.",
+      "de": "Ich bin nicht ganz überzeugt."
+     },
+     {
+      "speaker": "You",
+      "en": "Then why not test it for a year and weigh up the results?",
+      "de": "Warum testen wir es dann nicht ein Jahr lang und wägen die Ergebnisse ab?"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b2_03",
+   "title": "Berufliche Präsentationen",
+   "goal": "Du kannst eine Präsentation gliedern, durch Folien führen und Fragen souverän beantworten.",
+   "theory": [
+    {
+     "heading": "Aufbau einer Präsentation",
+     "text": "• Einstieg: Good morning, everyone. Today I'd like to talk about ...\n• Gliederung: I've divided my talk into three parts. First, ... Then, ... Finally, ...\n• Übergänge: Let's move on to ... / This brings me to ...\n• Visuals: As you can see on this slide, ... / Let's take a look at this chart.\n• Schluss: To sum up, ... / Thank you for your attention. Are there any questions?",
+     "examples": [
+      {
+       "en": "Today I'd like to talk about our sales figures.",
+       "de": "Heute möchte ich über unsere Verkaufszahlen sprechen."
+      },
+      {
+       "en": "As you can see on this slide, sales have doubled.",
+       "de": "Wie Sie auf dieser Folie sehen, haben sich die Verkäufe verdoppelt."
+      }
+     ]
+    },
+    {
+     "heading": "Zahlen und Trends beschreiben",
+     "text": "• to increase / rise / go up – steigen; to decrease / fall / drop – sinken\n• sharply / dramatically – stark; slightly / gradually – leicht / allmählich\n• to remain stable – stabil bleiben; to reach a peak – einen Höchststand erreichen\nFragen beantworten: That's a good question. / I'll get back to you on that. – Ich melde mich dazu.",
+     "examples": [
+      {
+       "en": "Profits rose sharply in the second quarter.",
+       "de": "Die Gewinne stiegen im zweiten Quartal stark."
+      },
+      {
+       "en": "I'll get back to you on that.",
+       "de": "Ich melde mich dazu bei Ihnen."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "slide",
+     "de": "Folie",
+     "example": "Let's look at the next slide.",
+     "exampleDe": "Schauen wir uns die nächste Folie an."
+    },
+    {
+     "en": "chart",
+     "de": "Diagramm",
+     "alt": [
+      "graph"
+     ],
+     "example": "This chart shows our growth.",
+     "exampleDe": "Dieses Diagramm zeigt unser Wachstum."
+    },
+    {
+     "en": "to increase",
+     "de": "steigen, erhöhen",
+     "alt": [
+      "increase",
+      "rise"
+     ],
+     "example": "Costs have increased by 10%.",
+     "exampleDe": "Die Kosten sind um 10 % gestiegen."
+    },
+    {
+     "en": "to decrease",
+     "de": "sinken, verringern",
+     "alt": [
+      "decrease",
+      "fall",
+      "drop"
+     ],
+     "example": "Sales decreased slightly.",
+     "exampleDe": "Die Verkäufe sanken leicht."
+    },
+    {
+     "en": "sharply",
+     "de": "stark, deutlich",
+     "alt": [
+      "dramatically"
+     ],
+     "example": "Prices rose sharply.",
+     "exampleDe": "Die Preise stiegen stark."
+    },
+    {
+     "en": "to sum up",
+     "de": "zusammenfassend",
+     "alt": [
+      "in summary",
+      "to summarise"
+     ],
+     "example": "To sum up, we had a great year.",
+     "exampleDe": "Zusammenfassend hatten wir ein tolles Jahr."
+    },
+    {
+     "en": "audience",
+     "de": "Publikum",
+     "example": "The audience asked great questions.",
+     "exampleDe": "Das Publikum stellte tolle Fragen."
+    },
+    {
+     "en": "to get back to someone",
+     "de": "sich bei jemandem melden",
+     "alt": [
+      "get back to"
+     ],
+     "example": "I'll get back to you tomorrow.",
+     "exampleDe": "Ich melde mich morgen bei Ihnen."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "Today I'd like to talk about our new product.",
+     "de": "Heute möchte ich über unser neues Produkt sprechen.",
+     "alt": [
+      "Today I would like to talk about our new product."
+     ]
+    },
+    {
+     "en": "As you can see on this slide, sales have increased.",
+     "de": "Wie Sie auf dieser Folie sehen, sind die Verkäufe gestiegen."
+    },
+    {
+     "en": "Let's move on to the next point.",
+     "de": "Kommen wir zum nächsten Punkt."
+    },
+    {
+     "en": "Profits rose sharply last year.",
+     "de": "Die Gewinne stiegen letztes Jahr stark."
+    },
+    {
+     "en": "To sum up, the project was a success.",
+     "de": "Zusammenfassend war das Projekt ein Erfolg."
+    },
+    {
+     "en": "Are there any questions?",
+     "de": "Gibt es Fragen?",
+     "alt": [
+      "Do you have any questions?"
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Die Kosten stiegen um 5 %.“",
+     "options": [
+      "Costs rose by 5%.",
+      "Costs rose about 5%.",
+      "Costs rose with 5%.",
+      "Costs raised by 5%."
+     ],
+     "answer": 0,
+     "explain": "„by“ für die Differenz; „rise“ (intransitiv) – nicht „raise“."
+    },
+    {
+     "q": "Gute Überleitung:",
+     "options": [
+      "This brings me to my next point.",
+      "Now other thing.",
+      "Next is coming.",
+      "And so further."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Du kennst die Antwort nicht:",
+     "options": [
+      "I'll get back to you on that.",
+      "No idea.",
+      "That's not my job.",
+      "Ask someone else."
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "As you can ___ on this slide, ...",
+     "answer": "see",
+     "hint": "sehen",
+     "de": "Wie Sie auf dieser Folie sehen ..."
+    },
+    {
+     "text": "Sales ___ slightly in March.",
+     "answer": "fell",
+     "hint": "sinken (Vergangenheit)",
+     "de": "Die Verkäufe sanken im März leicht.",
+     "alt": [
+      "dropped",
+      "decreased",
+      "went down"
+     ]
+    },
+    {
+     "text": "To ___ up, ...",
+     "answer": "sum",
+     "hint": "zusammenfassend",
+     "de": "Zusammenfassend ..."
+    }
+   ],
+   "dialogue": {
+    "title": "Nach der Präsentation",
+    "setting": "Du hast gerade die Quartalszahlen präsentiert; ein Manager stellt Fragen.",
+    "lines": [
+     {
+      "speaker": "Director",
+      "en": "Thank you. Why did sales drop in February?",
+      "de": "Danke. Warum sind die Verkäufe im Februar gesunken?"
+     },
+     {
+      "speaker": "You",
+      "en": "That's a good question. Mainly because of supply problems.",
+      "de": "Gute Frage. Hauptsächlich wegen Lieferproblemen."
+     },
+     {
+      "speaker": "Director",
+      "en": "And what do you expect for the next quarter?",
+      "de": "Und was erwarten Sie für das nächste Quartal?"
+     },
+     {
+      "speaker": "You",
+      "en": "We expect sales to increase gradually.",
+      "de": "Wir erwarten, dass die Verkäufe allmählich steigen."
+     },
+     {
+      "speaker": "Director",
+      "en": "What about the costs of the new campaign?",
+      "de": "Und die Kosten der neuen Kampagne?"
+     },
+     {
+      "speaker": "You",
+      "en": "I don't have the exact figures, but I'll get back to you on that.",
+      "de": "Ich habe die genauen Zahlen nicht da, aber ich melde mich dazu."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b2_04",
+   "title": "Komplexe Texte verstehen",
+   "goal": "Du kannst längere Texte erschließen, Hauptaussagen erkennen und zwischen den Zeilen lesen.",
+   "theory": [
+    {
+     "heading": "Lesestrategien",
+     "text": "• Skimming – den Text überfliegen, um das Thema zu erfassen (Überschrift, erster und letzter Absatz).\n• Scanning – gezielt nach Informationen suchen (Zahlen, Namen).\n• Unbekannte Wörter aus dem Kontext erschließen, statt jedes nachzuschlagen.\n• Achte auf Signalwörter: however (Gegensatz), therefore (Folge), in addition (Ergänzung).",
+     "examples": [
+      {
+       "en": "The article suggests that remote work is here to stay.",
+       "de": "Der Artikel legt nahe, dass Fernarbeit bleiben wird."
+      }
+     ]
+    },
+    {
+     "heading": "Lesetext: The Four-Day Week",
+     "text": "Read the text, then answer the questions in the lesson.\n„A growing number of companies are experimenting with a four-day working week. In a recent trial, staff worked 80 per cent of their usual hours for the same pay. Surprisingly, productivity did not fall; in fact, most firms reported that it remained stable or even improved. Employees said they felt less stressed and took fewer sick days. However, critics argue that the model does not suit every industry, particularly those that depend on customer service around the clock.“",
+     "examples": [
+      {
+       "en": "productivity remained stable",
+       "de": "die Produktivität blieb stabil"
+      },
+      {
+       "en": "around the clock",
+       "de": "rund um die Uhr"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to suggest",
+     "de": "nahelegen, vorschlagen",
+     "alt": [
+      "suggest",
+      "imply"
+     ],
+     "example": "The data suggests a link.",
+     "exampleDe": "Die Daten legen einen Zusammenhang nahe."
+    },
+    {
+     "en": "productivity",
+     "de": "Produktivität",
+     "example": "Productivity improved.",
+     "exampleDe": "Die Produktivität verbesserte sich."
+    },
+    {
+     "en": "trial",
+     "de": "Versuch, Test",
+     "example": "The trial lasted six months.",
+     "exampleDe": "Der Versuch dauerte sechs Monate."
+    },
+    {
+     "en": "critic",
+     "de": "Kritiker(in)",
+     "example": "Critics say it's too expensive.",
+     "exampleDe": "Kritiker sagen, es sei zu teuer."
+    },
+    {
+     "en": "surprisingly",
+     "de": "überraschenderweise",
+     "example": "Surprisingly, nobody complained.",
+     "exampleDe": "Überraschenderweise beschwerte sich niemand."
+    },
+    {
+     "en": "in fact",
+     "de": "tatsächlich, sogar",
+     "example": "In fact, it got better.",
+     "exampleDe": "Tatsächlich wurde es sogar besser."
+    },
+    {
+     "en": "around the clock",
+     "de": "rund um die Uhr",
+     "example": "The hospital works around the clock.",
+     "exampleDe": "Das Krankenhaus arbeitet rund um die Uhr."
+    },
+    {
+     "en": "to depend on",
+     "de": "abhängen von",
+     "alt": [
+      "depend on"
+     ],
+     "example": "It depends on the weather.",
+     "exampleDe": "Es hängt vom Wetter ab."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "Productivity did not fall.",
+     "de": "Die Produktivität sank nicht.",
+     "alt": [
+      "Productivity didn't fall."
+     ]
+    },
+    {
+     "en": "Employees felt less stressed.",
+     "de": "Die Mitarbeiter fühlten sich weniger gestresst.",
+     "alt": [
+      "The employees felt less stressed."
+     ]
+    },
+    {
+     "en": "It depends on the industry.",
+     "de": "Es hängt von der Branche ab."
+    },
+    {
+     "en": "Critics argue that it is too risky.",
+     "de": "Kritiker argumentieren, dass es zu riskant ist.",
+     "alt": [
+      "Critics argue that it's too risky."
+     ]
+    },
+    {
+     "en": "In fact, most firms were satisfied.",
+     "de": "Tatsächlich waren die meisten Firmen zufrieden."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Laut Text: Wie hat sich die Produktivität entwickelt?",
+     "options": [
+      "Sie blieb stabil oder stieg.",
+      "Sie sank stark.",
+      "Sie sank leicht.",
+      "Darüber steht nichts."
+     ],
+     "answer": 0,
+     "explain": "„productivity did not fall; ... remained stable or even improved“"
+    },
+    {
+     "q": "Was kritisieren die Kritiker?",
+     "options": [
+      "Das Modell passt nicht zu jeder Branche.",
+      "Die Mitarbeiter verdienen zu wenig.",
+      "Es gibt mehr Krankheitstage.",
+      "Die Produktivität sinkt."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Skimming“ bedeutet:",
+     "options": [
+      "einen Text überfliegen",
+      "jedes Wort nachschlagen",
+      "laut vorlesen",
+      "zusammenfassen"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Staff worked 80 per cent of their usual hours for the same ___.",
+     "answer": "pay",
+     "hint": "Lohn",
+     "de": "Die Mitarbeiter arbeiteten 80 % ihrer üblichen Stunden für denselben Lohn.",
+     "alt": [
+      "salary",
+      "money"
+     ]
+    },
+    {
+     "text": "Employees took fewer sick ___.",
+     "answer": "days",
+     "hint": "Krankheitstage",
+     "de": "Die Mitarbeiter nahmen weniger Krankheitstage."
+    },
+    {
+     "text": "The success depends ___ the industry.",
+     "answer": "on",
+     "hint": "Präposition",
+     "de": "Der Erfolg hängt von der Branche ab."
+    }
+   ],
+   "dialogue": {
+    "title": "Über den Artikel sprechen",
+    "setting": "Ihr diskutiert den Artikel über die Vier-Tage-Woche.",
+    "lines": [
+     {
+      "speaker": "Hannah",
+      "en": "Did you read that article about the four-day week?",
+      "de": "Hast du den Artikel über die Vier-Tage-Woche gelesen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, I did. Surprisingly, productivity didn't fall at all.",
+      "de": "Ja. Überraschenderweise sank die Produktivität überhaupt nicht."
+     },
+     {
+      "speaker": "Hannah",
+      "en": "Would it work in your company?",
+      "de": "Würde das in deiner Firma funktionieren?"
+     },
+     {
+      "speaker": "You",
+      "en": "It depends. We offer customer service around the clock.",
+      "de": "Kommt drauf an. Wir bieten rund um die Uhr Kundenservice."
+     },
+     {
+      "speaker": "Hannah",
+      "en": "That's exactly what the critics said.",
+      "de": "Genau das haben die Kritiker gesagt."
+     },
+     {
+      "speaker": "You",
+      "en": "True, but with good planning it might still be possible.",
+      "de": "Stimmt, aber mit guter Planung könnte es trotzdem möglich sein."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b2_05",
+   "title": "Redewendungen (Idioms)",
+   "goal": "Du verstehst und verwendest häufige englische Redewendungen.",
+   "theory": [
+    {
+     "heading": "Was sind Idioms?",
+     "text": "Idioms sind feste Ausdrücke, deren Bedeutung sich nicht aus den einzelnen Wörtern ergibt – wie im Deutschen „Tomaten auf den Augen haben“.\n• It's a piece of cake. – Das ist ein Kinderspiel.\n• to break the ice – das Eis brechen\n• to hit the nail on the head – den Nagel auf den Kopf treffen\n• to be under the weather – angeschlagen / leicht krank sein\n• once in a blue moon – alle Jubeljahre",
+     "examples": [
+      {
+       "en": "The exam was a piece of cake.",
+       "de": "Die Prüfung war ein Kinderspiel."
+      },
+      {
+       "en": "You've hit the nail on the head.",
+       "de": "Du hast den Nagel auf den Kopf getroffen."
+      }
+     ]
+    },
+    {
+     "heading": "Weitere Alltags-Idioms",
+     "text": "• to cost an arm and a leg – ein Vermögen kosten\n• to call it a day – Feierabend machen\n• to be on the same page – auf dem gleichen Stand sein\n• to get cold feet – kalte Füße bekommen\n• the ball is in your court – du bist am Zug\nTipp: Verwende Idioms sparsam und passend – zu viele wirken unnatürlich.",
+     "examples": [
+      {
+       "en": "Let's call it a day.",
+       "de": "Lass uns Feierabend machen."
+      },
+      {
+       "en": "The ball is in your court now.",
+       "de": "Jetzt bist du am Zug."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "a piece of cake",
+     "de": "ein Kinderspiel",
+     "example": "The test was a piece of cake.",
+     "exampleDe": "Der Test war ein Kinderspiel."
+    },
+    {
+     "en": "to break the ice",
+     "de": "das Eis brechen",
+     "alt": [
+      "break the ice"
+     ],
+     "example": "A joke can break the ice.",
+     "exampleDe": "Ein Witz kann das Eis brechen."
+    },
+    {
+     "en": "under the weather",
+     "de": "angeschlagen, leicht krank",
+     "example": "I'm feeling a bit under the weather.",
+     "exampleDe": "Ich fühle mich etwas angeschlagen."
+    },
+    {
+     "en": "to cost an arm and a leg",
+     "de": "ein Vermögen kosten",
+     "alt": [
+      "cost an arm and a leg"
+     ],
+     "example": "That car cost an arm and a leg.",
+     "exampleDe": "Das Auto hat ein Vermögen gekostet."
+    },
+    {
+     "en": "to call it a day",
+     "de": "Feierabend machen",
+     "alt": [
+      "call it a day"
+     ],
+     "example": "It's late, let's call it a day.",
+     "exampleDe": "Es ist spät, lass uns Schluss machen."
+    },
+    {
+     "en": "to get cold feet",
+     "de": "kalte Füße bekommen",
+     "alt": [
+      "get cold feet"
+     ],
+     "example": "He got cold feet before the wedding.",
+     "exampleDe": "Er bekam vor der Hochzeit kalte Füße."
+    },
+    {
+     "en": "once in a blue moon",
+     "de": "alle Jubeljahre",
+     "example": "I eat fast food once in a blue moon.",
+     "exampleDe": "Ich esse alle Jubeljahre Fast Food."
+    },
+    {
+     "en": "on the same page",
+     "de": "auf demselben Stand",
+     "example": "Let's make sure we're on the same page.",
+     "exampleDe": "Lass uns sicherstellen, dass wir auf demselben Stand sind."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "It was a piece of cake.",
+     "de": "Es war ein Kinderspiel."
+    },
+    {
+     "en": "I'm feeling a bit under the weather.",
+     "de": "Ich fühle mich etwas angeschlagen.",
+     "alt": [
+      "I feel a bit under the weather."
+     ]
+    },
+    {
+     "en": "Let's call it a day.",
+     "de": "Lass uns Feierabend machen.",
+     "alt": [
+      "Let us call it a day."
+     ]
+    },
+    {
+     "en": "The ball is in your court.",
+     "de": "Du bist am Zug."
+    },
+    {
+     "en": "Those shoes cost an arm and a leg.",
+     "de": "Diese Schuhe haben ein Vermögen gekostet."
+    },
+    {
+     "en": "You've hit the nail on the head.",
+     "de": "Du hast den Nagel auf den Kopf getroffen.",
+     "alt": [
+      "You have hit the nail on the head."
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„once in a blue moon“ bedeutet:",
+     "options": [
+      "sehr selten",
+      "jede Nacht",
+      "bei Vollmond",
+      "sehr oft"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„to get cold feet“ bedeutet:",
+     "options": [
+      "kurz vorher Angst bekommen",
+      "frieren",
+      "krank werden",
+      "wegrennen"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Du bist am Zug“:",
+     "options": [
+      "The ball is in your court.",
+      "You are on the train.",
+      "It's your turn of ball.",
+      "The court is yours."
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Don't worry, the test is a piece of ___.",
+     "answer": "cake",
+     "hint": "Kinderspiel",
+     "de": "Keine Sorge, der Test ist ein Kinderspiel."
+    },
+    {
+     "text": "I think I'll call it a ___.",
+     "answer": "day",
+     "hint": "Feierabend",
+     "de": "Ich glaube, ich mache Feierabend."
+    },
+    {
+     "text": "She told a funny story to break the ___.",
+     "answer": "ice",
+     "hint": "Eis brechen",
+     "de": "Sie erzählte eine lustige Geschichte, um das Eis zu brechen."
+    }
+   ],
+   "dialogue": {
+    "title": "Im Büro am Freitag",
+    "setting": "Gegen Abend sprichst du mit einem Kollegen.",
+    "lines": [
+     {
+      "speaker": "Sam",
+      "en": "You look tired. Are you okay?",
+      "de": "Du siehst müde aus. Alles okay?"
+     },
+     {
+      "speaker": "You",
+      "en": "I'm a bit under the weather, to be honest.",
+      "de": "Ich bin ehrlich gesagt etwas angeschlagen."
+     },
+     {
+      "speaker": "Sam",
+      "en": "Then you should call it a day.",
+      "de": "Dann solltest du Feierabend machen."
+     },
+     {
+      "speaker": "You",
+      "en": "Good idea. The report can wait until Monday.",
+      "de": "Gute Idee. Der Bericht kann bis Montag warten."
+     },
+     {
+      "speaker": "Sam",
+      "en": "Exactly. Let's make sure we're on the same page then.",
+      "de": "Genau. Dann stimmen wir uns am Montag ab."
+     },
+     {
+      "speaker": "You",
+      "en": "Deal. Have a great weekend!",
+      "de": "Abgemacht. Schönes Wochenende!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b2_06",
+   "title": "Das Passiv",
+   "goal": "Du kannst Passivsätze in verschiedenen Zeiten bilden und gezielt einsetzen.",
+   "theory": [
+    {
+     "heading": "Bildung des Passivs",
+     "text": "Form von „to be“ + 3. Form (Partizip):\n• Present: The room is cleaned every day.\n• Past: The bridge was built in 1890.\n• Present Perfect: The email has been sent.\n• Future: The results will be announced tomorrow.\n• mit Modalverb: It must be done today.\nDer Handelnde wird mit „by“ angeschlossen: The book was written by Orwell.",
+     "examples": [
+      {
+       "en": "The bridge was built in 1890.",
+       "de": "Die Brücke wurde 1890 gebaut."
+      },
+      {
+       "en": "The results will be announced tomorrow.",
+       "de": "Die Ergebnisse werden morgen bekannt gegeben."
+      }
+     ]
+    },
+    {
+     "heading": "Wann Passiv?",
+     "text": "• Wenn der Handelnde unbekannt oder unwichtig ist: My bike was stolen.\n• In Berichten, Wissenschaft und formellen Texten: The data was analysed.\n• „It is said that ...“ – Man sagt, dass ... / He is said to be rich. – Er soll reich sein.\n• have something done – etwas machen lassen: I had my hair cut.",
+     "examples": [
+      {
+       "en": "My bike was stolen last night.",
+       "de": "Mein Fahrrad wurde letzte Nacht gestohlen."
+      },
+      {
+       "en": "I'm having my car repaired.",
+       "de": "Ich lasse mein Auto reparieren."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to build",
+     "de": "bauen",
+     "alt": [
+      "build"
+     ],
+     "example": "The house was built in 1950.",
+     "exampleDe": "Das Haus wurde 1950 gebaut."
+    },
+    {
+     "en": "to steal",
+     "de": "stehlen",
+     "alt": [
+      "steal"
+     ],
+     "example": "My wallet was stolen.",
+     "exampleDe": "Meine Geldbörse wurde gestohlen."
+    },
+    {
+     "en": "to announce",
+     "de": "bekannt geben",
+     "alt": [
+      "announce"
+     ],
+     "example": "The winner will be announced soon.",
+     "exampleDe": "Der Gewinner wird bald bekannt gegeben."
+    },
+    {
+     "en": "to invent",
+     "de": "erfinden",
+     "alt": [
+      "invent"
+     ],
+     "example": "The telephone was invented by Bell.",
+     "exampleDe": "Das Telefon wurde von Bell erfunden."
+    },
+    {
+     "en": "to repair",
+     "de": "reparieren",
+     "alt": [
+      "repair",
+      "fix"
+     ],
+     "example": "The road is being repaired.",
+     "exampleDe": "Die Straße wird gerade repariert."
+    },
+    {
+     "en": "to deliver",
+     "de": "liefern",
+     "alt": [
+      "deliver"
+     ],
+     "example": "The parcel was delivered yesterday.",
+     "exampleDe": "Das Paket wurde gestern geliefert."
+    },
+    {
+     "en": "to be said to",
+     "de": "sollen (angeblich)",
+     "alt": [
+      "be said to"
+     ],
+     "example": "He is said to be very rich.",
+     "exampleDe": "Er soll sehr reich sein."
+    },
+    {
+     "en": "to arrest",
+     "de": "verhaften",
+     "alt": [
+      "arrest"
+     ],
+     "example": "The thief was arrested.",
+     "exampleDe": "Der Dieb wurde verhaftet."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "The bridge was built in 1890.",
+     "de": "Die Brücke wurde 1890 gebaut."
+    },
+    {
+     "en": "The email has already been sent.",
+     "de": "Die E-Mail wurde bereits verschickt.",
+     "alt": [
+      "The email has been sent already."
+     ]
+    },
+    {
+     "en": "My bike was stolen.",
+     "de": "Mein Fahrrad wurde gestohlen."
+    },
+    {
+     "en": "The results will be announced tomorrow.",
+     "de": "Die Ergebnisse werden morgen bekannt gegeben."
+    },
+    {
+     "en": "I had my hair cut yesterday.",
+     "de": "Ich habe mir gestern die Haare schneiden lassen."
+    },
+    {
+     "en": "This must be done today.",
+     "de": "Das muss heute erledigt werden."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Das Haus wird gerade gestrichen.“",
+     "options": [
+      "The house is being painted.",
+      "The house is painting.",
+      "The house is painted now.",
+      "The house has painting."
+     ],
+     "answer": 0,
+     "explain": "Present Continuous Passiv: is being + 3. Form"
+    },
+    {
+     "q": "The book ___ by Jane Austen.",
+     "options": [
+      "was written",
+      "was wrote",
+      "is writing",
+      "has write"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Ich lasse mein Auto reparieren.“",
+     "options": [
+      "I'm having my car repaired.",
+      "I let repair my car.",
+      "I'm repairing my car.",
+      "I let my car repair."
+     ],
+     "answer": 0,
+     "explain": "have something done"
+    }
+   ],
+   "gaps": [
+    {
+     "text": "The parcel ___ delivered yesterday.",
+     "answer": "was",
+     "hint": "Past Passiv",
+     "de": "Das Paket wurde gestern geliefert."
+    },
+    {
+     "text": "English ___ spoken all over the world.",
+     "answer": "is",
+     "hint": "Present Passiv",
+     "de": "Englisch wird auf der ganzen Welt gesprochen."
+    },
+    {
+     "text": "The report has ___ finished.",
+     "answer": "been",
+     "hint": "Present Perfect Passiv",
+     "de": "Der Bericht ist fertiggestellt worden."
+    }
+   ],
+   "dialogue": {
+    "title": "Reklamation",
+    "setting": "Dein bestelltes Paket ist nicht angekommen; du rufst beim Kundenservice an.",
+    "lines": [
+     {
+      "speaker": "Agent",
+      "en": "How can I help you today?",
+      "de": "Wie kann ich Ihnen heute helfen?"
+     },
+     {
+      "speaker": "You",
+      "en": "My order was supposed to be delivered on Monday, but it hasn't arrived.",
+      "de": "Meine Bestellung sollte am Montag geliefert werden, ist aber nicht angekommen."
+     },
+     {
+      "speaker": "Agent",
+      "en": "Let me check. It says it was delivered to your neighbour.",
+      "de": "Ich schaue nach. Hier steht, es wurde bei Ihrem Nachbarn abgegeben."
+     },
+     {
+      "speaker": "You",
+      "en": "I wasn't informed about that.",
+      "de": "Darüber wurde ich nicht informiert."
+     },
+     {
+      "speaker": "Agent",
+      "en": "I'm sorry. A card should have been left in your letterbox.",
+      "de": "Das tut mir leid. Eigentlich hätte eine Karte in Ihrem Briefkasten liegen sollen."
+     },
+     {
+      "speaker": "You",
+      "en": "Okay, I'll ask my neighbour. Thanks for your help.",
+      "de": "Okay, ich frage meinen Nachbarn. Danke für Ihre Hilfe."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b2_07",
+   "title": "Indirekte Rede",
+   "goal": "Du kannst wiedergeben, was andere gesagt oder gefragt haben.",
+   "theory": [
+    {
+     "heading": "Zeitverschiebung (Backshift)",
+     "text": "Wird mit einem Verb in der Vergangenheit berichtet (said, told), rückt die Zeit meist eine Stufe zurück:\n• „I am tired.“ → She said (that) she was tired.\n• „I lost my keys.“ → He said he had lost his keys.\n• „I will call you.“ → She said she would call me.\n• „I can help.“ → He said he could help.\nAuch Orts- und Zeitangaben ändern sich: today → that day, tomorrow → the next day, here → there.",
+     "examples": [
+      {
+       "en": "She said she was tired.",
+       "de": "Sie sagte, sie sei müde."
+      },
+      {
+       "en": "He told me he would call.",
+       "de": "Er sagte mir, er würde anrufen."
+      }
+     ]
+    },
+    {
+     "heading": "Fragen und Bitten berichten",
+     "text": "• Ja/Nein-Fragen mit if/whether: „Are you coming?“ → She asked if I was coming.\n• W-Fragen: „Where do you live?“ → He asked where I lived. (normale Satzstellung, kein do!)\n• Bitten / Aufforderungen: „Please wait.“ → She asked me to wait. / He told me not to worry.\nsay vs. tell: say something (to someone) – tell someone something.",
+     "examples": [
+      {
+       "en": "He asked where I lived.",
+       "de": "Er fragte, wo ich wohne."
+      },
+      {
+       "en": "She told me not to worry.",
+       "de": "Sie sagte mir, ich solle mir keine Sorgen machen."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to tell",
+     "de": "erzählen, sagen (jemandem)",
+     "alt": [
+      "tell"
+     ],
+     "example": "She told me the truth.",
+     "exampleDe": "Sie hat mir die Wahrheit gesagt."
+    },
+    {
+     "en": "to ask",
+     "de": "fragen, bitten",
+     "alt": [
+      "ask"
+     ],
+     "example": "He asked me to help.",
+     "exampleDe": "Er bat mich zu helfen."
+    },
+    {
+     "en": "whether",
+     "de": "ob",
+     "alt": [
+      "if"
+     ],
+     "example": "She asked whether I was ready.",
+     "exampleDe": "Sie fragte, ob ich bereit sei."
+    },
+    {
+     "en": "to explain",
+     "de": "erklären",
+     "alt": [
+      "explain"
+     ],
+     "example": "He explained that he was late.",
+     "exampleDe": "Er erklärte, dass er spät dran sei."
+    },
+    {
+     "en": "to admit",
+     "de": "zugeben",
+     "alt": [
+      "admit"
+     ],
+     "example": "She admitted that she was wrong.",
+     "exampleDe": "Sie gab zu, dass sie falschlag."
+    },
+    {
+     "en": "to claim",
+     "de": "behaupten",
+     "alt": [
+      "claim"
+     ],
+     "example": "He claimed he had seen a ghost.",
+     "exampleDe": "Er behauptete, einen Geist gesehen zu haben."
+    },
+    {
+     "en": "to promise",
+     "de": "versprechen",
+     "alt": [
+      "promise"
+     ],
+     "example": "They promised they would come.",
+     "exampleDe": "Sie versprachen zu kommen."
+    },
+    {
+     "en": "to complain",
+     "de": "sich beschweren",
+     "alt": [
+      "complain"
+     ],
+     "example": "She complained that it was too loud.",
+     "exampleDe": "Sie beschwerte sich, dass es zu laut sei."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "She said that she was tired.",
+     "de": "Sie sagte, dass sie müde sei.",
+     "alt": [
+      "She said she was tired."
+     ]
+    },
+    {
+     "en": "He told me he would call later.",
+     "de": "Er sagte mir, er würde später anrufen.",
+     "alt": [
+      "He told me that he would call later."
+     ]
+    },
+    {
+     "en": "She asked if I was coming.",
+     "de": "Sie fragte, ob ich komme.",
+     "alt": [
+      "She asked whether I was coming."
+     ]
+    },
+    {
+     "en": "He asked me where I lived.",
+     "de": "Er fragte mich, wo ich wohne.",
+     "alt": [
+      "He asked where I lived."
+     ]
+    },
+    {
+     "en": "The doctor told me to rest.",
+     "de": "Der Arzt sagte mir, ich solle mich ausruhen."
+    },
+    {
+     "en": "She admitted that she had made a mistake.",
+     "de": "Sie gab zu, dass sie einen Fehler gemacht hatte."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„I'm hungry,“ he said. → He said he ___ hungry.",
+     "options": [
+      "was",
+      "is",
+      "has been",
+      "were"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Where is the bank?“ → She asked where ___.",
+     "options": [
+      "the bank was",
+      "was the bank",
+      "is the bank",
+      "did the bank be"
+     ],
+     "answer": 0,
+     "explain": "In indirekten Fragen normale Satzstellung."
+    },
+    {
+     "q": "Richtig:",
+     "options": [
+      "He told me that he was busy.",
+      "He said me that he was busy.",
+      "He told that he was busy.",
+      "He said to me he is busy yesterday."
+     ],
+     "answer": 0,
+     "explain": "tell + Person; say (to someone)"
+    }
+   ],
+   "gaps": [
+    {
+     "text": "She ___ me that she loved the gift.",
+     "answer": "told",
+     "hint": "tell, Vergangenheit",
+     "de": "Sie sagte mir, dass ihr das Geschenk gefiel."
+    },
+    {
+     "text": "He asked me ___ I could help him.",
+     "answer": "if",
+     "hint": "ob",
+     "de": "Er fragte mich, ob ich ihm helfen könne.",
+     "alt": [
+      "whether"
+     ]
+    },
+    {
+     "text": "„I will be late.“ → She said she ___ be late.",
+     "answer": "would",
+     "hint": "will → ?",
+     "de": "Sie sagte, sie würde zu spät kommen."
+    }
+   ],
+   "dialogue": {
+    "title": "Was hat der Chef gesagt?",
+    "setting": "Ein Kollege war nicht im Meeting und fragt dich.",
+    "lines": [
+     {
+      "speaker": "Tom",
+      "en": "I missed the meeting. What did the boss say?",
+      "de": "Ich habe das Meeting verpasst. Was hat der Chef gesagt?"
+     },
+     {
+      "speaker": "You",
+      "en": "He said that the deadline had been moved to next week.",
+      "de": "Er sagte, die Frist sei auf nächste Woche verschoben worden."
+     },
+     {
+      "speaker": "Tom",
+      "en": "Great! Did he mention the budget?",
+      "de": "Super! Hat er das Budget erwähnt?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yes, he told us not to spend more than planned.",
+      "de": "Ja, er sagte uns, wir sollten nicht mehr als geplant ausgeben."
+     },
+     {
+      "speaker": "Tom",
+      "en": "Did anyone ask about the new office?",
+      "de": "Hat jemand nach dem neuen Büro gefragt?"
+     },
+     {
+      "speaker": "You",
+      "en": "Lisa asked when we would move, but he wasn't sure.",
+      "de": "Lisa fragte, wann wir umziehen, aber er war sich nicht sicher."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b2_08",
+   "title": "Anspruchsvolle Grammatik",
+   "goal": "Du beherrschst Past Perfect, den Third Conditional und Wünsche mit „wish“.",
+   "theory": [
+    {
+     "heading": "Past Perfect & Third Conditional",
+     "text": "**Past Perfect** (had + 3. Form): Vorvergangenheit – was vor einem anderen Ereignis in der Vergangenheit geschah.\n• When I arrived, the film had already started.\n**Third Conditional** – unwirkliche Vergangenheit: If + Past Perfect, would have + 3. Form\n• If I had known, I would have helped you. – Hätte ich es gewusst, hätte ich dir geholfen.",
+     "examples": [
+      {
+       "en": "When we arrived, the train had already left.",
+       "de": "Als wir ankamen, war der Zug schon abgefahren."
+      },
+      {
+       "en": "If I had studied, I would have passed.",
+       "de": "Hätte ich gelernt, hätte ich bestanden."
+      }
+     ]
+    },
+    {
+     "heading": "Wünsche und Bedauern mit wish",
+     "text": "• Gegenwart: I wish + Past → I wish I had more time. (Ich wünschte, ich hätte mehr Zeit.)\n• Vergangenheit: I wish + Past Perfect → I wish I hadn't said that. (Hätte ich das bloß nicht gesagt.)\n• Ärger über andere: I wish you would stop. (Ich wünschte, du würdest aufhören.)\n• should have / could have + 3. Form: You should have told me. – Du hättest es mir sagen sollen.",
+     "examples": [
+      {
+       "en": "I wish I could speak Spanish.",
+       "de": "Ich wünschte, ich könnte Spanisch."
+      },
+      {
+       "en": "You should have told me earlier.",
+       "de": "Du hättest es mir früher sagen sollen."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "already",
+     "de": "schon, bereits",
+     "example": "The film had already started.",
+     "exampleDe": "Der Film hatte schon angefangen."
+    },
+    {
+     "en": "to regret",
+     "de": "bereuen",
+     "alt": [
+      "regret"
+     ],
+     "example": "I regret not going.",
+     "exampleDe": "Ich bereue, nicht gegangen zu sein."
+    },
+    {
+     "en": "I wish",
+     "de": "ich wünschte",
+     "example": "I wish it were summer.",
+     "exampleDe": "Ich wünschte, es wäre Sommer."
+    },
+    {
+     "en": "should have",
+     "de": "hätte sollen",
+     "example": "You should have called.",
+     "exampleDe": "Du hättest anrufen sollen."
+    },
+    {
+     "en": "by the time",
+     "de": "bis (zu dem Zeitpunkt, als)",
+     "example": "By the time I got there, everyone had left.",
+     "exampleDe": "Als ich ankam, waren alle schon weg."
+    },
+    {
+     "en": "to miss",
+     "de": "verpassen; vermissen",
+     "alt": [
+      "miss"
+     ],
+     "example": "We missed the bus.",
+     "exampleDe": "Wir haben den Bus verpasst."
+    },
+    {
+     "en": "if only",
+     "de": "wenn doch nur",
+     "example": "If only I had listened!",
+     "exampleDe": "Hätte ich doch nur zugehört!"
+    },
+    {
+     "en": "otherwise",
+     "de": "sonst, andernfalls",
+     "example": "Hurry, otherwise we'll be late.",
+     "exampleDe": "Beeil dich, sonst kommen wir zu spät."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "When I arrived, the film had already started.",
+     "de": "Als ich ankam, hatte der Film schon angefangen."
+    },
+    {
+     "en": "If I had known, I would have helped you.",
+     "de": "Wenn ich es gewusst hätte, hätte ich dir geholfen.",
+     "alt": [
+      "If I had known, I'd have helped you."
+     ]
+    },
+    {
+     "en": "I wish I had more time.",
+     "de": "Ich wünschte, ich hätte mehr Zeit."
+    },
+    {
+     "en": "You should have told me.",
+     "de": "Du hättest es mir sagen sollen."
+    },
+    {
+     "en": "I wish I hadn't said that.",
+     "de": "Hätte ich das bloß nicht gesagt.",
+     "alt": [
+      "I wish I had not said that."
+     ]
+    },
+    {
+     "en": "By the time we got there, the shop had closed.",
+     "de": "Als wir ankamen, hatte der Laden schon geschlossen."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "If she ___ earlier, she would have caught the train.",
+     "options": [
+      "had left",
+      "left",
+      "would leave",
+      "has left"
+     ],
+     "answer": 0,
+     "explain": "Third Conditional: if + Past Perfect"
+    },
+    {
+     "q": "„Ich wünschte, ich wäre reich.“",
+     "options": [
+      "I wish I were rich.",
+      "I wish I am rich.",
+      "I wish I will be rich.",
+      "I wish to be rich now."
+     ],
+     "answer": 0,
+     "explain": "wish + Past (were)"
+    },
+    {
+     "q": "„Du hättest anrufen sollen.“",
+     "options": [
+      "You should have called.",
+      "You should called.",
+      "You had should call.",
+      "You would call."
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "When I got home, my wife ___ already cooked dinner.",
+     "answer": "had",
+     "hint": "Past Perfect",
+     "de": "Als ich nach Hause kam, hatte meine Frau schon gekocht."
+    },
+    {
+     "text": "If we had taken a taxi, we wouldn't ___ missed the flight.",
+     "answer": "have",
+     "hint": "would have + 3. Form",
+     "de": "Hätten wir ein Taxi genommen, hätten wir den Flug nicht verpasst."
+    },
+    {
+     "text": "I wish I ___ (can) play the guitar.",
+     "answer": "could",
+     "hint": "wish + Vergangenheit",
+     "de": "Ich wünschte, ich könnte Gitarre spielen."
+    }
+   ],
+   "dialogue": {
+    "title": "Verpasster Flug",
+    "setting": "Du hast deinen Flug verpasst und sprichst mit einer Freundin am Telefon.",
+    "lines": [
+     {
+      "speaker": "Amy",
+      "en": "Where are you? Your flight left an hour ago!",
+      "de": "Wo bist du? Dein Flug ist vor einer Stunde gestartet!"
+     },
+     {
+      "speaker": "You",
+      "en": "I know. By the time I got to the airport, the gate had closed.",
+      "de": "Ich weiß. Als ich am Flughafen war, war das Gate schon geschlossen."
+     },
+     {
+      "speaker": "Amy",
+      "en": "Oh no! What happened?",
+      "de": "Oh nein! Was ist passiert?"
+     },
+     {
+      "speaker": "You",
+      "en": "There was a huge traffic jam. I wish I had taken the train.",
+      "de": "Es gab einen riesigen Stau. Hätte ich bloß den Zug genommen."
+     },
+     {
+      "speaker": "Amy",
+      "en": "If you had left earlier, you would have made it.",
+      "de": "Wenn du früher losgefahren wärst, hättest du es geschafft."
+     },
+     {
+      "speaker": "You",
+      "en": "You're right. I should have planned more time.",
+      "de": "Du hast recht. Ich hätte mehr Zeit einplanen sollen."
+     }
+    ]
+   }
+  },
+  {
+   "id": "b2_09",
+   "title": "Authentisches Englisch & Phrasal Verbs",
+   "goal": "Du verstehst natürliches, schnelles Englisch und häufige Phrasal Verbs.",
+   "theory": [
+    {
+     "heading": "Phrasal Verbs",
+     "text": "Verb + Partikel mit oft neuer Bedeutung – im gesprochenen Englisch allgegenwärtig:\n• to give up – aufgeben • to find out – herausfinden • to look forward to – sich freuen auf\n• to turn down – ablehnen • to put off – verschieben • to come up with – sich ausdenken\n• to run out of – ausgehen (Vorrat) • to get along with – sich verstehen mit\nBei trennbaren Phrasal Verbs steht ein Pronomen in der Mitte: turn it down (nicht: turn down it).",
+     "examples": [
+      {
+       "en": "We've run out of milk.",
+       "de": "Uns ist die Milch ausgegangen."
+      },
+      {
+       "en": "She turned the offer down.",
+       "de": "Sie hat das Angebot abgelehnt."
+      }
+     ]
+    },
+    {
+     "heading": "Gesprochenes Englisch verstehen",
+     "text": "Im schnellen Englisch werden Wörter verbunden und verkürzt:\n• gonna = going to, wanna = want to, gotta = got to\n• „Whaddya think?“ = What do you think?  • „Didja“ = Did you\nSchwache Formen: „to“ klingt wie „tə“, „and“ wie „n“: fish 'n' chips.\nTipp: Höre dir Sätze mehrmals an – erst langsam, dann in normalem Tempo.",
+     "examples": [
+      {
+       "en": "I'm gonna call you later.",
+       "de": "Ich ruf dich später an."
+      },
+      {
+       "en": "What do you think?",
+       "de": "Was denkst du?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to give up",
+     "de": "aufgeben",
+     "alt": [
+      "give up"
+     ],
+     "example": "Never give up!",
+     "exampleDe": "Gib niemals auf!"
+    },
+    {
+     "en": "to find out",
+     "de": "herausfinden",
+     "alt": [
+      "find out"
+     ],
+     "example": "I found out the truth.",
+     "exampleDe": "Ich habe die Wahrheit herausgefunden."
+    },
+    {
+     "en": "to turn down",
+     "de": "ablehnen",
+     "alt": [
+      "turn down",
+      "reject"
+     ],
+     "example": "He turned down the job.",
+     "exampleDe": "Er lehnte den Job ab."
+    },
+    {
+     "en": "to put off",
+     "de": "verschieben",
+     "alt": [
+      "put off",
+      "postpone"
+     ],
+     "example": "Don't put it off until tomorrow.",
+     "exampleDe": "Verschieb es nicht auf morgen."
+    },
+    {
+     "en": "to come up with",
+     "de": "sich ausdenken",
+     "alt": [
+      "come up with"
+     ],
+     "example": "She came up with a great idea.",
+     "exampleDe": "Sie hatte eine tolle Idee."
+    },
+    {
+     "en": "to run out of",
+     "de": "ausgehen (Vorrat)",
+     "alt": [
+      "run out of"
+     ],
+     "example": "We ran out of time.",
+     "exampleDe": "Uns ist die Zeit ausgegangen."
+    },
+    {
+     "en": "to get along with",
+     "de": "sich verstehen mit",
+     "alt": [
+      "get along with",
+      "get on with"
+     ],
+     "example": "I get along well with my boss.",
+     "exampleDe": "Ich verstehe mich gut mit meinem Chef."
+    },
+    {
+     "en": "to figure out",
+     "de": "herausfinden, verstehen",
+     "alt": [
+      "figure out",
+      "work out"
+     ],
+     "example": "I can't figure out this problem.",
+     "exampleDe": "Ich komme bei diesem Problem nicht weiter."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "We've run out of coffee.",
+     "de": "Uns ist der Kaffee ausgegangen.",
+     "alt": [
+      "We have run out of coffee."
+     ]
+    },
+    {
+     "en": "She turned the offer down.",
+     "de": "Sie hat das Angebot abgelehnt.",
+     "alt": [
+      "She turned down the offer."
+     ]
+    },
+    {
+     "en": "I'm gonna find out what happened.",
+     "de": "Ich werde herausfinden, was passiert ist.",
+     "alt": [
+      "I'm going to find out what happened."
+     ]
+    },
+    {
+     "en": "Don't give up now.",
+     "de": "Gib jetzt nicht auf."
+    },
+    {
+     "en": "We had to put off the meeting.",
+     "de": "Wir mussten das Meeting verschieben.",
+     "alt": [
+      "We had to put the meeting off."
+     ]
+    },
+    {
+     "en": "Do you get along with your neighbours?",
+     "de": "Verstehst du dich mit deinen Nachbarn?",
+     "alt": [
+      "Do you get on with your neighbours?"
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„to put off“ bedeutet:",
+     "options": [
+      "verschieben",
+      "anziehen",
+      "ausmachen",
+      "ablegen"
+     ],
+     "answer": 0,
+     "explain": "Achtung: „put on“ = anziehen."
+    },
+    {
+     "q": "Richtig:",
+     "options": [
+      "Can you turn it down?",
+      "Can you turn down it?",
+      "Can you it turn down?",
+      "Can you down turn it?"
+     ],
+     "answer": 0,
+     "explain": "Pronomen zwischen Verb und Partikel."
+    },
+    {
+     "q": "„gonna“ steht für:",
+     "options": [
+      "going to",
+      "got to",
+      "want to",
+      "gone now"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "I can't figure ___ how this works.",
+     "answer": "out",
+     "hint": "herausfinden",
+     "de": "Ich verstehe nicht, wie das funktioniert."
+    },
+    {
+     "text": "We've run out ___ milk.",
+     "answer": "of",
+     "hint": "Präposition",
+     "de": "Uns ist die Milch ausgegangen."
+    },
+    {
+     "text": "She came up ___ a brilliant plan.",
+     "answer": "with",
+     "hint": "sich ausdenken",
+     "de": "Sie hat sich einen genialen Plan ausgedacht."
+    }
+   ],
+   "dialogue": {
+    "title": "In der WG-Küche",
+    "setting": "Dein Mitbewohner kommt nach Hause – ihr sprecht ganz locker.",
+    "lines": [
+     {
+      "speaker": "Jake",
+      "en": "Hey! Whaddya wanna do tonight?",
+      "de": "Hey! Was willst du heute Abend machen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Dunno. We've run out of food, so maybe we could get a takeaway?",
+      "de": "Keine Ahnung. Wir haben nichts mehr zu essen – vielleicht holen wir uns was?"
+     },
+     {
+      "speaker": "Jake",
+      "en": "Good shout. Did you find out about that job, by the way?",
+      "de": "Gute Idee. Hast du übrigens was zu dem Job herausgefunden?"
+     },
+     {
+      "speaker": "You",
+      "en": "Yeah, they offered it to me, but I turned it down.",
+      "de": "Ja, sie haben ihn mir angeboten, aber ich habe abgelehnt."
+     },
+     {
+      "speaker": "Jake",
+      "en": "No way! Why?",
+      "de": "Echt jetzt? Warum?"
+     },
+     {
+      "speaker": "You",
+      "en": "The salary was too low. I'm gonna keep looking.",
+      "de": "Das Gehalt war zu niedrig. Ich suche weiter."
+     }
+    ]
+   }
+  }
+ ]
+}

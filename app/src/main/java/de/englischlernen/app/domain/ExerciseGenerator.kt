@@ -109,7 +109,7 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
         val vocab = level.lessons.flatMap { l -> l.vocab.mapIndexed { i, v -> Keys.vocab(l.id, i) to v } }.shuffled(random)
         val out = quiz.take(3).map { (k, q) -> quizChoice(k, q) } +
             vocab.take(2).map { (k, v) -> vocabChoice(k, v, pool, toEnglish = true) }
-        return out.map { ex -> if (ex is Exercise.Choice) ex.copy(instruction = "${level.code}: ${ex.instruction}") else ex }
+        return out.map { it.copy(instruction = "${level.code}: ${it.instruction}") }
     }
 
     // ---------- Training ----------
@@ -162,8 +162,15 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
         return speakers.firstOrNull { it.equals("You", ignoreCase = true) } ?: speakers.getOrElse(1) { speakers.first() }
     }
 
+    /** Ablenker mit eindeutig unterschiedlicher Anzeige (keine doppelten Antwortoptionen). */
+    private fun <T> distractors(pool: List<T>, correct: T, shown: (T) -> String, other: (T) -> String): List<T> =
+        pool.asSequence()
+            .filter { shown(it).lowercase() != shown(correct).lowercase() && other(it).lowercase() != other(correct).lowercase() }
+            .distinctBy { shown(it).lowercase() }
+            .toList().shuffled(random).take(3)
+
     fun vocabChoice(key: String, v: Vocab, pool: List<Vocab>, toEnglish: Boolean): Exercise.Choice {
-        val distractors = pool.filter { it.en != v.en && it.de != v.de }.shuffled(random).take(3)
+        val distractors = if (toEnglish) distractors(pool, v, { it.en }, { it.de }) else distractors(pool, v, { it.de }, { it.en })
         val opts = (distractors + v).shuffled(random)
         return if (toEnglish) Exercise.Choice(
             key, "Was heißt das auf Englisch?", v.de,
@@ -176,7 +183,7 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
     }
 
     fun vocabListening(key: String, v: Vocab, pool: List<Vocab>): Exercise.Choice {
-        val distractors = pool.filter { it.en != v.en && it.de != v.de }.shuffled(random).take(3)
+        val distractors = distractors(pool, v, { it.de }, { it.en })
         val opts = (distractors + v).shuffled(random)
         return Exercise.Choice(
             key, "Hör zu: Was hast du gehört?", v.en, opts.map { it.de }, opts.indexOf(v),
@@ -225,8 +232,7 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
         ) else listeningChoice(key, s, pool)
 
     private fun listeningChoice(key: String, s: Sentence, pool: List<Sentence>): Exercise.Choice {
-        val others = pool.filter { it.de != s.de }.shuffled(random).take(3)
-        val opts = (others + s).shuffled(random)
+        val opts = (distractors(pool, s, { it.de }, { it.en }) + s).shuffled(random)
         return Exercise.Choice(
             key, "Hör zu: Was bedeutet der Satz?", s.en, opts.map { it.de }, opts.indexOf(s),
             speak = s.en, listening = true,
@@ -234,8 +240,7 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
     }
 
     private fun translationChoice(key: String, s: Sentence, pool: List<Sentence>): Exercise.Choice {
-        val others = pool.filter { it.en != s.en }.shuffled(random).take(3)
-        val opts = (others + s).shuffled(random)
+        val opts = (distractors(pool, s, { it.en }, { it.de }) + s).shuffled(random)
         return Exercise.Choice(
             key, "Welche Übersetzung passt?", s.de, opts.map { it.en }, opts.indexOf(s),
         )

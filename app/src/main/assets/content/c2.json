@@ -1,0 +1,1596 @@
+{
+ "id": "c2",
+ "code": "C2",
+ "title": "Nahezu muttersprachlich",
+ "subtitle": "Nuancen, Ironie, Stil, Argumentation & Textanalyse",
+ "description": "Die letzte Station: feinste Bedeutungsunterschiede, Ironie und Humor, rhetorischer Stil, komplexe Argumentation und kulturelle Besonderheiten.",
+ "lessons": [
+  {
+   "id": "c2_01",
+   "title": "Sprachliche Nuancen & Konnotation",
+   "goal": "Du erkennst feine Bedeutungsunterschiede und die Wertung (Konnotation) von Wörtern.",
+   "theory": [
+    {
+     "heading": "Konnotation",
+     "text": "Viele Wörter haben ähnliche Bedeutung, aber unterschiedliche Wertung:\n• slim (positiv) – thin (neutral) – skinny (eher negativ) – scrawny (negativ)\n• confident – arrogant • frugal – miserly • curious – nosy • determined – stubborn\nAuf C2-Niveau wählst du bewusst, wie wertend du klingen willst.",
+     "examples": [
+      {
+       "en": "She's very determined.",
+       "de": "Sie ist sehr zielstrebig. (positiv)"
+      },
+      {
+       "en": "He's incredibly stubborn.",
+       "de": "Er ist unglaublich stur. (negativ)"
+      }
+     ]
+    },
+    {
+     "heading": "Feine Unterschiede",
+     "text": "• imply (andeuten – Sprecher) vs. infer (schließen – Hörer)\n• disinterested (unparteiisch) vs. uninterested (desinteressiert)\n• continual (immer wieder, mit Pausen) vs. continuous (ununterbrochen)\n• economic (wirtschaftlich) vs. economical (sparsam)\n• historic (geschichtsträchtig) vs. historical (die Geschichte betreffend)",
+     "examples": [
+      {
+       "en": "Are you implying that I'm lying?",
+       "de": "Willst du andeuten, dass ich lüge?"
+      },
+      {
+       "en": "From his tone, I inferred he was upset.",
+       "de": "Aus seinem Ton schloss ich, dass er verärgert war."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "connotation",
+     "de": "Konnotation, Beiklang",
+     "example": "The word has a negative connotation.",
+     "exampleDe": "Das Wort hat einen negativen Beiklang."
+    },
+    {
+     "en": "to imply",
+     "de": "andeuten",
+     "alt": [
+      "imply"
+     ],
+     "example": "What are you implying?",
+     "exampleDe": "Was willst du damit andeuten?"
+    },
+    {
+     "en": "to infer",
+     "de": "schließen, folgern",
+     "alt": [
+      "infer"
+     ],
+     "example": "I inferred that he was unhappy.",
+     "exampleDe": "Ich schloss daraus, dass er unglücklich war."
+    },
+    {
+     "en": "disinterested",
+     "de": "unparteiisch",
+     "alt": [
+      "impartial"
+     ],
+     "example": "We need a disinterested judge.",
+     "exampleDe": "Wir brauchen einen unparteiischen Richter."
+    },
+    {
+     "en": "frugal",
+     "de": "sparsam, genügsam",
+     "alt": [
+      "thrifty"
+     ],
+     "example": "They live a frugal life.",
+     "exampleDe": "Sie leben genügsam."
+    },
+    {
+     "en": "nosy",
+     "de": "neugierig (aufdringlich)",
+     "alt": [
+      "nosey"
+     ],
+     "example": "Don't be so nosy!",
+     "exampleDe": "Sei nicht so neugierig!"
+    },
+    {
+     "en": "historic",
+     "de": "historisch bedeutsam",
+     "example": "It was a historic moment.",
+     "exampleDe": "Es war ein historischer Moment."
+    },
+    {
+     "en": "economical",
+     "de": "sparsam, wirtschaftlich (im Verbrauch)",
+     "example": "This car is very economical.",
+     "exampleDe": "Dieses Auto ist sehr sparsam."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "The word has a slightly negative connotation.",
+     "de": "Das Wort hat einen leicht negativen Beiklang."
+    },
+    {
+     "en": "Are you implying that I made a mistake?",
+     "de": "Willst du andeuten, dass ich einen Fehler gemacht habe?"
+    },
+    {
+     "en": "I inferred from his silence that he disagreed.",
+     "de": "Aus seinem Schweigen schloss ich, dass er anderer Meinung war."
+    },
+    {
+     "en": "The referee must remain disinterested.",
+     "de": "Der Schiedsrichter muss unparteiisch bleiben."
+    },
+    {
+     "en": "It was a historic victory for the team.",
+     "de": "Es war ein historischer Sieg für das Team."
+    },
+    {
+     "en": "She is confident, not arrogant.",
+     "de": "Sie ist selbstbewusst, nicht arrogant."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Welches Wort ist am positivsten?",
+     "options": [
+      "slim",
+      "skinny",
+      "scrawny",
+      "bony"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„disinterested“ bedeutet:",
+     "options": [
+      "unparteiisch",
+      "gelangweilt",
+      "uninteressant",
+      "unhöflich"
+     ],
+     "answer": 0,
+     "explain": "Gelangweilt = uninterested."
+    },
+    {
+     "q": "Der Hörer zieht Schlüsse – er ...",
+     "options": [
+      "infers",
+      "implies",
+      "insinuates",
+      "suggests"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "I didn't mean to ___ that you were wrong.",
+     "answer": "imply",
+     "hint": "andeuten",
+     "de": "Ich wollte nicht andeuten, dass du falschliegst.",
+     "alt": [
+      "suggest"
+     ]
+    },
+    {
+     "text": "Small cars are more ___ to run.",
+     "answer": "economical",
+     "hint": "sparsam",
+     "de": "Kleine Autos sind sparsamer im Unterhalt.",
+     "alt": [
+      "economic"
+     ]
+    },
+    {
+     "text": "The fall of the Berlin Wall was a ___ event.",
+     "answer": "historic",
+     "hint": "geschichtsträchtig",
+     "de": "Der Mauerfall war ein historisches Ereignis."
+    }
+   ],
+   "dialogue": {
+    "title": "Lektorat",
+    "setting": "Du hilfst einem britischen Kollegen, eine Personalbeurteilung zu formulieren.",
+    "lines": [
+     {
+      "speaker": "Oliver",
+      "en": "I wrote that Kate is 'stubborn'. Does that work?",
+      "de": "Ich habe geschrieben, Kate sei „stubborn“. Passt das?"
+     },
+     {
+      "speaker": "You",
+      "en": "It might come across as negative. 'Determined' would sound more appreciative.",
+      "de": "Das könnte negativ wirken. „Determined“ klänge wertschätzender."
+     },
+     {
+      "speaker": "Oliver",
+      "en": "Good point. And what about 'nosy' for her curiosity?",
+      "de": "Guter Punkt. Und „nosy“ für ihre Neugier?"
+     },
+     {
+      "speaker": "You",
+      "en": "Definitely not. I'd say 'inquisitive' – it has a much more positive connotation.",
+      "de": "Auf keinen Fall. Ich würde „inquisitive“ sagen – das klingt viel positiver."
+     },
+     {
+      "speaker": "Oliver",
+      "en": "You're right. I don't want to imply anything negative.",
+      "de": "Stimmt. Ich will nichts Negatives andeuten."
+     },
+     {
+      "speaker": "You",
+      "en": "Exactly. Readers will infer a lot from word choice.",
+      "de": "Genau. Leser schließen viel aus der Wortwahl."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2_02",
+   "title": "Mehrdeutigkeit & Wortspiele",
+   "goal": "Du erkennst Mehrdeutigkeiten, Wortspiele und Doppeldeutigkeiten und kannst sie gezielt nutzen.",
+   "theory": [
+    {
+     "heading": "Arten der Mehrdeutigkeit",
+     "text": "• Lexikalisch – ein Wort, mehrere Bedeutungen: „The bank was steep.“ (Ufer, nicht Geldinstitut)\n• Strukturell – Satzbau erlaubt zwei Lesarten: „I saw the man with the telescope.“ (Wer hat das Teleskop?)\n• Zeitungsüberschriften sind berüchtigt: „Police help dog bite victim.“\nUm Missverständnisse zu vermeiden, formuliere um: „I used the telescope to see the man.“",
+     "examples": [
+      {
+       "en": "I saw the man with the telescope.",
+       "de": "Ich sah den Mann mit dem Teleskop. (zweideutig)"
+      },
+      {
+       "en": "Flying planes can be dangerous.",
+       "de": "Flugzeuge fliegen / Fliegende Flugzeuge können gefährlich sein."
+      }
+     ]
+    },
+    {
+     "heading": "Wortspiele (Puns)",
+     "text": "Englischer Humor liebt Puns – Spiele mit Mehrdeutigkeit oder Gleichklang:\n• „I used to be a banker, but I lost interest.“ (interest = Zinsen / Interesse)\n• „Time flies like an arrow; fruit flies like a banana.“\n• „A bicycle can't stand on its own because it's two-tired.“ (too tired / two tyres)\nPuns zu verstehen ist ein echtes Zeichen für C2.",
+     "examples": [
+      {
+       "en": "I used to be a banker, but I lost interest.",
+       "de": "Ich war mal Banker, aber ich verlor das Interesse/die Zinsen."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "ambiguous",
+     "de": "mehrdeutig, zweideutig",
+     "alt": [
+      "equivocal"
+     ],
+     "example": "The sentence is ambiguous.",
+     "exampleDe": "Der Satz ist zweideutig."
+    },
+    {
+     "en": "pun",
+     "de": "Wortspiel",
+     "alt": [
+      "play on words"
+     ],
+     "example": "That's a terrible pun!",
+     "exampleDe": "Das ist ein schreckliches Wortspiel!"
+    },
+    {
+     "en": "double meaning",
+     "de": "Doppeldeutigkeit",
+     "alt": [
+      "double entendre"
+     ],
+     "example": "The title has a double meaning.",
+     "exampleDe": "Der Titel ist doppeldeutig."
+    },
+    {
+     "en": "to misinterpret",
+     "de": "falsch auslegen",
+     "alt": [
+      "misinterpret",
+      "misconstrue"
+     ],
+     "example": "She misinterpreted my comment.",
+     "exampleDe": "Sie hat meinen Kommentar falsch verstanden."
+    },
+    {
+     "en": "literally",
+     "de": "wörtlich",
+     "example": "Don't take it literally.",
+     "exampleDe": "Nimm es nicht wörtlich."
+    },
+    {
+     "en": "figuratively",
+     "de": "im übertragenen Sinn",
+     "alt": [
+      "metaphorically"
+     ],
+     "example": "I mean it figuratively.",
+     "exampleDe": "Ich meine es im übertragenen Sinn."
+    },
+    {
+     "en": "to clarify",
+     "de": "klarstellen",
+     "alt": [
+      "clarify"
+     ],
+     "example": "Let me clarify what I meant.",
+     "exampleDe": "Lass mich klarstellen, was ich meinte."
+    },
+    {
+     "en": "headline",
+     "de": "Schlagzeile",
+     "example": "The headline was misleading.",
+     "exampleDe": "Die Schlagzeile war irreführend."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "The sentence is deliberately ambiguous.",
+     "de": "Der Satz ist absichtlich zweideutig."
+    },
+    {
+     "en": "Don't take it literally.",
+     "de": "Nimm es nicht wörtlich.",
+     "alt": [
+      "Do not take it literally."
+     ]
+    },
+    {
+     "en": "Let me clarify what I meant.",
+     "de": "Lass mich klarstellen, was ich meinte."
+    },
+    {
+     "en": "The headline has a double meaning.",
+     "de": "Die Schlagzeile ist doppeldeutig."
+    },
+    {
+     "en": "I think you misinterpreted my email.",
+     "de": "Ich glaube, du hast meine E-Mail falsch verstanden."
+    },
+    {
+     "en": "I used to be a banker, but I lost interest.",
+     "de": "Ich war mal Banker, aber ich verlor das Interesse."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Warum ist „I lost interest“ im Banker-Witz lustig?",
+     "options": [
+      "„interest“ heißt Interesse und Zinsen.",
+      "Banker sind langweilig.",
+      "Wegen der Aussprache von „banker“.",
+      "Es ist kein Wortspiel."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„I saw the man with the telescope.“ ist mehrdeutig, weil ...",
+     "options": [
+      "unklar ist, wer das Teleskop hat.",
+      "„saw“ auch „sägen“ heißt.",
+      "„man“ Plural sein kann.",
+      "es kein Verb gibt."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„figuratively“ ist das Gegenteil von:",
+     "options": [
+      "literally",
+      "actually",
+      "really",
+      "basically"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "The sentence is ___, so please rephrase it.",
+     "answer": "ambiguous",
+     "hint": "zweideutig",
+     "de": "Der Satz ist zweideutig, bitte formuliere ihn um.",
+     "alt": [
+      "unclear"
+     ]
+    },
+    {
+     "text": "I meant it ___, not literally.",
+     "answer": "figuratively",
+     "hint": "übertragen",
+     "de": "Ich meinte es im übertragenen Sinn, nicht wörtlich.",
+     "alt": [
+      "metaphorically"
+     ]
+    },
+    {
+     "text": "Could you ___ what you mean by 'soon'?",
+     "answer": "clarify",
+     "hint": "klarstellen",
+     "de": "Könntest du klarstellen, was du mit „bald“ meinst?",
+     "alt": [
+      "explain",
+      "specify"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Missverständnis per E-Mail",
+    "setting": "Eine Kollegin hat deine E-Mail falsch verstanden.",
+    "lines": [
+     {
+      "speaker": "Grace",
+      "en": "Your email said the project was 'interesting'. Were you being critical?",
+      "de": "In deiner Mail stand, das Projekt sei „interessant“. War das Kritik?"
+     },
+     {
+      "speaker": "You",
+      "en": "Not at all! I meant it literally – I find it fascinating.",
+      "de": "Überhaupt nicht! Ich meinte es wörtlich – ich finde es faszinierend."
+     },
+     {
+      "speaker": "Grace",
+      "en": "Ah, because in Britain 'interesting' can be a polite way of saying 'odd'.",
+      "de": "Ah, weil „interesting“ in Großbritannien auch höflich „seltsam“ bedeuten kann."
+     },
+     {
+      "speaker": "You",
+      "en": "I see. That's ambiguous then. Let me clarify in writing.",
+      "de": "Verstehe. Dann ist das zweideutig. Ich stelle es schriftlich klar."
+     },
+     {
+      "speaker": "Grace",
+      "en": "No need, I just misinterpreted it.",
+      "de": "Nicht nötig, ich habe es nur falsch gedeutet."
+     },
+     {
+      "speaker": "You",
+      "en": "Next time I'll say 'genuinely exciting' to avoid any double meaning.",
+      "de": "Nächstes Mal schreibe ich „wirklich spannend“, um Doppeldeutigkeit zu vermeiden."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2_03",
+   "title": "Ironie, Understatement & Humor",
+   "goal": "Du verstehst britische Ironie und Understatement und kannst humorvoll formulieren.",
+   "theory": [
+    {
+     "heading": "Understatement",
+     "text": "Briten untertreiben gern – und meinen oft das Gegenteil oder viel mehr:\n• „It's a bit chilly.“ bei minus zehn Grad\n• „Not bad at all.“ = richtig gut\n• „I'm not entirely convinced.“ = Ich halte das für Unsinn.\n• „That's not ideal.“ = Das ist eine Katastrophe.\n• „With the greatest respect, ...“ = Du liegst völlig falsch.",
+     "examples": [
+      {
+       "en": "That's not ideal.",
+       "de": "Das ist eine Katastrophe. (Understatement)"
+      },
+      {
+       "en": "With the greatest respect, I think you're mistaken.",
+       "de": "Bei allem Respekt, ich glaube, Sie irren sich."
+      }
+     ]
+    },
+    {
+     "heading": "Ironie und Sarkasmus",
+     "text": "• Ironie: Gesagtes ≠ Gemeintes, oft am Tonfall erkennbar: „Oh, brilliant!“ (wenn etwas schiefgeht)\n• Sarkasmus: bissige Ironie: „Thanks for your help.“ zu jemandem, der nichts getan hat.\n• Self-deprecation (Selbstironie) ist sehr britisch: „I'm hopeless at cooking – I can burn water.“\n• Typische Marker: „Oh, great.“, „Just what I needed.“, „How lovely.“ in negativer Situation.",
+     "examples": [
+      {
+       "en": "Oh, brilliant. The train is cancelled again.",
+       "de": "Na super. Der Zug fällt schon wieder aus."
+      },
+      {
+       "en": "I'm so good at cooking that I set off the smoke alarm.",
+       "de": "Ich koche so gut, dass der Rauchmelder angeht."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "understatement",
+     "de": "Untertreibung",
+     "example": "Saying 'a bit wet' was an understatement.",
+     "exampleDe": "„Etwas nass“ war eine Untertreibung."
+    },
+    {
+     "en": "sarcastic",
+     "de": "sarkastisch",
+     "example": "Are you being sarcastic?",
+     "exampleDe": "Bist du gerade sarkastisch?"
+    },
+    {
+     "en": "ironic",
+     "de": "ironisch",
+     "example": "It's ironic that the fire station burned down.",
+     "exampleDe": "Ironischerweise brannte die Feuerwache ab."
+    },
+    {
+     "en": "self-deprecating",
+     "de": "selbstironisch",
+     "example": "He has a self-deprecating sense of humour.",
+     "exampleDe": "Er hat einen selbstironischen Humor."
+    },
+    {
+     "en": "tongue-in-cheek",
+     "de": "augenzwinkernd, nicht ernst gemeint",
+     "example": "It was a tongue-in-cheek remark.",
+     "exampleDe": "Es war eine augenzwinkernde Bemerkung."
+    },
+    {
+     "en": "deadpan",
+     "de": "trocken, mit unbewegter Miene",
+     "alt": [
+      "dry"
+     ],
+     "example": "She has a deadpan delivery.",
+     "exampleDe": "Sie trägt alles staubtrocken vor."
+    },
+    {
+     "en": "not ideal",
+     "de": "nicht ideal (oft: katastrophal)",
+     "example": "Missing the flight was not ideal.",
+     "exampleDe": "Den Flug zu verpassen war nicht ideal."
+    },
+    {
+     "en": "to tease",
+     "de": "aufziehen, necken",
+     "alt": [
+      "tease"
+     ],
+     "example": "Stop teasing him!",
+     "exampleDe": "Hör auf, ihn aufzuziehen!"
+    }
+   ],
+   "sentences": [
+    {
+     "en": "Oh, brilliant. Just what I needed.",
+     "de": "Na toll. Genau das hat mir gefehlt."
+    },
+    {
+     "en": "That was a bit of an understatement.",
+     "de": "Das war eine ziemliche Untertreibung."
+    },
+    {
+     "en": "Are you being sarcastic?",
+     "de": "Bist du gerade sarkastisch?",
+     "alt": [
+      "Are you being sarcastic right now?"
+     ]
+    },
+    {
+     "en": "It was a tongue-in-cheek comment.",
+     "de": "Es war ein augenzwinkernder Kommentar."
+    },
+    {
+     "en": "With the greatest respect, I disagree.",
+     "de": "Bei allem Respekt, ich bin anderer Meinung."
+    },
+    {
+     "en": "I'm not the world's best driver.",
+     "de": "Ich bin nicht der beste Autofahrer der Welt.",
+     "alt": [
+      "I am not the world's best driver."
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Ein Brite sagt nach einem Sturm, der das Dach abgedeckt hat: „It was a bit windy.“ Das ist ...",
+     "options": [
+      "Understatement",
+      "Übertreibung",
+      "wörtlich gemeint",
+      "eine Beschwerde"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„With the greatest respect, ...“ leitet meist ein:",
+     "options": [
+      "deutlichen Widerspruch",
+      "ein großes Lob",
+      "eine Entschuldigung",
+      "eine Frage"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„tongue-in-cheek“ bedeutet:",
+     "options": [
+      "augenzwinkernd, nicht ernst",
+      "unhöflich",
+      "schüchtern",
+      "lispelnd"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Calling it 'a little problem' was an ___.",
+     "answer": "understatement",
+     "hint": "Untertreibung",
+     "de": "Es „ein kleines Problem“ zu nennen war eine Untertreibung."
+    },
+    {
+     "text": "He wasn't serious; it was ___-in-cheek.",
+     "answer": "tongue",
+     "hint": "augenzwinkernd",
+     "de": "Er meinte es nicht ernst; es war augenzwinkernd."
+    },
+    {
+     "text": "She delivered the joke in a ___ voice.",
+     "answer": "deadpan",
+     "hint": "trocken",
+     "de": "Sie erzählte den Witz staubtrocken.",
+     "alt": [
+      "dry",
+      "flat"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Regen in Manchester",
+    "setting": "Ihr steht im strömenden Regen an der Bushaltestelle.",
+    "lines": [
+     {
+      "speaker": "Harry",
+      "en": "Lovely weather we're having, isn't it?",
+      "de": "Herrliches Wetter heute, nicht wahr?"
+     },
+     {
+      "speaker": "You",
+      "en": "Absolutely glorious. I might even get a tan.",
+      "de": "Einfach traumhaft. Vielleicht werde ich sogar braun."
+     },
+     {
+      "speaker": "Harry",
+      "en": "Ha! And the bus is twenty minutes late. Brilliant.",
+      "de": "Ha! Und der Bus hat zwanzig Minuten Verspätung. Großartig."
+     },
+     {
+      "speaker": "You",
+      "en": "Not ideal, I must say.",
+      "de": "Nicht ideal, muss ich sagen."
+     },
+     {
+      "speaker": "Harry",
+      "en": "You've really got the hang of British humour.",
+      "de": "Du hast den britischen Humor echt drauf."
+     },
+     {
+      "speaker": "You",
+      "en": "Well, I've had plenty of practice standing in the rain.",
+      "de": "Naja, ich hatte genug Übung beim Im-Regen-Stehen."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2_04",
+   "title": "Stilistische Feinheiten",
+   "goal": "Du setzt rhetorische Stilmittel bewusst ein und variierst deinen Stil.",
+   "theory": [
+    {
+     "heading": "Rhetorische Stilmittel",
+     "text": "• Tricolon (Dreierfigur): „Government of the people, by the people, for the people.“\n• Alliteration: „Brexit means Brexit.“ / „busy, bustling Berlin“\n• Antithese: „Ask not what your country can do for you – ask what you can do for your country.“\n• Rhetorische Frage: „Who doesn't want a better life?“\n• Litotes (doppelte Verneinung): „not uncommon“ = ziemlich häufig",
+     "examples": [
+      {
+       "en": "We came, we saw, we conquered.",
+       "de": "Wir kamen, sahen und siegten. (Tricolon)"
+      },
+      {
+       "en": "It's not uncommon for trains to be late.",
+       "de": "Es ist nicht ungewöhnlich, dass Züge zu spät sind."
+      }
+     ]
+    },
+    {
+     "heading": "Stil variieren",
+     "text": "• Satzlänge mischen: Ein kurzer Satz nach langen Sätzen wirkt stark. Wirklich.\n• Nominalstil (formell) vs. Verbalstil (lebendig): „the implementation of the plan“ vs. „putting the plan into action“\n• Präzise, bildhafte Verben: „walked“ → strolled, marched, staggered\n• Wiederholungen vermeiden durch Synonyme und Pronomen – außer bei gewollter Betonung.",
+     "examples": [
+      {
+       "en": "She strolled along the beach.",
+       "de": "Sie schlenderte den Strand entlang."
+      },
+      {
+       "en": "He staggered home after midnight.",
+       "de": "Er torkelte nach Mitternacht nach Hause."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "rhetorical question",
+     "de": "rhetorische Frage",
+     "example": "That was a rhetorical question.",
+     "exampleDe": "Das war eine rhetorische Frage."
+    },
+    {
+     "en": "alliteration",
+     "de": "Alliteration, Stabreim",
+     "example": "Poets love alliteration.",
+     "exampleDe": "Dichter lieben Alliterationen."
+    },
+    {
+     "en": "vivid",
+     "de": "lebhaft, anschaulich",
+     "example": "She gave a vivid description.",
+     "exampleDe": "Sie gab eine anschauliche Beschreibung."
+    },
+    {
+     "en": "to stroll",
+     "de": "schlendern",
+     "alt": [
+      "stroll",
+      "wander"
+     ],
+     "example": "We strolled through the park.",
+     "exampleDe": "Wir schlenderten durch den Park."
+    },
+    {
+     "en": "to stagger",
+     "de": "torkeln, wanken",
+     "alt": [
+      "stagger"
+     ],
+     "example": "He staggered to the door.",
+     "exampleDe": "Er torkelte zur Tür."
+    },
+    {
+     "en": "eloquent",
+     "de": "redegewandt",
+     "alt": [
+      "articulate"
+     ],
+     "example": "She is an eloquent speaker.",
+     "exampleDe": "Sie ist eine redegewandte Rednerin."
+    },
+    {
+     "en": "not uncommon",
+     "de": "nicht ungewöhnlich",
+     "example": "Delays are not uncommon.",
+     "exampleDe": "Verspätungen sind nicht ungewöhnlich."
+    },
+    {
+     "en": "concise",
+     "de": "prägnant, knapp",
+     "alt": [
+      "succinct"
+     ],
+     "example": "Keep your answer concise.",
+     "exampleDe": "Halte deine Antwort knapp."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "We came, we saw, we conquered.",
+     "de": "Wir kamen, sahen und siegten."
+    },
+    {
+     "en": "It's not uncommon to feel nervous.",
+     "de": "Es ist nicht ungewöhnlich, nervös zu sein.",
+     "alt": [
+      "It is not uncommon to feel nervous."
+     ]
+    },
+    {
+     "en": "She strolled along the river.",
+     "de": "Sie schlenderte am Fluss entlang."
+    },
+    {
+     "en": "Who doesn't want to be happy?",
+     "de": "Wer möchte nicht glücklich sein?"
+    },
+    {
+     "en": "Her speech was concise and eloquent.",
+     "de": "Ihre Rede war prägnant und redegewandt."
+    },
+    {
+     "en": "He gave a vivid account of the journey.",
+     "de": "Er gab einen anschaulichen Bericht von der Reise."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Veni, vidi, vici – we came, we saw, we conquered“ ist ein Beispiel für:",
+     "options": [
+      "Tricolon",
+      "Litotes",
+      "Ironie",
+      "Euphemismus"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„not unlike“ ist ein Beispiel für:",
+     "options": [
+      "Litotes",
+      "Alliteration",
+      "Antithese",
+      "Metapher"
+     ],
+     "answer": 0,
+     "explain": "Doppelte Verneinung als vorsichtige Bejahung."
+    },
+    {
+     "q": "Lebendigstes Verb für langsames, entspanntes Gehen:",
+     "options": [
+      "stroll",
+      "walk",
+      "go",
+      "move"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "That was a ___ question – you don't need to answer.",
+     "answer": "rhetorical",
+     "hint": "rhetorisch",
+     "de": "Das war eine rhetorische Frage – du musst nicht antworten."
+    },
+    {
+     "text": "Please keep your summary ___ – one page max.",
+     "answer": "concise",
+     "hint": "knapp",
+     "de": "Bitte halte deine Zusammenfassung knapp – höchstens eine Seite.",
+     "alt": [
+      "short",
+      "brief",
+      "succinct"
+     ]
+    },
+    {
+     "text": "The author gives a ___ description of the city.",
+     "answer": "vivid",
+     "hint": "anschaulich",
+     "de": "Der Autor beschreibt die Stadt sehr anschaulich.",
+     "alt": [
+      "detailed",
+      "lively"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Redenschreiben",
+    "setting": "Du hilfst einer Freundin, ihre Hochzeitsrede eindrucksvoller zu machen.",
+    "lines": [
+     {
+      "speaker": "Chloe",
+      "en": "My speech feels flat. 'Mark is nice and kind and good.'",
+      "de": "Meine Rede wirkt flach. „Mark ist nett und lieb und gut.“"
+     },
+     {
+      "speaker": "You",
+      "en": "Try a tricolon with more vivid words: 'Mark is generous, loyal and endlessly patient.'",
+      "de": "Versuch eine Dreierfigur mit lebendigeren Wörtern: „großzügig, treu und unendlich geduldig“."
+     },
+     {
+      "speaker": "Chloe",
+      "en": "Much better! What about the ending?",
+      "de": "Viel besser! Und der Schluss?"
+     },
+     {
+      "speaker": "You",
+      "en": "End with a rhetorical question: 'Who could ask for a better partner?'",
+      "de": "Ende mit einer rhetorischen Frage: „Wer könnte sich einen besseren Partner wünschen?“"
+     },
+     {
+      "speaker": "Chloe",
+      "en": "And should I keep it long?",
+      "de": "Und soll ich lang reden?"
+     },
+     {
+      "speaker": "You",
+      "en": "Keep it concise. Short sentences hit harder. Trust me.",
+      "de": "Halte sie knapp. Kurze Sätze wirken stärker. Glaub mir."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2_05",
+   "title": "Komplexe Argumentation",
+   "goal": "Du baust vielschichtige Argumentationen auf und erkennst Denkfehler.",
+   "theory": [
+    {
+     "heading": "Mehrstufig argumentieren",
+     "text": "• These aufstellen: It could be argued that ...\n• Gegenposition vorwegnehmen: Opponents might object that ... / It is often claimed that ...\n• Entkräften: However, this view fails to take into account ... / This argument rests on the assumption that ...\n• Gewichten: On balance, ... / The weight of evidence suggests ...\n• Einschränken: This is not to say that ... – Das heißt nicht, dass ...",
+     "examples": [
+      {
+       "en": "This argument rests on a questionable assumption.",
+       "de": "Dieses Argument beruht auf einer fragwürdigen Annahme."
+      },
+      {
+       "en": "On balance, the benefits outweigh the costs.",
+       "de": "Unterm Strich überwiegen die Vorteile."
+      }
+     ]
+    },
+    {
+     "heading": "Typische Denkfehler (Fallacies)",
+     "text": "• Straw man – ein verzerrtes Gegenargument widerlegen\n• Slippery slope – „Wenn A, dann zwangsläufig Z“\n• Ad hominem – die Person statt des Arguments angreifen\n• False dichotomy – nur zwei Optionen vorgeben, obwohl es mehr gibt\n• Correlation is not causation – Zusammenhang ist kein Beweis für Ursache\nSie zu benennen ist in Diskussionen sehr wirkungsvoll: „That's a bit of a straw man, isn't it?“",
+     "examples": [
+      {
+       "en": "That's a false dichotomy.",
+       "de": "Das ist eine falsche Zweiteilung."
+      },
+      {
+       "en": "Correlation doesn't imply causation.",
+       "de": "Korrelation bedeutet keine Kausalität."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to outweigh",
+     "de": "überwiegen",
+     "alt": [
+      "outweigh"
+     ],
+     "example": "The benefits outweigh the risks.",
+     "exampleDe": "Die Vorteile überwiegen die Risiken."
+    },
+    {
+     "en": "on balance",
+     "de": "alles in allem, unterm Strich",
+     "alt": [
+      "all things considered"
+     ],
+     "example": "On balance, it's a good idea.",
+     "exampleDe": "Unterm Strich ist es eine gute Idee."
+    },
+    {
+     "en": "to rest on",
+     "de": "beruhen auf",
+     "alt": [
+      "rest on",
+      "be based on"
+     ],
+     "example": "The theory rests on two assumptions.",
+     "exampleDe": "Die Theorie beruht auf zwei Annahmen."
+    },
+    {
+     "en": "straw man",
+     "de": "Strohmann-Argument",
+     "alt": [
+      "strawman"
+     ],
+     "example": "That's a straw man argument.",
+     "exampleDe": "Das ist ein Strohmann-Argument."
+    },
+    {
+     "en": "fallacy",
+     "de": "Denkfehler, Trugschluss",
+     "example": "That's a common fallacy.",
+     "exampleDe": "Das ist ein häufiger Trugschluss."
+    },
+    {
+     "en": "causation",
+     "de": "Kausalität, Verursachung",
+     "example": "Correlation is not causation.",
+     "exampleDe": "Korrelation ist keine Kausalität."
+    },
+    {
+     "en": "to refute",
+     "de": "widerlegen",
+     "alt": [
+      "refute",
+      "disprove"
+     ],
+     "example": "She refuted every argument.",
+     "exampleDe": "Sie widerlegte jedes Argument."
+    },
+    {
+     "en": "compelling",
+     "de": "überzeugend, zwingend",
+     "alt": [
+      "convincing",
+      "persuasive"
+     ],
+     "example": "There is compelling evidence.",
+     "exampleDe": "Es gibt überzeugende Beweise."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "On balance, the benefits outweigh the costs.",
+     "de": "Unterm Strich überwiegen die Vorteile die Kosten."
+    },
+    {
+     "en": "This argument rests on a false assumption.",
+     "de": "Dieses Argument beruht auf einer falschen Annahme."
+    },
+    {
+     "en": "That's a bit of a straw man, isn't it?",
+     "de": "Das ist ein bisschen ein Strohmann-Argument, oder?"
+    },
+    {
+     "en": "Correlation does not imply causation.",
+     "de": "Korrelation bedeutet keine Kausalität.",
+     "alt": [
+      "Correlation doesn't imply causation."
+     ]
+    },
+    {
+     "en": "This is not to say that the plan is useless.",
+     "de": "Das heißt nicht, dass der Plan nutzlos ist."
+    },
+    {
+     "en": "There is compelling evidence for this theory.",
+     "de": "Es gibt überzeugende Belege für diese Theorie."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Wer Cannabis legalisiert, hat bald Heroin in jedem Supermarkt.“ ist ein ...",
+     "options": [
+      "Slippery-slope-Argument",
+      "Ad-hominem-Argument",
+      "Strohmann",
+      "Zirkelschluss"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Du bist doch gar kein Experte!“ statt Gegenargument ist:",
+     "options": [
+      "ad hominem",
+      "false dichotomy",
+      "slippery slope",
+      "causation"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Either you're with us or against us.“ ist eine ...",
+     "options": [
+      "false dichotomy",
+      "concession",
+      "rhetorical question",
+      "litotes"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "The advantages clearly ___ the disadvantages.",
+     "answer": "outweigh",
+     "hint": "überwiegen",
+     "de": "Die Vorteile überwiegen klar die Nachteile."
+    },
+    {
+     "text": "On ___, I think we should go ahead.",
+     "answer": "balance",
+     "hint": "unterm Strich",
+     "de": "Unterm Strich sollten wir es machen."
+    },
+    {
+     "text": "This is not to ___ that the idea is bad.",
+     "answer": "say",
+     "hint": "heißen",
+     "de": "Das heißt nicht, dass die Idee schlecht ist.",
+     "alt": [
+      "suggest"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Debattierclub",
+    "setting": "Thema: „Social media does more harm than good.“ Du vertrittst die Gegenseite.",
+    "lines": [
+     {
+      "speaker": "Opponent",
+      "en": "Social media causes depression. Teenagers who use it more are unhappier.",
+      "de": "Social Media verursacht Depressionen. Teenager, die es mehr nutzen, sind unglücklicher."
+     },
+     {
+      "speaker": "You",
+      "en": "With respect, correlation doesn't imply causation. Unhappy teens may simply use it more.",
+      "de": "Bei allem Respekt: Korrelation ist keine Kausalität. Unglückliche Teenager nutzen es vielleicht einfach mehr."
+     },
+     {
+      "speaker": "Opponent",
+      "en": "So you think we should let children use it without limits?",
+      "de": "Also sollen Kinder es ohne Grenzen nutzen dürfen?"
+     },
+     {
+      "speaker": "You",
+      "en": "That's a straw man. I'm arguing for education, not for no limits.",
+      "de": "Das ist ein Strohmann. Ich argumentiere für Medienbildung, nicht für grenzenlose Nutzung."
+     },
+     {
+      "speaker": "Opponent",
+      "en": "But the risks are obvious.",
+      "de": "Aber die Risiken sind offensichtlich."
+     },
+     {
+      "speaker": "You",
+      "en": "This is not to say there are no risks. On balance, though, the benefits outweigh them.",
+      "de": "Das heißt nicht, dass es keine Risiken gibt. Unterm Strich überwiegen aber die Vorteile."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2_06",
+   "title": "Kulturelle Besonderheiten & Varietäten",
+   "goal": "Du verstehst kulturelle Anspielungen, Sprichwörter und regionale Varianten des Englischen.",
+   "theory": [
+    {
+     "heading": "Kulturelle Anspielungen",
+     "text": "Muttersprachler spielen oft auf Literatur, Geschichte und Popkultur an:\n• „a Catch-22“ – eine ausweglose Zwickmühle (Roman von Joseph Heller)\n• „Big Brother is watching“ – Überwachung (Orwells „1984“)\n• „to meet one's Waterloo“ – seine endgültige Niederlage erleben\n• „the Midas touch“ – alles zu Gold machen\n• „a Pyrrhic victory“ – ein Sieg, der zu teuer erkauft ist",
+     "examples": [
+      {
+       "en": "It's a real Catch-22.",
+       "de": "Das ist eine echte Zwickmühle."
+      },
+      {
+       "en": "She has the Midas touch.",
+       "de": "Bei ihr wird alles zu Gold."
+      }
+     ]
+    },
+    {
+     "heading": "Britisch, Amerikanisch & mehr",
+     "text": "• Wortschatz: flat / apartment, lift / elevator, queue / line, biscuit / cookie, autumn / fall, holiday / vacation\n• Schreibung: colour / color, centre / center, organise / organize\n• Grammatik: Have you got ...? (UK) / Do you have ...? (US)\n• Weitere Varietäten: Australisch („arvo“ = afternoon), Irisch („grand“ = fine), Schottisch („wee“ = small)\n• Sprichwörter: „When in Rome, do as the Romans do.“ / „Don't count your chickens before they hatch.“",
+     "examples": [
+      {
+       "en": "Let's grab a coffee this arvo.",
+       "de": "Lass uns heute Nachmittag einen Kaffee trinken. (austral.)"
+      },
+      {
+       "en": "Don't count your chickens before they hatch.",
+       "de": "Man soll den Tag nicht vor dem Abend loben."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "Catch-22",
+     "de": "ausweglose Zwickmühle",
+     "example": "It's a Catch-22 situation.",
+     "exampleDe": "Es ist eine Zwickmühle."
+    },
+    {
+     "en": "Pyrrhic victory",
+     "de": "Pyrrhussieg",
+     "example": "It was a Pyrrhic victory.",
+     "exampleDe": "Es war ein Pyrrhussieg."
+    },
+    {
+     "en": "the Midas touch",
+     "de": "goldenes Händchen",
+     "example": "He has the Midas touch in business.",
+     "exampleDe": "Er hat im Geschäft ein goldenes Händchen."
+    },
+    {
+     "en": "to meet one's Waterloo",
+     "de": "sein Waterloo erleben",
+     "alt": [
+      "meet his Waterloo",
+      "meet your Waterloo"
+     ],
+     "example": "The champion finally met his Waterloo.",
+     "exampleDe": "Der Champion erlebte endlich sein Waterloo."
+    },
+    {
+     "en": "queue",
+     "de": "Warteschlange (brit.)",
+     "alt": [
+      "line"
+     ],
+     "example": "Please join the queue.",
+     "exampleDe": "Bitte stellen Sie sich an."
+    },
+    {
+     "en": "wee",
+     "de": "klein (schott.)",
+     "alt": [
+      "small",
+      "little"
+     ],
+     "example": "Just a wee bit.",
+     "exampleDe": "Nur ein kleines bisschen."
+    },
+    {
+     "en": "grand",
+     "de": "prima, in Ordnung (irisch)",
+     "alt": [
+      "fine"
+     ],
+     "example": "I'm grand, thanks.",
+     "exampleDe": "Mir geht's prima, danke."
+    },
+    {
+     "en": "proverb",
+     "de": "Sprichwort",
+     "alt": [
+      "saying"
+     ],
+     "example": "As the proverb goes, ...",
+     "exampleDe": "Wie das Sprichwort sagt, ..."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "It's a real Catch-22.",
+     "de": "Das ist eine echte Zwickmühle.",
+     "alt": [
+      "It is a real Catch-22."
+     ]
+    },
+    {
+     "en": "Winning the case was a Pyrrhic victory.",
+     "de": "Den Prozess zu gewinnen war ein Pyrrhussieg."
+    },
+    {
+     "en": "When in Rome, do as the Romans do.",
+     "de": "Andere Länder, andere Sitten."
+    },
+    {
+     "en": "Don't count your chickens before they hatch.",
+     "de": "Man soll den Tag nicht vor dem Abend loben.",
+     "alt": [
+      "Do not count your chickens before they hatch."
+     ]
+    },
+    {
+     "en": "She seems to have the Midas touch.",
+     "de": "Sie scheint ein goldenes Händchen zu haben."
+    },
+    {
+     "en": "In the US, people stand in line rather than queue.",
+     "de": "In den USA sagt man „stand in line“ statt „queue“."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„a Catch-22“ bezeichnet:",
+     "options": [
+      "eine ausweglose Zwickmühle",
+      "einen Glücksfall",
+      "eine Sportregel",
+      "einen alten Film"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Amerikanisch für „lift“:",
+     "options": [
+      "elevator",
+      "escalator",
+      "raiser",
+      "upper"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Don't count your chickens before they hatch“ entspricht:",
+     "options": [
+      "Man soll den Tag nicht vor dem Abend loben.",
+      "Der frühe Vogel fängt den Wurm.",
+      "Viele Köche verderben den Brei.",
+      "Wer zuletzt lacht, lacht am besten."
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "The company won the lawsuit, but it was a ___ victory – the costs ruined them.",
+     "answer": "Pyrrhic",
+     "hint": "zu teuer erkaufter Sieg",
+     "de": "Die Firma gewann den Prozess, aber es war ein Pyrrhussieg.",
+     "alt": [
+      "pyrrhic"
+     ]
+    },
+    {
+     "text": "When in Rome, do as the ___ do.",
+     "answer": "Romans",
+     "hint": "Sprichwort",
+     "de": "Andere Länder, andere Sitten.",
+     "alt": [
+      "romans"
+     ]
+    },
+    {
+     "text": "Everything he invests in succeeds – he has the ___ touch.",
+     "answer": "Midas",
+     "hint": "goldenes Händchen",
+     "de": "Er hat ein goldenes Händchen.",
+     "alt": [
+      "midas"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Im Pub in Dublin",
+    "setting": "Du unterhältst dich mit einem Iren über Sprache.",
+    "lines": [
+     {
+      "speaker": "Conor",
+      "en": "How's the craic? Are you grand?",
+      "de": "Wie läuft's? Alles prima?"
+     },
+     {
+      "speaker": "You",
+      "en": "I'm grand, thanks! Though I needed a second to understand 'craic'.",
+      "de": "Mir geht's prima, danke! Obwohl ich bei „craic“ kurz überlegen musste."
+     },
+     {
+      "speaker": "Conor",
+      "en": "Ha! It just means fun or news. Every country has its own English.",
+      "de": "Ha! Das heißt einfach Spaß oder Neuigkeiten. Jedes Land hat sein eigenes Englisch."
+     },
+     {
+      "speaker": "You",
+      "en": "True. In Australia I heard 'arvo' for afternoon.",
+      "de": "Stimmt. In Australien habe ich „arvo“ für Nachmittag gehört."
+     },
+     {
+      "speaker": "Conor",
+      "en": "And the Scots will offer you a 'wee dram'.",
+      "de": "Und die Schotten bieten dir einen „wee dram“ an."
+     },
+     {
+      "speaker": "You",
+      "en": "Well, when in Rome, do as the Romans do!",
+      "de": "Tja, andere Länder, andere Sitten!"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c2_07",
+   "title": "Fortgeschrittene Textanalyse",
+   "goal": "Du analysierst Ton, Absicht, Voreingenommenheit und Wirkung anspruchsvoller Texte.",
+   "theory": [
+    {
+     "heading": "Ton und Absicht erkennen",
+     "text": "Fragen an jeden Text:\n• Purpose – Will der Autor informieren, überzeugen, unterhalten, kritisieren?\n• Tone – sachlich (objective), wertend (judgemental), ironisch (wry), nostalgisch, alarmierend\n• Bias – Welche Perspektive fehlt? Welche Wörter sind wertend? („regime“ vs. „government“, „freedom fighter“ vs. „rebel“)\n• Audience – Für wen ist der Text geschrieben?",
+     "examples": [
+      {
+       "en": "The author adopts a wry, detached tone.",
+       "de": "Der Autor schlägt einen trocken-ironischen, distanzierten Ton an."
+      },
+      {
+       "en": "The article is clearly biased.",
+       "de": "Der Artikel ist eindeutig einseitig."
+      }
+     ]
+    },
+    {
+     "heading": "Lesetext: Ein Meinungsartikel",
+     "text": "„Once again, our city council has, in its infinite wisdom, decided that what residents truly need is not affordable housing, but yet another shopping centre. One can only marvel at the vision of those who believe that a fourth coffee chain on the same street will solve the housing crisis. Perhaps, in time, the homeless will find shelter beneath its elegant glass roof.“\nAnalysiere: Ton, Stilmittel und Absicht des Autors.",
+     "examples": [
+      {
+       "en": "in its infinite wisdom",
+       "de": "in seiner unendlichen Weisheit (ironisch)"
+      },
+      {
+       "en": "One can only marvel at ...",
+       "de": "Man kann nur staunen über ... (ironisch)"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "tone",
+     "de": "Ton, Tonfall",
+     "example": "The tone of the article is critical.",
+     "exampleDe": "Der Ton des Artikels ist kritisch."
+    },
+    {
+     "en": "bias",
+     "de": "Voreingenommenheit, Einseitigkeit",
+     "example": "The report shows a clear bias.",
+     "exampleDe": "Der Bericht ist klar einseitig."
+    },
+    {
+     "en": "wry",
+     "de": "trocken-ironisch",
+     "example": "She gave a wry smile.",
+     "exampleDe": "Sie lächelte trocken-ironisch."
+    },
+    {
+     "en": "scathing",
+     "de": "vernichtend, bissig",
+     "alt": [
+      "harsh",
+      "withering"
+     ],
+     "example": "It was a scathing review.",
+     "exampleDe": "Es war eine vernichtende Kritik."
+    },
+    {
+     "en": "to convey",
+     "de": "vermitteln, ausdrücken",
+     "alt": [
+      "convey",
+      "express"
+     ],
+     "example": "The poem conveys a sense of loss.",
+     "exampleDe": "Das Gedicht vermittelt ein Gefühl des Verlusts."
+    },
+    {
+     "en": "subtle",
+     "de": "subtil, unterschwellig",
+     "example": "The criticism is subtle.",
+     "exampleDe": "Die Kritik ist unterschwellig."
+    },
+    {
+     "en": "loaded language",
+     "de": "wertende Sprache",
+     "alt": [
+      "emotive language"
+     ],
+     "example": "The article uses loaded language.",
+     "exampleDe": "Der Artikel verwendet wertende Sprache."
+    },
+    {
+     "en": "to undermine",
+     "de": "untergraben",
+     "alt": [
+      "undermine"
+     ],
+     "example": "Irony undermines the council's argument.",
+     "exampleDe": "Die Ironie untergräbt das Argument des Rats."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "The author adopts a sarcastic tone.",
+     "de": "Der Autor schlägt einen sarkastischen Ton an."
+    },
+    {
+     "en": "The article uses a lot of loaded language.",
+     "de": "Der Artikel verwendet viel wertende Sprache."
+    },
+    {
+     "en": "The text conveys a deep sense of frustration.",
+     "de": "Der Text vermittelt ein tiefes Gefühl der Frustration."
+    },
+    {
+     "en": "It was a scathing critique of the government.",
+     "de": "Es war eine vernichtende Kritik an der Regierung."
+    },
+    {
+     "en": "The criticism is subtle but effective.",
+     "de": "Die Kritik ist subtil, aber wirkungsvoll."
+    },
+    {
+     "en": "Which perspective is missing from the text?",
+     "de": "Welche Perspektive fehlt im Text?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Welchen Ton hat der Meinungsartikel im Lesetext?",
+     "options": [
+      "sarkastisch-kritisch",
+      "neutral-informativ",
+      "begeistert",
+      "nostalgisch"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„in its infinite wisdom“ ist hier ...",
+     "options": [
+      "ironisch gemeint",
+      "ein ehrliches Lob",
+      "ein Zitat des Rats",
+      "eine Frage"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Was ist die Hauptabsicht des Autors?",
+     "options": [
+      "die Entscheidung des Stadtrats kritisieren",
+      "für das Einkaufszentrum werben",
+      "über Kaffee informieren",
+      "Obdachlose kritisieren"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "The review was so harsh – absolutely ___.",
+     "answer": "scathing",
+     "hint": "vernichtend",
+     "de": "Die Kritik war so hart – absolut vernichtend.",
+     "alt": [
+      "brutal",
+      "devastating"
+     ]
+    },
+    {
+     "text": "The author uses irony to ___ the council's decision.",
+     "answer": "criticise",
+     "hint": "kritisieren",
+     "de": "Der Autor nutzt Ironie, um die Entscheidung des Rats zu kritisieren.",
+     "alt": [
+      "criticize",
+      "mock",
+      "attack",
+      "undermine"
+     ]
+    },
+    {
+     "text": "The news report shows a clear ___ towards the government.",
+     "answer": "bias",
+     "hint": "Voreingenommenheit",
+     "de": "Der Bericht ist klar voreingenommen gegenüber der Regierung."
+    }
+   ],
+   "dialogue": {
+    "title": "Literaturkreis",
+    "setting": "Ihr analysiert gemeinsam den Meinungsartikel aus der Lektion.",
+    "lines": [
+     {
+      "speaker": "Professor",
+      "en": "What tone does the author adopt?",
+      "de": "Welchen Ton schlägt der Autor an?"
+     },
+     {
+      "speaker": "You",
+      "en": "A distinctly sarcastic one. 'In its infinite wisdom' is clearly ironic.",
+      "de": "Einen deutlich sarkastischen. „In seiner unendlichen Weisheit“ ist klar ironisch."
+     },
+     {
+      "speaker": "Professor",
+      "en": "And what is the effect of the final sentence?",
+      "de": "Und welche Wirkung hat der letzte Satz?"
+     },
+     {
+      "speaker": "You",
+      "en": "It's scathing. The image of the homeless under a glass roof exposes the absurdity of the decision.",
+      "de": "Er ist vernichtend. Das Bild der Obdachlosen unter dem Glasdach entlarvt die Absurdität der Entscheidung."
+     },
+     {
+      "speaker": "Professor",
+      "en": "Is the text balanced?",
+      "de": "Ist der Text ausgewogen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Not at all. It's deliberately one-sided – the council's perspective is entirely missing.",
+      "de": "Überhaupt nicht. Er ist bewusst einseitig – die Sicht des Rats fehlt völlig."
+     }
+    ]
+   }
+  }
+ ]
+}

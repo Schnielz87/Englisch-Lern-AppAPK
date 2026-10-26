@@ -1,0 +1,83 @@
+name: Android Build & Release
+
+on:
+  push:
+    branches: [main, "claude/**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - uses: gradle/actions/setup-gradle@v5
+
+      - name: Android SDK-Plattform installieren
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-37.0" "build-tools;36.0.0" > /dev/null
+
+      - name: Eigenen Signaturschluessel einrichten (falls als Secret hinterlegt)
+        env:
+          KEYSTORE_B64: ${{ secrets.SIGNING_KEYSTORE_BASE64 }}
+        if: env.KEYSTORE_B64 != ''
+        run: |
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/release.jks"
+          echo "SIGNING_KEYSTORE_FILE=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
+
+      - name: Tests & Release-APK bauen
+        env:
+          SIGNING_KEYSTORE_PASSWORD: ${{ secrets.SIGNING_KEYSTORE_PASSWORD }}
+          SIGNING_KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
+          SIGNING_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD }}
+        run: ./gradlew testDebugUnitTest assembleRelease --stacktrace
+
+      - name: APK umbenennen
+        run: |
+          VERSION=$(grep -oP 'val appVersionName = "\K[^"]+' app/build.gradle.kts)
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+          cp app/build/outputs/apk/release/app-release.apk FundbruederEnglish.apk
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: FundbruederEnglish-${{ env.VERSION }}
+          path: FundbruederEnglish.apk
+
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: test-screenshots
+          path: app/build/screenshots/
+          if-no-files-found: ignore
+
+      # Neue Version -> neues GitHub-Release. Gleiche Version -> APK im Release aktualisieren.
+      - name: GitHub-Release veroeffentlichen
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="v$VERSION"
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            gh release upload "$TAG" FundbruederEnglish.apk --clobber
+          else
+            gh release create "$TAG" FundbruederEnglish.apk \
+              --target "$GITHUB_SHA" \
+              --title "Fundbrüder English $VERSION" \
+              --notes "Installierbare Android-App. Direkter Download: FundbruederEnglish.apk – auf dem Handy öffnen und installieren." \
+              --latest
+          fi

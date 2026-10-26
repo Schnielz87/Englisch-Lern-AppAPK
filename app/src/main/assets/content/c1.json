@@ -1,0 +1,1830 @@
+{
+ "id": "c1",
+ "code": "C1",
+ "title": "Fortgeschrittene Sprachbeherrschung",
+ "subtitle": "Nuancen, Register, Verhandeln & präzise Sprache",
+ "description": "Du beherrschst feine Unterschiede: diplomatisch verhandeln, im passenden Register sprechen, präzise formulieren und spontan überzeugend antworten.",
+ "lessons": [
+  {
+   "id": "c1_01",
+   "title": "Nuancierte Meinungen",
+   "goal": "Du kannst Meinungen abgestuft, vorsichtig und differenziert ausdrücken (Hedging).",
+   "theory": [
+    {
+     "heading": "Hedging – vorsichtig formulieren",
+     "text": "Auf C1-Niveau klingt man überzeugender, wenn man Aussagen abschwächt statt absolut zu formulieren:\n• It seems / appears that ... – Es scheint, dass ...\n• This would suggest that ... – Das deutet darauf hin, dass ...\n• To a certain extent, ... – Bis zu einem gewissen Grad ...\n• I'd be inclined to think that ... – Ich würde eher meinen, dass ...\n• arguably – wohl, man könnte sagen • presumably – vermutlich",
+     "examples": [
+      {
+       "en": "It would appear that the strategy has failed.",
+       "de": "Es scheint, als sei die Strategie gescheitert."
+      },
+      {
+       "en": "Arguably, it's the best film of the decade.",
+       "de": "Man könnte sagen, es ist der beste Film des Jahrzehnts."
+      }
+     ]
+    },
+    {
+     "heading": "Zustimmung abstufen",
+     "text": "• I couldn't agree more. – Ich stimme voll und ganz zu.\n• I agree up to a point. – Ich stimme bis zu einem gewissen Punkt zu.\n• I see where you're coming from, but ... – Ich verstehe deine Sichtweise, aber ...\n• That's not quite how I see it. – So sehe ich das nicht ganz.\n• I have my reservations about ... – Ich habe Vorbehalte gegenüber ...",
+     "examples": [
+      {
+       "en": "I agree up to a point.",
+       "de": "Ich stimme bis zu einem gewissen Punkt zu."
+      },
+      {
+       "en": "I have my reservations about the plan.",
+       "de": "Ich habe Vorbehalte gegen den Plan."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "arguably",
+     "de": "wohl, man könnte sagen",
+     "example": "She is arguably the best player.",
+     "exampleDe": "Sie ist wohl die beste Spielerin."
+    },
+    {
+     "en": "presumably",
+     "de": "vermutlich",
+     "example": "Presumably, he's already left.",
+     "exampleDe": "Vermutlich ist er schon gegangen."
+    },
+    {
+     "en": "to a certain extent",
+     "de": "bis zu einem gewissen Grad",
+     "alt": [
+      "to some extent"
+     ],
+     "example": "To a certain extent, you're right.",
+     "exampleDe": "Bis zu einem gewissen Grad hast du recht."
+    },
+    {
+     "en": "inclined to",
+     "de": "geneigt zu",
+     "example": "I'm inclined to agree.",
+     "exampleDe": "Ich bin geneigt zuzustimmen."
+    },
+    {
+     "en": "reservation",
+     "de": "Vorbehalt",
+     "example": "I have some reservations.",
+     "exampleDe": "Ich habe einige Vorbehalte."
+    },
+    {
+     "en": "nuanced",
+     "de": "differenziert, nuanciert",
+     "example": "She gave a nuanced answer.",
+     "exampleDe": "Sie gab eine differenzierte Antwort."
+    },
+    {
+     "en": "debatable",
+     "de": "fraglich, umstritten",
+     "alt": [
+      "questionable"
+     ],
+     "example": "Whether it works is debatable.",
+     "exampleDe": "Ob es funktioniert, ist fraglich."
+    },
+    {
+     "en": "to acknowledge",
+     "de": "anerkennen, einräumen",
+     "alt": [
+      "acknowledge",
+      "admit"
+     ],
+     "example": "I acknowledge that it's difficult.",
+     "exampleDe": "Ich räume ein, dass es schwierig ist."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "It would appear that the plan has failed.",
+     "de": "Es scheint, als sei der Plan gescheitert.",
+     "alt": [
+      "It appears that the plan has failed."
+     ]
+    },
+    {
+     "en": "I agree up to a point.",
+     "de": "Ich stimme bis zu einem gewissen Punkt zu."
+    },
+    {
+     "en": "I see where you're coming from, but I'm not convinced.",
+     "de": "Ich verstehe deine Sichtweise, aber ich bin nicht überzeugt."
+    },
+    {
+     "en": "Whether it will work is debatable.",
+     "de": "Ob es funktionieren wird, ist fraglich."
+    },
+    {
+     "en": "I'd be inclined to think that he's right.",
+     "de": "Ich würde eher meinen, dass er recht hat.",
+     "alt": [
+      "I would be inclined to think that he is right."
+     ]
+    },
+    {
+     "en": "I couldn't agree more.",
+     "de": "Ich stimme voll und ganz zu.",
+     "alt": [
+      "I could not agree more."
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„I couldn't agree more.“ bedeutet:",
+     "options": [
+      "volle Zustimmung",
+      "starke Ablehnung",
+      "teilweise Zustimmung",
+      "Unentschlossenheit"
+     ],
+     "answer": 0,
+     "explain": "Wörtlich: „Ich könnte nicht mehr zustimmen.“"
+    },
+    {
+     "q": "Welche Formulierung ist ein Hedge?",
+     "options": [
+      "It would seem that ...",
+      "It is absolutely certain that ...",
+      "Everyone knows that ...",
+      "Without doubt ..."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„presumably“ heißt:",
+     "options": [
+      "vermutlich",
+      "vorzeitig",
+      "anmaßend",
+      "glücklicherweise"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "I agree up to a ___.",
+     "answer": "point",
+     "hint": "gewissen Punkt",
+     "de": "Ich stimme bis zu einem gewissen Punkt zu."
+    },
+    {
+     "text": "To a certain ___, the critics are right.",
+     "answer": "extent",
+     "hint": "Grad",
+     "de": "Bis zu einem gewissen Grad haben die Kritiker recht.",
+     "alt": [
+      "degree"
+     ]
+    },
+    {
+     "text": "I see where you're coming ___.",
+     "answer": "from",
+     "hint": "Präposition",
+     "de": "Ich verstehe deine Sichtweise."
+    }
+   ],
+   "dialogue": {
+    "title": "Debatte unter Kollegen",
+    "setting": "Ihr diskutiert, ob KI viele Jobs ersetzen wird.",
+    "lines": [
+     {
+      "speaker": "Priya",
+      "en": "Surely AI will replace most office jobs within ten years?",
+      "de": "KI wird doch sicher in zehn Jahren die meisten Bürojobs ersetzen?"
+     },
+     {
+      "speaker": "You",
+      "en": "I agree up to a point, but I'd be inclined to think it will change jobs rather than replace them.",
+      "de": "Bis zu einem gewissen Punkt ja, aber ich würde eher meinen, dass sie Jobs verändert statt ersetzt."
+     },
+     {
+      "speaker": "Priya",
+      "en": "That seems a bit optimistic, doesn't it?",
+      "de": "Das klingt etwas optimistisch, oder?"
+     },
+     {
+      "speaker": "You",
+      "en": "Arguably, yes. Still, history would suggest that new roles tend to emerge.",
+      "de": "Mag sein. Trotzdem legt die Geschichte nahe, dass neue Rollen entstehen."
+     },
+     {
+      "speaker": "Priya",
+      "en": "I see where you're coming from.",
+      "de": "Ich verstehe deine Sichtweise."
+     },
+     {
+      "speaker": "You",
+      "en": "Mind you, I acknowledge the transition could be painful for many.",
+      "de": "Allerdings räume ich ein, dass der Übergang für viele schmerzhaft sein könnte."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1_02",
+   "title": "Fachliche Diskussionen",
+   "goal": "Du kannst in Fachgesprächen präzise argumentieren, einräumen und widersprechen.",
+   "theory": [
+    {
+     "heading": "Einräumen und dennoch widersprechen",
+     "text": "• Granted, ... / Admittedly, ... – Zugegeben, ...\n• While it is true that ..., ... – Es stimmt zwar, dass ..., aber ...\n• Be that as it may, ... – Wie dem auch sei ...\n• Nevertheless / Nonetheless, ... – Nichtsdestotrotz ...\n• That argument doesn't hold water. – Das Argument ist nicht stichhaltig.",
+     "examples": [
+      {
+       "en": "Granted, the costs are high. Nevertheless, it's worth it.",
+       "de": "Zugegeben, die Kosten sind hoch. Trotzdem lohnt es sich."
+      },
+      {
+       "en": "While it is true that prices rose, demand remained high.",
+       "de": "Es stimmt zwar, dass die Preise stiegen, doch die Nachfrage blieb hoch."
+      }
+     ]
+    },
+    {
+     "heading": "Präzisieren und nachfragen",
+     "text": "• Could you elaborate on that? – Könnten Sie das näher ausführen?\n• What exactly do you mean by ...? – Was genau meinen Sie mit ...?\n• To be more precise, ... – Genauer gesagt ...\n• The data clearly indicates that ... – Die Daten zeigen klar, dass ...\n• That's beside the point. – Darum geht es nicht.",
+     "examples": [
+      {
+       "en": "Could you elaborate on that?",
+       "de": "Könnten Sie das näher ausführen?"
+      },
+      {
+       "en": "That's beside the point.",
+       "de": "Darum geht es nicht."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "granted",
+     "de": "zugegeben",
+     "alt": [
+      "admittedly"
+     ],
+     "example": "Granted, it's not perfect.",
+     "exampleDe": "Zugegeben, es ist nicht perfekt."
+    },
+    {
+     "en": "nevertheless",
+     "de": "nichtsdestotrotz",
+     "alt": [
+      "nonetheless"
+     ],
+     "example": "It was risky; nevertheless, we did it.",
+     "exampleDe": "Es war riskant; trotzdem haben wir es getan."
+    },
+    {
+     "en": "to elaborate",
+     "de": "näher ausführen",
+     "alt": [
+      "elaborate",
+      "expand on"
+     ],
+     "example": "Could you elaborate?",
+     "exampleDe": "Könnten Sie das ausführen?"
+    },
+    {
+     "en": "to indicate",
+     "de": "darauf hinweisen, zeigen",
+     "alt": [
+      "indicate",
+      "suggest"
+     ],
+     "example": "The results indicate a trend.",
+     "exampleDe": "Die Ergebnisse weisen auf einen Trend hin."
+    },
+    {
+     "en": "beside the point",
+     "de": "irrelevant, nebensächlich",
+     "alt": [
+      "irrelevant"
+     ],
+     "example": "Cost is beside the point.",
+     "exampleDe": "Die Kosten sind nebensächlich."
+    },
+    {
+     "en": "to hold water",
+     "de": "stichhaltig sein",
+     "alt": [
+      "hold water"
+     ],
+     "example": "His theory doesn't hold water.",
+     "exampleDe": "Seine Theorie ist nicht stichhaltig."
+    },
+    {
+     "en": "assumption",
+     "de": "Annahme",
+     "example": "That's a false assumption.",
+     "exampleDe": "Das ist eine falsche Annahme."
+    },
+    {
+     "en": "to undermine",
+     "de": "untergraben, schwächen",
+     "alt": [
+      "undermine"
+     ],
+     "example": "This undermines your argument.",
+     "exampleDe": "Das schwächt dein Argument."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "Granted, the costs are high.",
+     "de": "Zugegeben, die Kosten sind hoch.",
+     "alt": [
+      "Admittedly, the costs are high."
+     ]
+    },
+    {
+     "en": "Could you elaborate on that point?",
+     "de": "Könnten Sie diesen Punkt näher ausführen?"
+    },
+    {
+     "en": "That argument doesn't hold water.",
+     "de": "Dieses Argument ist nicht stichhaltig.",
+     "alt": [
+      "That argument does not hold water."
+     ]
+    },
+    {
+     "en": "The data clearly indicates a decline.",
+     "de": "Die Daten zeigen klar einen Rückgang.",
+     "alt": [
+      "The data clearly indicate a decline."
+     ]
+    },
+    {
+     "en": "That's beside the point.",
+     "de": "Darum geht es nicht.",
+     "alt": [
+      "That is beside the point."
+     ]
+    },
+    {
+     "en": "This is based on a false assumption.",
+     "de": "Das beruht auf einer falschen Annahme."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„Wie dem auch sei“:",
+     "options": [
+      "Be that as it may",
+      "Be it how it is",
+      "As it may be so",
+      "However it be"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Das Argument ist nicht stichhaltig.“",
+     "options": [
+      "The argument doesn't hold water.",
+      "The argument has no water.",
+      "The argument doesn't carry water.",
+      "The argument is not waterproof."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Was passt? „___ the results are promising, more research is needed.“",
+     "options": [
+      "While",
+      "Despite",
+      "However",
+      "Because of"
+     ],
+     "answer": 0,
+     "explain": "While + Satz = Es stimmt zwar, dass ..."
+    }
+   ],
+   "gaps": [
+    {
+     "text": "___, the method has some weaknesses.",
+     "answer": "Admittedly",
+     "hint": "zugegeben",
+     "de": "Zugegeben, die Methode hat einige Schwächen.",
+     "alt": [
+      "Granted"
+     ]
+    },
+    {
+     "text": "Could you ___ on what you just said?",
+     "answer": "elaborate",
+     "hint": "näher ausführen",
+     "de": "Könnten Sie ausführen, was Sie gerade gesagt haben?",
+     "alt": [
+      "expand"
+     ]
+    },
+    {
+     "text": "These findings ___ his whole theory.",
+     "answer": "undermine",
+     "hint": "untergraben",
+     "de": "Diese Ergebnisse untergraben seine ganze Theorie."
+    }
+   ],
+   "dialogue": {
+    "title": "Fachrunde: Homeoffice-Studie",
+    "setting": "In einer Expertenrunde wird eine neue Studie diskutiert.",
+    "lines": [
+     {
+      "speaker": "Researcher",
+      "en": "Our study shows that remote workers are more productive.",
+      "de": "Unsere Studie zeigt, dass Remote-Mitarbeiter produktiver sind."
+     },
+     {
+      "speaker": "You",
+      "en": "Could you elaborate on how productivity was measured?",
+      "de": "Könnten Sie ausführen, wie die Produktivität gemessen wurde?"
+     },
+     {
+      "speaker": "Researcher",
+      "en": "Mainly through self-reported output.",
+      "de": "Hauptsächlich über selbst angegebene Leistung."
+     },
+     {
+      "speaker": "You",
+      "en": "Granted, that's common practice. Nevertheless, self-reports tend to be biased.",
+      "de": "Zugegeben, das ist üblich. Trotzdem sind Selbstauskünfte oft verzerrt."
+     },
+     {
+      "speaker": "Researcher",
+      "en": "That's a fair criticism, but the sample was very large.",
+      "de": "Berechtigte Kritik, aber die Stichprobe war sehr groß."
+     },
+     {
+      "speaker": "You",
+      "en": "Be that as it may, a large sample doesn't remove bias.",
+      "de": "Wie dem auch sei, eine große Stichprobe beseitigt keine Verzerrung."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1_03",
+   "title": "Geschäftskommunikation & Verhandeln",
+   "goal": "Du kannst diplomatisch verhandeln, Vorschläge machen und Kompromisse finden.",
+   "theory": [
+    {
+     "heading": "Diplomatische Sprache",
+     "text": "Im Business-Englisch wird Direktheit oft abgeschwächt:\n• „Your price is too high.“ → I'm afraid that's a little higher than we'd anticipated.\n• „We can't do that.“ → That might be difficult for us at this stage.\n• „You're wrong.“ → I'm not sure that's entirely accurate.\nWerkzeuge: Konjunktiv (would, could, might), Weichmacher (slightly, a bit), Fragen statt Aussagen (Would you consider ...?).",
+     "examples": [
+      {
+       "en": "Would you consider a longer contract?",
+       "de": "Würden Sie einen längeren Vertrag in Betracht ziehen?"
+      },
+      {
+       "en": "That might be difficult for us.",
+       "de": "Das könnte für uns schwierig werden."
+      }
+     ]
+    },
+    {
+     "heading": "Verhandeln",
+     "text": "• Vorschlagen: What if we ...? / How would you feel about ...?\n• Bedingung: We could agree to that, provided that ... / on condition that ...\n• Kompromiss: Let's meet halfway. / Could we split the difference?\n• Abschluss: It's a deal. / I think we've reached an agreement.\n• Bedenkzeit: I'll need to run this by my team. – Das muss ich mit meinem Team abstimmen.",
+     "examples": [
+      {
+       "en": "We could agree to that, provided that delivery is free.",
+       "de": "Dem könnten wir zustimmen, sofern die Lieferung kostenlos ist."
+      },
+      {
+       "en": "Let's meet halfway.",
+       "de": "Treffen wir uns in der Mitte."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to negotiate",
+     "de": "verhandeln",
+     "alt": [
+      "negotiate"
+     ],
+     "example": "We negotiated a better price.",
+     "exampleDe": "Wir haben einen besseren Preis ausgehandelt."
+    },
+    {
+     "en": "provided that",
+     "de": "vorausgesetzt, dass",
+     "alt": [
+      "providing that",
+      "on condition that"
+     ],
+     "example": "Fine, provided that you pay in advance.",
+     "exampleDe": "In Ordnung, vorausgesetzt, Sie zahlen im Voraus."
+    },
+    {
+     "en": "to anticipate",
+     "de": "erwarten, vorhersehen",
+     "alt": [
+      "anticipate",
+      "expect"
+     ],
+     "example": "We didn't anticipate these costs.",
+     "exampleDe": "Mit diesen Kosten haben wir nicht gerechnet."
+    },
+    {
+     "en": "to meet halfway",
+     "de": "sich in der Mitte treffen",
+     "alt": [
+      "meet halfway"
+     ],
+     "example": "Let's meet halfway on the price.",
+     "exampleDe": "Treffen wir uns beim Preis in der Mitte."
+    },
+    {
+     "en": "to run something by someone",
+     "de": "etwas mit jemandem abstimmen",
+     "alt": [
+      "run by"
+     ],
+     "example": "I'll run it by my boss.",
+     "exampleDe": "Ich stimme das mit meinem Chef ab."
+    },
+    {
+     "en": "terms",
+     "de": "Bedingungen",
+     "alt": [
+      "conditions"
+     ],
+     "example": "What are the payment terms?",
+     "exampleDe": "Wie sind die Zahlungsbedingungen?"
+    },
+    {
+     "en": "concession",
+     "de": "Zugeständnis",
+     "example": "We're willing to make a concession.",
+     "exampleDe": "Wir sind bereit, ein Zugeständnis zu machen."
+    },
+    {
+     "en": "binding",
+     "de": "verbindlich",
+     "example": "This offer is not binding.",
+     "exampleDe": "Dieses Angebot ist unverbindlich."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "Would you consider a longer contract?",
+     "de": "Würden Sie einen längeren Vertrag in Betracht ziehen?"
+    },
+    {
+     "en": "That's a little higher than we'd anticipated.",
+     "de": "Das ist etwas höher als erwartet.",
+     "alt": [
+      "That is a little higher than we had anticipated."
+     ]
+    },
+    {
+     "en": "We could agree to that, provided that delivery is free.",
+     "de": "Dem könnten wir zustimmen, sofern die Lieferung kostenlos ist."
+    },
+    {
+     "en": "Let's meet halfway.",
+     "de": "Treffen wir uns in der Mitte.",
+     "alt": [
+      "Let us meet halfway."
+     ]
+    },
+    {
+     "en": "I'll need to run this by my team.",
+     "de": "Das muss ich mit meinem Team abstimmen.",
+     "alt": [
+      "I will need to run this by my team."
+     ]
+    },
+    {
+     "en": "I think we've reached an agreement.",
+     "de": "Ich denke, wir haben eine Einigung erzielt.",
+     "alt": [
+      "I think we have reached an agreement."
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Diplomatischste Ablehnung:",
+     "options": [
+      "That might be difficult for us at this stage.",
+      "No way.",
+      "That's impossible.",
+      "We refuse."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„vorausgesetzt, dass“:",
+     "options": [
+      "provided that",
+      "provoked that",
+      "proven that",
+      "previous that"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Let's split the difference“ bedeutet:",
+     "options": [
+      "sich in der Mitte einigen",
+      "die Verhandlung abbrechen",
+      "den Gewinn teilen",
+      "neu anfangen"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "We'd be happy to sign, ___ that the price includes training.",
+     "answer": "provided",
+     "hint": "vorausgesetzt",
+     "de": "Wir unterschreiben gern, vorausgesetzt, der Preis beinhaltet Schulungen.",
+     "alt": [
+      "providing"
+     ]
+    },
+    {
+     "text": "How would you feel ___ a 5% discount?",
+     "answer": "about",
+     "hint": "Präposition",
+     "de": "Was halten Sie von 5 % Rabatt?"
+    },
+    {
+     "text": "I'm ___ that's slightly over our budget.",
+     "answer": "afraid",
+     "hint": "leider (höflich)",
+     "de": "Das liegt leider etwas über unserem Budget."
+    }
+   ],
+   "dialogue": {
+    "title": "Preisverhandlung",
+    "setting": "Du verhandelst mit einem Lieferanten über einen Rahmenvertrag.",
+    "lines": [
+     {
+      "speaker": "Supplier",
+      "en": "Our price for 1,000 units is 12 euros each.",
+      "de": "Unser Preis für 1.000 Stück liegt bei 12 Euro pro Stück."
+     },
+     {
+      "speaker": "You",
+      "en": "I'm afraid that's a little higher than we'd anticipated.",
+      "de": "Das ist leider etwas höher, als wir erwartet hatten."
+     },
+     {
+      "speaker": "Supplier",
+      "en": "What figure did you have in mind?",
+      "de": "An welchen Betrag hatten Sie gedacht?"
+     },
+     {
+      "speaker": "You",
+      "en": "Would you consider 10 euros if we signed a two-year contract?",
+      "de": "Würden Sie 10 Euro in Betracht ziehen, wenn wir einen Zweijahresvertrag unterschreiben?"
+     },
+     {
+      "speaker": "Supplier",
+      "en": "Perhaps we could meet halfway at 11.",
+      "de": "Vielleicht treffen wir uns in der Mitte bei 11."
+     },
+     {
+      "speaker": "You",
+      "en": "We could agree to that, provided that delivery is included.",
+      "de": "Dem könnten wir zustimmen, sofern die Lieferung inbegriffen ist."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1_04",
+   "title": "Sprachregister",
+   "goal": "Du wählst je nach Situation das passende Register – von sehr formell bis umgangssprachlich.",
+   "theory": [
+    {
+     "heading": "Formell vs. informell",
+     "text": "Englisch drückt Höflichkeit nicht durch „Sie/du“, sondern durch Wortwahl und Satzbau aus:\n• informell: Can you help me? – neutral: Could you help me? – formell: I was wondering if you could assist me.\n• informell: get – formell: obtain / receive  • find out – ascertain  • need – require  • start – commence\n• Formelle Texte nutzen mehr Passiv, Substantive und lateinische Wörter; informelle mehr Phrasal Verbs.",
+     "examples": [
+      {
+       "en": "I was wondering if you could assist me.",
+       "de": "Ich wollte fragen, ob Sie mir behilflich sein könnten."
+      },
+      {
+       "en": "Please do not hesitate to contact us.",
+       "de": "Zögern Sie nicht, uns zu kontaktieren."
+      }
+     ]
+    },
+    {
+     "heading": "Umgangssprache erkennen",
+     "text": "• Britisch: cheers (danke), mate (Kumpel), knackered (fix und fertig), gutted (enttäuscht), fancy (Lust haben auf)\n• Amerikanisch: awesome, gonna, y'all, to hang out\nSlang verstehen ist wichtig – selbst verwenden nur, wenn die Situation passt.",
+     "examples": [
+      {
+       "en": "I'm absolutely knackered.",
+       "de": "Ich bin völlig fertig."
+      },
+      {
+       "en": "Do you fancy a coffee?",
+       "de": "Hast du Lust auf einen Kaffee?"
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to require",
+     "de": "benötigen, erfordern (formell)",
+     "alt": [
+      "require"
+     ],
+     "example": "The position requires experience.",
+     "exampleDe": "Die Stelle erfordert Erfahrung."
+    },
+    {
+     "en": "to obtain",
+     "de": "erhalten, beschaffen (formell)",
+     "alt": [
+      "obtain"
+     ],
+     "example": "You must obtain a permit.",
+     "exampleDe": "Sie müssen eine Genehmigung einholen."
+    },
+    {
+     "en": "to commence",
+     "de": "beginnen (formell)",
+     "alt": [
+      "commence"
+     ],
+     "example": "The meeting will commence at nine.",
+     "exampleDe": "Die Sitzung beginnt um neun."
+    },
+    {
+     "en": "to assist",
+     "de": "helfen, unterstützen (formell)",
+     "alt": [
+      "assist"
+     ],
+     "example": "How may I assist you?",
+     "exampleDe": "Wie kann ich Ihnen behilflich sein?"
+    },
+    {
+     "en": "knackered",
+     "de": "fix und fertig (brit. ugs.)",
+     "alt": [
+      "exhausted"
+     ],
+     "example": "I'm knackered after work.",
+     "exampleDe": "Nach der Arbeit bin ich fix und fertig."
+    },
+    {
+     "en": "gutted",
+     "de": "total enttäuscht (brit. ugs.)",
+     "alt": [
+      "devastated"
+     ],
+     "example": "I was gutted when we lost.",
+     "exampleDe": "Ich war total enttäuscht, als wir verloren."
+    },
+    {
+     "en": "to fancy",
+     "de": "Lust haben auf (brit. ugs.)",
+     "alt": [
+      "fancy"
+     ],
+     "example": "Fancy a drink?",
+     "exampleDe": "Lust auf was zu trinken?"
+    },
+    {
+     "en": "register",
+     "de": "Sprachebene, Register",
+     "example": "Choose the right register.",
+     "exampleDe": "Wähle die richtige Sprachebene."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "I was wondering if you could assist me.",
+     "de": "Ich wollte fragen, ob Sie mir behilflich sein könnten."
+    },
+    {
+     "en": "Please do not hesitate to contact us.",
+     "de": "Zögern Sie nicht, uns zu kontaktieren.",
+     "alt": [
+      "Please don't hesitate to contact us."
+     ]
+    },
+    {
+     "en": "The ceremony will commence at noon.",
+     "de": "Die Zeremonie beginnt um zwölf Uhr."
+    },
+    {
+     "en": "Do you fancy a coffee?",
+     "de": "Hast du Lust auf einen Kaffee?",
+     "alt": [
+      "Fancy a coffee?"
+     ]
+    },
+    {
+     "en": "I'm absolutely knackered.",
+     "de": "Ich bin völlig fertig.",
+     "alt": [
+      "I am absolutely knackered."
+     ]
+    },
+    {
+     "en": "Further information can be obtained from our website.",
+     "de": "Weitere Informationen erhalten Sie auf unserer Website."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Formellstes Synonym für „start“:",
+     "options": [
+      "commence",
+      "kick off",
+      "get going",
+      "begin off"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„gutted“ (britisch) bedeutet:",
+     "options": [
+      "sehr enttäuscht",
+      "satt",
+      "mutig",
+      "gut gelaunt"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Welcher Satz ist am formellsten?",
+     "options": [
+      "I was wondering if you could send me the report.",
+      "Send me the report.",
+      "Can you send the report?",
+      "Gimme the report, mate."
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "The position ___ a degree in engineering. (formell: braucht)",
+     "answer": "requires",
+     "hint": "formell für needs",
+     "de": "Die Stelle erfordert einen Ingenieurabschluss."
+    },
+    {
+     "text": "Please do not ___ to contact me.",
+     "answer": "hesitate",
+     "hint": "zögern",
+     "de": "Zögern Sie nicht, mich zu kontaktieren."
+    },
+    {
+     "text": "Do you ___ going to the cinema? (brit.: Lust haben)",
+     "answer": "fancy",
+     "hint": "Lust haben",
+     "de": "Hast du Lust, ins Kino zu gehen?"
+    }
+   ],
+   "dialogue": {
+    "title": "Zwei Welten",
+    "setting": "Erst rufst du förmlich bei einer Behörde an, danach schreibst du locker einem Freund. Hier: das Behördentelefonat.",
+    "lines": [
+     {
+      "speaker": "Officer",
+      "en": "Good morning, Visa Department. How may I assist you?",
+      "de": "Guten Morgen, Visa-Abteilung. Wie kann ich Ihnen helfen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Good morning. I was wondering if you could tell me which documents I require.",
+      "de": "Guten Morgen. Ich wollte fragen, welche Unterlagen ich benötige."
+     },
+     {
+      "speaker": "Officer",
+      "en": "Certainly. You'll need to obtain a certificate from your employer.",
+      "de": "Gern. Sie müssen eine Bescheinigung Ihres Arbeitgebers einholen."
+     },
+     {
+      "speaker": "You",
+      "en": "Thank you. And when does the processing commence?",
+      "de": "Danke. Und wann beginnt die Bearbeitung?"
+     },
+     {
+      "speaker": "Officer",
+      "en": "Once all documents have been received.",
+      "de": "Sobald alle Unterlagen eingegangen sind."
+     },
+     {
+      "speaker": "You",
+      "en": "That's very helpful. Thank you for your assistance.",
+      "de": "Das ist sehr hilfreich. Vielen Dank für Ihre Unterstützung."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1_05",
+   "title": "Präzise Wortwahl & Kollokationen",
+   "goal": "Du wählst das genau passende Wort und nutzt typische Wortverbindungen.",
+   "theory": [
+    {
+     "heading": "Kollokationen",
+     "text": "Bestimmte Wörter „gehören“ im Englischen zusammen – oft anders als im Deutschen:\n• make a decision (nicht: do a decision) • do research • take a risk • pay attention\n• heavy rain (nicht: strong rain) • strong coffee • a high price • a wide range\n• bitterly disappointed • deeply concerned • highly unlikely • fully aware",
+     "examples": [
+      {
+       "en": "It's highly unlikely to happen.",
+       "de": "Es ist höchst unwahrscheinlich."
+      },
+      {
+       "en": "We need to make a decision.",
+       "de": "Wir müssen eine Entscheidung treffen."
+      }
+     ]
+    },
+    {
+     "heading": "Bedeutungsnuancen",
+     "text": "• look / see / watch / stare / glance: glance = kurz blicken, stare = anstarren\n• famous / notorious: notorious = berüchtigt (negativ)\n• thrifty / stingy: sparsam (positiv) / geizig (negativ)\n• error / mistake / blunder: blunder = grober Schnitzer\nPräzise Wörter machen deine Sprache lebendig: „very big“ → huge, enormous, vast.",
+     "examples": [
+      {
+       "en": "He glanced at his watch.",
+       "de": "Er warf einen kurzen Blick auf die Uhr."
+      },
+      {
+       "en": "The area is notorious for crime.",
+       "de": "Die Gegend ist berüchtigt für Kriminalität."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to make a decision",
+     "de": "eine Entscheidung treffen",
+     "alt": [
+      "make a decision"
+     ],
+     "example": "She made a quick decision.",
+     "exampleDe": "Sie traf eine schnelle Entscheidung."
+    },
+    {
+     "en": "highly unlikely",
+     "de": "höchst unwahrscheinlich",
+     "example": "It's highly unlikely he'll come.",
+     "exampleDe": "Es ist höchst unwahrscheinlich, dass er kommt."
+    },
+    {
+     "en": "notorious",
+     "de": "berüchtigt",
+     "example": "He's notorious for being late.",
+     "exampleDe": "Er ist berüchtigt dafür, zu spät zu kommen."
+    },
+    {
+     "en": "to glance",
+     "de": "kurz blicken",
+     "alt": [
+      "glance"
+     ],
+     "example": "She glanced at the clock.",
+     "exampleDe": "Sie blickte kurz auf die Uhr."
+    },
+    {
+     "en": "stingy",
+     "de": "geizig",
+     "alt": [
+      "mean",
+      "tight-fisted"
+     ],
+     "example": "Don't be so stingy!",
+     "exampleDe": "Sei nicht so geizig!"
+    },
+    {
+     "en": "blunder",
+     "de": "grober Fehler, Schnitzer",
+     "example": "It was a huge blunder.",
+     "exampleDe": "Es war ein riesiger Schnitzer."
+    },
+    {
+     "en": "vast",
+     "de": "riesig, weit",
+     "alt": [
+      "huge",
+      "enormous"
+     ],
+     "example": "a vast amount of data",
+     "exampleDe": "eine riesige Datenmenge"
+    },
+    {
+     "en": "bitterly disappointed",
+     "de": "bitter enttäuscht",
+     "example": "We were bitterly disappointed.",
+     "exampleDe": "Wir waren bitter enttäuscht."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "We need to make a decision soon.",
+     "de": "Wir müssen bald eine Entscheidung treffen."
+    },
+    {
+     "en": "It's highly unlikely to rain today.",
+     "de": "Es ist höchst unwahrscheinlich, dass es heute regnet.",
+     "alt": [
+      "It is highly unlikely to rain today."
+     ]
+    },
+    {
+     "en": "He glanced at his phone.",
+     "de": "Er warf einen kurzen Blick auf sein Handy."
+    },
+    {
+     "en": "The city is notorious for its traffic.",
+     "de": "Die Stadt ist berüchtigt für ihren Verkehr."
+    },
+    {
+     "en": "We were bitterly disappointed by the result.",
+     "de": "Wir waren bitter enttäuscht vom Ergebnis."
+    },
+    {
+     "en": "There is a wide range of options.",
+     "de": "Es gibt eine große Auswahl an Möglichkeiten."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Richtige Kollokation:",
+     "options": [
+      "heavy rain",
+      "strong rain",
+      "hard rain",
+      "big rain"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Richtige Kollokation:",
+     "options": [
+      "do research",
+      "make research",
+      "take research",
+      "give research"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„notorious“ ist:",
+     "options": [
+      "negativ (berüchtigt)",
+      "positiv (berühmt)",
+      "neutral (bekannt)",
+      "ein Verb"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Please pay ___ to the details.",
+     "answer": "attention",
+     "hint": "Aufmerksamkeit",
+     "de": "Bitte achte auf die Details."
+    },
+    {
+     "text": "I'm fully ___ of the risks.",
+     "answer": "aware",
+     "hint": "bewusst",
+     "de": "Ich bin mir der Risiken voll bewusst."
+    },
+    {
+     "text": "You shouldn't ___ such a big risk.",
+     "answer": "take",
+     "hint": "ein Risiko eingehen",
+     "de": "Du solltest kein so großes Risiko eingehen.",
+     "alt": [
+      "run"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Feedback zu einem Bericht",
+    "setting": "Eine Kollegin bittet dich um sprachliches Feedback zu ihrem Bericht.",
+    "lines": [
+     {
+      "speaker": "Elena",
+      "en": "Could you look at my report? I'm not sure about the wording.",
+      "de": "Kannst du dir meinen Bericht ansehen? Bei der Formulierung bin ich unsicher."
+     },
+     {
+      "speaker": "You",
+      "en": "Sure. Here you wrote 'strong rain' – it should be 'heavy rain'.",
+      "de": "Klar. Hier steht „strong rain“ – richtig wäre „heavy rain“."
+     },
+     {
+      "speaker": "Elena",
+      "en": "Oh, good to know. Anything else?",
+      "de": "Oh, gut zu wissen. Noch was?"
+     },
+     {
+      "speaker": "You",
+      "en": "Instead of 'very big amount', you could say 'a vast amount'.",
+      "de": "Statt „very big amount“ könntest du „a vast amount“ sagen."
+     },
+     {
+      "speaker": "Elena",
+      "en": "That sounds much more precise.",
+      "de": "Das klingt viel präziser."
+     },
+     {
+      "speaker": "You",
+      "en": "Exactly. And 'make research' should be 'do research'.",
+      "de": "Genau. Und „make research“ sollte „do research“ heißen."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1_06",
+   "title": "Idiomatische Ausdrücke für Fortgeschrittene",
+   "goal": "Du verwendest anspruchsvolle Redewendungen sicher und situationsgerecht.",
+   "theory": [
+    {
+     "heading": "Idioms im Beruf",
+     "text": "• to cut corners – an der falschen Stelle sparen, pfuschen\n• to go the extra mile – sich besonders anstrengen\n• to think outside the box – über den Tellerrand schauen\n• to get the ball rolling – den Stein ins Rollen bringen\n• a blessing in disguise – ein Glück im Unglück\n• to bite off more than you can chew – sich übernehmen",
+     "examples": [
+      {
+       "en": "Let's get the ball rolling.",
+       "de": "Bringen wir die Sache ins Rollen."
+      },
+      {
+       "en": "Losing that job was a blessing in disguise.",
+       "de": "Den Job zu verlieren war Glück im Unglück."
+      }
+     ]
+    },
+    {
+     "heading": "Idioms für Situationen und Gefühle",
+     "text": "• to be on the fence – unentschlossen sein\n• to beat around the bush – um den heißen Brei herumreden\n• to let the cat out of the bag – die Katze aus dem Sack lassen\n• the elephant in the room – das offensichtliche, aber gemiedene Problem\n• to add insult to injury – noch eins draufsetzen\n• to be over the moon – überglücklich sein",
+     "examples": [
+      {
+       "en": "Stop beating around the bush!",
+       "de": "Hör auf, um den heißen Brei herumzureden!"
+      },
+      {
+       "en": "She was over the moon about the news.",
+       "de": "Sie war überglücklich über die Nachricht."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "to cut corners",
+     "de": "pfuschen, am falschen Ende sparen",
+     "alt": [
+      "cut corners"
+     ],
+     "example": "Don't cut corners on safety.",
+     "exampleDe": "Spar nicht an der Sicherheit."
+    },
+    {
+     "en": "to go the extra mile",
+     "de": "sich besonders ins Zeug legen",
+     "alt": [
+      "go the extra mile"
+     ],
+     "example": "She always goes the extra mile.",
+     "exampleDe": "Sie legt sich immer besonders ins Zeug."
+    },
+    {
+     "en": "a blessing in disguise",
+     "de": "Glück im Unglück",
+     "example": "The delay was a blessing in disguise.",
+     "exampleDe": "Die Verspätung war Glück im Unglück."
+    },
+    {
+     "en": "to be on the fence",
+     "de": "unentschlossen sein",
+     "alt": [
+      "be on the fence"
+     ],
+     "example": "I'm still on the fence about it.",
+     "exampleDe": "Ich bin noch unentschlossen."
+    },
+    {
+     "en": "to beat around the bush",
+     "de": "um den heißen Brei herumreden",
+     "alt": [
+      "beat around the bush",
+      "beat about the bush"
+     ],
+     "example": "Don't beat around the bush.",
+     "exampleDe": "Red nicht um den heißen Brei herum."
+    },
+    {
+     "en": "the elephant in the room",
+     "de": "das offensichtliche Tabuthema",
+     "example": "Let's talk about the elephant in the room.",
+     "exampleDe": "Sprechen wir das offensichtliche Problem an."
+    },
+    {
+     "en": "to let the cat out of the bag",
+     "de": "die Katze aus dem Sack lassen",
+     "alt": [
+      "let the cat out of the bag"
+     ],
+     "example": "Who let the cat out of the bag?",
+     "exampleDe": "Wer hat das Geheimnis ausgeplaudert?"
+    },
+    {
+     "en": "over the moon",
+     "de": "überglücklich",
+     "example": "I was over the moon.",
+     "exampleDe": "Ich war überglücklich."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "Let's get the ball rolling.",
+     "de": "Bringen wir die Sache ins Rollen.",
+     "alt": [
+      "Let us get the ball rolling."
+     ]
+    },
+    {
+     "en": "I'm still on the fence about the offer.",
+     "de": "Ich bin mir bei dem Angebot noch unschlüssig.",
+     "alt": [
+      "I am still on the fence about the offer."
+     ]
+    },
+    {
+     "en": "Stop beating around the bush.",
+     "de": "Hör auf, um den heißen Brei herumzureden."
+    },
+    {
+     "en": "It turned out to be a blessing in disguise.",
+     "de": "Es stellte sich als Glück im Unglück heraus."
+    },
+    {
+     "en": "We need to address the elephant in the room.",
+     "de": "Wir müssen das offensichtliche Problem ansprechen."
+    },
+    {
+     "en": "She always goes the extra mile for her clients.",
+     "de": "Sie legt sich für ihre Kunden immer besonders ins Zeug."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "„to bite off more than you can chew“:",
+     "options": [
+      "sich übernehmen",
+      "zu viel essen",
+      "unhöflich sein",
+      "geizig sein"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„to think outside the box“:",
+     "options": [
+      "kreativ / unkonventionell denken",
+      "zu Hause bleiben",
+      "Pakete packen",
+      "logisch denken"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„um den heißen Brei herumreden“:",
+     "options": [
+      "to beat around the bush",
+      "to cut corners",
+      "to break the ice",
+      "to call it a day"
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Let's address the elephant in the ___.",
+     "answer": "room",
+     "hint": "Tabuthema",
+     "de": "Sprechen wir das offensichtliche Problem an."
+    },
+    {
+     "text": "I was over the ___ when I got the job.",
+     "answer": "moon",
+     "hint": "überglücklich",
+     "de": "Ich war überglücklich, als ich den Job bekam."
+    },
+    {
+     "text": "Good companies never cut ___ on quality.",
+     "answer": "corners",
+     "hint": "pfuschen",
+     "de": "Gute Firmen sparen nie an der Qualität."
+    }
+   ],
+   "dialogue": {
+    "title": "Projektstart",
+    "setting": "Im Kickoff-Meeting für ein neues Projekt.",
+    "lines": [
+     {
+      "speaker": "Lead",
+      "en": "Okay, let's get the ball rolling. Any concerns?",
+      "de": "Okay, bringen wir die Sache ins Rollen. Bedenken?"
+     },
+     {
+      "speaker": "You",
+      "en": "To be honest, I think the timeline is the elephant in the room.",
+      "de": "Ehrlich gesagt ist der Zeitplan das offensichtliche Problem."
+     },
+     {
+      "speaker": "Lead",
+      "en": "Go on, don't beat around the bush.",
+      "de": "Nur raus damit, red nicht drumherum."
+     },
+     {
+      "speaker": "You",
+      "en": "Three months is tight. We might bite off more than we can chew.",
+      "de": "Drei Monate sind knapp. Wir könnten uns übernehmen."
+     },
+     {
+      "speaker": "Lead",
+      "en": "Fair enough. But I don't want us to cut corners either.",
+      "de": "Verstehe. Aber pfuschen will ich auch nicht."
+     },
+     {
+      "speaker": "You",
+      "en": "Then let's think outside the box and prioritise the core features.",
+      "de": "Dann lass uns kreativ denken und die Kernfunktionen priorisieren."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1_07",
+   "title": "Betonung: Inversion & Cleft Sentences",
+   "goal": "Du setzt Inversion und Spaltsätze ein, um Aussagen gezielt zu betonen.",
+   "theory": [
+    {
+     "heading": "Inversion",
+     "text": "Nach bestimmten verneinenden oder einschränkenden Ausdrücken am Satzanfang wird wie in einer Frage umgestellt – typisch für formelle Rede und Texte:\n• Never have I seen such a mess. – Noch nie habe ich so ein Chaos gesehen.\n• Rarely do we get such an opportunity.\n• Not only did she win, but she also broke the record.\n• No sooner had we arrived than it started to rain.\n• Under no circumstances should you open this door.",
+     "examples": [
+      {
+       "en": "Never have I seen anything like it.",
+       "de": "Noch nie habe ich so etwas gesehen."
+      },
+      {
+       "en": "Not only is it cheap, but it's also fast.",
+       "de": "Es ist nicht nur billig, sondern auch schnell."
+      }
+     ]
+    },
+    {
+     "heading": "Cleft Sentences (Spaltsätze)",
+     "text": "Sie heben einen Teil des Satzes hervor:\n• It was Tom who broke the window. (nicht jemand anderes!)\n• What I need is a holiday. – Was ich brauche, ist Urlaub.\n• All I want is some peace. – Alles, was ich will, ist etwas Ruhe.\n• The reason why I called is ... – Der Grund, warum ich anrufe, ist ...",
+     "examples": [
+      {
+       "en": "What I need is a long holiday.",
+       "de": "Was ich brauche, ist ein langer Urlaub."
+      },
+      {
+       "en": "It was the price that convinced me.",
+       "de": "Es war der Preis, der mich überzeugt hat."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "rarely",
+     "de": "selten",
+     "alt": [
+      "seldom"
+     ],
+     "example": "Rarely do I eat meat.",
+     "exampleDe": "Selten esse ich Fleisch."
+    },
+    {
+     "en": "not only ... but also",
+     "de": "nicht nur ... sondern auch",
+     "example": "Not only is he smart, but also kind.",
+     "exampleDe": "Er ist nicht nur klug, sondern auch nett."
+    },
+    {
+     "en": "no sooner ... than",
+     "de": "kaum ... als",
+     "example": "No sooner had I left than it rained.",
+     "exampleDe": "Kaum war ich weg, regnete es."
+    },
+    {
+     "en": "under no circumstances",
+     "de": "unter keinen Umständen",
+     "example": "Under no circumstances should you tell him.",
+     "exampleDe": "Unter keinen Umständen solltest du es ihm sagen."
+    },
+    {
+     "en": "hardly ever",
+     "de": "fast nie",
+     "example": "We hardly ever argue.",
+     "exampleDe": "Wir streiten fast nie."
+    },
+    {
+     "en": "little did I know",
+     "de": "ich ahnte nicht",
+     "example": "Little did I know what would happen.",
+     "exampleDe": "Ich ahnte nicht, was passieren würde."
+    },
+    {
+     "en": "emphasis",
+     "de": "Betonung, Nachdruck",
+     "example": "Put the emphasis on quality.",
+     "exampleDe": "Lege den Schwerpunkt auf Qualität."
+    },
+    {
+     "en": "to stress",
+     "de": "betonen",
+     "alt": [
+      "stress",
+      "emphasise",
+      "emphasize"
+     ],
+     "example": "I must stress that this is urgent.",
+     "exampleDe": "Ich muss betonen, dass es dringend ist."
+    }
+   ],
+   "sentences": [
+    {
+     "en": "Never have I seen such a mess.",
+     "de": "Noch nie habe ich so ein Chaos gesehen."
+    },
+    {
+     "en": "Not only did she win, but she also broke the record.",
+     "de": "Sie gewann nicht nur, sondern brach auch den Rekord."
+    },
+    {
+     "en": "What I need is a holiday.",
+     "de": "Was ich brauche, ist Urlaub."
+    },
+    {
+     "en": "It was Tom who broke the window.",
+     "de": "Tom war es, der das Fenster eingeschlagen hat.",
+     "alt": [
+      "It was Tom that broke the window."
+     ]
+    },
+    {
+     "en": "Under no circumstances should you open this door.",
+     "de": "Unter keinen Umständen solltest du diese Tür öffnen."
+    },
+    {
+     "en": "Little did I know that she was his sister.",
+     "de": "Ich ahnte nicht, dass sie seine Schwester war."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Korrekte Inversion:",
+     "options": [
+      "Rarely do we see such talent.",
+      "Rarely we see such talent.",
+      "Rarely we do see such talent.",
+      "Rarely see we such talent."
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "No sooner had we sat down ___ the phone rang.",
+     "options": [
+      "than",
+      "when",
+      "then",
+      "that"
+     ],
+     "answer": 0,
+     "explain": "no sooner ... than"
+    },
+    {
+     "q": "„Was ich will, ist Ruhe.“",
+     "options": [
+      "What I want is some peace.",
+      "That I want is peace.",
+      "What I want, it is peace.",
+      "Which I want is peace."
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "Never ___ I been so embarrassed.",
+     "answer": "have",
+     "hint": "Inversion, Present Perfect",
+     "de": "Noch nie war mir etwas so peinlich."
+    },
+    {
+     "text": "Not only ___ he late, but he also forgot the tickets.",
+     "answer": "was",
+     "hint": "Inversion mit to be",
+     "de": "Er war nicht nur zu spät, sondern hat auch die Tickets vergessen."
+    },
+    {
+     "text": "It was my mother ___ taught me to cook.",
+     "answer": "who",
+     "hint": "Spaltsatz, Person",
+     "de": "Es war meine Mutter, die mir das Kochen beigebracht hat.",
+     "alt": [
+      "that"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Rede bei der Abschiedsfeier",
+    "setting": "Du hältst eine kurze Rede für eine Kollegin, die in Rente geht. Ein Kollege probt mit dir.",
+    "lines": [
+     {
+      "speaker": "Colleague",
+      "en": "So, how are you going to start your speech?",
+      "de": "Und, wie willst du deine Rede beginnen?"
+     },
+     {
+      "speaker": "You",
+      "en": "Never have I worked with someone so dedicated.",
+      "de": "Noch nie habe ich mit jemandem gearbeitet, der so engagiert ist."
+     },
+     {
+      "speaker": "Colleague",
+      "en": "Nice! And then?",
+      "de": "Schön! Und dann?"
+     },
+     {
+      "speaker": "You",
+      "en": "Not only did she train half of this team, but she also built our client network.",
+      "de": "Sie hat nicht nur das halbe Team ausgebildet, sondern auch unser Kundennetzwerk aufgebaut."
+     },
+     {
+      "speaker": "Colleague",
+      "en": "People will love that. How will you end?",
+      "de": "Das wird ankommen. Wie willst du enden?"
+     },
+     {
+      "speaker": "You",
+      "en": "What we'll miss most is her laugh.",
+      "de": "Was wir am meisten vermissen werden, ist ihr Lachen."
+     }
+    ]
+   }
+  },
+  {
+   "id": "c1_08",
+   "title": "Spontan & ausführlich antworten",
+   "goal": "Du kannst spontan längere, gut strukturierte Antworten geben – z. B. im Vorstellungsgespräch.",
+   "theory": [
+    {
+     "heading": "Die STAR-Methode",
+     "text": "Für ausführliche Antworten auf Fragen wie „Tell me about a time when ...“:\n• **S**ituation – Where and when? („At my previous job, ...“)\n• **T**ask – What was your role? („I was responsible for ...“)\n• **A**ction – What did you do? („So I decided to ...“)\n• **R**esult – What happened? („As a result, ...“)\nSo wirken spontane Antworten strukturiert und überzeugend.",
+     "examples": [
+      {
+       "en": "At my previous job, we had a major client complaint.",
+       "de": "In meinem letzten Job hatten wir eine große Kundenbeschwerde."
+      },
+      {
+       "en": "As a result, we kept the client.",
+       "de": "Dadurch haben wir den Kunden behalten."
+      }
+     ]
+    },
+    {
+     "heading": "Struktur in längeren Antworten",
+     "text": "• Einstieg: That's an interesting question. There are several aspects to consider.\n• Ordnen: First and foremost, ... / Another key factor is ... / Last but not least, ...\n• Beispiel: A case in point is ... – Ein gutes Beispiel ist ...\n• Abschluss: So, in a nutshell, ... – Kurz gesagt ...\nTipp: Atme kurz durch, bevor du antwortest – eine Sekunde Pause wirkt souverän.",
+     "examples": [
+      {
+       "en": "First and foremost, I value teamwork.",
+       "de": "In erster Linie schätze ich Teamarbeit."
+      },
+      {
+       "en": "In a nutshell, it was a great experience.",
+       "de": "Kurz gesagt war es eine tolle Erfahrung."
+      }
+     ]
+    }
+   ],
+   "vocab": [
+    {
+     "en": "first and foremost",
+     "de": "in erster Linie, vor allem",
+     "example": "First and foremost, safety matters.",
+     "exampleDe": "Vor allem zählt die Sicherheit."
+    },
+    {
+     "en": "a case in point",
+     "de": "ein gutes Beispiel",
+     "example": "A case in point is our last project.",
+     "exampleDe": "Ein gutes Beispiel ist unser letztes Projekt."
+    },
+    {
+     "en": "in a nutshell",
+     "de": "kurz gesagt",
+     "alt": [
+      "in short",
+      "to sum up"
+     ],
+     "example": "In a nutshell, we succeeded.",
+     "exampleDe": "Kurz gesagt, wir hatten Erfolg."
+    },
+    {
+     "en": "last but not least",
+     "de": "zu guter Letzt",
+     "example": "Last but not least, thank you all.",
+     "exampleDe": "Zu guter Letzt: Danke an alle."
+    },
+    {
+     "en": "to tackle",
+     "de": "angehen, in Angriff nehmen",
+     "alt": [
+      "tackle",
+      "deal with"
+     ],
+     "example": "How did you tackle the problem?",
+     "exampleDe": "Wie bist du das Problem angegangen?"
+    },
+    {
+     "en": "challenge",
+     "de": "Herausforderung",
+     "example": "It was a real challenge.",
+     "exampleDe": "Es war eine echte Herausforderung."
+    },
+    {
+     "en": "outcome",
+     "de": "Ergebnis",
+     "alt": [
+      "result"
+     ],
+     "example": "The outcome was positive.",
+     "exampleDe": "Das Ergebnis war positiv."
+    },
+    {
+     "en": "strength",
+     "de": "Stärke",
+     "example": "What are your strengths?",
+     "exampleDe": "Was sind Ihre Stärken?"
+    }
+   ],
+   "sentences": [
+    {
+     "en": "That's an interesting question.",
+     "de": "Das ist eine interessante Frage.",
+     "alt": [
+      "That is an interesting question."
+     ]
+    },
+    {
+     "en": "First and foremost, I'm a team player.",
+     "de": "In erster Linie bin ich ein Teamplayer.",
+     "alt": [
+      "First and foremost, I am a team player."
+     ]
+    },
+    {
+     "en": "A case in point is my last project.",
+     "de": "Ein gutes Beispiel ist mein letztes Projekt."
+    },
+    {
+     "en": "I decided to tackle the problem directly.",
+     "de": "Ich beschloss, das Problem direkt anzugehen."
+    },
+    {
+     "en": "As a result, we kept the client.",
+     "de": "Dadurch haben wir den Kunden behalten."
+    },
+    {
+     "en": "In a nutshell, it was a valuable experience.",
+     "de": "Kurz gesagt war es eine wertvolle Erfahrung."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Wofür steht das „A“ in STAR?",
+     "options": [
+      "Action",
+      "Answer",
+      "Ability",
+      "Argument"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "„Kurz gesagt“:",
+     "options": [
+      "in a nutshell",
+      "in a shell",
+      "in short time",
+      "in a nut"
+     ],
+     "answer": 0,
+     "explain": ""
+    },
+    {
+     "q": "Guter Einstieg in eine schwierige Frage:",
+     "options": [
+      "That's an interesting question. There are several aspects to consider.",
+      "I don't know.",
+      "Next question, please.",
+      "Hmm, no."
+     ],
+     "answer": 0,
+     "explain": ""
+    }
+   ],
+   "gaps": [
+    {
+     "text": "First and ___, I'd like to thank you.",
+     "answer": "foremost",
+     "hint": "vor allem",
+     "de": "Zuallererst möchte ich Ihnen danken."
+    },
+    {
+     "text": "Last but not ___, ...",
+     "answer": "least",
+     "hint": "zu guter Letzt",
+     "de": "Zu guter Letzt ..."
+    },
+    {
+     "text": "How did you ___ the problem?",
+     "answer": "tackle",
+     "hint": "angehen",
+     "de": "Wie sind Sie das Problem angegangen?",
+     "alt": [
+      "solve",
+      "handle"
+     ]
+    }
+   ],
+   "dialogue": {
+    "title": "Vorstellungsgespräch",
+    "setting": "Die Interviewerin stellt eine typische Verhaltensfrage.",
+    "lines": [
+     {
+      "speaker": "Interviewer",
+      "en": "Tell me about a time you dealt with a difficult situation at work.",
+      "de": "Erzählen Sie von einer schwierigen Situation bei der Arbeit."
+     },
+     {
+      "speaker": "You",
+      "en": "Certainly. At my previous job, one of our biggest clients threatened to leave.",
+      "de": "Gern. In meinem letzten Job drohte einer unserer größten Kunden zu kündigen."
+     },
+     {
+      "speaker": "Interviewer",
+      "en": "What was your role?",
+      "de": "Was war Ihre Rolle?"
+     },
+     {
+      "speaker": "You",
+      "en": "I was responsible for the account, so I decided to tackle the problem directly and met them in person.",
+      "de": "Ich war für den Kunden verantwortlich, also bin ich das Problem direkt angegangen und habe ihn persönlich getroffen."
+     },
+     {
+      "speaker": "Interviewer",
+      "en": "And what was the outcome?",
+      "de": "Und was war das Ergebnis?"
+     },
+     {
+      "speaker": "You",
+      "en": "As a result, we kept the client and even extended the contract. In a nutshell, communication saved the day.",
+      "de": "Wir haben den Kunden behalten und den Vertrag sogar verlängert. Kurz gesagt: Kommunikation hat uns gerettet."
+     }
+    ]
+   }
+  }
+ ]
+}
