@@ -41,7 +41,9 @@ fun HomeScreen(d: Dashboard, onStart: (SessionMode, String) -> Unit, onOpenCours
     val greeting = when (hour) { in 5..10 -> "Guten Morgen"; in 11..17 -> "Hallo"; else -> "Guten Abend" }
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            FundbruederLogo(52.dp)
+            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                FundbruederLogo(52.dp)
+            }
             HSpace(12.dp)
             Column(Modifier.weight(1f)) {
                 Text(
@@ -52,6 +54,8 @@ fun HomeScreen(d: Dashboard, onStart: (SessionMode, String) -> Unit, onOpenCours
             }
             androidx.compose.material3.IconButton(onClick = onSettings) { Icon(androidx.compose.material.icons.Icons.Filled.Settings, "Einstellungen") }
         }
+        VSpace(4.dp)
+        de.englischlernen.app.ui.components.DedicationNote()
         VSpace(20.dp)
         Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             StatTile(Icons.Filled.LocalFireDepartment, "${d.streak}", "Tage Serie", MaterialTheme.colorScheme.tertiary, Modifier.weight(1f))

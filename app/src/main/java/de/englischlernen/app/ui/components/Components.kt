@@ -83,6 +83,18 @@ fun FundbruederLogo(size: Dp = 96.dp, modifier: Modifier = Modifier) {
     }
 }
 
+/** Persoenliche Widmung unter dem Logo. */
+@Composable
+fun DedicationNote(modifier: Modifier = Modifier) {
+    Text(
+        "Timo for you kleiner SchwaLu",
+        modifier = modifier,
+        style = MaterialTheme.typography.labelMedium,
+        fontStyle = androidx.compose.ui.text.font.FontStyle.Italic,
+        color = MaterialTheme.colorScheme.secondary,
+    )
+}
+
 @Composable
 fun SpeakerButtons(text: String, modifier: Modifier = Modifier, showSlow: Boolean = true) {
     val c = LocalAppContainer.current

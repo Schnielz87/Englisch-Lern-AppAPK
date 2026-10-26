@@ -48,7 +48,9 @@ fun OnboardingScreen(onDone: (startPlacement: Boolean) -> Unit) {
         verticalArrangement = Arrangement.Center,
     ) {
         FundbruederLogo(120.dp)
-        VSpace(16.dp)
+        VSpace(6.dp)
+        de.englischlernen.app.ui.components.DedicationNote()
+        VSpace(12.dp)
         when (step) {
             0 -> {
                 Text("Willkommen bei\nFundbrüder English", style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
