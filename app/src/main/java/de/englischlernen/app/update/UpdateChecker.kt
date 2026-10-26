@@ -46,6 +46,7 @@ class UpdateChecker(
             .build()
         try {
             client.newCall(request).execute().use { resp ->
+                if (resp.code == 404) return@withContext Result.Failed("Keine öffentliche Version gefunden. Ist das GitHub-Repository privat, funktioniert die automatische Update-Prüfung nicht – lade die APK dann direkt über GitHub herunter.")
                 if (!resp.isSuccessful) return@withContext Result.Failed("Server antwortet mit Fehler ${resp.code}.")
                 val release = json.decodeFromString(Release.serializer(), resp.body.string())
                 val remote = release.tag.removePrefix("v")

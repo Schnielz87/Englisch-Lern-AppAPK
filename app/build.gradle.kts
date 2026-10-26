@@ -19,7 +19,7 @@ android {
         targetSdk = 36
         versionCode = appVersionCode
         versionName = appVersionName
-        buildConfigField("String", "GITHUB_REPO", "\"Schnielz87/englisch-lern-appapk\"")
+        buildConfigField("String", "GITHUB_REPO", "\"Schnielz87/Englisch-Lern-AppAPK\"")
     }
 
     signingConfigs {

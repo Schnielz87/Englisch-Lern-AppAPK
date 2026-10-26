@@ -6,7 +6,9 @@ Eine native Android-App, mit der deutschsprachige Lernende selbstständig Englis
 
 ## ⬇️ Download
 
-**[FundbruederEnglish.apk herunterladen](https://github.com/Schnielz87/englisch-lern-appapk/releases/latest/download/FundbruederEnglish.apk)**
+**[FundbruederEnglish.apk herunterladen](https://github.com/Schnielz87/Englisch-Lern-AppAPK/releases/latest/download/FundbruederEnglish.apk)**
+
+> Hinweis: Solange das Repository **privat** ist, funktioniert der Link nur, wenn du im Handy-Browser bei GitHub angemeldet bist, und die Update-Prüfung in der App findet keine neuen Versionen. Wird das Repository öffentlich gestellt, funktioniert beides für alle.
 
 Installation auf dem Handy:
 1. Link auf dem Android-Handy öffnen – die APK wird heruntergeladen.
@@ -101,7 +103,7 @@ Jede Stufe ist eine Datei `app/src/main/assets/content/<stufe>.json`. Eine Lekti
 
 ## Signatur (wichtig für sichere Updates)
 
-Android installiert Updates nur, wenn sie mit demselben Schlüssel signiert sind. Damit die App sofort installierbar ist, liegt ein **öffentlicher Übergangs-Schlüssel** in `signing/fallback-release.jks`. Da das Repository öffentlich ist, kann ihn theoretisch jeder verwenden – für echte Sicherheit solltest du einen eigenen, geheimen Schlüssel hinterlegen:
+Android installiert Updates nur, wenn sie mit demselben Schlüssel signiert sind. Damit die App sofort installierbar ist, liegt ein **öffentlicher Übergangs-Schlüssel** in `signing/fallback-release.jks`. Solange das Repository privat ist, ist das unkritisch. Wird es öffentlich, könnte ihn theoretisch jeder verwenden – spätestens dann solltest du einen eigenen, geheimen Schlüssel hinterlegen:
 
 ```bash
 keytool -genkeypair -v -keystore release.jks -storetype PKCS12 -alias fundbrueder \
