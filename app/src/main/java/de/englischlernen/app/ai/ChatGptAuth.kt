@@ -89,6 +89,10 @@ class ChatGptAuth(
         pending = scope.launch(Dispatchers.IO) {
             try {
                 _state.value = State.SignedIn(runFlow().email)
+            } catch (e: kotlinx.coroutines.CancellationException) {
+                throw e
+            } catch (e: java.io.IOException) {
+                _state.value = State.Error("Keine Verbindung zu OpenAI. Bitte Internet prüfen und erneut versuchen.")
             } catch (e: Exception) {
                 _state.value = State.Error(e.message ?: "Anmeldung fehlgeschlagen")
             }
@@ -142,13 +146,18 @@ class ChatGptAuth(
                 issued != null && issued != savedClient -> error("Unerwartete client_id – Anmeldung verworfen.")
                 else -> savedClient
             }
-            val tokens = tokenRequest(
-                FormBody.Builder()
-                    .add("grant_type", "authorization_code").add("client_id", clientId).add("code", code)
-                    .add("code_verifier", verifier).add("redirect_uri", redirect).add("resource", RESOURCE).build()
-            )
+            val tokens = withNetworkRetry {
+                tokenRequest(
+                    FormBody.Builder()
+                        .add("grant_type", "authorization_code").add("client_id", clientId).add("code", code)
+                        .add("code_verifier", verifier).add("redirect_uri", redirect).add("resource", RESOURCE).build()
+                )
+            }
             val idToken = tokens.str("id_token") ?: error("Kein ID-Token erhalten.")
-            val claims = verifyIdToken(idToken, clientId, nonce)
+            val jwks = withNetworkRetry {
+                http.newCall(Request.Builder().url(JWKS).build()).execute().use { json.parseToJsonElement(it.body.string()).jsonObject }
+            }
+            val claims = verifyIdToken(idToken, clientId, nonce, jwks)
             val scopes = tokens.str("scope")?.split(' ')?.filter { it.isNotBlank() } ?: emptyList()
             if ("chatgpt.tokens.use.direct" !in scopes) error("Die Nutzung deines ChatGPT-Abos wurde nicht freigegeben.")
             val creds = Credentials(
@@ -242,6 +251,25 @@ class ChatGptAuth(
         _state.value = State.SignedOut
     }
 
+    /**
+     * Waehrend der Browser im Vordergrund ist, sperren viele Geraete (Energiesparen, Datensparmodus)
+     * das Internet fuer Apps im Hintergrund – das zeigt sich als "Unable to resolve host".
+     * Deshalb Netzwerkfehler bis zu 2 Minuten lang wiederholen: Sobald man zur App zurueckkehrt, klappt es.
+     */
+    private suspend fun <T> withNetworkRetry(block: () -> T): T {
+        val deadline = System.currentTimeMillis() + 120_000
+        while (true) {
+            try {
+                return block()
+            } catch (e: java.io.IOException) {
+                if (System.currentTimeMillis() > deadline) {
+                    throw AiException("Keine Verbindung zu OpenAI. Bitte Internet prüfen und erneut anmelden.")
+                }
+                kotlinx.coroutines.delay(2_000)
+            }
+        }
+    }
+
     private fun tokenRequest(body: FormBody): JsonObject =
         http.newCall(Request.Builder().url(TOKEN).post(body).build()).execute().use { r ->
             val text = r.body.string()
@@ -250,14 +278,13 @@ class ChatGptAuth(
         }
 
     /** Prueft Signatur (RS256 gegen OpenAIs JWKS), Aussteller, Empfaenger, Ablauf und nonce. */
-    private fun verifyIdToken(token: String, clientId: String, nonce: String): JsonObject {
+    private fun verifyIdToken(token: String, clientId: String, nonce: String, jwks: JsonObject): JsonObject {
         val parts = token.split('.')
         require(parts.size == 3) { "Ungültiges ID-Token" }
         val header = json.parseToJsonElement(String(b64decode(parts[0]))).jsonObject
         val claims = json.parseToJsonElement(String(b64decode(parts[1]))).jsonObject
         if (header.str("alg") != "RS256") error("Nicht unterstützter Token-Algorithmus")
         val kid = header.str("kid")
-        val jwks = http.newCall(Request.Builder().url(JWKS).build()).execute().use { json.parseToJsonElement(it.body.string()).jsonObject }
         val jwk = jwks["keys"]!!.jsonArray.map { it.jsonObject }.firstOrNull { it.str("kid") == kid } ?: error("Signaturschlüssel nicht gefunden")
         val pub = KeyFactory.getInstance("RSA").generatePublic(
             RSAPublicKeySpec(BigInteger(1, b64decode(jwk.str("n")!!)), BigInteger(1, b64decode(jwk.str("e")!!)))
