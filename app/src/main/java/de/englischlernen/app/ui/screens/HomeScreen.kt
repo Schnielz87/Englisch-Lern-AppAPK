@@ -56,7 +56,8 @@ fun HomeScreen(d: Dashboard, onStart: (SessionMode, String) -> Unit, onOpenCours
         }
         VSpace(4.dp)
         de.englischlernen.app.ui.components.DedicationNote()
-        VSpace(20.dp)
+        VSpace(16.dp)
+        de.englischlernen.app.ui.components.UpdateBanner()
         Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             StatTile(Icons.Filled.LocalFireDepartment, "${d.streak}", "Tage Serie", MaterialTheme.colorScheme.tertiary, Modifier.weight(1f))
             StatTile(Icons.Filled.Diamond, "${d.totalXp}", "Fundpunkte", MaterialTheme.colorScheme.secondary, Modifier.weight(1f))

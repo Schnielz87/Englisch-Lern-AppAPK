@@ -75,9 +75,18 @@ import de.englischlernen.app.ui.components.SpeakerButtons
 import de.englischlernen.app.ui.components.VSpace
 import de.englischlernen.app.ui.theme.Brand
 
+/** Aufgabe (erste Zeile) und – falls vorhanden – Erklaerung "So geht's" (weitere Zeilen). */
 @Composable
 fun Instruction(text: String) {
-    Text(text, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    val title = text.substringBefore('\n')
+    val help = text.substringAfter('\n', "")
+    Text(title, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
+    if (help.isNotBlank()) {
+        VSpace(4.dp)
+        Surface(shape = RoundedCornerShape(12.dp), color = MaterialTheme.colorScheme.surfaceContainerHigh) {
+            Text("ℹ️ $help", Modifier.padding(10.dp), style = MaterialTheme.typography.bodyMedium)
+        }
+    }
     VSpace(12.dp)
 }
 
@@ -133,7 +142,7 @@ fun FlashcardView(ex: Exercise.Flashcard, onNext: () -> Unit) {
     var flipped by remember(ex) { mutableStateOf(false) }
     LaunchedEffect(ex) { c.tts.speak(ex.vocab.en) }
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Instruction("Neue Vokabel – präge sie dir ein")
+        Instruction("Neue Vokabel\nHör dir das Wort an und präge es dir ein. Tippe auf die Karte, um die Bedeutung zu sehen.")
         Card(
             onClick = { flipped = !flipped },
             modifier = Modifier.fillMaxWidth().heightIn(min = 220.dp),
@@ -266,7 +275,7 @@ fun TypeInView(ex: Exercise.TypeIn, answered: Boolean, onAnswer: (String) -> Uni
 fun ArrangeView(ex: Exercise.Arrange, answered: Boolean, onAnswer: (List<String>) -> Unit) {
     val chosen = remember(ex) { mutableStateListOf<Int>() }
     Column {
-        Instruction("Bilde den englischen Satz:")
+        Instruction("Satzbau: Bilde den englischen Satz\nTippe die Wörter unten in der richtigen Reihenfolge an. Ein Tipp auf ein Wort oben nimmt es wieder zurück.")
         Text(ex.prompt, style = MaterialTheme.typography.headlineSmall)
         VSpace(16.dp)
         Surface(
@@ -305,7 +314,13 @@ private fun WordChip(word: String, filled: Boolean, onClick: () -> Unit) {
 
 /** Mikrofon-Bedienelement inkl. Berechtigungsabfrage. Liefert die erkannten Alternativen. */
 @Composable
-fun MicControl(target: String, enabled: Boolean, onResult: (List<String>) -> Unit, onUnavailable: @Composable () -> Unit) {
+fun MicControl(
+    target: String,
+    enabled: Boolean,
+    onResult: (List<String>) -> Unit,
+    unavailableText: String = "bewerte dich selbst",
+    onUnavailable: @Composable () -> Unit,
+) {
     val c = LocalAppContainer.current
     val context = LocalContext.current
     val state by c.speech.state.collectAsStateWithLifecycle()
@@ -321,8 +336,8 @@ fun MicControl(target: String, enabled: Boolean, onResult: (List<String>) -> Uni
     Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
         if (!available || permissionDenied) {
             Text(
-                if (permissionDenied) "Ohne Mikrofon-Berechtigung kannst du dich selbst bewerten."
-                else "Keine Spracherkennung auf diesem Gerät – bewerte dich selbst.",
+                if (permissionDenied) "Keine Mikrofon-Berechtigung – $unavailableText."
+                else "Keine Spracherkennung auf diesem Gerät – $unavailableText.",
                 style = MaterialTheme.typography.bodyMedium, textAlign = TextAlign.Center,
             )
             VSpace(8.dp)
@@ -362,7 +377,7 @@ fun MicControl(target: String, enabled: Boolean, onResult: (List<String>) -> Uni
 @Composable
 fun SpeakView(ex: Exercise.Speak, answered: Boolean, vm: SessionViewModel) {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Instruction("Sprich den Satz laut nach:")
+        Instruction("Aussprache: Sprich den Satz laut nach\nHör dir den Satz an, tippe dann auf das Mikrofon und sprich ihn deutlich auf Englisch.")
         SectionCard {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Column(Modifier.weight(1f)) {
@@ -470,6 +485,75 @@ private fun Bubble(speaker: String, en: String, de: String, mine: Boolean) {
                 Text(en, style = MaterialTheme.typography.bodyLarge)
                 Text(de, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
+        }
+    }
+}
+
+/** Freies Sprechen: Frage anhoeren, frei auf Englisch antworten, Bewertung durch Finn (KI) oder App. */
+@Composable
+fun FreeSpeakView(ex: Exercise.FreeSpeak, answered: Boolean, evaluating: Boolean, vm: SessionViewModel) {
+    val c = LocalAppContainer.current
+    val aiReady by c.ai.config.collectAsStateWithLifecycle()
+    var transcript by rememberSaveable(ex.key) { mutableStateOf("") }
+    var typing by remember(ex) { mutableStateOf(false) }
+    var showSample by remember(ex) { mutableStateOf(false) }
+    LaunchedEffect(ex) { c.tts.speak(ex.prompt.question) }
+    Column {
+        Instruction(
+            "Frei sprechen: Antworte in eigenen Worten\n" +
+                "Hör dir die Frage an, tippe auf das Mikrofon und antworte auf Englisch in ganzen Sätzen. " +
+                if (aiReady.ready) "Finn bewertet deine Antwort und zeigt dir Verbesserungen." else "Die App prüft deine Antwort und zeigt eine Musterantwort."
+        )
+        SectionCard {
+            Text(ex.prompt.task, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            VSpace(6.dp)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(ex.prompt.question, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.weight(1f))
+                SpeakerButtons(ex.prompt.question, showSlow = false)
+            }
+        }
+        VSpace(16.dp)
+        if (!answered) {
+            if (transcript.isNotBlank() && !typing) {
+                SectionCard(container = MaterialTheme.colorScheme.primaryContainer) {
+                    Text("Das hat die App verstanden:", style = MaterialTheme.typography.labelLarge)
+                    Text("„$transcript“", style = MaterialTheme.typography.bodyLarge)
+                }
+                VSpace(12.dp)
+            }
+            if (typing) {
+                OutlinedTextField(
+                    transcript, { transcript = it }, modifier = Modifier.fillMaxWidth(), minLines = 2,
+                    label = { Text("Deine Antwort auf Englisch") },
+                )
+                VSpace(8.dp)
+            } else {
+                val speechOk = c.speech.isAvailable || c.speech.isOnDevice
+                MicControl(
+                    ex.key, enabled = !evaluating, onResult = { alts -> transcript = alts.first() },
+                    unavailableText = "tippe deine Antwort stattdessen ein",
+                ) {
+                    TextButton(onClick = { typing = true }) { Text("Antwort eintippen") }
+                }
+                if (speechOk) TextButton(onClick = { typing = true }, modifier = Modifier.align(Alignment.CenterHorizontally)) {
+                    Text(if (transcript.isBlank()) "Lieber tippen" else "Erkannten Text korrigieren")
+                }
+            }
+            if (evaluating) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    androidx.compose.material3.CircularProgressIndicator(Modifier.size(22.dp))
+                    Text(if (aiReady.ready) "  Finn hört sich deine Antwort an …" else "  Wird geprüft …")
+                }
+            } else {
+                Button(
+                    onClick = { vm.evaluateFreeSpeech(ex, transcript) }, enabled = transcript.isNotBlank(),
+                    modifier = Modifier.fillMaxWidth(),
+                ) { Text(if (aiReady.ready) "Von Finn bewerten lassen" else "Antwort prüfen") }
+            }
+            VSpace(8.dp)
+            if (showSample) Text("Beispiel: ${ex.prompt.sample}", style = MaterialTheme.typography.bodyMedium, fontStyle = FontStyle.Italic)
+            else TextButton(onClick = { showSample = true }) { Text("Beispielantwort zeigen") }
+            TextButton(onClick = { vm.continueUnscored() }) { Text("Kann gerade nicht sprechen – überspringen") }
         }
     }
 }

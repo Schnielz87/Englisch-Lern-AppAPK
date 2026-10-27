@@ -60,6 +60,13 @@ sealed interface Exercise {
         val translation: String,
     ) : Exercise
 
+    /** Freies Sprechen: eigene Antwort auf eine Frage, Bewertung durch KI bzw. App. */
+    data class FreeSpeak(
+        override val key: String,
+        val prompt: de.englischlernen.app.data.content.SpeakingPrompt,
+        val level: String,
+    ) : Exercise
+
     /** Rollenspiel-Dialog: Nutzer spricht die Zeilen von [role]. */
     data class DialoguePractice(
         override val key: String,

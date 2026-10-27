@@ -46,7 +46,6 @@ import de.englischlernen.app.ui.components.LocalAppContainer
 import de.englischlernen.app.ui.components.OnlineBadge
 import de.englischlernen.app.ui.components.SectionCard
 import de.englischlernen.app.ui.components.VSpace
-import de.englischlernen.app.update.UpdateChecker
 import de.englischlernen.app.work.Reminders
 import kotlinx.coroutines.launch
 
@@ -57,8 +56,6 @@ fun SettingsScreen(s: Settings, onBack: () -> Unit, onPlacement: () -> Unit) {
     val scope = rememberCoroutineScope()
     var name by remember(s.userName) { mutableStateOf(s.userName) }
     var rate by remember(s.speechRate) { mutableStateOf(s.speechRate) }
-    var update by remember { mutableStateOf<UpdateChecker.Result?>(null) }
-    var checking by remember { mutableStateOf(false) }
     var confirmReset by remember { mutableStateOf(false) }
 
     fun toast(msg: String) = Toast.makeText(context, msg, Toast.LENGTH_LONG).show()
@@ -171,28 +168,7 @@ fun SettingsScreen(s: Settings, onBack: () -> Unit, onPlacement: () -> Unit) {
             }
         }
 
-        SectionCard {
-            Text("App-Aktualisierung", style = MaterialTheme.typography.titleMedium)
-            OnlineBadge()
-            Text("Installierte Version: ${BuildConfig.VERSION_NAME}", style = MaterialTheme.typography.bodySmall)
-            VSpace(8.dp)
-            Button(enabled = !checking, onClick = {
-                checking = true
-                scope.launch { update = c.updates.check(); checking = false }
-            }) { Text(if (checking) "Prüfe …" else "Nach Updates suchen") }
-            when (val u = update) {
-                is UpdateChecker.Result.UpdateAvailable -> {
-                    VSpace(8.dp)
-                    Text("Version ${u.version} ist verfügbar!", style = MaterialTheme.typography.titleSmall)
-                    if (u.notes.isNotBlank()) Text(u.notes.take(400), style = MaterialTheme.typography.bodySmall)
-                    Button(onClick = { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(u.downloadUrl))) }) { Text("APK herunterladen") }
-                    Text("Nach dem Download die Datei öffnen und „Aktualisieren“ wählen. Dein Fortschritt bleibt erhalten.", style = MaterialTheme.typography.bodySmall)
-                }
-                is UpdateChecker.Result.UpToDate -> Text("Du hast die neueste Version.", style = MaterialTheme.typography.bodySmall)
-                is UpdateChecker.Result.Failed -> Text(u.message, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error)
-                null -> {}
-            }
-        }
+        de.englischlernen.app.ui.components.UpdateSection()
 
         SectionCard {
             Row(verticalAlignment = Alignment.CenterVertically) {

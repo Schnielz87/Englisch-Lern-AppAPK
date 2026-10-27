@@ -33,6 +33,7 @@ data class SessionUiState(
     val showFeedback: Boolean = true,
     val summary: SessionSummary? = null,
     val empty: Boolean = false,
+    val evaluating: Boolean = false,
 ) {
     val current: Exercise? get() = exercises.getOrNull(index)
     val progress: Float get() = if (exercises.isEmpty()) 0f else index.toFloat() / exercises.size
@@ -103,6 +104,50 @@ class SessionViewModel(
         record(ex, ok, recognized, expected, note, typo = false)
     }
 
+    /**
+     * Freies Sprechen bewerten: mit KI (falls eingerichtet) inkl. Korrekturvorschlaegen,
+     * sonst einfache Pruefung in der App (Laenge, Englisch) plus Musterantwort.
+     */
+    fun evaluateFreeSpeech(ex: Exercise.FreeSpeak, transcript: String) {
+        if (_state.value.evaluating || transcript.isBlank()) return
+        spoken++
+        _state.update { it.copy(evaluating = true) }
+        viewModelScope.launch {
+            val aiReady = c.ai.config.value.ready
+            var title: String? = null
+            val (ok, text) = if (aiReady) {
+                runCatching {
+                    val reply = c.ai.reply(
+                        de.englischlernen.app.ai.Prompts.speakingFeedback(ex.level),
+                        listOf(de.englischlernen.app.ai.AiMessage(true, de.englischlernen.app.ai.Prompts.speakingRequest(ex.prompt.question, ex.prompt.task, transcript))),
+                    )
+                    val score = Regex("PUNKTE:\\s*(\\d{1,3})").find(reply)?.groupValues?.get(1)?.toIntOrNull()?.coerceIn(0, 100)
+                    val body = reply.lines().filterNot { it.trim().startsWith(de.englischlernen.app.ai.Prompts.SCORE_PREFIX) }.joinToString("\n").trim()
+                    title = score?.let { "Finn gibt dir $it von 100 Punkten" }
+                    ((score ?: 0) >= 60) to body
+                }.getOrElse { offlineSpeechCheck(ex, transcript).let { (o, t) -> o to "Finn ist gerade nicht erreichbar (${it.message}).\n$t" } }
+            } else offlineSpeechCheck(ex, transcript)
+            _state.update { it.copy(evaluating = false) }
+            record(ex, ok, transcript, ex.prompt.sample, text, typo = false, titleOverride = title)
+        }
+    }
+
+    private fun offlineSpeechCheck(ex: Exercise.FreeSpeak, transcript: String): Pair<Boolean, String> {
+        val words = AnswerChecker.normalize(transcript).split(' ').filter { it.isNotBlank() }
+        val minWords = mapOf("A1" to 4, "A2" to 7, "B1" to 10, "B2" to 14, "C1" to 18, "C2" to 20)[ex.level] ?: 6
+        val english = setOf("i", "you", "he", "she", "it", "we", "they", "the", "a", "an", "is", "am", "are", "was", "were", "and", "to", "of",
+            "in", "my", "have", "has", "do", "like", "because", "but", "with", "for", "on", "at", "that", "this", "would", "will", "not", "very")
+        val englishShare = if (words.isEmpty()) 0.0 else words.count { it in english }.toDouble() / words.size
+        val ok = words.size >= minWords && englishShare >= 0.12
+        val msg = buildString {
+            append("Du hast ${words.size} Wörter gesprochen")
+            append(if (ok) " – gut gemacht!" else if (words.size < minWords) " – versuche, ausführlicher zu antworten (mind. $minWords Wörter)." else " – antworte bitte auf Englisch.")
+            append("\n**Musterantwort:** ${ex.prompt.sample}")
+            append("\n💡 Mit Finn (KI) bekommst du eine genaue Bewertung und Korrekturen. Einrichten im Tab „Finn“.")
+        }
+        return ok to msg
+    }
+
     /** Selbsteinschaetzung, wenn keine Spracherkennung verfuegbar ist. */
     fun answerSelf(ex: Exercise, ok: Boolean, expected: String) {
         spoken++
@@ -112,7 +157,7 @@ class SessionViewModel(
     /** Ueberspringen ohne Wertung (z. B. Erklaerkarten, oder wenn gerade nicht gesprochen werden kann). */
     fun continueUnscored() = advance()
 
-    private fun record(ex: Exercise, ok: Boolean, given: String, expected: String, explanation: String, typo: Boolean) {
+    private fun record(ex: Exercise, ok: Boolean, given: String, expected: String, explanation: String, typo: Boolean, titleOverride: String? = null) {
         if (_state.value.feedback != null) return
         results += ExerciseResult(ex, ok, given, expected)
         val gained = if (ok) plan.xpPerCorrect else 0
@@ -127,11 +172,12 @@ class SessionViewModel(
                 feedback = Feedback(
                     correct = ok,
                     title = when {
+                        titleOverride != null -> titleOverride
                         ok && typo -> "Richtig – kleiner Tippfehler"
                         ok -> listOf("Richtig!", "Super!", "Treffer!", "Gut gefunden!").random()
                         else -> "Nicht ganz"
                     },
-                    expected = if (!ok || typo) expected else null,
+                    expected = if (ex is Exercise.FreeSpeak) null else if (!ok || typo) expected else null,
                     explanation = explanation,
                     prompt = describe(ex),
                     given = given,
@@ -166,6 +212,7 @@ class SessionViewModel(
         is Exercise.Arrange -> "Bilde den englischen Satz zu: ${ex.prompt}"
         is Exercise.Speak -> "Sprich nach: ${ex.text}"
         is Exercise.DialoguePractice -> "Rollenspiel ${ex.dialogue.title}"
+        is Exercise.FreeSpeak -> "Frei sprechen: ${ex.prompt.question}"
         else -> ""
     }
 

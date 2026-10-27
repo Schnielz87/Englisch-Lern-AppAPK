@@ -1,0 +1,230 @@
+{
+ "a1": [
+  {
+   "id": "a1_sp1",
+   "task": "Stell dich vor: Sag deinen Namen, wie alt du bist und woher du kommst.",
+   "question": "Can you introduce yourself?",
+   "sample": "Hello, my name is Anna. I am twenty-five years old and I am from Germany."
+  },
+  {
+   "id": "a1_sp2",
+   "task": "Beschreibe deine Familie in 2–3 Sätzen.",
+   "question": "Tell me about your family.",
+   "sample": "I have a big family. I have one brother and two sisters. My parents live in Berlin."
+  },
+  {
+   "id": "a1_sp3",
+   "task": "Sag, was du gern isst und trinkst.",
+   "question": "What do you like to eat and drink?",
+   "sample": "I like pizza and pasta. I drink coffee in the morning and water every day."
+  },
+  {
+   "id": "a1_sp4",
+   "task": "Beschreibe dein Zimmer oder deine Wohnung.",
+   "question": "Describe your room or your flat.",
+   "sample": "My flat is small. There is a kitchen, a bathroom and one bedroom. My bedroom is blue."
+  },
+  {
+   "id": "a1_sp5",
+   "task": "Erzähle, was du jeden Tag machst.",
+   "question": "What do you do every day?",
+   "sample": "I get up at seven. I have breakfast and then I go to work. In the evening I watch TV."
+  },
+  {
+   "id": "a1_sp6",
+   "task": "Sag, welche Farben und Dinge du magst.",
+   "question": "What is your favourite colour and why?",
+   "sample": "My favourite colour is green. I like green because I love nature and the forest."
+  }
+ ],
+ "a2": [
+  {
+   "id": "a2_sp1",
+   "task": "Erzähle von deinem letzten Wochenende (Vergangenheit!).",
+   "question": "What did you do last weekend?",
+   "sample": "Last weekend I visited my friends. On Saturday we went to the cinema and on Sunday I stayed at home."
+  },
+  {
+   "id": "a2_sp2",
+   "task": "Beschreibe deinen letzten Urlaub.",
+   "question": "Tell me about your last holiday.",
+   "sample": "Last summer I went to Spain with my family. We stayed in a hotel near the beach and the weather was great."
+  },
+  {
+   "id": "a2_sp3",
+   "task": "Bestelle im Restaurant ein Essen und ein Getränk.",
+   "question": "Good evening! What would you like to order?",
+   "sample": "I'd like the chicken with salad, please. And could I have a glass of orange juice?"
+  },
+  {
+   "id": "a2_sp4",
+   "task": "Erkläre jemandem den Weg von deiner Wohnung zum Supermarkt.",
+   "question": "How do I get to the supermarket from your home?",
+   "sample": "Go straight on and turn left at the traffic lights. The supermarket is next to the bank."
+  },
+  {
+   "id": "a2_sp5",
+   "task": "Erzähle von deinen Plänen für nächsten Monat.",
+   "question": "What are your plans for next month?",
+   "sample": "Next month I'm going to start a new course. I'm also going to visit my grandparents."
+  },
+  {
+   "id": "a2_sp6",
+   "task": "Beschreibe, was du gern einkaufst und wo.",
+   "question": "Where do you like to go shopping?",
+   "sample": "I like shopping at the market because the vegetables are fresh and cheap."
+  }
+ ],
+ "b1": [
+  {
+   "id": "b1_sp1",
+   "task": "Erzähle von einer besonderen Erfahrung (Present Perfect/Past).",
+   "question": "What is the most interesting place you have ever visited?",
+   "sample": "The most interesting place I've ever visited is Iceland. I went there two years ago and I saw the northern lights."
+  },
+  {
+   "id": "b1_sp2",
+   "task": "Sag deine Meinung zum Homeoffice und begründe sie.",
+   "question": "Do you think working from home is a good idea?",
+   "sample": "In my opinion, working from home is a good idea because you save time. However, I sometimes miss my colleagues."
+  },
+  {
+   "id": "b1_sp3",
+   "task": "Beschreibe deinen Beruf oder deine Ausbildung.",
+   "question": "Can you tell me about your job or studies?",
+   "sample": "I work as a nurse in a hospital. I'm responsible for patients and I often work at night."
+  },
+  {
+   "id": "b1_sp4",
+   "task": "Was würdest du tun, wenn du im Lotto gewinnen würdest?",
+   "question": "What would you do if you won the lottery?",
+   "sample": "If I won the lottery, I would travel around the world and buy a small house by the sea."
+  },
+  {
+   "id": "b1_sp5",
+   "task": "Beschreibe ein Problem, das du gelöst hast.",
+   "question": "Tell me about a problem you solved recently.",
+   "sample": "Recently my car broke down. I called a mechanic and he fixed it, so I was only a bit late for work."
+  },
+  {
+   "id": "b1_sp6",
+   "task": "Empfiehl einen Film oder ein Buch und erkläre, warum.",
+   "question": "Can you recommend a film or a book?",
+   "sample": "I would recommend a film that I saw last month. Although it is quite long, the story is really exciting."
+  }
+ ],
+ "b2": [
+  {
+   "id": "b2_sp1",
+   "task": "Nenne Vor- und Nachteile von sozialen Medien.",
+   "question": "What are the advantages and disadvantages of social media?",
+   "sample": "On the one hand, social media helps us stay in touch. On the other hand, it can be addictive and spread fake news."
+  },
+  {
+   "id": "b2_sp2",
+   "task": "Stell ein Produkt oder Projekt kurz vor, wie in einer Präsentation.",
+   "question": "Could you briefly present a project you have worked on?",
+   "sample": "Today I'd like to talk about a project I led last year. First, I'll explain the goal, and then I'll show you the results."
+  },
+  {
+   "id": "b2_sp3",
+   "task": "Berichte, was dir jemand kürzlich erzählt hat (indirekte Rede).",
+   "question": "What did a friend or colleague tell you recently?",
+   "sample": "My colleague told me that she was going to move to Canada and that she had already found a new job."
+  },
+  {
+   "id": "b2_sp4",
+   "task": "Was würdest du anders machen, wenn du die Zeit zurückdrehen könntest?",
+   "question": "Is there anything you would have done differently in the past?",
+   "sample": "If I had known how useful English is, I would have started learning it much earlier."
+  },
+  {
+   "id": "b2_sp5",
+   "task": "Diskutiere: Sollten Autos aus Innenstädten verbannt werden?",
+   "question": "Should cars be banned from city centres?",
+   "sample": "I'm in favour of it, because the air would be cleaner. Having said that, we would need better public transport."
+  },
+  {
+   "id": "b2_sp6",
+   "task": "Beschreibe eine Gewohnheit, die du aufgegeben hast oder aufgeben willst.",
+   "question": "Is there a habit you have given up or want to give up?",
+   "sample": "I gave up drinking sugary drinks last year. To be honest, it was harder than I thought, but I feel much better now."
+  }
+ ],
+ "c1": [
+  {
+   "id": "c1_sp1",
+   "task": "Nimm differenziert Stellung: Macht Technologie uns produktiver?",
+   "question": "Does technology make us more productive?",
+   "sample": "To a certain extent, it does. Having said that, constant notifications arguably undermine our ability to focus."
+  },
+  {
+   "id": "c1_sp2",
+   "task": "Verhandle diplomatisch: Du möchtest eine Gehaltserhöhung.",
+   "question": "Why do you think you deserve a pay rise?",
+   "sample": "I was wondering if we could discuss my salary. Over the past year I've taken on additional responsibilities and exceeded my targets."
+  },
+  {
+   "id": "c1_sp3",
+   "task": "Beantworte mit der STAR-Methode: eine schwierige Situation im Team.",
+   "question": "Tell me about a time you had to deal with a conflict in a team.",
+   "sample": "At my previous job, two colleagues disagreed about priorities. I organised a meeting, we weighed up the options and, as a result, we met the deadline."
+  },
+  {
+   "id": "c1_sp4",
+   "task": "Erkläre ein komplexes Thema aus deinem Fachgebiet für Laien.",
+   "question": "Could you explain something complex from your field in simple terms?",
+   "sample": "Essentially, it's like a recipe: if you change one ingredient, the whole result changes, so precision is crucial."
+  },
+  {
+   "id": "c1_sp5",
+   "task": "Wäge ab: Sollte die Vier-Tage-Woche Standard werden?",
+   "question": "Should the four-day week become the norm?",
+   "sample": "While it is true that it could boost wellbeing, I have my reservations about whether it would suit every industry."
+  },
+  {
+   "id": "c1_sp6",
+   "task": "Beschreibe formell und dann umgangssprachlich, wie dein Tag war.",
+   "question": "How was your day? Answer once formally and once casually.",
+   "sample": "Formally: My day was rather demanding but productive. Casually: Honestly, I'm knackered, but it was a good day."
+  }
+ ],
+ "c2": [
+  {
+   "id": "c2_sp1",
+   "task": "Analysiere ironisch, aber höflich, ein alltägliches Ärgernis.",
+   "question": "What is something that annoys you in everyday life?",
+   "sample": "I'm absolutely delighted, of course, whenever my train is cancelled at the last minute – it really adds a certain thrill to my mornings."
+  },
+  {
+   "id": "c2_sp2",
+   "task": "Argumentiere vielschichtig und benenne einen möglichen Denkfehler.",
+   "question": "Is it fair to say that young people read less than ever?",
+   "sample": "It is often claimed that they read less, but this rests on the assumption that only books count. On balance, they arguably read more, just differently."
+  },
+  {
+   "id": "c2_sp3",
+   "task": "Erkläre eine kulturelle Besonderheit Deutschlands einem Briten.",
+   "question": "What is a German custom a British person might find odd?",
+   "sample": "Not uncommonly, Brits are baffled by our strict Sunday quiet. Mind you, once you get used to it, it's rather a blessing in disguise."
+  },
+  {
+   "id": "c2_sp4",
+   "task": "Beschreibe den Ton eines Textes oder einer Rede, die dich beeindruckt hat.",
+   "question": "Describe the tone of a speech or text that impressed you.",
+   "sample": "The speech struck a wry, understated tone; rather than preaching, it conveyed its message through subtle irony and carefully chosen anecdotes."
+  },
+  {
+   "id": "c2_sp5",
+   "task": "Spiele mit Mehrdeutigkeit: Erkläre ein Wortspiel oder einen Witz.",
+   "question": "Can you explain a pun or a joke you like?",
+   "sample": "I like the one about the banker who lost interest – it works because interest means both curiosity and money earned on savings."
+  },
+  {
+   "id": "c2_sp6",
+   "task": "Halte eine kurze, rhetorisch ausgefeilte Rede zu einem Thema deiner Wahl.",
+   "question": "Give a short, persuasive speech on a topic of your choice.",
+   "sample": "We came, we saw, we scrolled. Who among us hasn't lost an evening to a screen? It's time we took our attention back."
+  }
+ ]
+}

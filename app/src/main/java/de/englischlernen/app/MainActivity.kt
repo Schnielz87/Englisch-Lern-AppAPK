@@ -17,6 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         val container = (application as EnglishApp).container
+        container.updater.checkQuietly()
         setContent {
             val settings by container.settings.settings.collectAsStateWithLifecycle(initialValue = null as Settings?)
             val dark = when (settings?.themeMode ?: ThemeMode.SYSTEM) {
@@ -28,6 +29,11 @@ class MainActivity : ComponentActivity() {
                 settings?.let { AppRoot(container, it) }
             }
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        (application as EnglishApp).container.updater.onResume()
     }
 
     override fun onStop() {

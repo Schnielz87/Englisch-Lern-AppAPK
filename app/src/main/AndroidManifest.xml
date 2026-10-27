@@ -7,6 +7,8 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <!-- Lern-Erinnerungen -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Updates direkt in der App installieren (Android fragt den Nutzer jedes Mal bzw. einmalig) -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <uses-feature android:name="android.hardware.microphone" android:required="false" />
 
@@ -43,5 +45,9 @@
                 <data android:scheme="fundbrueder" android:host="auth-done" />
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name=".update.UpdateReceiver"
+            android:exported="false" />
     </application>
 </manifest>

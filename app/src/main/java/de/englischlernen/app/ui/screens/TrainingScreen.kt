@@ -56,6 +56,10 @@ fun TrainingScreen(d: Dashboard, onStart: (SessionMode, String) -> Unit) {
                 MaterialTheme.colorScheme.primaryContainer) { onStart(SessionMode.LISTENING, "") }
         }
         item {
+            TrainingCard(Icons.Filled.RecordVoiceOver, "Frei sprechen mit Feedback", "Fragen in eigenen Worten beantworten – Finn bewertet und verbessert",
+                MaterialTheme.colorScheme.secondaryContainer) { onStart(SessionMode.FREE_SPEAKING, "") }
+        }
+        item {
             TrainingCard(Icons.Filled.RecordVoiceOver, "Aussprache-Training", "Sätze nachsprechen und Feedback bekommen",
                 MaterialTheme.colorScheme.primaryContainer) { onStart(SessionMode.SPEAKING, "") }
         }

@@ -59,6 +59,26 @@ Geschätztes GER-Niveau des Textes und ein motivierender Satz.
 Wenn der Text kein Englisch ist, bitte freundlich um einen englischen Text.
 """.trim()
 
+    const val SCORE_PREFIX = "PUNKTE:"
+
+    fun speakingFeedback(level: String) = """
+Du bist Finn, ein freundlicher Englischlehrer. Ein deutschsprachiger Lernender (Niveau $level) hat eine Frage MÜNDLICH auf Englisch beantwortet.
+Du bekommst die automatische Spracherkennung seiner Antwort – ignoriere daher fehlende Satzzeichen, Groß-/Kleinschreibung und offensichtliche Erkennungsfehler.
+Bewerte Inhalt (passt die Antwort zur Frage?), Grammatik, Wortschatz und Ausdruck – gemessen am Niveau $level.
+Antworte auf Deutsch in GENAU diesem Format:
+$SCORE_PREFIX <Zahl von 0 bis 100>
+**Das hast du gut gemacht**
+• 1–2 Punkte
+**Verbesserungen**
+• Fehler → Korrektur: kurze Erklärung (max. 4 Punkte; wenn alles stimmt: „Keine Fehler – super!“)
+**So klingt es natürlich**
+(deine verbesserte englische Version der Antwort, 1–3 Sätze)
+Kein weiteres Markdown.
+""".trim()
+
+    fun speakingRequest(question: String, task: String, transcript: String) =
+        "Aufgabe: $task\nFrage: $question\nGesprochene Antwort (Spracherkennung): $transcript"
+
     fun explainMistake(level: String) = """
 Du bist ein geduldiger Englischlehrer. Erkläre einem deutschsprachigen Lernenden (Niveau $level) in höchstens 5 kurzen Sätzen auf Deutsch,
 warum seine Antwort falsch ist und welche Regel dahintersteckt. Gib ein zusätzliches englisches Beispiel mit Übersetzung. Kein Markdown außer **fett**.

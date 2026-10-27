@@ -25,6 +25,18 @@ class ContentValidationTest {
     }
 
     @Test
+    fun speakingPromptsForEveryLevel() {
+        val sp = ContentRepository.parseSpeaking(File("src/main/assets/content/speaking.json").readText())
+        ContentRepository.LEVEL_IDS.forEach { id ->
+            val list = sp[id].orEmpty()
+            assertTrue("$id: zu wenige Sprechaufgaben", list.size >= 4)
+            list.forEach { assertTrue("${it.id}: unvollstaendig", it.task.isNotBlank() && it.question.isNotBlank() && it.sample.isNotBlank()) }
+        }
+        val ids = sp.values.flatten().map { it.id }
+        assertEquals(ids.size, ids.toSet().size)
+    }
+
+    @Test
     fun lessonIdsUnique() {
         val ids = levels.flatMap { l -> l.lessons.map { it.id } }
         assertEquals(ids.size, ids.toSet().size)
@@ -88,7 +100,9 @@ class ContentValidationTest {
         levels.forEach { level ->
             level.lessons.forEach { lesson ->
                 listOf(0.4, 0.7, 0.9).forEach { skill ->
-                    val list = gen.lesson(level, lesson, skill)
+                    val sp = ContentRepository.parseSpeaking(File("src/main/assets/content/speaking.json").readText())[level.id]!!.first()
+                    val list = gen.lesson(level, lesson, skill, freeSpeak = sp)
+                    assertTrue("${lesson.id}: freie Sprechaufgabe fehlt", list.any { it is Exercise.FreeSpeak })
                     assertTrue("${lesson.id}: keine Uebungen", list.count { it.scorable } >= 10)
                     list.forEach { ex -> checkExercise(lesson.id, ex) }
                 }

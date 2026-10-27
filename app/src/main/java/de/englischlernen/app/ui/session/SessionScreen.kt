@@ -134,6 +134,7 @@ fun SessionScreen(
                         is Exercise.Arrange -> ArrangeView(ex, answered, vm::answerArrange)
                         is Exercise.Speak -> SpeakView(ex, answered, vm)
                         is Exercise.DialoguePractice -> DialogueView(ex, answered, vm)
+                        is Exercise.FreeSpeak -> FreeSpeakView(ex, answered, state.evaluating, vm)
                         null -> CircularProgressIndicator()
                     }
                     VSpace(120.dp)
@@ -159,7 +160,7 @@ private fun FeedbackPanel(f: Feedback, onNext: () -> Unit, onExplain: () -> Unit
             }
             if (f.explanation.isNotBlank()) {
                 VSpace(4.dp)
-                Text(f.explanation, style = MaterialTheme.typography.bodyMedium)
+                Column(Modifier.heightIn(max = 320.dp).verticalScroll(rememberScrollState())) { RichText(f.explanation) }
             }
             if (!f.correct && aiReady) {
                 when {
@@ -248,5 +249,6 @@ private fun promptOf(e: Exercise): String = when (e) {
     is Exercise.Arrange -> e.prompt
     is Exercise.Speak -> "Aussprache: ${e.translation}"
     is Exercise.DialoguePractice -> "Rollenspiel: ${e.dialogue.title}"
+    is Exercise.FreeSpeak -> "Frei sprechen: ${e.prompt.question}"
     else -> ""
 }

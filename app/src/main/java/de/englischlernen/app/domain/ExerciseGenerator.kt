@@ -31,6 +31,7 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
         lesson: Lesson,
         skill: Double,
         reviewItems: List<Pair<String, Vocab>> = emptyList(),
+        freeSpeak: de.englischlernen.app.data.content.SpeakingPrompt? = null,
     ): List<Exercise> {
         val pool = level.lessons.flatMap { it.vocab }
         val intro = mutableListOf<Exercise>()
@@ -76,8 +77,12 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
             listOf(Exercise.DialoguePractice(Keys.dialogue(lesson.id), it, roleFor(it)))
         } ?: emptyList()
 
-        return intro + practice + speaking + dialogue
+        val free = freeSpeak?.let { listOf(Exercise.FreeSpeak("f:${it.id}", it, level.code)) } ?: emptyList()
+        return intro + practice + speaking + free + dialogue
     }
+
+    fun freeSpeaking(prompts: List<Pair<de.englischlernen.app.data.content.SpeakingPrompt, String>>): List<Exercise> =
+        prompts.map { (p, code) -> Exercise.FreeSpeak("f:${p.id}", p, code) }
 
     // ---------- Pruefung ----------
 
@@ -109,7 +114,7 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
         val vocab = level.lessons.flatMap { l -> l.vocab.mapIndexed { i, v -> Keys.vocab(l.id, i) to v } }.shuffled(random)
         val out = quiz.take(3).map { (k, q) -> quizChoice(k, q) } +
             vocab.take(2).map { (k, v) -> vocabChoice(k, v, pool, toEnglish = true) }
-        return out.map { it.copy(instruction = "${level.code}: ${it.instruction}") }
+        return out.map { it.copy(instruction = "${level.code} · ${it.instruction}") }
     }
 
     // ---------- Training ----------
@@ -173,10 +178,10 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
         val distractors = if (toEnglish) distractors(pool, v, { it.en }, { it.de }) else distractors(pool, v, { it.de }, { it.en })
         val opts = (distractors + v).shuffled(random)
         return if (toEnglish) Exercise.Choice(
-            key, "Was heißt das auf Englisch?", v.de,
+            key, "Was heißt das auf Englisch?\nTippe auf das englische Wort, das zum deutschen Wort passt.", v.de,
             opts.map { it.en }, opts.indexOf(v), explanation = v.example?.let { "Beispiel: $it" } ?: "",
         ) else Exercise.Choice(
-            key, "Was bedeutet das?", v.en,
+            key, "Was bedeutet das englische Wort?\nWähle die passende deutsche Übersetzung.", v.en,
             opts.map { it.de }, opts.indexOf(v), speak = v.en,
             explanation = v.example?.let { "Beispiel: $it" } ?: "",
         )
@@ -186,13 +191,13 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
         val distractors = distractors(pool, v, { it.de }, { it.en })
         val opts = (distractors + v).shuffled(random)
         return Exercise.Choice(
-            key, "Hör zu: Was hast du gehört?", v.en, opts.map { it.de }, opts.indexOf(v),
+            key, "Hörverstehen: Welches Wort hörst du?\nHör dir das englische Wort an (Lautsprecher-Knopf) und wähle seine deutsche Bedeutung.", v.en, opts.map { it.de }, opts.indexOf(v),
             speak = v.en, listening = true,
         )
     }
 
     fun vocabType(key: String, v: Vocab) = Exercise.TypeIn(
-        key, "Schreibe auf Englisch:", v.de, listOf(v.en) + v.alt,
+        key, "Übersetze ins Englische\nTippe das englische Wort für den deutschen Begriff in das Feld und tippe auf „Prüfen“.", v.de, listOf(v.en) + v.alt,
         hint = "Beginnt mit „${v.en.take(1)}“ (${v.en.length} Zeichen)",
         explanation = v.example?.let { "Beispiel: $it" } ?: "",
     )
@@ -200,13 +205,13 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
     fun quizChoice(key: String, q: Quiz): Exercise.Choice {
         val order = q.options.indices.shuffled(random)
         return Exercise.Choice(
-            key, "Wähle die richtige Antwort:", q.q,
+            key, "Wähle die richtige Antwort\nLies die Frage und tippe auf die passende Antwort.", q.q,
             order.map { q.options[it] }, order.indexOf(q.answer), explanation = q.explain,
         )
     }
 
     fun gapType(key: String, g: Gap) = Exercise.TypeIn(
-        key, "Ergänze die Lücke:", g.text, listOf(g.answer) + g.alt,
+        key, "Lückentext\nWelches englische Wort fehlt an der Stelle ___? Tippe es in das Feld.", g.text, listOf(g.answer) + g.alt,
         hint = g.hint, explanation = g.de,
     )
 
@@ -221,20 +226,20 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
 
     private fun translateOrArrange(key: String, s: Sentence, pool: List<Sentence>): Exercise =
         if (AnswerChecker.tokens(s.en).size <= 10) Exercise.TypeIn(
-            key, "Übersetze ins Englische:", s.de, listOf(s.en) + s.alt,
+            key, "Übersetze den Satz ins Englische\nSchreibe den deutschen Satz auf Englisch in das Feld.", s.de, listOf(s.en) + s.alt,
             hint = "Erstes Wort: „${AnswerChecker.tokens(s.en).first()}“",
         ) else arrangeOrChoice(key, s, pool)
 
     private fun dictationOrChoice(key: String, s: Sentence, pool: List<Sentence>): Exercise =
         if (AnswerChecker.tokens(s.en).size <= 9) Exercise.TypeIn(
-            key, "Hör zu und schreibe mit:", s.en, listOf(s.en) + s.alt,
-            speak = s.en, listening = true, explanation = s.de,
+            key, "Diktat: Schreib auf, was du hörst\nDu hörst gleich einen englischen Satz. Tippe ihn genau so auf Englisch in das Feld – so oft anhören, wie du willst. Den Satz musst du nicht beantworten, nur aufschreiben.", s.en, listOf(s.en) + s.alt,
+            hint = "Bedeutung auf Deutsch: „${s.de}“", speak = s.en, listening = true, explanation = s.de,
         ) else listeningChoice(key, s, pool)
 
     private fun listeningChoice(key: String, s: Sentence, pool: List<Sentence>): Exercise.Choice {
         val opts = (distractors(pool, s, { it.de }, { it.en }) + s).shuffled(random)
         return Exercise.Choice(
-            key, "Hör zu: Was bedeutet der Satz?", s.en, opts.map { it.de }, opts.indexOf(s),
+            key, "Hörverstehen: Was bedeutet der Satz?\nHör dir den englischen Satz an und wähle die passende deutsche Übersetzung.", s.en, opts.map { it.de }, opts.indexOf(s),
             speak = s.en, listening = true,
         )
     }
@@ -242,7 +247,7 @@ class ExerciseGenerator(private val random: Random = Random.Default) {
     private fun translationChoice(key: String, s: Sentence, pool: List<Sentence>): Exercise.Choice {
         val opts = (distractors(pool, s, { it.en }, { it.de }) + s).shuffled(random)
         return Exercise.Choice(
-            key, "Welche Übersetzung passt?", s.de, opts.map { it.en }, opts.indexOf(s),
+            key, "Welche Übersetzung passt?\nWähle den englischen Satz, der dasselbe bedeutet wie der deutsche.", s.de, opts.map { it.en }, opts.indexOf(s),
         )
     }
 }

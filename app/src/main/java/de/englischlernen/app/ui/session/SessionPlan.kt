@@ -12,7 +12,7 @@ import kotlinx.serialization.Serializable
 
 /** Alle Arten von Lerneinheiten, die der Sitzungs-Bildschirm abspielen kann. */
 @Serializable
-enum class SessionMode { LESSON, EXAM, PLACEMENT, REVIEW, WEAK, LISTENING, SPEAKING, DIALOGUE }
+enum class SessionMode { LESSON, EXAM, PLACEMENT, REVIEW, WEAK, LISTENING, SPEAKING, DIALOGUE, FREE_SPEAKING }
 
 /** Zusammenfassung nach Abschluss einer Sitzung. */
 data class SessionSummary(
@@ -71,6 +71,13 @@ object SessionPlans {
                 val pool = unlocked.flatMap { lv -> lv.lessons.flatMap { l -> l.sentences.mapIndexed { i, s -> Keys.sentence(l.id, i) to s } } }
                 gen.speaking(pool.shuffled().take(8))
             }
+            SessionMode.FREE_SPEAKING -> SimplePlan("Frei sprechen mit Feedback") {
+                val all = c.content.speaking()
+                val current = levels.getOrNull(settings.unlockedLevel) ?: levels.first()
+                val pool = (all[current.id].orEmpty().map { it to current.code } +
+                    unlocked.filter { it.id != current.id }.flatMap { lv -> all[lv.id].orEmpty().map { it to lv.code } }.shuffled().take(2))
+                gen.freeSpeaking(pool.shuffled().take(4))
+            }
             SessionMode.DIALOGUE -> {
                 val (_, lesson) = c.content.lesson(arg) ?: error("Lektion $arg fehlt")
                 SimplePlan("Gespräch: ${lesson.dialogue?.title ?: lesson.title}") { listOfNotNull(gen.dialogue(lesson.id, lesson)) }
@@ -106,7 +113,9 @@ private class LessonPlan(val c: AppContainer, val gen: ExerciseGenerator, val le
         val review = c.progress.dueCards(3).mapNotNull { card ->
             vocabFor(card.key, levels)?.let { card.key to it }
         }
-        return gen.lesson(lv, lesson, skill, review)
+        val prompts = c.content.speaking()[lv.id].orEmpty()
+        val free = prompts.getOrNull(lv.lessons.indexOf(lesson) % prompts.size.coerceAtLeast(1))
+        return gen.lesson(lv, lesson, skill, review, free)
     }
 
     override suspend fun finish(results: List<ExerciseResult>, baseXp: Int): SessionSummary {

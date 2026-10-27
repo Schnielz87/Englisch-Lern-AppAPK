@@ -26,6 +26,7 @@ class AppContainer(context: Context, scope: CoroutineScope) {
     val tts = TtsManager(context)
     val speech = SpeechInput(context)
     val updates = UpdateChecker()
+    val updater = de.englischlernen.app.update.AppUpdater(context, updates, scope)
     val backup = BackupManager(context, database, settings)
 
     /** HTTP-Client fuer KI-Anfragen (laengere Lesezeit wegen Streaming). */

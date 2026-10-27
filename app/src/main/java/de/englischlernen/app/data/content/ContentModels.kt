@@ -69,6 +69,15 @@ data class Gap(
     val de: String = "",
 )
 
+/** Freie Sprechaufgabe: Nutzer antwortet in eigenen Worten, KI (oder App) bewertet. */
+@Serializable
+data class SpeakingPrompt(
+    val id: String,
+    val task: String,
+    val question: String,
+    val sample: String,
+)
+
 @Serializable
 data class Dialogue(
     val title: String,
