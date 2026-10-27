@@ -59,9 +59,10 @@ import kotlin.reflect.KClass
 @Serializable object SettingsRoute
 @Serializable data class LevelRoute(val levelId: String)
 @Serializable data class TheoryRoute(val lessonId: String)
-@Serializable data class SessionRoute(val mode: SessionMode, val arg: String = "")
+// Routen enthalten nur einfache Typen (String/Int) – robust gegen Code-Verkleinerung (R8).
+@Serializable data class SessionRoute(val mode: String, val arg: String = "")
 @Serializable object AiRoute
-@Serializable data class AiChatRoute(val mode: de.englischlernen.app.ui.ai.AiMode, val scenario: Int = 0)
+@Serializable data class AiChatRoute(val mode: String, val scenario: Int = 0)
 
 private data class Tab(val route: Any, val cls: KClass<*>, val label: String, val icon: ImageVector)
 
@@ -91,11 +92,11 @@ fun AppRoot(container: AppContainer, settings: Settings) {
         LaunchedEffect(pendingPlacement) {
             if (pendingPlacement) {
                 pendingPlacement = false
-                nav.navigate(SessionRoute(SessionMode.PLACEMENT))
+                nav.navigate(SessionRoute(SessionMode.PLACEMENT.name))
             }
         }
 
-        fun start(mode: SessionMode, arg: String) = nav.navigate(SessionRoute(mode, arg))
+        fun start(mode: SessionMode, arg: String) = nav.navigate(SessionRoute(mode.name, arg))
 
         Scaffold(bottomBar = {
             if (showBar) NavigationBar {
@@ -121,10 +122,10 @@ fun AppRoot(container: AppContainer, settings: Settings) {
                 composable<TrainingRoute> { WithDashboard(dashboard) { d -> TrainingScreen(d, ::start) } }
                 composable<ProgressRoute> { WithDashboard(dashboard) { d -> ProgressScreen(d) } }
                 composable<SettingsRoute> { SettingsScreen(settings, onBack = { nav.popBackStack() }) { start(SessionMode.PLACEMENT, "") } }
-                composable<AiRoute> { de.englischlernen.app.ui.ai.AiHubScreen { mode, sc -> nav.navigate(AiChatRoute(mode, sc)) } }
+                composable<AiRoute> { de.englischlernen.app.ui.ai.AiHubScreen { mode, sc -> nav.navigate(AiChatRoute(mode.name, sc)) } }
                 composable<AiChatRoute> { e ->
                     val r = e.toRoute<AiChatRoute>()
-                    de.englischlernen.app.ui.ai.AiChatScreen(r.mode, r.scenario) { nav.popBackStack() }
+                    de.englischlernen.app.ui.ai.AiChatScreen(de.englischlernen.app.ui.ai.AiMode.valueOf(r.mode), r.scenario) { nav.popBackStack() }
                 }
                 composable<LevelRoute> { e ->
                     val r = e.toRoute<LevelRoute>()
@@ -136,10 +137,10 @@ fun AppRoot(container: AppContainer, settings: Settings) {
                 composable<SessionRoute> { e ->
                     val r = e.toRoute<SessionRoute>()
                     SessionScreen(
-                        r.mode, r.arg,
+                        SessionMode.valueOf(r.mode), r.arg,
                         onClose = { nav.popBackStack() },
                         onOpenLesson = { id ->
-                            nav.navigate(SessionRoute(SessionMode.LESSON, id)) {
+                            nav.navigate(SessionRoute(SessionMode.LESSON.name, id)) {
                                 popUpTo<SessionRoute> { inclusive = true }
                             }
                         },

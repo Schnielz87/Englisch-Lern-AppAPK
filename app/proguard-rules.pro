@@ -11,3 +11,6 @@
 -dontwarn org.conscrypt.**
 -dontwarn org.bouncycastle.**
 -dontwarn org.openjsse.**
+
+# Enum-Namen der App behalten (werden u. a. per Name gespeichert/gelesen)
+-keepnames enum de.englischlernen.app.** { *; }
