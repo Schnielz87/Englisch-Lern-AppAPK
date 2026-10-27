@@ -1,0 +1,378 @@
+[
+ {
+  "id": "start",
+  "title": "Erste Schritte",
+  "icon": "rocket",
+  "blocks": [
+   {
+    "p": "Fundbrüder English ist dein persönlicher Englischlehrer. Du lernst in sechs Stufen vom ersten Wort (A1) bis zum nahezu muttersprachlichen Niveau (C2). Alle Erklärungen sind auf Deutsch."
+   },
+   {
+    "steps": [
+     "App öffnen und auf „Expedition beginnen“ tippen.",
+     "Vornamen eingeben (freiwillig) und dein Tagesziel wählen: 5, 10 oder 20 Minuten am Tag.",
+     "Startpunkt wählen: „Bei A1 starten“, wenn du neu anfängst – oder „Einstufungstest starten“, wenn du schon Englisch kannst.",
+     "Auf der Startseite zeigt dir „Dein nächster Fund“ immer, was du als Nächstes lernen solltest. Einfach auf „Los geht's“ tippen."
+    ]
+   },
+   {
+    "image": "help_onboarding.png",
+    "caption": "Willkommensbildschirm"
+   },
+   {
+    "p": "Der Einstufungstest dauert etwa 5 Minuten. Er beginnt bei A1 und geht Stufe für Stufe weiter, solange du mindestens 4 von 5 Aufgaben richtig hast. Alle Stufen bis zu deinem Ergebnis werden freigeschaltet."
+   }
+  ]
+ },
+ {
+  "id": "tabs",
+  "title": "Aufbau der App",
+  "icon": "map",
+  "blocks": [
+   {
+    "p": "Unten findest du fünf Bereiche:"
+   },
+   {
+    "table": [
+     [
+      "Bereich",
+      "Wofür?"
+     ],
+     [
+      "Start",
+      "Deine Übersicht: Lernserie, Fundpunkte, Tagesziel, nächste Lektion und fällige Wiederholungen. Oben rechts: Hilfe (?) und Einstellungen (Zahnrad)."
+     ],
+     [
+      "Expedition",
+      "Die Expeditionskarte mit den sechs Stufen A1–C2 und allen Lektionen."
+     ],
+     [
+      "Training",
+      "Gezielt üben: Wiederholen, Schwachstellen, Hören, frei Sprechen, Aussprache und Gespräche."
+     ],
+     [
+      "Finn",
+      "Dein KI-Tutor (optional, braucht Internet): Fragen stellen, Gespräche führen, Texte korrigieren lassen."
+     ],
+     [
+      "Fortschritt",
+      "Statistik, Ränge, Prüfungsergebnisse und die Schatzkammer mit deinen Erfolgen."
+     ]
+    ]
+   },
+   {
+    "image": "help_home.png",
+    "caption": "Startseite"
+   }
+  ]
+ },
+ {
+  "id": "lessons",
+  "title": "Lektionen",
+  "icon": "book",
+  "blocks": [
+   {
+    "p": "Jede Lektion behandelt ein Thema, z. B. „Begrüßungen“ oder „Present Perfect“, und dauert etwa 10 Minuten. Sie besteht aus drei Teilen:"
+   },
+   {
+    "bullets": [
+     "Wissen: kurze Erklärungen auf Deutsch mit englischen Beispielen. Mit dem Lautsprecher-Knopf hörst du die Aussprache.",
+     "Neue Vokabeln: Karten zum Einprägen. Tippe auf die Karte, um die Bedeutung zu sehen.",
+     "Übungen: verschiedene Aufgaben zum Thema – zum Schluss Sprechen, freies Antworten und ein Rollenspiel."
+    ]
+   },
+   {
+    "p": "Eine Lektion gilt ab 60 % als geschafft. Dann wird die nächste Lektion freigeschaltet, und die Vokabeln kommen in dein Fundbuch zur Wiederholung. Über „Nachlesen“ kannst du Erklärungen und Vokabeln jederzeit noch einmal ansehen."
+   },
+   {
+    "p": "Die App passt sich dir an: Wer sicher ist, bekommt mehr Aufgaben zum selbst Schreiben. Wer Mühe hat, bekommt mehr Auswahlaufgaben. Wörter, die du falsch hattest, tauchen später automatisch wieder auf."
+   }
+  ]
+ },
+ {
+  "id": "exercises",
+  "title": "Die Übungsarten",
+  "icon": "edit",
+  "blocks": [
+   {
+    "p": "Über jeder Aufgabe steht, was zu tun ist (ℹ️-Hinweis). Die Übungsarten im Überblick:"
+   },
+   {
+    "table": [
+     [
+      "Übung",
+      "So geht's"
+     ],
+     [
+      "Auswahl",
+      "Frage lesen und auf die richtige Antwort tippen."
+     ],
+     [
+      "Hörverstehen",
+      "Auf den großen Lautsprecher tippen, zuhören und die passende Bedeutung wählen. „Langsam anhören“ spielt es langsamer ab."
+     ],
+     [
+      "Diktat",
+      "Du hörst einen englischen Satz. Schreibe ihn genau so auf Englisch ab – du musst ihn nicht beantworten. „Tipp anzeigen“ verrät die deutsche Bedeutung."
+     ],
+     [
+      "Übersetzen / Lückentext",
+      "Englisches Wort oder Satz in das Feld tippen, dann „Prüfen“. Kleine Tippfehler werden toleriert."
+     ],
+     [
+      "Satzbau",
+      "Wörter in der richtigen Reihenfolge antippen. Ein Tipp auf ein Wort oben nimmt es zurück."
+     ],
+     [
+      "Aussprache",
+      "Satz anhören, Mikrofon antippen und laut nachsprechen. Die App vergleicht, was sie verstanden hat."
+     ],
+     [
+      "Frei sprechen",
+      "Eine Frage in eigenen Worten auf Englisch beantworten – sprechen oder tippen. Mit KI bewertet Finn deine Antwort mit Punkten und Verbesserungen, ohne KI gibt es eine Musterantwort."
+     ],
+     [
+      "Rollenspiel",
+      "Ein Dialog: Die App spricht die andere Person, du sprichst deine Rolle. „Englischen Text zeigen“ hilft, wenn du nicht weiterweißt."
+     ]
+    ]
+   },
+   {
+    "image": "help_exercise.png",
+    "caption": "Beispiel einer Übung"
+   },
+   {
+    "p": "Nach jeder Antwort siehst du, ob sie richtig war, die Lösung und eine Erklärung. Mit eingerichteter KI kannst du bei Fehlern auf „Warum? – Finn erklärt's“ tippen."
+   }
+  ]
+ },
+ {
+  "id": "exams",
+  "title": "Prüfungen & Freischalten",
+  "icon": "medal",
+  "blocks": [
+   {
+    "bullets": [
+     "Am Ende jeder Stufe wartet die Abschlussprüfung mit 20 Aufgaben (Expedition → Stufe öffnen → ganz unten).",
+     "Die Prüfung wird frei, wenn du alle Lektionen der Stufe geschafft hast.",
+     "Ab 70 % hast du bestanden: Du bekommst das Zertifikat der Stufe, und die nächste Stufe wird freigeschaltet.",
+     "In der Prüfung siehst du die Ergebnisse erst am Ende. Falsche Antworten kommen danach zur Wiederholung.",
+     "„Freier Modus“ in den Einstellungen öffnet alle Stufen sofort – praktisch zum Stöbern."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "training",
+  "title": "Training",
+  "icon": "fitness",
+  "blocks": [
+   {
+    "table": [
+     [
+      "Training",
+      "Was passiert?"
+     ],
+     [
+      "Fundbuch wiederholen",
+      "Deine gelernten Vokabeln nach dem Karteikasten-Prinzip: Richtige Wörter kommen später wieder, falsche bald erneut."
+     ],
+     [
+      "Schwachstellen-Training",
+      "Aufgaben, die dir bisher schwergefallen sind."
+     ],
+     [
+      "Hörtraining",
+      "Sätze hören, verstehen und mitschreiben."
+     ],
+     [
+      "Frei sprechen mit Feedback",
+      "Fragen in eigenen Worten beantworten. Finn (KI) bewertet und verbessert, was du gesagt hast."
+     ],
+     [
+      "Aussprache-Training",
+      "Sätze nachsprechen und Rückmeldung zur Aussprache bekommen."
+     ],
+     [
+      "Gesprächstrainer",
+      "Alle Rollenspiele aus deinen freigeschalteten Lektionen."
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ai",
+  "title": "Finn – dein KI-Tutor",
+  "icon": "ai",
+  "blocks": [
+   {
+    "p": "Finn ist optional und braucht Internet. Ohne KI funktioniert die App vollständig. Deine Eingaben gehen nur an den Anbieter, den du auswählst."
+   },
+   {
+    "p": "Einrichten (Tab „Finn“ oder Einstellungen → KI-Anbieter):"
+   },
+   {
+    "bullets": [
+     "Mit ChatGPT anmelden: Wenn du ChatGPT Plus oder Pro hast. Auf „Continue with ChatGPT“ tippen, im Browser anmelden, erlauben und zurück zur App wechseln.",
+     "Google Gemini (kostenlos möglich): Auf aistudio.google.com/apikey mit einem Google-Konto einen API-Schlüssel erstellen, kopieren, in der App einfügen und speichern.",
+     "OpenAI API oder Anthropic Claude: eigener API-Schlüssel, die Nutzung kostet je nach Verbrauch."
+    ]
+   },
+   {
+    "p": "Danach wählt die App automatisch ein Modell. Das kannst du unter „Modell“ ändern. Was Finn kann:"
+   },
+   {
+    "bullets": [
+     "Frag Finn: Fragen zu Grammatik, Wörtern, Aussprache und zum Lernen – Antworten auf Deutsch.",
+     "Gesprächspartner: Rollenspiele wie Restaurant, Arzt oder Vorstellungsgespräch. Sprich oder tippe auf Englisch. Nach jeder Antwort gibt es „Finns Feedback“ mit Korrekturen.",
+     "Schreibtrainer: Text oder E-Mail einfügen – Finn korrigiert und erklärt jeden Fehler.",
+     "Lernberater: Finn wertet deinen Fortschritt aus und erstellt einen 7-Tage-Plan.",
+     "In Übungen: „Warum?“ bei Fehlern und die Bewertung beim freien Sprechen."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "motivation",
+  "title": "Punkte, Serie & Erfolge",
+  "icon": "trophy",
+  "blocks": [
+   {
+    "bullets": [
+     "Fundpunkte: 10 Punkte pro richtiger Antwort, Bonus für geschaffte und fehlerfreie Lektionen sowie bestandene Prüfungen.",
+     "Tagesziel: Sammle jeden Tag die gewählte Punktzahl.",
+     "Lernserie: Zählt, wie viele Tage in Folge du gelernt hast.",
+     "Ränge: Vom „Schatzsucher-Lehrling“ bis zur „Legende der Fundbrüder“.",
+     "Schatzkammer (Fortschritt): Erfolge wie „Erster Fund“, „Goldnugget“ (fehlerfreie Lektion) oder die Zertifikate A1–C2."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "settings",
+  "title": "Einstellungen",
+  "icon": "settings",
+  "blocks": [
+   {
+    "p": "Die Einstellungen öffnest du über das Zahnrad oben rechts auf der Startseite."
+   },
+   {
+    "table": [
+     [
+      "Einstellung",
+      "Bedeutung"
+     ],
+     [
+      "Profil & Tagesziel",
+      "Name und tägliches Punkteziel ändern."
+     ],
+     [
+      "KI-Anbieter",
+      "Finn einrichten oder abschalten."
+     ],
+     [
+      "Aussprache & Stimme",
+      "Sprechtempo sowie amerikanische oder britische Aussprache. „Englische Stimme installieren“, falls nichts zu hören ist."
+     ],
+     [
+      "Tägliche Erinnerung",
+      "Benachrichtigung zur gewählten Uhrzeit, falls das Tagesziel noch offen ist."
+     ],
+     [
+      "Darstellung",
+      "Hell, dunkel oder wie das System."
+     ],
+     [
+      "Lernweg",
+      "Freier Modus (alles offen) und Einstufungstest wiederholen."
+     ],
+     [
+      "Sicherung",
+      "Fortschritt als Datei exportieren und später wieder importieren."
+     ],
+     [
+      "App-Aktualisierung",
+      "Nach neuen Versionen suchen und direkt installieren."
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "updates",
+  "title": "Updates installieren",
+  "icon": "update",
+  "blocks": [
+   {
+    "p": "Neue Versionen installierst du direkt in der App – ohne Browser:"
+   },
+   {
+    "steps": [
+     "Auf der Startseite erscheint „Neue Version verfügbar“ (oder: Einstellungen → „Nach Updates suchen“).",
+     "Auf „Jetzt aktualisieren“ tippen. Die App lädt das Update herunter.",
+     "Nur beim ersten Mal: Android fragt nach der Erlaubnis. „Erlaubnis erteilen“ tippen, den Schalter „Aus dieser Quelle zulassen“ einschalten und zurück zur App.",
+     "Im Android-Dialog auf „Aktualisieren“ bzw. „Installieren“ tippen. Fertig – dein Fortschritt bleibt erhalten."
+    ]
+   },
+   {
+    "image": "help_update.png",
+    "caption": "Update direkt in der App"
+   }
+  ]
+ },
+ {
+  "id": "privacy",
+  "title": "Offline & Datenschutz",
+  "icon": "lock",
+  "blocks": [
+   {
+    "bullets": [
+     "Lektionen, Übungen, Prüfungen und Training funktionieren ohne Internet.",
+     "Internet brauchen nur: Update-Suche, KI-Funktionen und – je nach Handy – die Spracherkennung.",
+     "Es gibt kein Konto und kein Tracking. Dein Lernfortschritt bleibt auf deinem Handy.",
+     "API-Schlüssel und Anmeldedaten werden verschlüsselt auf dem Handy gespeichert."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "faq",
+  "title": "Häufige Fragen & Probleme",
+  "icon": "help",
+  "blocks": [
+   {
+    "qa": [
+     [
+      "Ich höre keine Stimme.",
+      "Lautstärke prüfen. Dann Einstellungen → „Englische Stimme installieren / verwalten“ und die englische Sprachausgabe herunterladen."
+     ],
+     [
+      "Das Mikrofon funktioniert nicht.",
+      "Beim ersten Mal die Mikrofon-Berechtigung erlauben. Falls abgelehnt: Android-Einstellungen → Apps → Fundbrüder English → Berechtigungen → Mikrofon. Auf manchen Handys braucht die Spracherkennung Internet."
+     ],
+     [
+      "Die Spracherkennung versteht mich falsch.",
+      "Deutlich und nicht zu schnell sprechen, am besten in ruhiger Umgebung. Beim freien Sprechen kannst du den erkannten Text auch korrigieren."
+     ],
+     [
+      "„Mit ChatGPT anmelden“ klappt nicht.",
+      "Du brauchst ChatGPT Plus oder Pro. Nach der Anmeldung im Browser zurück zur App wechseln und kurz warten. Als Alternative funktioniert Google Gemini mit kostenlosem Schlüssel."
+     ],
+     [
+      "Wie bekomme ich meinen Fortschritt auf ein neues Handy?",
+      "Einstellungen → Sicherung → „Exportieren“, Datei auf das neue Handy übertragen und dort „Importieren“ wählen."
+     ],
+     [
+      "Eine Lektion ist gesperrt.",
+      "Schließe zuerst die vorherige Lektion mit mindestens 60 % ab – oder aktiviere den „Freien Modus“."
+     ],
+     [
+      "Die App stürzt ab oder hängt.",
+      "App über „Jetzt aktualisieren“ auf die neueste Version bringen. Hilft das nicht, Fortschritt exportieren und die App neu installieren."
+     ]
+    ]
+   }
+  ]
+ }
+]

@@ -37,6 +37,14 @@ class ContentValidationTest {
     }
 
     @Test
+    fun helpContentIsValid() {
+        val help = de.englischlernen.app.ui.help.HelpContent.parse(File("src/main/assets/content/help.json").readText())
+        assertTrue("zu wenige Hilfe-Kapitel", help.size >= 8)
+        help.forEach { assertTrue("${it.id}: leer", it.blocks.isNotEmpty()) }
+        assertEquals(help.size, help.map { it.id }.toSet().size)
+    }
+
+    @Test
     fun lessonIdsUnique() {
         val ids = levels.flatMap { l -> l.lessons.map { it.id } }
         assertEquals(ids.size, ids.toSet().size)

@@ -54,6 +54,16 @@ class AppSmokeTest {
         rule.activityRule.scenario.onActivity { it.onBackPressedDispatcher.onBackPressed() }
         waitFor("Expeditionskarte")
 
+        rule.onNodeWithText("Start").performClick()
+        waitFor("Dein nächster Fund")
+        rule.onNode(androidx.compose.ui.test.hasContentDescription("Hilfe")).performClick()
+        waitFor("Hilfe & Anleitung")
+        rule.onNodeWithText("Die Übungsarten", substring = true).performClick()
+        rule.waitForIdle()
+        shot("04b_help")
+        rule.activityRule.scenario.onActivity { it.onBackPressedDispatcher.onBackPressed() }
+        waitFor("Dein nächster Fund")
+
         rule.onNodeWithText("Training").performClick()
         waitFor("Trainingslager")
         shot("05_training")

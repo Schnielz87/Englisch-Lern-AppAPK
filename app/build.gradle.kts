@@ -6,8 +6,8 @@ plugins {
 }
 
 // Versionsnummer zentral pflegen: bei jedem Release erhoehen.
-val appVersionCode = 6
-val appVersionName = "1.0.5"
+val appVersionCode = 7
+val appVersionName = "1.0.6"
 
 android {
     namespace = "de.englischlernen.app"

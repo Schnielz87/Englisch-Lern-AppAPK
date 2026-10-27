@@ -15,6 +15,7 @@ import androidx.compose.material.icons.filled.Diamond
 import androidx.compose.material.icons.filled.Explore
 import androidx.compose.material.icons.filled.LocalFireDepartment
 import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.automirrored.filled.HelpOutline
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -36,7 +37,7 @@ import de.englischlernen.app.ui.session.SessionMode
 import java.time.LocalTime
 
 @Composable
-fun HomeScreen(d: Dashboard, onStart: (SessionMode, String) -> Unit, onOpenCourse: () -> Unit, onSettings: () -> Unit) {
+fun HomeScreen(d: Dashboard, onStart: (SessionMode, String) -> Unit, onOpenCourse: () -> Unit, onSettings: () -> Unit, onHelp: () -> Unit) {
     val hour = LocalTime.now().hour
     val greeting = when (hour) { in 5..10 -> "Guten Morgen"; in 11..17 -> "Hallo"; else -> "Guten Abend" }
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp)) {
@@ -52,6 +53,7 @@ fun HomeScreen(d: Dashboard, onStart: (SessionMode, String) -> Unit, onOpenCours
                 )
                 Text(d.rank.title, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
             }
+            androidx.compose.material3.IconButton(onClick = onHelp) { Icon(androidx.compose.material.icons.Icons.AutoMirrored.Filled.HelpOutline, "Hilfe") }
             androidx.compose.material3.IconButton(onClick = onSettings) { Icon(androidx.compose.material.icons.Icons.Filled.Settings, "Einstellungen") }
         }
         VSpace(4.dp)

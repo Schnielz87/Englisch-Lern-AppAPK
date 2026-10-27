@@ -62,6 +62,7 @@ import kotlin.reflect.KClass
 // Routen enthalten nur einfache Typen (String/Int) – robust gegen Code-Verkleinerung (R8).
 @Serializable data class SessionRoute(val mode: String, val arg: String = "")
 @Serializable object AiRoute
+@Serializable object HelpRoute
 @Serializable data class AiChatRoute(val mode: String, val scenario: Int = 0)
 
 private data class Tab(val route: Any, val cls: KClass<*>, val label: String, val icon: ImageVector)
@@ -117,11 +118,12 @@ fun AppRoot(container: AppContainer, settings: Settings) {
             }
         }) { pad ->
             NavHost(nav, startDestination = HomeRoute, modifier = Modifier.padding(if (showBar) pad else androidx.compose.foundation.layout.PaddingValues())) {
-                composable<HomeRoute> { WithDashboard(dashboard) { d -> HomeScreen(d, ::start, onOpenCourse = { nav.navigate(CourseRoute) { launchSingleTop = true } }, onSettings = { nav.navigate(SettingsRoute) }) } }
+                composable<HomeRoute> { WithDashboard(dashboard) { d -> HomeScreen(d, ::start, onOpenCourse = { nav.navigate(CourseRoute) { launchSingleTop = true } }, onSettings = { nav.navigate(SettingsRoute) }, onHelp = { nav.navigate(HelpRoute) }) } }
                 composable<CourseRoute> { WithDashboard(dashboard) { d -> CourseScreen(d) { nav.navigate(LevelRoute(it)) } } }
                 composable<TrainingRoute> { WithDashboard(dashboard) { d -> TrainingScreen(d, ::start) } }
                 composable<ProgressRoute> { WithDashboard(dashboard) { d -> ProgressScreen(d) } }
-                composable<SettingsRoute> { SettingsScreen(settings, onBack = { nav.popBackStack() }) { start(SessionMode.PLACEMENT, "") } }
+                composable<SettingsRoute> { SettingsScreen(settings, onBack = { nav.popBackStack() }, onHelp = { nav.navigate(HelpRoute) }) { start(SessionMode.PLACEMENT, "") } }
+                composable<HelpRoute> { de.englischlernen.app.ui.help.HelpScreen { nav.popBackStack() } }
                 composable<AiRoute> { de.englischlernen.app.ui.ai.AiHubScreen { mode, sc -> nav.navigate(AiChatRoute(mode.name, sc)) } }
                 composable<AiChatRoute> { e ->
                     val r = e.toRoute<AiChatRoute>()

@@ -50,7 +50,7 @@ import de.englischlernen.app.work.Reminders
 import kotlinx.coroutines.launch
 
 @Composable
-fun SettingsScreen(s: Settings, onBack: () -> Unit, onPlacement: () -> Unit) {
+fun SettingsScreen(s: Settings, onBack: () -> Unit, onHelp: () -> Unit, onPlacement: () -> Unit) {
     val c = LocalAppContainer.current
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
@@ -93,6 +93,8 @@ fun SettingsScreen(s: Settings, onBack: () -> Unit, onPlacement: () -> Unit) {
                 }
             }
         }
+
+        OutlinedButton(onClick = onHelp, modifier = Modifier.fillMaxWidth()) { Text("❓ Hilfe & Anleitung – so funktioniert die App") }
 
         de.englischlernen.app.ui.ai.AiSetupCard()
 

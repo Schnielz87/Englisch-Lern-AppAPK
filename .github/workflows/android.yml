@@ -78,11 +78,11 @@ jobs:
         run: |
           TAG="v$VERSION"
           if gh release view "$TAG" > /dev/null 2>&1; then
-            gh release upload "$TAG" FundbruederEnglish.apk --clobber
+            gh release upload "$TAG" FundbruederEnglish.apk docs/Anleitung_Fundbrueder_English.docx --clobber
           else
-            gh release create "$TAG" FundbruederEnglish.apk \
+            gh release create "$TAG" FundbruederEnglish.apk docs/Anleitung_Fundbrueder_English.docx \
               --target "$GITHUB_SHA" \
               --title "Fundbrüder English $VERSION" \
-              --notes "Installierbare Android-App. Direkter Download: FundbruederEnglish.apk – auf dem Handy öffnen und installieren." \
+              --notes "Neue Version von Fundbrüder English. Bereits installiert? In der App auf „Jetzt aktualisieren“ tippen. Neu installieren: FundbruederEnglish.apk auf dem Handy öffnen. Anleitung: Anleitung_Fundbrueder_English.docx" \
               --latest
           fi

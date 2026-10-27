@@ -15,7 +15,9 @@ Installation auf dem Handy:
 2. Datei öffnen. Beim ersten Mal fragt Android, ob der Browser „Apps aus unbekannten Quellen“ installieren darf → erlauben.
 3. „Installieren“ tippen. Fertig.
 
-Updates: In der App unter **Einstellungen → App-Aktualisierung** nach neuen Versionen suchen. Der Lernfortschritt bleibt bei Updates erhalten.
+Updates: Neue Versionen werden direkt in der App installiert („Jetzt aktualisieren“ auf der Startseite). Der Lernfortschritt bleibt erhalten.
+
+📖 **Anleitung (Word):** [Anleitung_Fundbrueder_English.docx](https://github.com/Schnielz87/Englisch-Lern-AppAPK/releases/latest/download/Anleitung_Fundbrueder_English.docx) – in der App gibt es zusätzlich den Bereich **Hilfe & Anleitung** (❓ oben auf der Startseite).
 
 Voraussetzung: Android 8.0 (API 26) oder neuer.
 
@@ -94,6 +96,16 @@ Voraussetzungen: JDK 21, Android SDK (Plattform 37).
 ## Inhalte erweitern
 
 Jede Stufe ist eine Datei `app/src/main/assets/content/<stufe>.json`. Eine Lektion besteht aus `theory`, `vocab`, `sentences`, `quiz`, `gaps` (Lückentext mit genau einem `___`) und optional `dialogue`. Die Übungen erzeugt die App automatisch daraus. Der Test `ContentValidationTest` prüft beim Build alle Inhalte (z. B. doppelte Antwortoptionen, falsche Antwortindizes).
+
+## Hilfe & Anleitung pflegen
+
+Hilfetexte stehen in `app/src/main/assets/content/help.json`. Daraus entstehen der Hilfe-Bereich in der App **und** die Word-Anleitung:
+
+```bash
+node tools/make_manual.js   # erzeugt docs/Anleitung_Fundbrueder_English.docx (benötigt das npm-Paket "docx")
+```
+
+Screenshots für die Anleitung liegen in `docs/manual/`.
 
 ## Neue Version veröffentlichen
 
