@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp" android:height="108dp"
     android:viewportWidth="108" android:viewportHeight="108">
-    <path android:fillColor="#2F5D40" android:pathData="M0,0h108v108h-108z" />
-    <!-- Huegel / Fundgelaende -->
-    <path android:fillColor="#264D35" android:pathData="M0,78 C20,70 36,74 54,80 C72,86 88,80 108,72 L108,108 L0,108 Z" />
-    <path android:fillColor="#1F3D2B" android:pathData="M0,90 C24,84 44,90 62,94 C80,98 94,94 108,88 L108,108 L0,108 Z" />
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="0" android:endX="0" android:endY="108">
+                <item android:offset="0" android:color="#FFD86B" />
+                <item android:offset="0.45" android:color="#F59A3A" />
+                <item android:offset="1" android:color="#C2456B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#FFE9A8" android:fillAlpha="0.55" android:pathData="M54,64 m-22,0 a22,22 0 1,1 44,0 z" />
+    <path android:fillColor="#1F3D2B" android:fillAlpha="0.85" android:pathData="M0,86 L0,74 L8,74 L8,68 L14,68 L14,72 L19,72 L19,62 L25,62 L25,70 L30,70 L30,66 L35,66 L35,73 L74,73 L74,64 L79,64 L79,58 L85,58 L85,66 L90,66 L90,70 L96,70 L96,63 L101,63 L101,72 L108,72 L108,86 Z" />
+    <path android:fillColor="#132619" android:pathData="M0,84 C24,79 42,82 58,85 C76,88 92,84 108,80 L108,108 L0,108 Z" />
+    <path android:fillColor="#132619" android:pathData="M97,86 C97,79 96,74 93.5,69 L95,68.6 C97.6,73.5 99.2,79 99.6,86 Z" />
+    <path android:fillColor="#132619" android:pathData="M94,68.5 C90,65.5 86,65.5 83.5,67.5 C86.5,66.3 90,66.8 93.4,69.2 Z M94,68.5 C92.2,64.3 88.6,62.6 85.6,63.2 C88.6,63.8 91.6,65.8 93.7,69.2 Z M94,68.5 C95.2,64.3 98.2,62.6 101.8,63.2 C98.8,63.8 96.4,66.2 94.6,69.2 Z M94,68.5 C97,66.1 101.2,66.1 103.6,68.5 C100.6,67.3 97.6,67.3 94.6,69.5 Z M94,68.5 C93.4,65.5 94,62.5 95.8,60.7 C95.2,63.1 95.2,65.5 94.6,68.9 Z" />
 </vector>

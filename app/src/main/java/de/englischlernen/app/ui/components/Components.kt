@@ -41,46 +41,14 @@ import de.englischlernen.app.ui.theme.Brand
 
 val LocalAppContainer = compositionLocalOf<AppContainer> { error("AppContainer fehlt") }
 
-/** Das Fundbrueder-Logo: Lupe entdeckt eine englische Sprechblase. */
+/** Das Fundbrueder-Logo im GTA-Stil (identisch mit dem App-Icon). */
 @Composable
 fun FundbruederLogo(size: Dp = 96.dp, modifier: Modifier = Modifier) {
-    Canvas(modifier.size(size)) {
-        val s = this.size.width / 108f
-        fun o(x: Float, y: Float) = Offset(x * s, y * s)
-        drawRoundRect(Brand.Forest, cornerRadius = CornerRadius(24 * s))
-        val hill = Path().apply {
-            moveTo(0f, 80 * s); cubicTo(24 * s, 72 * s, 50 * s, 86 * s, 108 * s, 74 * s)
-            lineTo(108 * s, 84 * s); lineTo(108 * s, 108 * s - 24 * s)
-            quadraticTo(108 * s, 108 * s, 84 * s, 108 * s); lineTo(24 * s, 108 * s)
-            quadraticTo(0f, 108 * s, 0f, 84 * s); close()
-        }
-        drawPath(hill, Brand.ForestDark.copy(alpha = 0.7f))
-        drawLine(Brand.Earth, o(68f, 63f), o(79f, 74f), 9 * s, StrokeCap.Round)
-        drawLine(Brand.Brass, o(69f, 64f), o(78f, 73f), 5 * s, StrokeCap.Round)
-        drawCircle(Brand.Parchment, 19 * s, o(54f, 49f))
-        drawRoundRect(Brand.Forest, o(42f, 39f), Size(24 * s, 16 * s), CornerRadius(3 * s))
-        drawPath(Path().apply { moveTo(46 * s, 55 * s); lineTo(46 * s, 59 * s); lineTo(51 * s, 55 * s); close() }, Brand.Forest)
-        // "EN"
-        val g = Brand.BrassLight
-        drawRect(g, o(46.5f, 42f), Size(1.9f * s, 10 * s))
-        drawRect(g, o(46.5f, 42f), Size(5.5f * s, 1.8f * s))
-        drawRect(g, o(46.5f, 46.1f), Size(5.1f * s, 1.8f * s))
-        drawRect(g, o(46.5f, 50.2f), Size(5.5f * s, 1.8f * s))
-        drawRect(g, o(54f, 42f), Size(1.9f * s, 10 * s))
-        drawRect(g, o(59.6f, 42f), Size(1.9f * s, 10 * s))
-        drawPath(Path().apply {
-            moveTo(54f * s, 42f * s); lineTo(55.9f * s, 42f * s); lineTo(61.5f * s, 52f * s); lineTo(59.6f * s, 52f * s); close()
-        }, g)
-        drawCircle(Brand.Brass, 19 * s, o(54f, 49f), style = Stroke(5 * s))
-        fun star(cx: Float, cy: Float, r: Float) = drawPath(Path().apply {
-            moveTo(cx * s, (cy - r) * s); lineTo((cx + r * 0.27f) * s, (cy - r * 0.27f) * s)
-            lineTo((cx + r) * s, cy * s); lineTo((cx + r * 0.27f) * s, (cy + r * 0.27f) * s)
-            lineTo(cx * s, (cy + r) * s); lineTo((cx - r * 0.27f) * s, (cy + r * 0.27f) * s)
-            lineTo((cx - r) * s, cy * s); lineTo((cx - r * 0.27f) * s, (cy - r * 0.27f) * s); close()
-        }, Brand.BrassLight)
-        star(74f, 33f, 6f)
-        star(33f, 67f, 3.6f)
-    }
+    androidx.compose.foundation.Image(
+        painter = androidx.compose.ui.res.painterResource(de.englischlernen.app.R.drawable.logo_full),
+        contentDescription = "Fundbrüder English",
+        modifier = modifier.size(size),
+    )
 }
 
 /** Persoenliche Widmung unter dem Logo. */
